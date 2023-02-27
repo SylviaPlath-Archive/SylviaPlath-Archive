@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+   <head>
+       <script src="CETEI.js"></script>
+   </head> 
+    <body>
+        <div id ="TEI">
+
+        </div>
+        
+        <script>
+            
+            var CETEIcean = new CETEI()
+                CETEIcean.getHTML5("prova.xml", function(data) {
+                  document.getElementById("TEI").appendChild(data)
+                })
+
+ 
+
+
+                </script>
+    </body>
+    
+</html>
