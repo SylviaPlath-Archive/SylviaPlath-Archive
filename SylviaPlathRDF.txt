@@ -1,0 +1,76 @@
+@base <https://thebelljar-dse.github.io/> . 
+
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/> .
+
+@prefix schema: <https://schema.org> .
+
+@prefix dcterms: <https://purl.org/dc/terms/> .
+
+@prefix cdwa: <https://www.getty.edu/research/publications/electronic_publications/cdwa/> .
+
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+
+<https://w3id.org/thebelljar-dse/person/frida-kahlo> schema:isSubjectOf <https://w3id.org/thebelljar-dse/item/casa-azul> .
+
+<https://w3id.org/thebelljar-dse/person/frida-kahlo> schema:isSubjectOf <https://w3id.org/thebelljar-dse/item/frida-kahlo-portrait>  .
+
+<https://w3id.org/thebelljar-dse/person/frida-kahlo> schema:isSubjectOf <https://w3id.org/thebelljar-dse/item/frida-kahlo-an-open-life> .
+
+
+<https://w3id.org/thebelljar-dse/item/casa-azul> a crm:E78_Curated_Holding ; 
+
+                   dcterms:location <https://www.wikidata.org/wiki/Q33506> ;
+
+                   dcterms:title <https://www.wikidata.org/wiki/Q20227883> ;
+
+                   crm:P49_has_former_or_current_keeper <https://dbpedia.org/page/Federal_government_of_Mexico/> ;
+
+                   cdwa:creation-date <https://w3id.org/thebelljar-dse/year/1957> ;
+
+                   dcterms:creator <https://www.wikidata.org/wiki/Q4381> ;
+
+                   crm:P19_was_intended_use_of <https://w3id.org/thebelljar-dse/item/frida-kahlo-house> .
+
+
+<https://w3id.org/thebelljar-dse/item/frida-kahlo-portrait> a crm:E36_Visual_Item ;  
+
+                   cdwa:classification-term <https://www.wikidata.org/wiki/Property:P18> ;
+
+                   dcterms:title "Frida Kahlo" ; 
+
+                   dcterms:created <https://w3id.org/thebelljar-dse/year/1939> ; 
+
+                   dcterms:created <https://dbpedia.org/page/Nickolas_Muray> ; 
+
+                   crm:P55_has_current_location <https://w3id.org/thebelljar-dse/institution/met-museum> .
+ 
+                  
+<https://w3id.org/thebelljar-dse/institution/met-museum> owl:sameAs <https://viaf.org/viaf/126238294/#Metropolitan_museum_of_art_New_York,_N.Y.> ;
+ 
+                   dcterms:location <https://dbpedia.org/page/New_York> .
+
+<https://w3id.org/thebelljar-dse/item/frida-kahlo-an-open-life> a crm:E31_Document ;
+ 
+                  owl:sameAs <https://viaf.org/viaf/9133151965350400470006> ;
+
+                  dcterms:title "Frida Kahlo: An Open Life" ;
+                  
+                  dcterms:type <https://www.wikidata.org/wiki/Q571> ;
+                  
+                  dcterms:isPartOf <https://viaf.org/viaf/307472291/> ;
+                  
+                  dcterms:created <https://w3id.org/thebelljar-dse/year/1993> ;
+                  
+                  schema:author <https://www.wikidata.org/wiki/Q6100511> ;
+                  
+                  schema:publishedBy <https://www.worldcat.org/identities/lccn-no2002007460/> ;
+                  
+                  dcterms:language <https://www.wikidata.org/wiki/Q1860> .
+ 
+
+ 
+
+ 
