@@ -13,11 +13,11 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 
 
-<https://w3id.org/thebelljar-dse/person/frida-kahlo> schema:isSubjectOf <https://w3id.org/thebelljar-dse/item/casa-azul> .
+<https://w3id.org/thebelljar-dse/person/sylvia-plath> schema:isSubjectOf <https://w3id.org/thebelljar-dse/item/casa-azul> .
 
-<https://w3id.org/thebelljar-dse/person/frida-kahlo> schema:isSubjectOf <https://w3id.org/thebelljar-dse/item/frida-kahlo-portrait>  .
+<https://w3id.org/thebelljar-dse/person/sylvia-plath> schema:isSubjectOf <https://w3id.org/thebelljar-dse/item/sylvia-plath-portrait>  .
 
-<https://w3id.org/thebelljar-dse/person/frida-kahlo> schema:isSubjectOf <https://w3id.org/thebelljar-dse/item/frida-kahlo-an-open-life> .
+<https://w3id.org/thebelljar-dse/person/sylvia-plath> schema:isSubjectOf <https://w3id.org/thebelljar-dse/item/sylvia-plath-an-open-life> .
 
 
 <https://w3id.org/thebelljar-dse/item/casa-azul> a crm:E78_Curated_Holding ; 
@@ -32,10 +32,10 @@
 
                    dcterms:creator <https://www.wikidata.org/wiki/Q4381> ;
 
-                   crm:P19_was_intended_use_of <https://w3id.org/thebelljar-dse/item/frida-kahlo-house> .
+                   crm:P19_was_intended_use_of <https://w3id.org/thebelljar-dse/item/sylvia-plath-house> .
 
 
-<https://w3id.org/thebelljar-dse/item/frida-kahlo-portrait> a crm:E36_Visual_Item ;  
+<https://w3id.org/thebelljar-dse/item/sylvia-plath-portrait> a crm:E36_Visual_Item ;  
 
                    cdwa:classification-term <https://www.wikidata.org/wiki/Property:P18> ;
 
@@ -52,7 +52,7 @@
  
                    dcterms:location <https://dbpedia.org/page/New_York> .
 
-<https://w3id.org/thebelljar-dse/item/frida-kahlo-an-open-life> a crm:E31_Document ;
+<https://w3id.org/thebelljar-dse/item/sylvia-plath-an-open-life> a crm:E31_Document ;
  
                   owl:sameAs <https://viaf.org/viaf/9133151965350400470006> ;
 
