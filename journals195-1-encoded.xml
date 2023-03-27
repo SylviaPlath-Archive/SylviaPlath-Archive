@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>February 26: Sunday</title>
+            <author><persName>Sylvia Plath</persName></author>
+         </titleStmt>
+         <publicationStmt>
+            <p>for exercise only</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>From the British Library</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <p>A small note after a large orgy. It is morning, gray, most<lb/>
+            sober, with cold white purltanmical eyes; looking at <rs>me</rs>. Last<lb/>
+            night I got drunk, very very besutifully drunk, and now <rs>I </rs>am<lb/>
+            shot, after six holirs of warm sleep like a baby, with <persName>Racine</persName><lb/>
+            to read, and not even the energy to type; I am getting the dts.<lb/>
+            Or something.</p>
+                 
+         <p><persName>Hamish</persName> came in cab, and there was a tedious time standing slanted<lb/>against, the bar
+            in Miller's with some ugly gat-toothed squat<lb/>grinning guy named Meeson trying to be
+            devastatingly clever and<lb/>making intense devastating remarks about nothing.
+            Hamish<lb/>pale, pink and light blue eyes. I drank steadily the goblets<lb/>with the
+            redsgold Whiskey Macs, one-after the other, and by<lb/>the time we left an hour later, I
+            felt that strong, silted-up<lb/>force that makes one move through alr like swimming,
+            with<lb/>brave ease.</p>
+            
+         <p>Falcon's Yard, and the syncopated strut of a piano upstairs,<lb/>and oh it was very
+            Bohemian, with boys in turtle-neck sweaters<lb/>and girls being blue-eye-lidded or
+            elegant in black. Derrek<lb/>was there, with guitar, and Bert was looking shining and
+            proud<lb/>as 1f he had Just delivered five babies, sald something obvious<lb/>about
+            having drunk alot, and began talking about how Luke was<lb/>satanic after we had run
+            through the poetry in St. Botolph's<lb/>and yelled about it: satanic Luke, very very
+            drunk, with a<lb/>stupid satanic smile on his pale face, dark sideburns and<lb/>rumpled
+            halr, black-and-white checked baggy pants and a loose<lb/>swinging jacket, was doling
+            that slow crazy english jive with<lb/>a green-clad girl, quite black-halred and eyed and
+            a good<lb/>part pixie, and when they stopped dancing, Luke was chasing<lb/>her around.
+            Dan Huys being very pale, frightfully pale and<lb/>freckled, and me at last saying my
+            immortal line of introduction<lb/>which has been with me ever since his clever
+            precocious<lb/>slanted review: "Is this the bedter or worse half?" and he<lb/>looking
+            incredibly young to even think hard yet. Than Minton,<lb/>so small and dark one whuld
+            have fo slit down to talk to him,<lb/>and Welssbort, small agaln and very cur}y. Ross,
+            immaculates<lb/>“and dark. They were all dark.</p>
+            
+         <p>By this time I had spilled one drink, partly into my mouth,<lb/>partly over my hands and
+            the floor, and the Jazz was beginning<lb/>to get under my skin, and I started dancing
+            with Luke and<lb/>knew I was very bad, having crossed the river and banged<lb/>into the
+            trees, yelling about the poems, and he only smiling<lb/>with that far-off look of a
+            ceetin satan. He wrote those<lb/>things, and he was slobbing around. Well, I was
+            slobbing<lb/>around, ‘blub, maundering" and I didn't even have the excuse<lb/>of having
+            written those thinzs; I suwmpose if you can write<lb/>sestinas waich wmbam crash through
+            lines and rules after<lb/>having raped them to the purpose, then you can be satanic
+            and<lb/>smile like a cretin beelzebub.</p>
+            
+         <p>Then the worst happened, that big, dark, hunky boy, the only<lb/>one there huge enough
+            for me, who hadwe been hunching around<lb/>over women, and whose name I had asked the
+            minute I had come<lb/>into the room, but no one told me, came over and was
+            looking<lb/>hard in my eyes and it was Ted Hughes. I started yelling<lb/>again about his
+            poems and quoting: "dost dear unscratchable</p>
+      </body>
+  </text>
+</TEI>
