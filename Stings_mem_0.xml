@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            
+            <titleStmt>
+                <title>Stings</title>
+                <author><persName>Sylvia Plath</persName></author>
+                
+            </titleStmt>
+            <publicationStmt>
+                <p>for exercise only</p>
+            </publicationStmt>
+            <sourceDesc>
+                
+                <p>From the Smith College</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+           <head rend="underline">3. Stings</head>
+                <p>October . 1962 1</p>
+            <lg>
+                <l>Bare-handed, I hand the combs.</l>
+                <l>The man in white smiles, bare-handed._</l>
+                <l>our cheesecloth gauntlets <del ><gap reason="illegible" quantity="2" unit="character"></gap> </del> neat a sweet,</l>
+                <l>The throath of our wrists <del  ><gap reason="illegible" quantity="2" unit="character"></gap></del><add place="above">brave</add> lilies.</l> 
+                <l><del >The <gap reason="illegible"></gap> combs are a <gap reason="illegible"></gap> mahogan</del></l>            
+                <l>He &amp; I, he and I</l>
+            </lg>
+                
+            <lg>
+                <l>Have a thousand clean cells between us,</l>
+                <l><add place="left">Eight </add><del>comb after</del> combs of yellow cups,</l>
+                <l><add place="left">and </add>The hive itself <del><gap reason="illegible" quantity="1" unit="character"></gap></del> a teacup,</l>
+                <l>White <del><gap reason="illegible" ></gap></del> with pink flowers on it <del><gap  reason="illegible" ></gap></del>.</l>
+                <l>With excessive love I enamelled it</l>
+            </lg>
+            <lg> 
+                <l>Thinking <add place="above"><del><gap reason="illegible"></gap></del></add> "Sweetness, Sweetness"<del>,</del></l>
+                <l><del><gap reason="illegible" quantity="1" unit="line"></gap></del></l>
+                <l><del>The</del> Brood cells <del><gap reason="illegible"></gap></del> grey as the fossils of shells</l>
+                <l>terrify<del>ied</del> me, they seem<del><gap reason="illegible" quantity="2" unit="char"></gap></del> so old.</l>
+                <l>What <del>was</del> <add place="above">am</add> I buying,<del><gap reason="illegible"></gap></del> <add place="above">warmy</add> mahogany?</l>
+                <l><add place="left">Is</add> <del>Was</del> there any queen at all in it?</l>
+            </lg>
+                
+            <lg>
+                <l>If there is,  <add place="above"><gap reason="illegible"></gap></add>she <gap reason="illegible"></gap><add place="above">is</add> old, <gap reason="illegible"></gap></l> 
+                <l>Her wings torn shawls, her long body</l>
+                <l>Rubbed of its plush—</l>
+                <l>Poor and bare, <del>poor and bare</del> <add place="below"> &amp; unqueenly &amp; even shameful.</add></l> 
+                <l><del>I think I am being <gap reason="illegible"></gap></del></l>
+                <l>I stand in a column</l>
+            </lg>
+            <lg>
+                <l>Of winged, unmiraculous women,</l> 
+                <l>Honey-drudgers. <del>I am no drudge</del></l>
+                <l>I am no drudge</l>
+                <l>Though for <del>seven</del><add place="above">six</add> years I have eaten dust</l>
+                <l>And dried plates with my dense<add place="above"><gap reason="illegible"></gap></add> <add place="below"><gap reason="illegible"></gap></add> hair.</l>
+            </lg>
+               
+            <lg>
+                <l>And seen my strangeness evaporate,</l>
+                <l>Blue dew from dangerous skin.</l>
+                <l>Will they hate me,</l>
+                <l>these women who only scurry,</l>
+                <l>Whose<add place="above"><gap reason="illeg"></gap></add> news is the open cherry, <del>is</del> the <del><gap reason="illegible"></gap></del> <add place="above">open</add> clover?</l>
+            </lg>
+            </div>  
+        </body>
+    </text>
+</TEI>
