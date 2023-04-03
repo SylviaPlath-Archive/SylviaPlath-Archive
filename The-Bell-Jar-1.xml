@@ -9,7 +9,7 @@
             <title>The Bell Jar DSE</title>
          </titleStmt>
          <editionStmt>
-            Second Draft <origDate>1963</origDate>
+            <p>Second Draft <date>1963</date></p>
                <edition> 
                <resp>Edited by</resp>
                <name>Camila Oliveira</name>
@@ -76,7 +76,7 @@
                <l>buy all those uncomfortable, expensive clothes/hanging limp as fish</l>
                <l>in my closet, and how all the little successes I'd totted up so</l>
                <l>happily at college fizzled to nothing <del><gap reason="illegible" quantity="2" unit="character"></gap></del> <add place="above">outside</add>, the slick marble</l>
-               <l>and plate glass/along Madison Avenue. <del><gap reason="illegible" quantity="2" unit="character"></gap></del> I was supposed to be</l>
+               <l>and plate glass<add place="above"><unclear cert="medium" reason="stain">fnmts</unclear></add>/along Madison Avenue. <del><gap reason="illegible" quantity="2" unit="character"></gap></del> I was supposed to be</l>
                <l>having the time of my life.</l>
             </p>
             <lb></lb>
