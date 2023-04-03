@@ -29,6 +29,13 @@
       <body>
          <pb xml:id="thebelljar-1" n="1"/>
          <div xml:id="page-1">
+            <table cols="2">
+            <row>
+               <cell>14</cell>
+               <cell>10</cell>
+               <cell>18</cell>
+            </row>
+            <row>
             <figure><graphic url="https://github.com/TheBellJar-dse/TheBellJar-dse/blob/489e21573ddfb5cd7fd50dc3c10b7747bad6f4d3/img/The%20Bell%20Jar%20(5)/The%20Bell%20Jar%2001.jpg" type="page"/>
             </figure>
             <head>
@@ -65,7 +72,8 @@
                <l>soon I felt to be carrying that cadaver's head around with me on</l>
                <l>a string like some <del><gap reason="illegible" quantity="2" unit="character"></gap></del> black, noseless balloon of vinegar.</l>
             </p>
-            
+            </row>
+            </table>
          </div>
          <div xml:id="page-2">
             <figure><graphic url="https://github.com/TheBellJar-dse/TheBellJar-dse/blob/489e21573ddfb5cd7fd50dc3c10b7747bad6f4d3/img/The%20Bell%20Jar%20(5)/The%20Bell%20Jar%2001.jpg" type="page"/>
@@ -76,7 +84,7 @@
                <l>buy all those uncomfortable, expensive clothes/hanging limp as fish</l>
                <l>in my closet, and how all the little successes I'd totted up so</l>
                <l>happily at college fizzled to nothing <del><gap reason="illegible" quantity="2" unit="character"></gap></del> <add place="above">outside</add>, the slick marble</l>
-               <l>and plate glass<add place="above"><unclear cert="medium" reason="stain">fnmts</unclear></add>/along Madison Avenue. <del><gap reason="illegible" quantity="2" unit="character"></gap></del> I was supposed to be</l>
+               <l>and plate glass<add place="above" rend="superscript"><unclear cert="medium" reason="stain">fnmts</unclear></add>/along Madison Avenue. <del><gap reason="illegible" quantity="2" unit="character"></gap></del> I was supposed to be</l>
                <l>having the time of my life.</l>
             </p>
             <lb></lb>
@@ -115,15 +123,15 @@
             </figure>
             <p>
                <l>couldn't get myself to react. I felt very still and very empty,</l>
-               <l>he way the eye of a tornado must feel, you moving dully along</l>
+               <l>he way the eye of a tornado must feel<add>,</add> <del><gap reason="deleted" quantity="1" unit="char"></gap></del> moving dully along</l>
                <l>in the middle of the surrounding hullaballoe.</l>
             </p>
             <lb></lb>
             <p>
-               <l><space></space>There were twelve of us at the hotel. We had all won</l>
+               <l><space></space>There were twelve of us at the hotel. We <add place="above">had all won</add></l>
                <l>fashion magazines for college girls by writing essays and articles and</l>
-               <l>stories and poems and fashion blurbs, and as prizes they gave us</l>
-               <l>jobs in New York for a month, expenses paid, and piles and piles</l>
+               <l>stories and poems and fashion blurbs, and as prizes <del><gap reason="deleted" quantity="1" unit="char"></gap></del> <add place="above">they gave us</add></l>
+               <l>jobs in New York for a month, <del><gap reason="deleted" quantity="1" unit="char"></gap></del> expenses paid, and piles and piles</l>
                <l>of free bonuses like ballet tickets and passes to fashion shows</l>
                <l>and hair stylings at a famous expensive salon and chances to meet</l>
                <l>successful people in the field of our desire and advice about</l>
@@ -133,9 +141,9 @@
             <p>
                <l><space></space>I still have the maKeup kit they gave me, fitted out for a</l>
                <l>person with brown eyes and brown hair: an oblong of brown mascara</l>
-               <l>with a tiny brush, and a ime basin of blue eyeshadow just big</l>
-               <l>enough to dab the tip of your finger i and three lipsticks</l>
-               <l>ranging from red to pink all cased in the same little gilt box</l>
+               <l>with a tiny brush<add>,</add> and a ime basin of blue eyeshadow just big</l>
+               <l>enough to dab the tip of your finger in <add>,</add> and three lipsticks</l>
+               <l>ranging from red to pink <add>,</add>all cased in the same little gilt box</l>
                <l>with a mirror on one side. I also have a white plastic sunglassed</l>
                <l>case with colored shells and sequins and a green plastic starfish</l>
                <l>sewed onto it.</l>
@@ -150,9 +158,9 @@
             </p>
             <lb></lb>
             <p>
-               <l><space></space>I realize we kept piling up these presents because it</l>
+               <l><space></space>I realize we kept piling up <del><gap reason="deleted" quantity="1" unit="char"></gap></del> these presents because it</l>
                <l>was as good as free advertising for the firms involved, but I</l>
-               <l>couldn't be cynical, I got such a kick out of all those free</l>
+               <l>couldn't be cynical,<del><gap reason="deleted" quantity="1" unit="char"></gap></del> I got such a kick out of all those free</l>
                <l>gifts showering onto us. For a long time afterward I hid them</l>
                <l></l>
             </p>
