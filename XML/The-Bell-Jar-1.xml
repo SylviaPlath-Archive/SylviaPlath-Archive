@@ -29,20 +29,14 @@
       <body>
          <pb xml:id="thebelljar-1" n="1"/>
          <div xml:id="page-1">
-            <table cols="2">
-            <row>
-               <cell>14</cell>
-               <cell>10</cell>
-               <cell>18</cell>
-            </row>
-            <row>
             <figure><graphic url="https://github.com/TheBellJar-dse/TheBellJar-dse/blob/489e21573ddfb5cd7fd50dc3c10b7747bad6f4d3/img/The%20Bell%20Jar%20(5)/The%20Bell%20Jar%2001.jpg" type="page"/>
             </figure>
+            <fw type="head" place="top-centre">Poëms.</fw>
             <head>
                CHAPTER I<lb/>
             </head>
             <p>
-               <l><space></space>It was a queer, sultry summer, the summer they electrocuted</l>
+               <l><space quantity="7" unit="chars"/>It was a queer, sultry summer, the summer they electrocuted</l>
                <l>the Rosenbergs, and I didn't know what I was doing in New York.</l>
                <l>I'm stupide about executions. The idea of being electrocuted</l>
                <l>makes me sick, <del rend="strikethrough">I can't see it</del> that's all there was to read</l>
@@ -54,10 +48,10 @@
             </p>
             <lb></lb>
             <p>
-               <l><space></space>New York , <del rend="strikethrough">made me sick</del> <add place="above" rend="superscript">was bad</add> enough. By <add place="above" rend="superscript">nine</add><del><gap reason="illegible" quantity="2" unit="character"></gap> </del>in the morning</l>
+               <l><space quantity="5" unit="chars"/>New York , <del rend="strikethrough">made me sick</del> <add place="above" rend="superscript">was bad</add> enough. By <add place="above" rend="superscript">nine</add><del><gap reason="illegible" quantity="2" unit="character"></gap> </del>in the morning</l>
                <l>the fake, country-wet freshness that somehow seeped in overnight</l>
                <l>evaporated like the tail end of-a sweet dream. At the bottom of</l>
-               <l>their granite canyons, the <add place="above" rend="circled" hand="Pound">mirage-grey</add>streets <del rend="strikethrough">wavered grey as a mirage</del> in the</l>
+               <l>their granite canyons, the <add place="supralinear" rend="circled" hand="Pound">mirage-grey</add>streets <del rend="strikethrough">wavered grey as a mirage</del> in the</l>
                <l><del><gap reason="illegible" quantity="2" unit="character"></gap></del>sun, the car tops sizzled and glittered, and the dry, cindery </l>
                <l>dust blew into my eyes and down my throat.</l>
             </p>
@@ -71,9 +65,7 @@
                <l>was responsible for my seeing it in the first place, and pretty</l>
                <l>soon I felt to be carrying that cadaver's head around with me on</l>
                <l>a string like some <del><gap reason="illegible" quantity="2" unit="character"></gap></del> black, noseless balloon of vinegar.</l>
-            </p>class
-            </row>
-            </table>
+            </p>
          </div>
          <div xml:id="page-2">
             <figure><graphic url="https://github.com/TheBellJar-dse/TheBellJar-dse/blob/489e21573ddfb5cd7fd50dc3c10b7747bad6f4d3/img/The%20Bell%20Jar%20(5)/The%20Bell%20Jar%2001.jpg" type="page"/>
