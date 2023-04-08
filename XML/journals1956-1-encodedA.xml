@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Sylvia Plath's Journals</title>
+         </titleStmt>
+         <editionStmt>
+            <p>First typewritten page<date>1956</date></p>
+            <p>Edited by <name>Anita Livabella</name></p>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>University of Bologna</publisher>
+            <availability status="free">
+               <p>This work is the property of the University of Bologna. It may be used freely by individuals for research, teaching and personal use as long as this statement of availability is included in the text.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>From British Library</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   
+  <text>
+      <body>
+         <pb xml:id="first"></pb>
+         <head>
+           <l><unclear reason="illegible">..</unclear></l> <!--number page on the top-right-->
+            <date>February 26: Sunday</date></head>
+         
+         <lb></lb>
+         <lb></lb>
+         
+         <p xml:id="p1">
+            <l>A small note after a large orgy. It is morning, gray, most</l>
+            <l>sober, with cold white puritan<del rend="cross out">m</del>ical eyes; looking at me. Last</l>
+            <l>night I got drunk, very very beautifully drunk, and now I am</l>
+            <l>shot, after six holirs of warm sleep like a baby, with <persName role="author">Racine</persName></l>
+            <l>to read, and not even the energy to type; I am getting the dts.</l>
+            <l>Or so<del rend="overwritten">me</del>thing.</l></p>
+         
+         <lb></lb>
+         <lb></lb>
+                 
+         <p xml:id="p2">
+           <l><persName>Hamish</persName> came in cab, and there was a tedious time standing slanted</l>
+           <l>against, the bar in <placeName>Miller's </placeName>with some ugly gat-toothed squat</l>
+           <l>grinning guy named <persName><del rend="overwritten">M</del>eeson</persName>trying to be devastatingly clever and</l>
+           <l>mak<del rend="overwritten">i</del>ng intense devastating remarks about nothing. <persName>Hamish</persName></l>
+           <l>pale, pink and light blue eyes. I drank steadily the goblets</l>
+           <l>with the red<unclear reason="illegible">...</unclear>gold <objectName>Whiskey Macs</objectName>, one-after the other, and by</l>
+           <l>the time we left an hour later, I felt that strong, silted-up</l>
+           <l>force that makes one move through air like swimming, with</l>
+           <l>brave ease.</l></p>
+         
+         <lb></lb>
+         <lb></lb>
+         
+         <p xml:id="p3">
+           <l><orgName>Falcon's Yard</orgName><!-- add something?-->, and the syncopated strut of a piano upstairs,</l>
+           <l>and oh it was very Bohemian, with boys in turtle-neck sweaters</l>
+           <l>and girls being blue-eye-lidded or elegant in black. <persName>Derrek</persName></l>
+           <l>was there, with guitar, and <persName>Bert</persName> was looking shining and proud</l>
+           <l> as if he had just delivered five babies, sald something obvious</l>
+           <l>about having drunk alot, and began talking about how <persName>Luke</persName> was</l>
+           <l>satanic after he had rur through the poetry in <placeName>St. Botolph's</placeName></l>
+           <l>and yelled about it: satanic <persName>Luke</persName>, very very drunk, with a</l>
+           <l>stupid satanic smile on his pale face, dark sideburns and</l>
+           <l>rumpled hair, black-and-white checked baggy pants and a loose</l>
+           <l>swinging jacket, was doling that slow crazy english jive with</l>
+           <l>a green-clad girl, quite black-halred and eyed and a good</l>
+           <l>part pixie, and when they stopped dancing, <persName>Luke</persName> was chasing</l>
+           <l> her around. <persName>Dan Huys</persName> being very pale, frightfully pale and</l>
+           <l>freckled, and me at last saying my immortal line of introduction</l>
+           <l>which has been with me ever since his clever precocious</l>
+           <l>slanted review: "Is this the better or worse half?" and he</l>
+           <l>looking incredibly young to even think hard yet.<persName>Than Minton</persName>,</l>
+           <l>so small and dark one would have fo slit down to talk to him,</l>
+           <l>and <persName>Welssbort</persName>, small again and very cur<del rend="overwritten">l</del>y. Ross, immaculate<del rend="cross out">m</del></l>
+           <l>and dark. They were all dark.</l>
+           
+          <lb></lb>
+          <lb></lb>
+          </p>
+            
+         <p xml:id="p4">
+           <l>By this time I had spilled one drink, partly into my mouth,</l>
+           <l>partly over my hands and floor, and the Jazz was beginning</l>
+           <l>to get under my skin, and I started dancing with <persName>Luke</persName> and</l>
+           <l>knew I was very bad, having crossed the river and banged</l>
+           <l>into the trees, yelling about the poems, and he only smiling</l>
+           <l> with that far-off look of a c<unclear reason="illegible">e</unclear>etin satan. he wrote those</l>
+           <l>things, and he was slobbing around. Well, I was slobbing</l>
+           <l>around, ‘blub, maundering" and I didn't even have the excuse</l>
+           <l>of having written those things; I suppose if you can write</l>
+           <l>sestinas which<del rend="cross out">mm</del>bam crash through lines and rules after</l>
+           <l>having raped them to the purpose, then you can be satanic and</l>
+           <l>smile like a cretin beelzebub.</l>
+         
+         <lb></lb>
+         <lb></lb>
+            
+         </p>
+            
+         <p xml:id="p5">
+           <l>Then the worst happened, that big, dark, hunky boy, the only</l>
+           <l>one there huge enough for me, who ha<del rend="overwritten">ve</del> been hunching around</l>
+           <l>over women, and whose name I had asked the minute I had come</l>
+           <l>into the room, but no one told me, came over and was looking</l>
+           <l>hard in my eyes and it was <persName type="husband">Ted Hughes</persName>. I started yelling</l>
+           <l>again about his poems and quoting: "<del rend="overwritten">m</del>ost dear unscratchable</l>
+         
+          <lb></lb>
+          <lb></lb>
+            
+           
+         </p>
+      
+         
+      </body>
+  </text>
+</TEI>
