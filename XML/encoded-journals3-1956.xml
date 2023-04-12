@@ -9,7 +9,7 @@
             <title>Sylvia Plath's Journals</title>
          </titleStmt>
          <editionStmt>
-            <p>Second typewritten page<date>1956</date></p>
+            <p>Third typewritten page<date>1956</date></p>
             <p>Edited by <name>Anita Livabella</name></p>
          </editionStmt>
          <publicationStmt>
@@ -33,7 +33,7 @@
          <lb></lb>
          
          
-         <p>
+         <p xml:id="p1">
             <l>We walked out as the blonde one was coming in, and <persName>Oswald</persName> said</l>
             <l>in his dry sarcasm something about "Tell us about bone structures</l>
             <l> and that was the last party at <placeName>Saint John's</placeName> where I lost the</l>
@@ -53,7 +53,7 @@
          <lb></lb>
          <lb></lb>
             
-         <p>
+         <p xml:id="p2">
             <l>Well, <persName>Hamish</persName>: and I took an incredibly long time walking about</l>
             <l>the misty streets in the moonlight and all was blurred behind</l>
             <l>a theatrical scrim of fog, and <del rend="overwritten">v</del>ague boys in black gowns staggered</l>
@@ -78,7 +78,7 @@
          <lb></lb>
          <lb></lb>
             
-         <p>
+         <p xml:id="p3">
             <l><persName>Hamish</persName> helped me up on the wall, and in my tight skirt, I</l>
             <l>tried to step over the spikes; they pierced my skirt, my hands</l>
             <l>and I felt nothing, thinking from the great distance that I</l>
