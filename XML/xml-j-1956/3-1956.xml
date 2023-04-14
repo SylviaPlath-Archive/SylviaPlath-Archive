@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Sylvia Plath's Journals</title>
+         </titleStmt>
+         <editionStmt>
+            <p>Third typewritten page<date>1956</date></p>
+            <p>Edited by <name>Anita Livabella</name></p>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>University of Bologna</publisher>
+            <availability status="free">
+               <p>This work is the property of the University of Bologna. It may be used freely by individuals for research, teaching and personal use as long as this statement of availability is included in the text.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>From British Library</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <pb xml:id="third"></pb>
+         <head>
+            <date>February 26</date>
+            <add>19.</add>
+         </head> 
+         
+   
+         <p xml:id="p1">
+            We walked out as the blonde one was coming in, and <persName>Oswald</persName> said<l/>
+            in his dry sarcasm something about "Tell us about bone structures<l/>
+             and that was the last party at <placeName>Saint John's</placeName> where I lost the<l/>
+            re<del rend="overwritten">d</del> glove, as tonight I last the red bandeau which I loved with<l/>
+            all the redness in my heart. Somehow these sluttish nights make<l/>
+            me have a violent nunlike passion to write and sequester myself.<l/>
+            I shall sequester. I don't want fo see anybody because they are<l/>
+            not <persName role="husband">Ted Hughes</persName>and I never have been <del rend="overwritten">ma</del>de a fool of by a man.<l/>
+            They are phonies, <persName>Hamish</persName> said: He is the biggest seducer in<l/>
+            <placeName>Cambridge</placeName>. Shall I write, and be different? Always, I gra<del rend="overwritten">b</del> it,<l/>
+            the writing, hold it to me, defend, defend, against the flux,<l/>
+            the sameness of faces. He said my name, <rs role="author">Sylvia</rs>, in a blasting<l/>
+            wind which shot off in the desert behind my eyes, behind his<l/>
+            eyes, and his poems are clever and terrible and lovely.<l/>
+         </p>
+         
+         <lb></lb>
+         <lb></lb>
+            
+         <p xml:id="p2">
+            Well, <persName>Hamish</persName>: and I took an incredibly long time walking about<l/>
+            the misty streets in the moonlight and all was blurred behind<l/>
+            a theatrical scrim of fog, and <del rend="overwritten">v</del>ague boys in black gowns staggered<l/>
+            and sang. We hid behind a car, and he sild, the oroctors are<l/>
+            out after me,and I kept blithering on about having faith and<l/>
+            being lucky, always, if you believe in something, because you<l/>
+            can walk on water. Finally, after many strange streets which<l/>
+            I did not know, being far far away in a land of whisky and<l/>
+            merrydown, saying <persName role="husband">Ted</persName> to the lam<unclear rend="faded">pp</unclear>osts and calding myself with<l/>
+            <persName>Hamish</persName> <persName>Hamish</persName>, keeping saying it aloud to him, because he took<l/>
+            me away safely. We came to the gates of <placeName>Queens</placeName>, and I wanted<l/>
+            like a baby to lie down and rest, Just peace, peace, I kept<l/>
+            whispering. Five boys, <del rend="overwritten">f</del>ive late babies came up, and surrounded<l/>
+            me, gently saying, what are you doing here, are you all right,<l/>
+            my you smell nice, that perfume, and may we kiss you, and I<l/>
+            just stood there huddled to the iron fence, smiling like a lost<l/>
+            lamb and saying dear, dear, babies, and then <persName>Hamish</persName> was among<l/>
+             them, and they climbed over and crossed the wooden bridge<l/>
+            that <persName role="scientist">N<del rend="overwritten">e</del>wton</persName> once put together without bolts.<l/>
+         </p>
+         
+         <lb></lb>
+         <lb></lb>
+            
+         <p xml:id="p3">
+            <persName>Hamish</persName> helped me up on the wall, and in my tight skirt, I<l/>
+            tried to step over the spikes; they pierced my skirt, my hands<l/>
+            and I felt nothing, thinking from the great distance that I<l/>
+            might at last li<del rend="cross out">...</del>e on a bed of solkes and not feel 1t, like<l/>
+            the yoga, like celia copplestone, crucified, near an anthill,<l/>
+            at last, peace, and the nails went through my hands, and my<l/>
+            legs were bare to the thigh, and I was over. The stigmata, I<l/>
+            sald, frozen, look<del rend="overwritten">i</del>ng at <del rend="overwritten">t</del>hose raw frigid hands that should<l/>
+            have been bleeding. But they were not bleeding. I had gotten<l/>
+            over in an act of sublime drunkenness and falth. And then we<l/>
+            we<add>nt</add> to <persName>Hamish</persName>'s room and lay on the floor by the fire and<l/>
+            I was just so damn grateful for his weight on <del rend="overwritten">me</del> and his mouth<l/>
+            which was nice, and begged that he scold me, and he Just sald<l/>
+            I wasn't a whore or a slut like I said but only a very silly<l/>
+            girl and he kind of liked me and when would I learn-my lesson.<l/>
+            When? When? So 1t was suddenly two—thirty, and I couldn't<l/>
+            imagine being illegal, but I was, and we managed by the light<l/>
+            of two matches to get downstairs, and he w<del rend="overwritten">al</del>ked out, a dark<l/>
+            lone figure against the pale white blur of snow in the dead<l/>
+            quiet crescent court.<l/>
+         </p>
+         <lb></lb>
+         <lb></lb>
+         
+      </body>
+  </text>
+</TEI>

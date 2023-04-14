@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Sylvia Plath's Journals</title>
+         </titleStmt>
+         <editionStmt>
+            <p>First typewritten page<date>1958</date></p>
+            <p>Edited by <name>Anita Livabella</name></p>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>University of Bologna</publisher>
+            <availability status="free">
+               <p>This work is the property of the University of Bologna. It may be used freely by individuals for research, teaching and personal use as long as this statement of availability is included in the text.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>From British Library</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <pb xml:id="second"></pb>
+         <p xml:id="onlyp">experience: how does Woolf do it? How does Lawrence do<l/>
+            it? I come down to learn of those two: Lawrence,<l/> 
+            because of the rich physical passion,- <!--fields--> of foces - <l/>
+            and the real presence of leaves and earth and beasts<l/>
+            and weathers, sap-rich, and Woolf because of tha<l/>
+            almost sexless neurotic lum<del rend="overwritten">i</del>nousness - The cathing<l/>
+            of objects: chairs, tables + the figures on a street<l/>
+            corer, and the infusion of radiance: a shimmer<l/>
+            of the plasm that is life. I can<add>not</add> must not copy<l/>
+            <!--either-->. God knows what tone I shall strike. Close to<l/>
+            a prose-poem of balanced, cadence words and <l/>
+            meanings, of street-corners and lights and people, <l/>
+            but not merely romantic; not marely <!--cant understand--><l/>
+            not merely a diary: not, ostensibily, autobiographic:<l/>
+            in one year I must so <!---hh--> this experience in<l/>
+            my mind, <!--cant--> it with distance, <add>create</add> cool <!----><l/>
+            views of it, so that it becomes reshapen. All this - <l/>
+            digression: tames, the subject: yesterday, a broken man, <l/>
+            his craqqy <!----> shallow face, with its look of genial <!----><l/>
+            black lines - hair, brows wrinkles + dark <!----> of<l/>
+            shawed beard, his bright <!----> balck eyes - all<l/>
+            seemed broken, askew, Ted said his hand was weak<l/>
+            and cold as snails. when are you leaving america?"<l/>
+            I felt impelled to ask first, meaning, of course, when <l/>
+            in summer. "Monday", e said. He cant work here, cant<l/>
+            write here. He taled loudly, in an audible whisper if I<l/>
+            wanted to <!----> him, I get out of there, with the 
+                        
+         </p>
+      </body>
+  </text>
+</TEI>

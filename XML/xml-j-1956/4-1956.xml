@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Sylvia Plath's Journals</title>
+         </titleStmt>
+         <editionStmt>
+            <p>Fourth typewritten page<date>1956</date></p>
+            <p>Edited by <name>Anita Livabella</name></p>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>University of Bologna</publisher>
+            <availability status="free">
+               <p>This work is the property of the University of Bologna. It may be used freely by individuals for research, teaching and personal use as long as this statement of availability is included in the text.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>From British Library</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+
+  <text>
+    
+      <body>
+         <pb xml:id="fourth"></pb>
+         <head>
+            <del rend="overwritten">20</del><l/>
+            <date>February 26:</date><l/>
+         </head>
+         <p xml:id="p1">
+            He beckoned, I came walking along the outer path, through the<l/>
+            crust of snow, breaking, hearing the dry cru<gap rend="cross out"></gap>nch and then<l/>
+            crossing the snow fleld to him, walting for the sudden flash of<l/>
+            light, the: hey, there, you stop<add>!</add> and the crack of pistols. It<l/>
+            was dead quiet, and the cold snow was in my shoes and I felt<l/>
+            nothing. We wen<gap reason="illegible"></gap>t through the gap in the box hedge, and <persName>Hamish</persName><l/>
+            tested the ice on the river; he sald the porter chopped it,<l/>
+            but it was whole, and bore us, and we crossed, free, walking<l/>
+            home. And I heard the clocks striking three in the deathly<l/>
+            quiet of dreaming people, and climbed the stairs somehow<l/>
+            and went somehow after hot milk to bed.<l/>
+         </p>
+         
+         <lb></lb>
+         <lb></lb>
+            
+         <p xml:id="p2">
+            And now it is today, and I slept only six hours and am <del rend="overwritten">w</del>eary<l/>
+            and walting till next day and ne<del rend="overwritten">x</del>t to recover. I must write<l/>
+            <persName>Racine</persName> paper, today, dinner with <persName>Mallory</persName> (can I live) and then<l/>
+            <persName>Ronsard</persName> desperately tomorrow.<l/>
+         </p>
+         
+         <lb></lb>
+         <lb></lb>
+            
+         <p xml:id="p3">
+            Perhaps at dinner they will be laughing at me. Well, they are<l/>
+            hardly white, even though they are men. But I shall be so<del rend="overwritten">b</del>er,<l/>
+            oh for so long. Why won't I see him agaln? But I won't. I dream<l/>
+            of banging and crashing in a high wind in <placeName>London</placeName>. But I want<l/>    
+            to know him sober; I want to write to him, with that kind of<l/>
+            discipline and blaze. So I shall shut up and get some sleep<l/>
+            tonight and tomorrow, and do so.<l/>
+         </p>
+         
+         <lb></lb>
+         <lb></lb>
+         
+      </body>
+  </text>
+</TEI>
