@@ -9,7 +9,7 @@
             <title>Sylvia Plath's Journals</title>
          </titleStmt>
          <editionStmt>
-            <p>First typewritten page<date>1958</date></p>
+            <p>Third typewritten page<date>1958</date></p>
             <p>Edited by <name>Anita Livabella</name></p>
          </editionStmt>
          <publicationStmt>
@@ -25,7 +25,44 @@
    </teiHeader>
   <text>
       <body>
-         <p>Some text here.</p>
+         <pb xml:id="third"></pb>
+         <p>whose life' doesn't seem aavailable, processe in uniform,<l/>
+            callophane-wrapped blocks, like synthetic orange cheese:<l/>
+            <persName>James</persName> has the authentic, cave-aged, mold-ripened smess of<l/>
+            The real thing. And yet, not a man, not completely. <persName>Joan</persName><l/>
+            seems young + then for him. At coffee this morning he<l/>
+            seemed restored, jovial. We talked of bulls + bullfights,<l/>
+            after the two movies - on <persName>Goya</persName> + bullighting - last night.<l/>
+            I borrowed <persName>James</persName> autobiography + finished it tonight:<l/>
+            750 pages, <objectName type="book">"The Unfinished Man"</objectName> - about his experiences as<l/>
+            a conscientious objector during the war: desultory<l/>
+            beginning, here, there, <placeName>Stockolm, Finland</placeName> + all told about,<l/>
+            characters pos trayed, not actually moving + talling on<l/>
+            their own, but talked about, half-emerged, like a <gap reason="unclear"></gap> of<l/>
+            flushed marble. And women: he seem to <gap reason="illegible"></gap> from them -<l/>
+            his wife queerly in the background, diminuishing to<l/>
+            America, to divorse; his child evaporating. "A told-about"<l/>
+            love affair' with' a queer Finnish girl, death-oriented, who<l/>
+            commits suicide (was he to blame, partly? did it really<l/>
+            happen?) and a rather illuminating statement that<l/>
+            he ("like most men") believes that loving a woman<l/>
+            eternally isn't incompatible with leaving her: loving, leaving-<l/>
+            a lovely consunance. I don't see it: and my man doesn't,<l/>
+            The quiet of midnight settlesover Route q. Already it is<l/>
+            tomorrow + the days I cross off with such vicious glee,-<l/>
+            just as I toss, with premature eagerness, empty bottles<l/>
+            of wine + honey' into the waste basket be near +<l/>
+            clear of clogging half-full jais-are those of my youngness<l/>
+            + my promise. I believe, whether in madness or in half-<l/>
+            truth that if  I live' for a year with the two years of my<l/>
+            life + learning . at <placeName>Cambler</placeName>m age I can write + rewrite a<l/>
+            good novel. Ten times this 35 page chapter + rewriting +<l/>
+            rewriting'. Goal set: June 1959: a novel + book of<l/>
+            poems, I can not draw in <persName>James'</persName> drama: war, <gap reason="illegible"></gap>,
+            parachute doprs, hospitals in trenhces - my womans<lb/>
+            <gap reason="illegible"></gap> is <gap reason="illegible"></gap> psychic + aesthetic: love+ <unclear reason="damaged">looki</unclear>
+                
+         </p>
       </body>
   </text>
 </TEI>
