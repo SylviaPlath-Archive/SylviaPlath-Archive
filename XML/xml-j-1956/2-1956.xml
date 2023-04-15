@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Sylvia Plath's Journals</title>
+         </titleStmt>
+         <editionStmt>
+            <p>Second typewritten page<date>1956</date></p>
+            <p>Edited by <name>Anita Livabella</name></p>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>University of Bologna</publisher>
+            <availability status="free">
+               <p>This work is the property of the University of Bologna. It may be used freely by individuals for research, teaching and personal use as long as this statement of availability is included in the text.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>From British Library</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <pb xml:id="second"></pb>
+
+           <head>              
+              <date>February 26 </date><del rend="overwritten">(</del>con)
+           </head> 
+             
+         <p xml:id="p1">
+           diamond" and he yelled back, colossal, in a voice that should<l/>
+           have come from a Pole, "You like?" and asking  me  if I wanted<l/>
+           brandy, and me yelling yes and backing into the next room past<l/>
+           the smug shining blub face of dear <persName>Bert</persName>, looking as if he had<l/>
+           delivered at least nine or ten babies, and bang the door was<l/>
+           shut and he was sloshing brandy into a glass and I was sloshing<l/>
+           it at the place <del rend="cross out">...</del>where my mouth was when I las knew about it.<l/></p>
+         
+         <lb></lb>
+         <lb></lb>
+            
+         <p xml:id="p2">We shouted as if in a high wind, about the review, and he saying<l/>
+            <persName>Dan</persName> knew I was beautiful, he wouldn't have written it about a<l/>
+            cripple, and my yelling drotest in which the words "sleep with<l/>
+            the editor" <del rend="overwritten">oc</del>curred with startling f<del rend="overwritten">r</del>equency. And then it<l/>
+            came to the fact that I was all there, wasn't I, and I stamped<l/>
+            and screamed yes, and he had obligations in the next room, and<l/>
+            he was working in London, earning ten pounds a week so he could<l/>
+            later earn twelve pounds a week, and I was stamping and he was<l/>
+            stamp<del rend="overwritten">i</del>ng on the floor, and then hekissed me bang smash on the<l/>
+            mouth and ripped my hairband off, my lovely red hairband scarf<l/>
+            which has weathered the sun and much love, and whose like I<l/>
+            shall never again find, and my favorite silver earrings: hah, I<l/>
+            shall keep, he barked. And when he kissed my neck I bit him<l/>
+            long and hard on the cheek, and when we came out of the room,<l/>
+            blood was running down his face. His poem <quote>"I did it, I."</quote>Such<l/>
+            violence, and I can see <del rend="overwritten">h</del>o<del rend="overwritten"></del>w women lie down for artists. The one<l/>
+            man in the room who was as big as his poems, huge, with hulk<l/>
+            and dynamic chunks of words; his poems are strong and blasting<l/>
+            like a high wind in steel girders. And Iscreamed in myself,<l/>
+            thinking: oh, to give myself crashing, fighting, to you. The<l/>
+            one man since I've lived who could blast <persName>Richard</persName>.<l/>
+         </p>
+         
+         <lb></lb>
+         <lb></lb>
+            
+         <p xml:id="p3">
+            
+            And now I sit here, demure and tired in brown, slightly sick<l/>
+            at heart. I shall zo on. I shall write a detalled description <del rend="cross out">...</del><l/>
+            of shock treatment, tight, blasting short descriptions with<l/>
+            not one smudge of coy sentimentality, and when I get enough<l/>
+            I shall send them to <persName><del rend="overwritten">D</del>avid Ross</persName>. There will be no hurry,<l/>
+            because I am too desperately vengeful now. But I will pile them<l/>
+            up. I thought about the shock treatment description last night:<l/>
+            the deadly sleep of her madness, and the breakfast not coming,<l/>
+            the little details, the flashback to the shock treatment that<l/>
+            went wrong: electrocu<unclear reason="illegible">t</unclear>ion brought in, and the inevitable<l/>
+            going down the subterranean hall, waking to a new world, with<l/>
+            no name, being born again, and not of woman.<l/>
+            
+         </p>
+         
+         <lb></lb>
+         <lb></lb>
+            
+            <p xml:id="p4">
+            I shall never see him again, and the thorny limitations of the<l/>
+            day crowd in like the spikes on the gates at Jueens last night<l/>
+            I could never sleep with him anyway, with all his friends here<l/>
+            and his close relation to them, laughing, talking, I should<l/>
+            be the world's whore, as well as <persName>Roget</persName>'s strumpet. I shall never<l/>
+            see him, he will never look for me. He said my name, <persName corresp="author">Sylvia</persName>,<l/>
+            and banged a black grinning look into my eyes, and I would like<l/>
+            to try Just this wnce, my force against his. But he will never<l/>
+            come, and the blonde one, pure and snug and favored, looks, is<l/>
+            it with projected nity and disguat<gap reason="illegible"></gap>at this drunken amo<gap rend="overwritten" reason="illegible"></gap>hic slut.<l/>
+            </p>
+         
+         <lb></lb>
+         <lb></lb>
+             
+           <p xml:id="p5">
+            
+            But <persName>Hamish</persName> was very kind and would have fought for me. It gave<l/>
+            him a kind of glory to ta<del rend="overwritten">k</del>k me away from them, thos<del rend="overwritten">e</del> fiends and I am worth fighting for, I had been nice, to him, he said.<l/>
+            </p>
+         
+         <lb></lb>
+         <lb></lb>
+         
+      </body>
+  </text>
+</TEI>
