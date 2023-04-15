@@ -28,8 +28,8 @@
 
 tei-hi[rend="circled"], tei-hi[rend="circledExceptAbove"], tei-hi[rend="circledExceptLeft"], tei-hi[rend="circledExceptRight"], tei-hi[rend="circledExceptBelow"] {
     border-radius: 15px;
-    text-decoration-color:  #ef476f;
-    border-color: #ef476f !important;
+    text-decoration-color:  black;
+    border-color: black;
     display: inline-block;
 }
 

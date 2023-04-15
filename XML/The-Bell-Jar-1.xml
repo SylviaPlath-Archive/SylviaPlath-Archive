@@ -53,7 +53,7 @@
                <l><space quantity="7" unit="chars"/>New York , <del rend="strikethrough">made me sick</del> <add place="above" rend="superscript">was bad</add> enough. By <add place="above" rend="superscript">nine</add><del><gap reason="illegible" quantity="2" unit="character"></gap> </del>in the morning</l>
                <l>the fake, country-wet freshness that somehow seeped in overnight</l>
                <l>evaporated like the tail end of-a sweet dream. At the bottom of</l>
-               <l>their granite canyons, the <add place="supralinear" rend="circled" hand="Pound">mirage-grey</add>streets <del rend="strikethrough">wavered grey as a mirage</del> in the</l>
+               <l>their granite canyons, the <add place="supralinear" rend="circled" hand="Pound"><hi xml:id="hi-1" rend="circled">mirage-grey</hi></add>streets <del rend="strikethrough">wavered grey as a mirage</del> in the</l>
                <l><del><gap reason="illegible" quantity="2" unit="character"></gap></del>sun, the car tops sizzled and glittered, and the dry, cindery </l>
                <l>dust blew into my eyes and down my throat.</l>
             </p>
