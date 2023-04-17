@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="BJRule.css"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -34,9 +35,34 @@
             <head>
                
                <subst xml:id="sub-1"><del><gap reason="illegible" quantity="8" unit="character"></gap></del><add place="above">The Bell Jar</add></subst>Lucas
-               
-               CHAPTER I<lb/>
+               <lb/>
+               <l style="margin-left:5cm">CHAPTER I</l><lb/>
             </head>
+            <div style="float:left">
+               <l>8</l>
+               <l>14</l>
+               <l>10</l>
+               <l>15</l>
+               <l>13</l>
+               <l>13</l>
+               <l>12</l>
+               <l>14</l>
+               <l>13</l>
+               <l>15</l>
+               <l>16</l>
+               <l>14</l>
+               <l>15</l>
+               <l>17</l>
+               <l>17</l>
+               <l>17</l>
+               <l>16</l>
+               <l>17</l>
+               <l>15</l>
+               <l>26</l>
+               <l><del rend="strikethrough">  </del></l>
+               <l>289</l>
+             </div>  
+            <div style="margin-left:3cm">
             <p>
                <l><space quantity="7" unit="chars"/>It was a queer, sultry summer, the summer they electrocuted</l>
                <l>the Rosenbergs, and I didn't know what I was doing in New York.</l>
@@ -68,6 +94,7 @@
                <l>soon I felt to be carrying that cadaver's head around with me on</l>
                <l>a string like some <del><gap reason="illegible" quantity="2" unit="character"></gap></del> black, noseless balloon of vinegar.</l>
             </p>
+            </div>
          </div>
          <div xml:id="page-2">
             <figure><graphic url="https://github.com/TheBellJar-dse/TheBellJar-dse/blob/489e21573ddfb5cd7fd50dc3c10b7747bad6f4d3/img/The%20Bell%20Jar%20(5)/The%20Bell%20Jar%2001.jpg" type="page"/>
