@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/css" href="BJRule.css"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -8,15 +7,17 @@
       <fileDesc>
          <titleStmt>
             <title>The Bell Jar DSE</title>
+            <author>Sylvia Plath</author>
          </titleStmt>
          <editionStmt>
-            <p>Second Draft <date>1963</date></p>
-               <edition> 
-               <resp>Edited by</resp>
-               <name>Camila Oliveira</name>
-               </edition>
+            <edition>Digital edition. Training material for the Digital Text in the Humanities course</edition>
+            <respStmt>
+               <resp>Transcription</resp>
+               <persName>Camila Oliveira</persName>
+               <orgName>University of Bologna</orgName>
+            </respStmt>
          </editionStmt>
-         <publicationStmt><publisher>University of Bologna</publisher>
+         <publicationStmt><publisher>Classical Philology and Italian studies department</publisher>
             <availability status="free">
                <p>This work is the property of the University of Bologna. It may be used freely by individuals for research, teaching and personal use as long as this statement of availability is included in the text.</p>
             </availability>
@@ -34,65 +35,66 @@
             </figure>
             <head>
                
-               <subst xml:id="sub-1"><del><gap reason="illegible" quantity="8" unit="character"></gap></del><add place="above">The Bell Jar</add></subst>Lucas
+               <subst xml:id="sub-1"><del><gap reason="illegible" quantity="8" unit="character"></gap></del><add place="above">The Bell Jar</add></subst>Lucas <add>Second Draft</add> <add>Chapter 1 14</add>
                <lb/>
-               <l style="margin-left:5cm">CHAPTER I</l><lb/>
+               <add>Chapters 1-16</add>
+               <lb/>
+               <title> CHAPTER I</title><lb/>
             </head>
-            <div style="float:left">
-               <l>8</l>
-               <l>14</l>
-               <l>10</l>
-               <l>15</l>
-               <l>13</l>
-               <l>13</l>
-               <l>12</l>
-               <l>14</l>
-               <l>13</l>
-               <l>15</l>
-               <l>16</l>
-               <l>14</l>
-               <l>15</l>
-               <l>17</l>
-               <l>17</l>
-               <l>17</l>
-               <l>16</l>
-               <l>17</l>
-               <l>15</l>
-               <l>26</l>
-               <l><del rend="strikethrough">  </del></l>
-               <l>289</l>
-             </div>  
-            <div style="margin-left:3cm">
+            <list type="simple">
+               <item>8</item>
+               <item>14</item>
+               <item>10</item>
+               <item>15</item>
+               <item>13</item>
+               <item>13</item>
+               <item>12</item>
+               <item>14</item>
+               <item>13</item>
+               <item>15</item>
+               <item>16</item>
+               <item>14</item>
+               <item>15</item>
+               <item>17</item>
+               <item>17</item>
+               <item>17</item>
+               <item>16</item>
+               <item>17</item>
+               <item>15</item>
+               <item>26</item>
+               <item>289</item>
+             </list>  
+            <div type="chapter" n="1" xml:id="page-2">
             <p>
-               <l><space quantity="7" unit="chars"/>It was a queer, sultry summer, the summer they electrocuted</l>
-               <l>the Rosenbergs, and I didn't know what I was doing in New York.</l>
-               <l>I'm stupide about executions. The idea of being electrocuted</l>
-               <l>makes me sick, <del rend="strikethrough">I can't see it</del> that's all there was to read</l>
-               <l>about in the papers---goggle-eyed headlines staring up at me on</l>
-               <l>every street corner and at the fusty, peanut-smelling mouth of</l>
-               <l>every subway. It had nothing to do with me, but I couldn'thelp</l>
-               <l>wondering what it would be like, being burned alive all along</l>
-               <l>your nerves. I thought must be the worst thing in the world.</l>
+               <space quantity="7" unit="chars"/>It was a queer, sultry summer, the summer they electrocuted<l/>
+               <persName ref="#therosenbergs">the Rosenbergs</persName>, and I didn't know what I was doing in <placeName ref="#newyork">New York</placeName>.<l/>
+               I'm stupide about executions. The idea of being electrocuted<l/>
+               makes me sick, <del rend="strikethrough">I can't see it</del> that's all there was to read<l/>
+               about in the papers---goggle-eyed headlines staring up at me on<l/>
+               every street corner and at the fusty, peanut-smelling mouth of<l/>
+               every subway. It had nothing to do with me, but I couldn'thelp<l/>
+               wondering what it would be like, being burned alive all along<l/>
+               your nerves. I thought must be the worst thing in the world.<l/>
             </p>
             <lb></lb>
             <p>
-               <l><space quantity="7" unit="chars"/>New York , <del rend="strikethrough">made me sick</del> <add place="above" rend="superscript">was bad</add> enough. By <add place="above" rend="superscript">nine</add><del><gap reason="illegible" quantity="2" unit="character"></gap> </del>in the morning</l>
-               <l>the fake, country-wet freshness that somehow seeped in overnight</l>
-               <l>evaporated like the tail end of-a sweet dream. At the bottom of</l>
-               <l>their granite canyons, the <add place="supralinear" rend="circled" hand="Pound"><hi xml:id="hi-1" rend="circled">mirage-grey</hi></add>streets <del rend="strikethrough">wavered grey as a mirage</del> in the</l>
-               <l><del><gap reason="illegible" quantity="2" unit="character"></gap></del>sun, the car tops sizzled and glittered, and the dry, cindery </l>
-               <l>dust blew into my eyes and down my throat.</l>
+               <space quantity="7" unit="chars"/><placeName ref="#newyork">New York</placeName> , <del rend="strikethrough">made me sick</del> <add place="above" rend="superscript">was bad</add> enough. By <add place="above" rend="superscript">nine</add><del><gap reason="illegible" quantity="2" unit="character"></gap> </del>in the morning<l/>
+               the fake, country-wet freshness that somehow seeped in overnight<l/>
+               evaporated like the tail end of-a sweet dream. At the bottom of<l/>
+               their granite canyons, the <add place="supralinear" rend="circled" hand="Pound"><hi xml:id="hi-1" rend="circled">mirage-grey</hi></add>streets <del rend="strikethrough">wavered grey as a mirage</del> in the<l/>
+               <del><gap reason="illegible" quantity="2" unit="character"></gap></del>sun, the car tops sizzled and glittered, and the dry, cindery <l/>
+               dust blew into my eyes and down my throat.<l/>
             </p>
             <lb></lb>
             <p>
-               <l><space quantity="7" unit="chars"/>I kept hearing about he Rosenbergs over the radio and at</l>
-               <l>the office till I couldn't get them out of my ymind. It was like</l>
-               <l>the first time I saw a cadaver. For weeks afterward, the cadaver's</l>
-               <l>head---or what there was left of it---floated up behind my eggs</l>
-               <l>and bacon at breakfast and behind the face of Buddy Willard, who</l>
-               <l>was responsible for my seeing it in the first place, and pretty</l>
-               <l>soon I felt to be carrying that cadaver's head around with me on</l>
-               <l>a string like some <del><gap reason="illegible" quantity="2" unit="character"></gap></del> black, noseless balloon of vinegar.</l>
+               <space quantity="7" unit="chars"/>I kept hearing about <persName ref="#therosenbergs">the Rosenbergs</persName> over the radio and at<l/>
+               the office till I couldn't get them out of my ymind. It was like<l/>
+               the first time I saw a cadaver. For weeks afterward, the cadaver's<l/>
+               head---or what there was left of it---floated up behind my eggs<l/>
+               and bacon at breakfast and behind the face of <persName ref="#buddywillard">Buddy Willard</persName>, who<l/>
+               was responsible for my seeing it in the first place, and pretty<l/>
+               soon I felt to be carrying that cadaver's head around with me on<l/>
+               a string like some <del><gap reason="illegible" quantity="2" unit="character"></gap></del> black, noseless balloon of vinegar.<l/>
             </p>
             </div>
          </div>
@@ -100,173 +102,173 @@
             <figure><graphic url="https://github.com/TheBellJar-dse/TheBellJar-dse/blob/489e21573ddfb5cd7fd50dc3c10b7747bad6f4d3/img/The%20Bell%20Jar%20(5)/The%20Bell%20Jar%2001.jpg" type="page"/>
             </figure>
             <p>
-               <l><space quantity="7" unit="chars"/>I kn<del rend="overwrite" seq="1">i</del> <add place="over" rend="overwrite" seq="2">e</add>w something was wrong with me that summer, because all</l>
-               <l>I could think about was the Rosenbergs and how stupid I'd been to</l>
-               <l>buy all those uncomfortable, expensive clothes/hanging limp as fish</l>
-               <l>in my closet, and how all the little successes I'd totted up so</l>
-               <l>happily at college fizzled to nothing <del><gap reason="illegible" quantity="2" unit="character"></gap></del> <add place="above">outside</add>, the slick marble</l>
-               <l>and plate glass<add place="above" rend="superscript"><unclear cert="medium" reason="stain">fnmts</unclear></add>/along Madison Avenue. <del><gap reason="illegible" quantity="2" unit="character"></gap></del> I was supposed to be</l>
-               <l>having the time of my life.</l>
+               <space quantity="7" unit="chars"/>I kn<del rend="overwrite" seq="1">i</del> <add place="over" rend="overwrite" seq="2">e</add>w something was wrong with me that summer, because all<l/>
+               I could think about was <persName ref="#therosenbergs">the Rosenbergs</persName> and how stupid I'd been to<l/>
+               buy all those uncomfortable, expensive clothes/hanging limp as fish<l/>
+               in my closet, and how all the little successes I'd totted up so<l/>
+               happily at college fizzled to nothing <del><gap reason="illegible" quantity="2" unit="character"></gap></del> <add place="above">outside</add>, the slick marble<l/>
+               and plate glass<add place="above" rend="superscript"><unclear cert="medium" reason="stain">fnmts</unclear></add>/along <placeName ref="madisonavenue">Madison Avenue</placeName>. <del><gap reason="illegible" quantity="2" unit="character"></gap></del> I was supposed to be<l/>
+               having the time of my life.<l/>
             </p>
             <lb></lb>
          <p>
-            <l><space quantity="7" unit="chars"/>I was supposed to be the envy of thousands of other college</l>
-            <l>girls just likewme all over America who wanted nothing more than</l>
-            <l>to be tripping about in those same <del><gap reason="illegible" quantity="2" unit="character"></gap></del> size-seven patent</l>
-            <l>leather shoes I'd bought in Bloomingdale's one lunch hour with</l>
-            <l>a black patent leather belt and black patent leather pocket book</l>
-            <l>to match. And when my picture came out <add place="above">The twelve of us</add>in the magazine I <del><gap rend="above" reason="illegible" quantity="2" unit="character"></gap></del>were</l>
-            <l>working on---drinking martinis in a skimpy imitation-silver-</l>
-            <l>lame <del><gap reason="illegible" quantity="2" unit="character"></gap></del> bodice <del><gap reason="illegible" quantity="2" unit="character"></gap></del> <add place="above" rend="superscript">stuck</add> onto a big fat cloud of white tulle, <del><gap reason="illegible" quantity="2" unit="character"></gap></del> <add place="above">on same</add></l>
-            <l><del><gap reason="illegible" quantity="2" unit="character"></gap></del> in the company of several anonymous young</l>
-            <l>men with all-American <del rend="strikethrough">Yale University</del> bone structures hired or</l>
-            <l>loaned for the occasion---everybody would think I must be having</l>
-            <l>a real whirl.</l>
+            <space quantity="7" unit="chars"/>I was supposed to be the envy of thousands of other college<l/>
+            girls just likewme all over <placeName ref="#usa">America</placeName> who wanted nothing more than<l/>
+            to be tripping about in those same <del><gap reason="illegible" quantity="2" unit="character"></gap></del> size-seven patent<l/>
+            leather shoes I'd bought in Bloomingdale's one lunch hour with<l/>
+            a black patent leather belt and black patent leather pocket book<l/>
+            to match. And when my picture came out <add place="above">The twelve of us</add>in the magazine I <del><gap rend="above" reason="illegible" quantity="2" unit="character"></gap></del>were<l/>
+            working on---drinking martinis in a skimpy imitation-silver-<l/>
+            lame <del><gap reason="illegible" quantity="2" unit="character"></gap></del> bodice <del><gap reason="illegible" quantity="2" unit="character"></gap></del> <add place="above" rend="superscript">stuck</add> onto a big fat cloud of white tulle, <del><gap reason="illegible" quantity="2" unit="character"></gap></del> <add place="above">on same</add><l/>
+            <del><gap reason="illegible" quantity="2" unit="character"></gap></del> in the company of several anonymous young<l/>
+            men with all-American <del rend="strikethrough"><institution ref="#yaleuniversity"> Yale University</institution></del> bone structures hired or<l/>
+            loaned for the occasion---everybody would think I must be having<l/>
+            a real whirl.<l/>
          </p>
             <lb></lb>
           <p>
-             <l><space quantity="7" unit="chars"/>Look what can happen in this country, they'd say. A girl</l>
-             <l>lives in some out-of-the-way town for nineteen years, so poor</l>
-             <l>she can't afford a magazine, and then she gets a scholarship to</l>
-             <l>college and wing a prize here and a prize there and ends up</l>
-             <l>steering New York like her own private car.</l>
+             <space quantity="7" unit="chars"/>Look what can happen in this country, they'd say. A girl<l/>
+             lives in some out-of-the-way town for nineteen years, so poor<l/>
+             she can't afford a magazine, and then she gets a scholarship to<l/>
+             college and wing a prize here and a prize there and ends up<l/>
+             steering <placeName ref="#newyork">New York</placeName> like her own private car.<l/>
             </p>
             <lb></lb>
             <p>
-               <l><space quantity="7" unit="chars"/>Only I wasn't steering anything, not even myself. I just</l>
-               <l>bumped from my hotel to work and to parties and from parties <add>to my hotel and</add></l>
-               <l><del><gap reason="illegible" quantity="2" unit="character"></gap></del> back to <del><gap reason="illegible" quantity="2" unit="character"></gap></del> <add place="above">work</add> like a a numb trolley bus. I guess I Should</l>
-               <l>have been excited the way most of the other girls were, but I</l>
+               <space quantity="7" unit="chars"/>Only I wasn't steering anything, not even myself. I just<l/>
+               bumped from my hotel to work and to parties and from parties <add>to my hotel and</add><l/>
+               <del><gap reason="illegible" quantity="2" unit="character"></gap></del> back to <del><gap reason="illegible" quantity="2" unit="character"></gap></del> <add place="above">work</add> like a a numb trolley bus. I guess I Should<l/>
+               have been excited the way most of the other girls were, but I<l/>
             </p>
             </div>
          <div xml:id="page-3">
             <figure><graphic url="https://github.com/TheBellJar-dse/TheBellJar-dse/blob/489e21573ddfb5cd7fd50dc3c10b7747bad6f4d3/img/The%20Bell%20Jar%20(5)/The%20Bell%20Jar%2001.jpg" type="page"/>
             </figure>
             <p>
-               <l>couldn't get myself to react. I felt very still and very empty,</l>
-               <l>he way the eye of a tornado must feel<add>,</add> <del><gap reason="deleted" quantity="1" unit="char"></gap></del> moving dully along</l>
-               <l>in the middle of the surrounding hullaballoe.</l>
+               couldn't get myself to react. I felt very still and very empty,<l/>
+               he way the eye of a tornado must feel<add>,</add> <del><gap reason="deleted" quantity="1" unit="char"></gap></del> moving dully along<l/>
+               in the middle of the surrounding hullaballoe.<l/>
             </p>
             <lb></lb>
             <p>
-               <l><space quantity="7" unit="chars"/>There were twelve of us at the hotel. We <add place="above">had all won</add></l>
-               <l>fashion magazines for college girls by writing essays and articles and</l>
-               <l>stories and poems and fashion blurbs, and as prizes <del><gap reason="deleted" quantity="1" unit="char"></gap></del> <add place="above">they gave us</add></l>
-               <l>jobs in New York for a month, <del><gap reason="deleted" quantity="1" unit="char"></gap></del> expenses paid, and piles and piles</l>
-               <l>of free bonuses like ballet tickets and passes to fashion shows</l>
-               <l>and hair stylings at a famous expensive salon and chances to meet</l>
-               <l>successful people in the field of our desire and advice about</l>
-               <l>what to do with our particular complexions.</l>
+               <space quantity="7" unit="chars"/>There were twelve of us at the hotel. We <add place="above">had all won</add><l/>
+               fashion magazines for college girls by writing essays and articles and<l/>
+               stories and poems and fashion blurbs, and as prizes <del><gap reason="deleted" quantity="1" unit="char"></gap></del> <add place="above">they gave us</add><l/>
+               jobs in <placeName ref="#newyork">New York</placeName> for a month, <del><gap reason="deleted" quantity="1" unit="char"></gap></del> expenses paid, and piles and piles<l/>
+               of free bonuses like ballet tickets and passes to fashion shows<l/>
+               and hair stylings at a famous expensive salon and chances to meet<l/>
+               successful people in the field of our desire and advice about<l/>
+               what to do with our particular complexions.<l/>
             </p>
             <lb></lb>
             <p>
-               <l><space quantity="7" unit="chars"/>I still have the maKeup kit they gave me, fitted out for a</l>
-               <l>person with brown eyes and brown hair: an oblong of brown mascara</l>
-               <l>with a tiny brush<add>,</add> and a ime basin of blue eyeshadow just big</l>
-               <l>enough to dab the tip of your finger in <add>,</add> and three lipsticks</l>
-               <l>ranging from red to pink <add>,</add>all cased in the same little gilt box</l>
-               <l>with a mirror on one side. I also have a white plastic sunglassed</l>
-               <l>case with colored shells and sequins and a green plastic starfish</l>
-               <l>sewed onto it.</l>
+               <space quantity="7" unit="chars"/>I still have the maKeup kit they gave me, fitted out for a<l/>
+               person with brown eyes and brown hair: an oblong of brown mascara<l/>
+               with a tiny brush<add>,</add> and a ime basin of blue eyeshadow just big<l/>
+               enough to dab the tip of your finger in <add>,</add> and three lipsticks<l/>
+               ranging from red to pink <add>,</add>all cased in the same little gilt box<l/>
+               with a mirror on one side. I also have a white plastic sunglassed<l/>
+               case with colored shells and sequins and a green plastic starfish<l/>
+               sewed onto it.<l/>
             </p>
             <lb></lb>
             <p>
-               <l><space quantity="7" unit="chars"/>These were the sort of bits and pieces I'd never buy for myself</l>
-               <l>because I never had the money, and I think they meant more to me</l>
-               <l>than anything else that happened the whole time I was in New York.</l>
-               <l>The people on that magazine were better than Santa Claus and</l>
-               <l>Cinderella's godmother put together.</l>
+               <figure><graphic url="C:\Users\User\Downloads\Group 1.svg" style="z-index=1"></graphic></figure><space quantity="7" unit="chars"/>These were the sort of bits and pieces I'd never buy for myself<l/>
+               because I never had the money, and I think they meant more to me<l/>
+               than anything else that happened the whole time I was in <placeName ref="#newyork">New York</placeName>.<l/>
+               The people on that magazine were better than <c>Santa Claus</c> and<l/>
+               <c>Cinderella's</c> godmother put together.<l/>
             </p>
             <lb></lb>
             <p>
-               <l><space quantity="7" unit="chars"/>I realize we kept piling up <del><gap reason="deleted" quantity="1" unit="char"></gap></del> these presents because it</l>
-               <l>was as good as free advertising for the firms involved, but I</l>
-               <l>couldn't be cynical,<del><gap reason="deleted" quantity="1" unit="char"></gap></del> I got such a kick out of all those free</l>
-               <l>gifts showering onto us. For a long time afterward I hid them</l>
-               <l></l>
+               <space quantity="7" unit="chars"/>I realize we kept piling up <del><gap reason="deleted" quantity="1" unit="char"></gap></del> these presents because it<l/>
+               was as good as free advertising for the firms involved, but I<l/>
+               couldn't be cynical,<del><gap reason="deleted" quantity="1" unit="char"></gap></del> I got such a kick out of all those free<l/>
+               gifts showering onto us. For a long time afterward I hid them<l/>
+               <l/>
             </p>
          </div>
          <div xml:id="page-4">
             <figure><graphic url="https://github.com/TheBellJar-dse/TheBellJar-dse/blob/489e21573ddfb5cd7fd50dc3c10b7747bad6f4d3/img/The%20Bell%20Jar%20(5)/The%20Bell%20Jar%2001.jpg" type="page"/>
             </figure>
             <p>
-               <l>away, but later, when I was all right again, I brought them out,</l>
-               <l>and I still have them around the house. I use the lipsticks now</l>
-               <l>and then, and last week I cut the plastic starfish off the sun-</l>
-               <l>glasses case for the baby to play with.</l>
+               away, but later, when I was all right again, I brought them out,<l/>
+               and I still have them around the house. I use the lipsticks now<l/>
+               and then, and last week I cut the plastic starfish off the sun-<l/>
+               glasses case for the baby to play with.<l/>
             </p>
             <lb></lb>
             <p>
-               <l><space quantity="7" unit="chars"/>There were twelve of us at the hotel<add>,</add> <del><gap reason="deleted" quantity="1" unit="char"></gap></del> in the same wing</l>
-               <l>on the same floor in single rooms, one after the other, so it</l>
-               <l>reminded me of my dormitory at college. It wasn't a proper hotel--—-</l>
-               <l>I mean a hotel where there are both men and women mixed about here</l>
-               <l>and there on the same floor. This hotel was for women only, and</l>
-               <l>they were mostly girls my age with wealthy parents who wanted to</l>
-               <l>be sure their daughters would be living where men couldn(t get</l>
-               <l>at them and deceive them, and they were all going to posh secretarial</l>
-               <l>schools like Katy Gibbs, where they had to wear hats and stockings</l>
-               <l>and gloves to class, or they had just graduated from places like</l>
-               <l>Katy Gibbs and were secretaries to executives and junior executives</l>
-               <l>and simply hanging around in New York waiting to get married to</l>
-               <l>some career man or other.</l>
+               <space quantity="7" unit="chars"/>There were twelve of us at the hotel<add>,</add> <del><gap reason="deleted" quantity="1" unit="char"></gap></del> in the same wing<l/>
+               on the same floor in single rooms, one after the other, so it<l/>
+               reminded me of my dormitory at college. It wasn't a proper hotel--—-<l/>
+               I mean a hotel where there are both men and women mixed about here<l/>
+               and there on the same floor. This hotel was for women only, and<l/>
+               they were mostly girls my age with wealthy parents who wanted to<l/>
+               be sure their daughters would be living where men couldn(t get<l/>
+               at them and deceive them, and they were all going to posh secretarial<l/>
+               schools like <persName ref="#katharinegibbs">Katy Gibbs</persName>, where they had to wear hats and stockings<l/>
+               and gloves to class, or they had just graduated from places like<l/>
+               <persName ref="#katharinegibbs">Katy Gibbs</persName> and were secretaries to executives and junior executives<l/>
+               and simply hanging around in New York waiting to get married to<l/>
+               some career man or other.<l/>
             </p>
             <lb></lb>
             <p>
-               <l><space quantity="7" unit="chars"/>These girls <del><gap reason="deleted" quantity="1" unit="char"></gap></del> looked awfully bored to me. I saw them on</l>
-               <l>the sunroof, yawning and painting their nails and trying to keep</l>
-               <l>up their Bermuda tans, and they seemed bored as hell. I talked</l>
-               <l>with one of them, and she was bored with yachts and bored with</l>
-               <l>flying around in airplanes and bored with skiing in Switzerland</l>
-               <l>at Christmas and bored with the men in Brazil. Girls like that</l>
-               <l>make me sick. I'm so jealous of them I can't speak. Nineteen</l>
-               <l>years, and I hadn't been <del rend="strikethrough">out of my home state one minute</del><add place="above">New England</add> except</l>
-               <l>for this trip to New York. <del rend="strikethrough">This</del><add place="above">It</add> was my first big chance,<del><gap reason="deleted" quantity="1" unit="char"></gap></del></l>
-               <l><add place="above">but for some reason</add> <del><gap reason="deleted" quantity="1" unit="char"></gap></del> I <del rend="strikethrough">was</del>, just <del><gap reason="deleted" quantity="1" unit="char"></gap></del> <add place="above">at</add> back<add>,</add> <del rend="strikethrough">and</del> letting it <add place="bottom">ran</add><del rend="strikethrough">slip through</del> my fingers <add>like so much water.</add></l>
+               <space quantity="7" unit="chars"/>These girls <del><gap reason="deleted" quantity="1" unit="char"></gap></del> looked awfully bored to me. I saw them on<l/>
+               the sunroof, yawning and painting their nails and trying to keep<l/>
+               up their Bermuda tans, and they seemed bored as hell. I talked<l/>
+               with one of them, and she was bored with yachts and bored with<l/>
+               flying around in airplanes and bored with skiing in <placeName ref="#switzerland">Switzerland</placeName><l/>
+               at Christmas and bored with the men in <placeName ref="#brazil">Brazil</placeName>. Girls like that<l/>
+               make me sick. I'm so jealous of them I can't speak. Nineteen<l/>
+               years, and I hadn't been <del rend="strikethrough">out of my home state one minute</del><add place="above"><placeName ref="#newengland">New England</placeName></add> except<l/>
+               for this trip to <placeName ref="#newyork">New York</placeName>. <del rend="strikethrough">This</del><add place="above">It</add> was my first big chance,<del><gap reason="deleted" quantity="1" unit="char"></gap></del><l/>
+               <add place="above">but for some reason</add> <del><gap reason="deleted" quantity="1" unit="char"></gap></del> I <del rend="strikethrough">was</del>, just <del><gap reason="deleted" quantity="1" unit="char"></gap></del> <add place="above">at</add> back<add>,</add> <del rend="strikethrough">and</del> letting it <add place="bottom">ran</add><del rend="strikethrough">slip through</del> my fingers <add>like so much water.</add><l/>
             </p>
          </div>
          <div xml:id="page-5">
             <figure><graphic url="https://github.com/TheBellJar-dse/TheBellJar-dse/blob/489e21573ddfb5cd7fd50dc3c10b7747bad6f4d3/img/The%20Bell%20Jar%20(5)/The%20Bell%20Jar%2001.jpg" type="page"/>
             </figure>
             <p>
-               <l><space quantity="7" unit="chars"/>I guess one of my troubles was <del><gap reason="deleted" quantity="1" unit="char"></gap></del> <add place="above">Doreen</add>. I'd never had a chance I've never known a girl like Doreen before.</l>
-               <l><del rend="strikethrough">to know a girl like her at close quarters.</del> Doreen came from a</l>
-               <l>society girls' college down south and had bright white hair</l>
-               <l>standing out in a cotton candy fluff round her head and blue eyes</l>
-               <l>like <del><gap reason="deleted" quantity="1" unit="char"></gap></del> transparent agate marbles,hard and polished and just</l>
-               <l>about indestructable, and a mouth set in a sort of perpetual sneer.</l>
-               <l>I don't mean a nasty sneer, but an amused,mysterious sneer, as</l>
-               <l>if all the people around her were pretty silly and she could tell</l>
-               <l>some good jokes on them if she wanted to.</l>
+               <space quantity="7" unit="chars"/>I guess one of my troubles was <del><gap reason="deleted" quantity="1" unit="char"></gap></del> <add place="above"><c ref="doreen">Doreen</c></add>. I'd never had a chance I've never known a girl like Doreen before.<l/>
+               <del rend="strikethrough">to know a girl like her at close quarters.</del> <c ref="#doreen">Doreen</c>came from a<l/>
+               society girls' college down south and had bright white hair<l/>
+               standing out in a cotton candy fluff round her head and blue eyes<l/>
+               like <del><gap reason="deleted" quantity="1" unit="char"></gap></del> transparent agate marbles,hard and polished and just<l/>
+               about indestructable, and a mouth set in a sort of perpetual sneer.<l/>
+               I don't mean a nasty sneer, but an amused,mysterious sneer, as<l/>
+               if all the people around her were pretty silly and she could tell<l/>
+               some good jokes on them if she wanted to.<l/>
             </p>
             <lb></lb>
             <p>
-               <l><space quantity="7" unit="chars"/>Doreen singled me out right away. She made me feel I was</l>
-               <l>that much sharper than the others, and she really was wonderfully</l>
-               <l>funny. She used to sit next to me at the conference table, and</l>
-               <l>when the visiting celebrities were talking, she'd whisper witty</l>
-               <l>sarcastic remarks to me under her breath. Her college was so</l>
-               <l>fashion-conscious, she said, that all the girls had pocketbook</l>
-               <l>covers made out of the same material as their dresses so each</l>
-               <l>ime they changed their clothes they had a matching pocketbook.</l>
-               <l>This kind of detail impressed me. It suggested a whole life of</l>
-               <l>marvelous, elaborate decadence that attracted me like a magnet.</l>
+               <space quantity="7" unit="chars"/><c ref="#doreen">Doreen</c> singled me out right away. She made me feel I was<l/>
+               that much sharper than the others, and she really was wonderfully<l/>
+               funny. She used to sit next to me at the conference table, and<l/>
+               when the visiting celebrities were talking, she'd whisper witty<l/>
+               sarcastic remarks to me under her breath. Her college was so<l/>
+               fashion-conscious, she said, that all the girls had pocketbook<l/>
+               covers made out of the same material as their dresses so each<l/>
+               ime they changed their clothes they had a matching pocketbook.<l/>
+               This kind of detail impressed me. It suggested a whole life of<l/>
+               marvelous, elaborate decadence that attracted me like a magnet.<l/>
             </p>
             <lb></lb>
             <p>
-               <l><space quantity="7" unit="chars"/>The only thing Doreen ever bawled me out about was bothering</l>
-               <l>to get my assignments in by a deadline.</l>
+               <space quantity="7" unit="chars"/>The only thing <c ref="#doreen">Doreen</c> ever bawled me out about was bothering<l/>
+               to get my assignments in by a deadline.<l/>
             </p>
             <lb></lb>
             <p>
-               <l><space quantity="7" unit="chars"/>"What are you sweating over that for?" <del><gap reason="deleted" quantity="1" unit="char"></gap></del>Doreen lounged on</l>
-               <l>my bed in a peach silk dressing gown filing her long, nicotine-</l>
-               <l>yellow nails with an emery board while I typed up the draft of</l>
-               <l>an interview with a best-selling novelist. That was another</l>
-               <l>thing---the rest of us had starched cotton summer nighties and</l>
-               <l>quilted housecoats, or maybe terry towel robes that doubled <del><gap reason="deleted" quantity="1" unit="char"></gap></del> <add place="above">as</add></l>
-               <l>beachcoats, but Doreen wore these full-length nylon and lace</l>
-               <l>jobs you could half see through, and dressing gowns the color of</l>
+               <space quantity="7" unit="chars"/>"What are you sweating over that for?" <del><gap reason="deleted" quantity="1" unit="char"></gap></del><c ref="#doreen">Doreen</c> lounged on<l/>
+               my bed in a peach silk dressing gown filing her long, nicotine-<l/>
+               yellow nails with an emery board while I typed up the draft of<l/>
+               an interview with a best-selling novelist. That was another<l/>
+               thing---the rest of us had starched cotton summer nighties and<l/>
+               quilted housecoats, or maybe terry towel robes that doubled <del><gap reason="deleted" quantity="1" unit="char"></gap></del> <add place="above">as</add><l/>
+               beachcoats, but Doreen wore these full-length nylon and lace<l/>
+               jobs you could half see through, and dressing gowns the color of<l/>
             </p>
          </div>
       </body>
