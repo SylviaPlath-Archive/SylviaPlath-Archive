@@ -26,13 +26,13 @@
   <text>
       <body>
          <pb xml:id="first"></pb>
-         <head>Thursday<l/>
-            <date>April 23</date>
-         </head>
+         <p>Thursday<l/>
+          <date>April 23</date>
+         </p>
             <p xml:id="p1">
-            As with April, spring manifests itself in joyous new<del rend="overwritten">s</del>, I am<l/>
+            As with April, spring manifests itself in joyous news, I am<l/>
             tired, having got up and out of <persName role="husband">Ted</persName>'s work-room by 7, after<l/>
-            two weeks of <del rend="overwritten">p</del>re- and post-Guggenheim lethargy. We are transfigured,<l/>
+            two weeks of pre- and post-Guggenheim lethargy. We are transfigured,<l/>
             After a near-miss, a query and palterling over the budget and the<l/>
             lace of travel, we got it, and rounded off to the farthest thousand,<l/>
             $5,000, which seems incredibly princely to us, After an imvitation<l/>
@@ -44,18 +44,18 @@
             <lb></lb>
 
             <p xml:id="p2">
-            Also, <date>yesterday</date>, my second acceptance from the <objectName>New Yorker</objectName>: a pleasant<l/>
+               Also, <date>yesterday</date>, my second acceptance from the <hi rend="underline"><objectName>New Yorker</objectName></hi>: a pleasant<l/>
             two: <objectName>the Watercolor of Granchester Meadows</objectName> which I wrote bucolically<l/>
             "for" them, and Man in Black, the only "love" poem in my book, and<l/>
             the book-poém which I wrote only a little over a month ago at one<l/>
-            of my fruitful visits to <del rend="overwritten">W</del>inthrop, Must do justice to my father's<l/>
-            grave, Have rejected the <add>E</add>lectra poem from my book, Too forced<l/>
+            of my fruitful visits to Winthrop, Must do justice to my father's<l/>
+            grave, Have rejected the Electra poem from my book, Too forced<l/>
             end rhetorical, , A leaf from Ann Sexton's book would do here, She<l/>
-            has none of my elenches and an ease of phrase, and an honest<gap rend="cross out"></gap>y.<l/>
+            has none of my elenches and an ease of phrase, and an honest<gap rend="deleted"></gap>y.<l/>
             I have my <add>4</add>O unattackable poems. I think, And a joy about them<l/>
             of sorts, Although I would love more potent ones, All the <placeName>Smith</placeName><l/>
             ones are miserable death-wishes, The ones here, however grey<l/>
-            (Companiona<del rend="overwritten">ll</del>e Ills, Owl) have a verve and life=-joy.<l/></p>
+            (Companionalle Ills, Owl) have a verve and life=-joy.<l/></p>
             
             <lb></lb>
             <lb></lb>
@@ -64,8 +64,8 @@
             I am still blocked sbout prose, A novel still scares me, Have<l/>
             been reading "Passage to India" for the first time and admiring<l/>
             the miraculous flow and eése of it, To have the time to show<l/>
-            the plac<add rend="overwritten">i</add>ng of a red card on a black, the change of daylight<l/>
-            and t<add rend="overwritten">h</add>e geography of certain hills: the blessings of the novelists<l/>
+            the placing of a red card on a black, the change of daylight<l/>
+            and the geography of certain hills: the blessings of the novelists<l/>
             wide untidy landscape art, It would be a certain therapy. But<l/>
             if I do some good stories, that is the way toward the mountain,<l/>
             I do not yet do them.
@@ -79,9 +79,9 @@
             I think too much yet about What Kind they should be and Where I<l/>
             should publish them, Poems now are an evasion too, I have my<l/>
             book as such and must not take the easy way of sitting a morning<l/>
-            before a poem in evasion from <add rend="overwritten">m</add>y children's Bed Book which I<l/>
+            before a poem in evasion from my children's Bed Book which I<l/>
             long and yet fear to begin, Part of my passiveness., If you are<l/>
-            dead, noone can criti<add rend="overwritten">c</add>ize you, o<add rend="overwritten">r</add>, if they do, it doesn't hurt.<l/>
+            dead, noone can criticize you, or, if they do, it doesn't hurt.<l/>
             </p>
          
             <lb></lb>
@@ -99,7 +99,7 @@
            
             <p xml:id="p6">
             Worked and worked with <persName>Beuscher</persName>: the skip of a week gave me courage<l/>
-            and momentum: stay<add rend="overwritten">e</add>d awake the whole night before thinking over what<l/>
+            and momentum: stayed awake the whole night before thinking over what<l/>
             I have come through and to, Concentrated on my suicide: a knot in<l/>
             which much is caught, Weary still from the absolutely deadening<l/>
             weekend in <placeName>Northampton</placeName> and <placeName>Holyoke</placeName>, The strain of <placeName>Stanley</placeName>'s<l/>
@@ -113,9 +113,9 @@
          
             
             <p xml:id="p7">
-            I think: a <objectName type="book">Wuthering Heights</objectName> article for r<add rend="overwritten">e</add>d-shoe money, Correct<l/>
+            I think: a <objectName type="book">Wuthering Heights</objectName> article for red-shoe money, Correct<l/>
             the word in my Monitor poem, Start a poem for the bed book,<l/>
-            A story on the hospital, About the affair of Starbuck <!--&--> Sexton.<l/>
+            A story on the hospital, About the affair of Starbuck and Sexton.<l/>
             A double story, <objectName><persName>August Lighthill</persName>and the Other Women.</objectName><l/>
             Also about the children, seen through <persName>Jan</persName>'s eyes, Here is horror,<l/>
             And_all the details, Get life in spurts in stories, then the novel<l/>

@@ -27,20 +27,21 @@
   <text>
       <body>
          <pb xml:id="first"></pb>
-         <head>
-          <del rend="overwritten">15</del><l/>
-          <date>February 26: Sunday</date></head><l/>
+         <p>
+         1<del><gap reason="deleted"></gap></del><add place="over" rend="overwrite" seq="1">5</add>.<l/>
+         <date>February 26: Sunday</date></p><l/>
          
+         <lb></lb>
+         <lb></lb>
        
          
          <p xml:id="p1">
            A small note after a large orgy. It is morning, gray, most<l/>
-           sober, with cold white puritan<del rend="cross out">m</del>ical eyes; looking at me. Last<l/>
+           sober, with cold white puritan<del><gap reason="deleted" quantity="1" unit="character"></gap></del>ical eyes; looking at me. Last<l/>
            night I got drunk, very very beautifully drunk, and now I am<l/>
            shot, after six holirs of warm sleep like a baby, with <persName role="author">Racine</persName><l/>
            to read, and not even the energy to type; I am getting the dts.<l/>
-           Or so<del rend="overwritten">me</del>thing.<l/>
-         </p>
+           Or something.<l/></p>
          
          <lb></lb>
          <lb></lb>
@@ -48,10 +49,10 @@
          <p xml:id="p2">
           <persName>Hamish</persName> came in cab, and there was a tedious time standing slanted<l/>
           against, the bar in <placeName>Miller's </placeName>with some ugly gat-toothed squat<l/>
-          grinning guy named <persName><del rend="overwritten">M</del>eeson</persName>trying to be devastatingly clever and<l/>
-          mak<del rend="overwritten">i</del>ng intense devastating remarks about nothing. <persName>Hamish</persName><l/>
+          grinning guy named <persName>Meeson</persName>trying to be devastatingly clever and<l/>
+          making intense devastating remarks about nothing. <persName>Hamish</persName><l/>
           pale, pink and light blue eyes. I drank steadily the goblets<l/>
-          with the red<unclear reason="illegible">...</unclear>gold <objectName>Whiskey Macs</objectName>, one-after the other, and by<l/>
+          with the red<unclear reason="illegible"></unclear>gold <objectName>Whiskey Macs</objectName>, one-after the other, and by<l/>
           the time we left an hour later, I felt that strong, silted-up<l/>
           force that makes one move through air like swimming, with<l/>
           brave ease.<l/>
@@ -61,7 +62,7 @@
          <lb></lb>
          
          <p xml:id="p3">
-          <orgName>Falcon's Yard</orgName><!-- add something?-->, and the syncopated strut of a piano upstairs,<l/>
+           <orgName><hi rend="underline">Falcon's Yard</hi></orgName>, and the syncopated strut of a piano upstairs,<l/>
            and oh it was very Bohemian, with boys in turtle-neck sweaters<l/>
            and girls being blue-eye-lidded or elegant in black. <persName>Derrek</persName><l/>
            was there, with guitar, and <persName>Bert</persName> was looking shining and proud<l/>
@@ -80,7 +81,7 @@
            slanted review: "Is this the better or worse half?" and he<l/>
            looking incredibly young to even think hard yet.<persName>Than Minton</persName>,<l/>
            so small and dark one would have fo slit down to talk to him,<l/>
-           and <persName>Welssbort</persName>, small again and very cur<del rend="overwritten">l</del>y. Ross, immaculate<del rend="cross out">m</del><l/>
+           and <persName>Welssbort</persName>, small again and very curvy. Ross, immaculate<del><gap reason="deleted" quantity="1" unit="character"></gap></del><l/>
            and dark. They were all dark.<l/>
            
           <lb></lb>
@@ -93,11 +94,11 @@
            to get under my skin, and I started dancing with <persName>Luke</persName> and<l/>
            knew I was very bad, having crossed the river and banged<l/>
            into the trees, yelling about the poems, and he only smiling<l/>
-           with that far-off look of a c<unclear reason="illegible">e</unclear>etin satan. he wrote those<l/>
+            with that far-off look of a cretin satan. he wrote those<l/>
            things, and he was slobbing around. Well, I was slobbing<l/>
            around, ‘blub, maundering" and I didn't even have the excuse<l/>
            of having written those things; I suppose if you can write<l/>
-           sestinas which<del rend="cross out">mm</del>bam crash through lines and rules after<l/>
+           sestinas which<del><gap reason="deleted" quantity="2" unit="character"></gap></del>bam crash through lines and rules after<l/>
            having raped them to the purpose, then you can be satanic and<l/>
            smile like a cretin beelzebub.<l/>
          
@@ -108,11 +109,11 @@
             
          <p xml:id="p5">
            Then the worst happened, that big, dark, hunky boy, the only<l/>
-           one there huge enough for me, who ha<del rend="overwritten">ve</del> been hunching around<l/>
+            one there huge enough for me, who have been hunching around<l/>
            over women, and whose name I had asked the minute I had come<l/>
            into the room, but no one told me, came over and was looking<l/>
            hard in my eyes and it was <persName type="husband">Ted Hughes</persName>. I started yelling<l/>
-           again about his poems and quoting: "<del rend="overwritten">m</del>ost dear unscratchable<l/>
+           again about his poems and quoting: "most dear unscratchable<l/>
          
           <lb></lb>
           <lb></lb>

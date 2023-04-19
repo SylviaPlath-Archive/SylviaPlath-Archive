@@ -26,6 +26,9 @@
   <text>
       <body>
          <pb xml:id="third"></pb>
+         <p>63<add place="bottom">4</add></p>
+         <lb></lb>
+ 
          <p>whose life' doesn't seem aavailable, processe in uniform,<l/>
             callophane-wrapped blocks, like synthetic orange cheese:<l/>
             <persName>James</persName> has the authentic, cave-aged, mold-ripened smess of<l/>
@@ -36,7 +39,7 @@
             I borrowed <persName>James</persName> autobiography + finished it tonight:<l/>
             750 pages, <objectName type="book">"The Unfinished Man"</objectName> - about his experiences as<l/>
             a conscientious objector during the war: desultory<l/>
-            beginning, here, there, <placeName>Stockolm, Finland</placeName> + all told about,<l/>
+            beginning, here, there, <placeName>Stockolm, Finland</placeName> + all told <hi rend="underline">about</hi>,<l/>
             characters pos trayed, not actually moving + talling on<l/>
             their own, but talked about, half-emerged, like a <gap reason="unclear"></gap> of<l/>
             flushed marble. And women: he seem to <gap reason="illegible"></gap> from them -<l/>

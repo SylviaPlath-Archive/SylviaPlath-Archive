@@ -27,7 +27,8 @@
       <body>
          <pb xml:id="first"></pb>
          <p xml:id="onlyp">
-            Sunday night: <date>March 2</date>: Again, late: It will betwelve before I<l/>
+            61<add place="bottom">2</add>
+            <hi rend="underline">Sunday night: <date>March 2</date>:</hi> Again, late: It will betwelve before I<l/>
             sleep. A strange, stopped day: <persName role="husband">Ted</persName> + I having morning coffee-<l/>
             black + bitter-edged, with the <surname>Bramwells</surname> in their uncomfortable<l/>
             second-flor flat, chairs turned wrond-side-to, records scattered,<l/>
@@ -40,7 +41,7 @@
             brown, white tweed coat then <persName>Ted</persName>, dark, disheveled + with<l/>
             that  queer eletric invisible radiance he gives off as he<l/>
             did that first day I saw him over two years ago: to think,<l/>
-            irony of <gap reason="illegible"></gap>, that two years ago I was <!--doubts--> feverishly studying<l/>
+            irony of <gap reason="illegible"></gap>, that two years ago I was  feverishly studying<l/>
             <persName>Webster</persName><gap reason="illegible"></gap>for my supervisions (which very plays I<l/>
             am this week examinging my students on and furiously,<l/>
             desperately, taling myself into a crazy belief that I would<l/>
@@ -54,13 +55,13 @@
             The light trhough this door, into the dark dum pink-walled<l/>
             dining alcove, shires to our bedroom + bright from<l/>
             his writing of poems in the swept spacious bedroom<l/>
-            the chink of light through the crack in <add>between</add> the doorframe<l/>
+            the chink of light through the crack in <add place="above">between</add> the doorframe<l/>
             + door betrays him to me: + suddenly all, is most, of<l/>
             that long 35 page chapter which should be - the<l/>
             evenets at leas - the core of my novel, seem cheap<l/>
             easily come-by-all that sensational jabber about<l/>
             winds + doors + walls balging away and back.<l/>
-            But that was the psychic equivante of the whole<l/>
+            But that was the p<hi rend="underline">sychi</hi>c equivante of the whole<l/>
          </p>
       </body>
   </text>
