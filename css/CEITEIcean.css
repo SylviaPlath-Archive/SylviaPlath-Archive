@@ -1,0 +1,35 @@
+ 
+
+/* This is a sample stylesheet for use with CETEIcean. It is not intended    */
+/* to be comprehensive. The rules here are largely derived from earlier work */
+/* on TEI Boilerplate                                                        */
+ 
+/* language support */
+/* render Arabic, Persian, Ottoman, Hebrew  as rtl */
+[lang = "ar"],
+[lang = "ota"], 
+[lang = "fa"], 
+[lang = "he"],
+[lang *="-Arab-AR"]{
+    direction:rtl;
+    text-align:right;
+}
+/* display latin scripts as ltr  */
+[lang = "en"],
+[lang = "fr"],
+[lang = "de"],
+[lang = "it"],
+[lang *="ar-Latn-"],
+[lang *="ota-Latn-"]{
+    direction:ltr;
+    text-align:left;
+}
+
+
+tei-hi[rend="circled"], tei-hi[rend="circledExceptAbove"], tei-hi[rend="circledExceptLeft"], tei-hi[rend="circledExceptRight"], tei-hi[rend="circledExceptBelow"] {
+    border-radius: 15px;
+    text-decoration-color:  black;
+    border-color: black;
+    display: inline-block;
+}
+
