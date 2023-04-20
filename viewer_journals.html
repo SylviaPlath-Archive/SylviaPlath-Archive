@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> 
+<![endif]-->
+<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8" lang="en"> 
+<![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+	<head>
+<!-- 
+Timeline Template
+http://www.templatemo.com/preview/templatemo_427_timeline
+-->
+		<title>Sylvia Plath Archive</title>
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+
+        
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="css/templatemo-style.css">
+        <link rel="stylesheet" type="text/css" href="css/stylegallery.css">
+        <link rel="stylesheet" type="text/css" href="css/tei.css">
+
+        <!-- JavaScripts -->
+        <script src="js/vendor/jquery-1.10.2.min.js"></script>
+        <script src="js/vendor/modernizr.min.js"></script>
+        <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDY0kkJiTPVd2U7aTOAwhc9ySH6oHxOIYM"></script>
+        <script src="js/change.js"></script>
+
+	</head>
+	<body>
+    
+    <header class="site-header" id="top">
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="row">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                          <i class="fa fa-bars"></i>
+                        </button>
+                        <div class="logo-wrapper">
+                            <a class="navbar-brand" href="#templatemo">
+                                <p>S<em>ylvia Plath Archive</em></p>
+                            </a>
+                        </div>  
+                    </div>
+                    <div class="collapse navbar-collapse" id="main-menu">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><span></span><a href="index.html" class="home">Home</a></li>
+                            <li><span></span><a href="index.html#first-section" class="about">Editions</a></li>
+                            <li><span></span><a href="index.html#second-section" class="portfolio">Documentation</a></li>
+                            <li><span></span><a href="index.html#map" class="map">Location</a></li>
+                            <li><span></span><a href="index.html#third-section" class="contact">About</a></li>
+                        </ul>
+                    </div>
+                </div> 
+            </div>
+        </nav>
+    </header>
+
+    <body>
+
+        <div id="container" style="float: left;">
+            <section class="gallery">
+                <div class="gallery__item">
+                  <input type="radio" id="img-1" checked name="gallery" class="gallery__selector"/>
+                 <img class="gallery__img" src="https://picsum.photos/id/1015/600/400.jpg" alt="" onclick="Page1()"/>
+                 <label for="img-1" class="gallery__thumb"><img src="https://picsum.photos/id/1015/150/100.jpg" alt=""/></label>
+                </div>
+                <div class="gallery__item">
+                  <input type="radio" id="img-2" name="gallery" class="gallery__selector"/>
+                  <img class="gallery__img" src="https://picsum.photos/id/1039/600/400.jpg" alt=""/>
+                  <label for="img-2" class="gallery__thumb"><img src="https://picsum.photos/id/1039/150/100.jpg" alt=""/></label>
+                </div>
+                <div class="gallery__item">
+                  <input type="radio" id="img-3" name="gallery" class="gallery__selector"/>
+                  <img class="gallery__img" src="https://picsum.photos/id/1057/600/400.jpg" alt=""/>
+                  <label for="img-3" class="gallery__thumb"><img src="https://picsum.photos/id/1057/150/100.jpg" alt=""/></label>
+                </div>
+                <div class="gallery__item">
+                  <input type="radio" id="img-4" name="gallery" class="gallery__selector"/>
+                  <img class="gallery__img" src="https://picsum.photos/id/106/600/400.jpg" alt=""/>
+                  <label for="img-4" class="gallery__thumb"><img src="https://picsum.photos/id/106/150/100.jpg" alt=""/></label>
+                </div>
+              </section>
+        </div>
+
+        <div id="TEI" style="color: brown;"></div>
+
+        <script src="CETEI.js"></script>
+        <script>
+        var CETEIcean = new CETEI();
+        var images = [];
+        CETEIcean.addBehaviors({"tei":
+            {
+            "gap": ["[", "]"],
+            "note": function(elt) {
+                var span = document.createElement("span");
+                span.innerHTML = elt.getAttribute("place") == "margin"?"[<em>in marg.</em> ":"[";
+                span.innerHTML += elt.innerHTML + "]";
+                return span;
+            },
+            "pb": function(elt) {
+                var span = document.createElement("span");
+                var link = document.createElement("a");
+                link.setAttribute("style", "float:right;padding-left:1em;text-decoration:none;color:gray;");
+                if (elt.hasAttribute("facs")) {
+                var facs = elt.getAttribute("facs").replace("tcp:", "").replace(new RegExp(this.getPrefixDef("tcp")["matchPattern"]), "?vid=$1&page=$2");
+                link.setAttribute("href", "http://eebo.chadwyck.com/fetchimage" + facs + "&width=1500");
+                var img = document.createElement("img");
+                images.push(img);
+                img.setAttribute("src", "http://eebo.chadwyck.com/fetchimage" + facs + "&width=100");
+                img.setAttribute("height", "50px");
+                if (elt.hasAttribute("n")) {
+                    link.innerHTML = "<span style=\"position:relative; top: -1em;\">p. " + elt.getAttribute("n") + " </span>";
+                }
+                link.appendChild(img);
+                }
+                span.appendChild(document.createElement("br"));
+                span.appendChild(link);
+                span.appendChild(document.createElement("br"));
+                span.appendChild(document.createElement("br"));
+                span.appendChild(document.createElement("br"));
+                return span;
+            }
+            }});
+        CETEIcean.getHTML5('https://raw.githubusercontent.com/TheBellJar-dse/TheBellJar-dse/main/XML/xml-j-1956/1-1956.xml', function(data) { 
+            document.getElementById("TEI").innerHTML = "";
+            document.getElementById("TEI").appendChild(data);
+            // Fix combining abbreviation marker in Chrome
+            if (!!window.chrome) {
+            var gs = document.getElementsByTagName("tei-g");
+            for (var i = 0; i < gs.length; i++) {
+                if (gs[i].getAttribute("ref") == "char:cmbAbbrStroke") {
+                gs[i].setAttribute("class", "cmbAbbr");
+                }
+            }
+            }
+            // If not logged in to EEBO, use a local image instead of the preview
+            var img = new Image();
+            img.onerror = function() {
+            console.log("Not logged in.");
+            images.forEach(function(elt) {
+                elt.src = elt.src.replace("http://eebo.chadwyck.com/fetchimage", "images/page.jpg");
+            });
+            }
+            img.src = "http://eebo.chadwyck.com/fetchimage?vid=5891&page=1&width=100";
+        });
+        </script>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="col-md-4">
+                            <div class="copyright-text">
+                                <p>Copyright &copy; 2084 <a href="#">Company Name</a></p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="back-to-top">
+                                <a href="#top">Back To Top</a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="social-icons">
+                                <ul>
+                                    <li><a href="#" class="#"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="#" class="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="#" class="#"><i class="fa fa-linkedin"></i></a></li>
+                                    <li><a href="#" class="#"><i class="fa fa-rss"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    </body>
+    </html>
