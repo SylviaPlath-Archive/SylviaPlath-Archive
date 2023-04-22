@@ -1,11 +1,15 @@
 <!DOCTYPE html>
+
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> 
 <![endif]-->
 <!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8" lang="en"> 
 <![endif]-->
 <!--[if IE 8]> <html class="no-js lt-ie9" lang="en"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+
+
 	<head>
+        
 <!-- 
 Timeline Template
 http://www.templatemo.com/preview/templatemo_427_timeline
@@ -16,12 +20,16 @@ http://www.templatemo.com/preview/templatemo_427_timeline
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta charset="UTF-8">
 
-        
+         <!-- Bootstrap -->
         <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
         <link rel="stylesheet" type="text/css" href="css/templatemo-style.css">
         <link rel="stylesheet" type="text/css" href="css/stylegallery.css">
         <link rel="stylesheet" type="text/css" href="css/tei.css">
+        <link rel="stylesheet" type="text/css" href="css/viewer.css">
+
+        
+ 
 
         <!-- JavaScripts -->
         <script src="js/vendor/jquery-1.10.2.min.js"></script>
@@ -61,34 +69,45 @@ http://www.templatemo.com/preview/templatemo_427_timeline
     </header>
 
     <body>
+        <div class="container-fluid" id="content">
 
-        <div id="container" style="float: left;">
-            <section class="gallery">
-                <div class="gallery__item">
-                  <input type="radio" id="img-1" checked name="gallery" class="gallery__selector"/>
-                 <img class="gallery__img" src="https://picsum.photos/id/1015/600/400.jpg" alt="" onclick="Page1()"/>
-                 <label for="img-1" class="gallery__thumb"><img src="https://picsum.photos/id/1015/150/100.jpg" alt=""/></label>
-                </div>
-                <div class="gallery__item">
-                  <input type="radio" id="img-2" name="gallery" class="gallery__selector"/>
-                  <img class="gallery__img" src="https://picsum.photos/id/1039/600/400.jpg" alt=""/>
-                  <label for="img-2" class="gallery__thumb"><img src="https://picsum.photos/id/1039/150/100.jpg" alt=""/></label>
-                </div>
-                <div class="gallery__item">
-                  <input type="radio" id="img-3" name="gallery" class="gallery__selector"/>
-                  <img class="gallery__img" src="https://picsum.photos/id/1057/600/400.jpg" alt=""/>
-                  <label for="img-3" class="gallery__thumb"><img src="https://picsum.photos/id/1057/150/100.jpg" alt=""/></label>
-                </div>
-                <div class="gallery__item">
-                  <input type="radio" id="img-4" name="gallery" class="gallery__selector"/>
-                  <img class="gallery__img" src="https://picsum.photos/id/106/600/400.jpg" alt=""/>
-                  <label for="img-4" class="gallery__thumb"><img src="https://picsum.photos/id/106/150/100.jpg" alt=""/></label>
-                </div>
-              </section>
+
+            <div class="row align-items-start">
+        
+              <div class="col-9 col-lg-5 col-md-9 col-sm-9" id ="imagegallery">
+
+                        <div id="container" style="float: left;">
+                            <section class="gallery">
+                                <div class="gallery__item">
+                                <input type="radio" id="img-1" checked name="gallery" class="gallery__selector"/>
+                                <img class="gallery__img" src="https://picsum.photos/id/1015/600/400.jpg" alt="" onclick="Page1()"/>
+                                <label for="img-1" class="gallery__thumb"><img src="https://picsum.photos/id/1015/150/100.jpg" alt=""/></label>
+                                </div>
+                                <div class="gallery__item">
+                                <input type="radio" id="img-2" name="gallery" class="gallery__selector"/>
+                                <img class="gallery__img" src="https://picsum.photos/id/1039/600/400.jpg" alt=""/>
+                                <label for="img-2" class="gallery__thumb"><img src="https://picsum.photos/id/1039/150/100.jpg" alt=""/></label>
+                                </div>
+                                <div class="gallery__item">
+                                <input type="radio" id="img-3" name="gallery" class="gallery__selector"/>
+                                <img class="gallery__img" src="https://picsum.photos/id/1057/600/400.jpg" alt=""/>
+                                <label for="img-3" class="gallery__thumb"><img src="https://picsum.photos/id/1057/150/100.jpg" alt=""/></label>
+                                </div>
+                                <div class="gallery__item">
+                                <input type="radio" id="img-4" name="gallery" class="gallery__selector"/>
+                                <img class="gallery__img" src="https://picsum.photos/id/106/600/400.jpg" alt=""/>
+                                <label for="img-4" class="gallery__thumb"><img src="https://picsum.photos/id/106/150/100.jpg" alt=""/></label>
+                                </div>
+                            </section>
+                        </div>
+
+                    </div>
+                
+    <div class="testo" >
+            <div id="TEI" style="color: brown;" class=" scroll-column zoom"></div>
         </div>
-
-        <div id="TEI" style="color: brown;"></div>
-
+</div>
+</div>
         <script src="CETEI.js"></script>
         <script>
         var CETEIcean = new CETEI();
