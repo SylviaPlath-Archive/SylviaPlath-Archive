@@ -81,15 +81,15 @@ http://www.templatemo.com/preview/templatemo_427_timeline
 
                         <div id="container" style="float: left;">
                             <section class="gallery">
-                                <div class="gallery__item">
-                                <input type="radio" id="img-1" checked name="gallery" class="gallery__selector"/>
-                                <img class="gallery__img" src="https://picsum.photos/id/1015/600/400.jpg" alt="" onclick="Page1()"/>
-                                <label for="img-1" class="gallery__thumb"><img src="https://picsum.photos/id/1015/150/100.jpg" alt=""/></label>
+                                <div class="gallery__item" >
+                                <input type="radio" id="img-1" checked name="gallery" class="gallery__selector" />
+                                <img class="gallery__img" src="https://picsum.photos/id/1015/600/400.jpg" alt="" />
+                                <label for="img-1" class="gallery__thumb" onclick="displayxml('XML/xml-j-1956/1-1956.xml')" ><img src="https://picsum.photos/id/1015/150/100.jpg" alt=""/></label>
                                 </div>
                                 <div class="gallery__item">
-                                <input type="radio" id="img-2" name="gallery" class="gallery__selector"/>
+                                <input type="radio" id="img-2" name="gallery" class="gallery__selector" />
                                 <img class="gallery__img" src="https://picsum.photos/id/1039/600/400.jpg" alt=""/>
-                                <label for="img-2" class="gallery__thumb"><img src="https://picsum.photos/id/1039/150/100.jpg" alt=""/></label>
+                                <label for="img-2" class="gallery__thumb"><img src="https://picsum.photos/id/1039/150/100.jpg" alt="" onclick="displayxml('XML/xml-j-1956/2-1956.xml')"/></label>
                                 </div>
                                 <div class="gallery__item">
                                 <input type="radio" id="img-3" name="gallery" class="gallery__selector"/>
@@ -113,63 +113,13 @@ http://www.templatemo.com/preview/templatemo_427_timeline
 </div>
         <script src="CETEI.js"></script>
         <script>
-        var CETEIcean = new CETEI();
-        var images = [];
-        CETEIcean.addBehaviors({"tei":
-            {
-            "gap": ["[", "]"],
-            "note": function(elt) {
-                var span = document.createElement("span");
-                span.innerHTML = elt.getAttribute("place") == "margin"?"[<em>in marg.</em> ":"[";
-                span.innerHTML += elt.innerHTML + "]";
-                return span;
-            },
-            "pb": function(elt) {
-                var span = document.createElement("span");
-                var link = document.createElement("a");
-                link.setAttribute("style", "float:right;padding-left:1em;text-decoration:none;color:gray;");
-                if (elt.hasAttribute("facs")) {
-                var facs = elt.getAttribute("facs").replace("tcp:", "").replace(new RegExp(this.getPrefixDef("tcp")["matchPattern"]), "?vid=$1&page=$2");
-                link.setAttribute("href", "http://eebo.chadwyck.com/fetchimage" + facs + "&width=1500");
-                var img = document.createElement("img");
-                images.push(img);
-                img.setAttribute("src", "http://eebo.chadwyck.com/fetchimage" + facs + "&width=100");
-                img.setAttribute("height", "50px");
-                if (elt.hasAttribute("n")) {
-                    link.innerHTML = "<span style=\"position:relative; top: -1em;\">p. " + elt.getAttribute("n") + " </span>";
-                }
-                link.appendChild(img);
-                }
-                span.appendChild(document.createElement("br"));
-                span.appendChild(link);
-                span.appendChild(document.createElement("br"));
-                span.appendChild(document.createElement("br"));
-                span.appendChild(document.createElement("br"));
-                return span;
+        function displayxml(xmlpath){
+            console.log("prova")
+        var CETEIcean = new CETEI()
+                CETEIcean.getHTML5(xmlpath, function(data) {
+                  document.getElementById("TEI").appendChild(data)
+                })
             }
-            }});
-        CETEIcean.getHTML5('https://raw.githubusercontent.com/TheBellJar-dse/TheBellJar-dse/main/XML/xml-j-1956/1-1956.xml', function(data) {
-            document.getElementById("TEI").innerHTML = "";
-            document.getElementById("TEI").appendChild(data);
-            // Fix combining abbreviation marker in Chrome
-            if (!!window.chrome) {
-            var gs = document.getElementsByTagName("tei-g");
-            for (var i = 0; i < gs.length; i++) {
-                if (gs[i].getAttribute("ref") == "char:cmbAbbrStroke") {
-                gs[i].setAttribute("class", "cmbAbbr");
-                }
-            }
-            }
-            // If not logged in to EEBO, use a local image instead of the preview
-            var img = new Image();
-            img.onerror = function() {
-            console.log("Not logged in.");
-            images.forEach(function(elt) {
-                elt.src = elt.src.replace("http://eebo.chadwyck.com/fetchimage", "images/page.jpg");
-            });
-            }
-            img.src = "http://eebo.chadwyck.com/fetchimage?vid=5891&page=1&width=100";
-        });
         </script>
 
     <footer>
