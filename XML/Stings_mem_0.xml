@@ -21,9 +21,17 @@
             </sourceDesc>
         </fileDesc>
     </teiHeader>
+    <facsimile>
+        <surface xml:id="pag1">
+            <graphic url="../img/Stings(3)/Stings_mem_0.jpg"></graphic>
+        </surface>
+    </facsimile>
     <text>
         <body>
             <div>
+                <pb n="01" facs="#pag1" />
+                    
+                
            <head rend="underline">3. Stings</head>
                 <p><date>October 6 1962</date> 1</p>
             <lg>
