@@ -117,6 +117,7 @@ http://www.templatemo.com/preview/templatemo_427_timeline
             console.log("prova")
         var CETEIcean = new CETEI()
                 CETEIcean.getHTML5(xmlpath, function(data) {
+                    document.getElementById("TEI").innerHTML = "";
                   document.getElementById("TEI").appendChild(data)
                 })
             }

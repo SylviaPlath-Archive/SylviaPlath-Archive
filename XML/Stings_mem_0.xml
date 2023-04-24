@@ -21,50 +21,58 @@
             </sourceDesc>
         </fileDesc>
     </teiHeader>
+    <facsimile>
+        <surface xml:id="pag1">
+            <graphic url="../img/Stings(3)/Stings_mem_0.jpg"></graphic>
+        </surface>
+    </facsimile>
     <text>
         <body>
             <div>
+                <pb n="01" facs="#pag1" />
+                    
+                
            <head rend="underline">3. Stings</head>
                 <p><date>October 6 1962</date> 1</p>
             <lg>
                 <l>Bare-handed, I hand the combs.</l>
                 <l>The man in white smiles, bare-handed._</l>
-                <l>our cheesecloth gauntlets <del ><gap reason="illegible" quantity="2" unit="character"></gap> </del> neat a sweet,</l>
-                <l>The throath of our wrists <del  ><gap reason="illegible" quantity="2" unit="character"></gap></del><add place="above">brave</add> lilies.</l> 
-                <l><del >The <gap reason="illegible"></gap> combs are a <gap reason="illegible"></gap> mahogan</del></l>            
+                <l>our cheesecloth gauntlets <del ><gap reason="deleted" ></gap></del> <unclear>neat</unclear> a sweet,</l>
+                <l>The throath of our wrists <subst><del  ><gap reason="deleted"></gap></del><add place="above">brave</add> </subst>  lilies.</l> 
+                <l><del >The <unclear>bread</unclear> combs are a <gap reason="deleted"></gap> mahogn</del></l>            
                 <l>He &amp; I, he and I</l>
             </lg>
                 
             <lg>
                 <l>Have a thousand clean cells between us,</l>
-                <l><add place="left">Eight </add><del>comb after</del> combs of yellow cups,</l>
-                <l><add place="left">and </add>The hive itself <del><gap reason="illegible" quantity="1" unit="character"></gap></del> a teacup,</l>
-                <l>White <del><gap reason="illegible" ></gap></del> with pink flowers on it <del><gap  reason="illegible" ></gap></del>.</l>
+                <l><add place="margin">Eight </add><del>comb after</del> combs of yellow cups,</l>
+                <l><add place="margin">And </add>The hive itself <del><gap reason="deleted" quantity="1" unit="character"></gap></del> a teacup,</l>
+                <l>White <del><gap reason="deleted" ></gap></del> with pink flowers on it <del><gap  reason="deleted" ></gap></del>.</l>
                 <l>With excessive love I enamelled it</l>
             </lg>
             <lg> 
-                <l>Thinking <add place="above"><del><gap reason="illegible"></gap></del></add> "Sweetness, Sweetness"<del>,</del></l>
-                <l><del><gap reason="illegible" quantity="1" unit="line"></gap></del></l>
-                <l><del>The</del> Brood cells <del><gap reason="illegible"></gap></del> grey as the fossils of shells</l>
-                <l>terrify<del>ied</del> me, they seem<del><gap reason="illegible" quantity="2" unit="char"></gap></del> so old.</l>
-                <l>What <del>was</del> <add place="above">am</add> I buying,<del><gap reason="illegible"></gap></del> <add place="above">warmy</add> mahogany?</l>
-                <l><add place="left">Is</add> <del>Was</del> there any queen at all in it?</l>
+                <l>Thinking <add place="above"><del><gap reason="deleted"></gap></del></add> "Sweetness, Sweetness"<del>,</del></l>
+                <l><del> <unclear>Seeing the</unclear> <gap reason="deleted" ></gap></del></l>
+                <l><del><unclear>The</unclear> </del> Brood cells <del><gap reason="deleted"></gap></del> grey as the fossils of shells</l>
+                <l>terrif<del>ied</del><add place="over" rend="overwrite">y</add> me, they seem<del> <unclear>ed</unclear> </del> so old.</l>
+                <l>What <del> <unclear>was</unclear> </del> <add place="above">am</add> I buying,<del><gap reason="illegible"></gap></del> <add place="above">warmy</add> mahogany?</l>
+                <l><add place="margin">Is</add> <del> <unclear>Was</unclear> </del> there any queen at all in it?</l>
             </lg>
                 
             <lg>
-                <l>If there is,  <add place="above"><gap reason="illegible"></gap></add>she <gap reason="illegible"></gap><add place="above">is</add> old, <gap reason="illegible"></gap></l> 
+                <l>If there is,  <add place="above"> <del><gap reason="deleted"></gap> </del> </add> she <del><gap reason="deleted"></gap></del> <add place="above">is</add> old, <del><gap reason="illegible"></gap></del></l> 
                 <l>Her wings torn shawls, her long body</l>
-                <l>Rubbed of its plush—</l>
-                <l>Poor and bare, <del>poor and bare</del> <add place="below"> &amp; unqueenly &amp; even shameful.</add></l> 
-                <l><del>I think I am being <gap reason="illegible"></gap></del></l>
-                <l>I stand in a column</l>
+                <l>Rubbed of its plush -</l>
+                <l>Poor &amp; bare, <del>poor &amp; bare</del> <add place="below"> &amp; unqueenly &amp; even shameful.</add></l> 
+                <l><del>I think I am being <unclear>cheated</unclear> </del></l>
+                <l>I stand in a <unclear>column</unclear> </l>
             </lg>
             <lg>
                 <l>Of winged, unmiraculous women,</l> 
-                <l>Honey-drudgers. <del>I am no drudge</del></l>
+                <l>Honey-drudgers. <del><unclear>I am no </unclear> drudge</del></l>
                 <l>I am no drudge</l>
                 <l>Though for <del>seven</del><add place="above">six</add> years I have eaten dust</l>
-                <l>And dried plates with my dense<add place="above"><gap reason="illegible"></gap></add> <add place="below"><gap reason="illegible"></gap></add> hair.</l>
+                <l>And dried plates with my dense<add place="above"><del><gap reason="deleted"></gap></del></add> <add place="below"><gap reason="illegible"></gap></add> hair.</l>
             </lg>
                
             <lg>
@@ -72,9 +80,129 @@
                 <l>Blue dew from dangerous skin.</l>
                 <l>Will they hate me,</l>
                 <l>these women who only scurry,</l>
-                <l>Whose<add place="above"><gap reason="illeg"></gap></add> news is the open cherry, <del>is</del> the <del><gap reason="illegible"></gap></del> <add place="above">open</add> clover?</l>
+                <l>Whose<add place="above"><del><gap reason="deleted"></gap></del></add> news is the open cherry, <del> <unclear>is</unclear> </del> the <del><gap reason="illegible"></gap></del> <add place="above">open</add> clover?</l>
             </lg>
             </div>  
         </body>
     </text>
+    <facsimile >
+        <surface xml:id="pag2">
+            <graphic url="../img/Stings(3)/Stings_mem_1.jpg"></graphic>
+        </surface>
+    </facsimile>
+        <text>
+            <body>
+                <div>
+                    <pb n="02" facs="#pag2" />
+                    <head rend="underline">Stings</head>
+                    <p>2</p>
+                    <lg>
+                        <l>It is  almost over.</l>
+                        <l>I am in control, I am in control.</l>
+                        <l><del >Who is this  <gap reason="illegible"></gap>, this <unclear>extr</unclear> </del></l>
+                        <l><del> <unclear>Who watches &amp;</unclear> helps <gap reason="deleted"></gap>?</del></l>
+                        <l>Here is my honey-machine,</l> 
+                        <l>It will work without thinking,</l>
+                        <l>Opening in spring, like an industrious virgin</l>
+                        
+                    </lg>
+                    
+                    <lg> 
+                        <l>to scour the creaming crests</l>
+                        <l> As the moon scours the sea, <del>a</del>  hive of light!</l>
+                        <l>There is a third one, watching.</l>
+                        <l>He has nothing to do with me or the bee-seller</l> 
+                        <l>Now he is gone</l>
+                    </lg>
+                    <lg>
+                        <l>In eight great bounds, a great scape goat.</l>
+                        <l>Here is his slipper, here is another</l>
+                        <l>And here the <add place="above">square of</add> white <del> <unclear>handkerchief</unclear></del> linen</l>
+                        <l>He wore instead of a hat.</l>
+                        <l>He was sweet,</l> 
+                    </lg> 
+                    <lg>
+                        <l>The sweat of his efforts a rain</l>  
+                        <l><subst><del>on the world that opens under his belly</del> <add place="above">tugging the world to fruit.</add></subst></l>
+                        <l>Now he peers through a warped silver rain drop;</l>
+                        <l>Seven lumps on his head</l>
+                        <l>And a <subst> <add place="above">big</add> <del><unclear>great</unclear></del></subst> boss on his forehead</l>
+                    </lg> 
+                    <lg>
+                        <l>Black as the devil, a vengeful.</l>
+                        <l>The bees found him out</l>
+                        <l>Molding onto his lips like lies,</l>
+                        <l>Complicating his features.</l>
+                        <l>They thought death is so worth it, but I</l>
+                    </lg> 
+                    <lb rend="line" />
+                    <lg> 
+                        <l><del>Have a <subst> <add place="above">self</add><del><unclear>soul</unclear></del> </subst> to recover, a queen</del></l>
+                        <l><del>Climbing into a bride-flight</del></l>
+                        <l><del>In a glitter of years like <unclear>dow diamonds</unclear></del></l>
+                        <l><del>The new queen sings over the old queen</del></l> 
+                        <l><del><unclear>I am</unclear> <unclear></unclear></del></l>
+                        <l><del>Now we are one</del></l>
+                    </lg> 
+                    
+                    <l><subst><add place="above">A queen,</add> <del><gap reason="deleted"></gap></del></subst> bored <subst><del>a long time</del> <add place ="above"> too long</add> </subst></l>
+                    
+                </div>
+            </body>
+        </text>
+    <facsimile>
+       <surface xml:id="pag3">
+           <graphic url="../img/Stings(3)/Stings_mem_2.jpg"></graphic>
+       </surface> 
+    </facsimile>
+    <text>
+        <body>
+            <div>
+                <pb n="03" facs="#pag3"/>
+                <head rend="underline">Stings</head>
+                <p>3</p>
+                <lg>
+                    <l>Have a self to recover, a queen</l> 
+                    <l><add place="left"><del>That </del></add>Climb<add place="above"><del><gap reason="deleted" quantity="1" unit="character"></gap></del></add>  <subst><del><gap reason="deleted"></gap></del><add place="above">ing</add></subst> <subst><del><gap reason="deleted"></gap></del><add place="above">in</add></subst>to a|[?]<add place="above">s<del><gap reason="illegible"></gap></del></add> bride-flight </l>
+                    <l>In a glitter of years like dew diamonds.</l>
+                    <l>Is she dead? Is she sleeping?</l>
+                    <l><subst><del>Has she<unclear></unclear> been sleeping? </del> <add place="below">How long has she been unheard of!</add> </subst></l>
+                </lg>
+                <lg>
+                    <l>Her wings <del><gap reason="illegible"></gap></del><add place="above">of</add> clear glass.</l>
+                    <l>She is more terrible then she ever was,</l>
+                    <l>Her banded body</l>
+                    <l>Deserting the nurseries, the workers</l>
+                </lg>
+                <lg>
+                    <l>Have a self to recover, a queen,</l>
+                    <l><del>That dreams of a second bride-flight</del></l>
+                    <l>Who climbs <del>to a second bride flight</del>,</l>
+                    <l>Her wings of clear glass,</l>
+                    <l>Her banded body</l>
+                    <l>More terrible then it ever was.</l>
+                    <l>Deserting the nurseries, the workers,</l>
+                    <l>The years. a glitter of dew</l>
+                    <l><unclear>on blades</unclear> she will not return to.</l>
+                    
+                </lg>
+                <lg>
+                    <l><add place="above">Have a self to recover, a queen,</add> Is she dead, is she sleeping?</l>
+                    <l>Where has she been, <del>she who rises</del></l>
+                    <l><del>Rising this time, in wings of clear glass,</del></l>
+                    <l><del>Over the <unclear>deserted</unclear> nurseries</del></l>
+                    <l>With her lion-red body, her wings of glass?</l>
+                    <l>Now she is flying</l>
+                    <l>More terrible than she ever was,</l>
+                    <l><del>leaving the stiff wax,</del></l>
+                    <l><del>The dead <unclear>dress at the linted</unclear></del></l>
+                    <l>Clear as glass, <del><gap reason="illegible"></gap></del></l>
+                    <l>A lens of <unclear></unclear>,</l>
+                    <l>Over the engine that killed her, the white stiff wax,</l>
+                    <l>The deserted nurseries, <del> <unclear> the dead men at the door.</unclear></del> <add place="below">The stingless dead men.</add> </l>
+                </lg>
+            </div>
+        </body>
+    </text> 
+    
 </TEI>
