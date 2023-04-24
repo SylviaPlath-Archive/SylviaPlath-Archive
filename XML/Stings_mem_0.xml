@@ -21,11 +21,13 @@
             </sourceDesc>
         </fileDesc>
     </teiHeader>
+    <!--
     <facsimile>
         <surface xml:id="pag1">
             <graphic url="../img/Stings(3)/Stings_mem_0.jpg"></graphic>
         </surface>
     </facsimile>
+    -->
     <text>
         <body>
             <div>
@@ -85,6 +87,7 @@
             </div>  
         </body>
     </text>
+    <!--
     <facsimile >
         <surface xml:id="pag2">
             <graphic url="../img/Stings(3)/Stings_mem_1.jpg"></graphic>
@@ -204,5 +207,5 @@
             </div>
         </body>
     </text> 
-    
+    -->
 </TEI>
