@@ -28,7 +28,7 @@
       <body>
          <pb xml:id="first"></pb>
          <p>
-         1<del><gap reason="deleted"></gap></del><add place="over" rend="overwrite" seq="1">5</add>.<l/>
+         1<subst><del><gap reason="deleted"></gap></del><add place="over" rend="overwrite" seq="1">5</add></subst>.<l/>
          <date>February 26: Sunday</date></p><l/>
          
          <lb></lb>
