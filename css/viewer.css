@@ -1743,7 +1743,11 @@ tei-hi[rend="caps"] {
 tei-hi[rend="italic"] {
   font-style: italic;
 }
+tei-hi[rend="underline"] {
+  text-decoration: underline;
+}
 tei-hi {
+  text-decoration: underline;
   /* GLS: do we want to bold this or change the background color? */
 }
 tei-history {
