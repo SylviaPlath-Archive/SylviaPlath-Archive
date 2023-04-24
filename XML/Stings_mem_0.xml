@@ -34,13 +34,13 @@
                 <pb n="01" facs="#pag1" />
                     
                 
-           <head rend="underline">3. Stings</head>
+           <head><hi rend="underline">3. Stings</hi></head>
                 <p><date>October 6 1962</date> 1</p>
             <lg>
                 <l>Bare-handed, I hand the combs.</l>
                 <l>The man in white smiles, bare-handed._</l>
                 <l>our cheesecloth gauntlets <del ><gap reason="deleted" ></gap></del> <unclear>neat</unclear> a sweet,</l>
-                <l>The throath of our wrists <subst><del  ><gap reason="deleted"></gap></del><add place="above">brave</add> </subst>  lilies.</l> 
+                <l>The throath of our wrists <subst><del><gap reason="deleted"></gap></del><add place="above">brave</add> </subst>  lilies.</l> 
                 <l><del >The <unclear>bread</unclear> combs are a <gap reason="deleted"></gap> mahogn</del></l>            
                 <l>He &amp; I, he and I</l>
             </lg>
@@ -82,7 +82,7 @@
                 <l>Blue dew from dangerous skin.</l>
                 <l>Will they hate me,</l>
                 <l>these women who only scurry,</l>
-                <l>Whose<add place="above"><del><gap reason="deleted"></gap></del></add> news is the open cherry, <del> <unclear>is</unclear> </del> the <del><gap reason="illegible"></gap></del> <add place="above">open</add> clover?</l>
+                <l>Whose<add place="above"><del><gap reason="deleted"></gap></del></add> news is the open cherry, <del> <unclear>is</unclear> </del> the <subst> <del><gap reason="deleted"></gap></del> <add place="above">open</add></subst> clover?</l>
             </lg>
             </div>  
         </body>

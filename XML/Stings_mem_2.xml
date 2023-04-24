@@ -22,17 +22,18 @@
     <text>
         <body>
             <div>
-                <head rend="underline">Stings</head>
+                <pb n="03" facs="#pag3"/>
+                <head><hi  rend="underline">Stings</hi></head>
                 <p>3</p>
                 <lg>
-                   <l>Have a self to recover, a queen</l> 
-                   <l><add place="left"><del>That </del></add>Climb<add place="above"><del><gap reason="illegible" quantity="1" unit="character"></gap></del></add>  <subst><del><gap reason="illegible"></gap></del><add place="above">ing</add></subst> <subst><del><gap reason="illegible"></gap></del><add place="above">in</add></subst>to a|[?]<add place="above">s<del><gap reason="illegible"></gap></del></add> bride-flight </l>
-                   <l>In a glitter of years like dew diamonds.</l>
+                    <l>Have a self to recover, a queen</l> 
+                    <l><add place="left"><del>That </del></add>Climb<add place="above"><del><gap reason="deleted" quantity="1" unit="character"></gap></del></add>  <subst><del><gap reason="deleted"></gap></del><add place="above">ing</add></subst> <subst><del><gap reason="deleted"></gap></del><add place="above">in</add></subst>to a|[?]<add place="above">s<del><gap reason="illegible"></gap></del></add> bride-flight </l>
+                    <l>In a glitter of years like dew diamonds.</l>
                     <l>Is she dead? Is she sleeping?</l>
                     <l><subst><del>Has she<unclear></unclear> been sleeping? </del> <add place="below">How long has she been unheard of!</add> </subst></l>
                 </lg>
                 <lg>
-                    <l>Her wings <del><gap reason="illegible"></gap></del><add place="above">of</add> clear glass.</l>
+                    <l>Her wings <del><gap reason="deleted"></gap></del><add place="above">of</add> clear glass.</l>
                     <l>She is more terrible then she ever was,</l>
                     <l>Her banded body</l>
                     <l>Deserting the nurseries, the workers</l>
@@ -59,7 +60,7 @@
                     <l>More terrible than she ever was,</l>
                     <l><del>leaving the stiff wax,</del></l>
                     <l><del>The dead <unclear>dress at the linted</unclear></del></l>
-                    <l>Clear as glass, <del><gap reason="illegible"></gap></del></l>
+                    <l>Clear as glass, <del><gap reason="deleted"></gap></del></l>
                     <l>A lens of <unclear></unclear>,</l>
                     <l>Over the engine that killed her, the white stiff wax,</l>
                     <l>The deserted nurseries, <del> <unclear> the dead men at the door.</unclear></del> <add place="below">The stingless dead men.</add> </l>
