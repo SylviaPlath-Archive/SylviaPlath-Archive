@@ -1608,15 +1608,14 @@ tei-gap[data-tei-reason='illegible']:after {
 }
  /* gap deleted */
 
-tei-gap[data-tei-reason='deleted']:before {
+tei-gap[reason='deleted']:before {
   content:'[';
 }
-tei-gap[data-tei-reason='deleted']:after {
+tei-gap[reason='deleted']:after {
   content: attr(data-content) ']';
 }
-tei-gap[data-tei-reason='deleted']:after {
-  content: attr(data-content);
-}
+
+
  /* End */
 tei-gb {
   /* Empty Rule Set */
