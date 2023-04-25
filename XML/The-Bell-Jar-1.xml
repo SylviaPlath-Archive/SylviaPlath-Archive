@@ -64,7 +64,7 @@
                <item>26</item>
                <item>289</item>
              </list>  
-            <div type="chapter" n="1" xml:id="page-2">
+            <div type="chapter" n="1" xml:id="page-1">
             <p>
                <space quantity="7" unit="chars"/>It was a queer, sultry summer, the summer they electrocuted<l/>
                <persName ref="#therosenbergs">the Rosenbergs</persName>, and I didn't know what I was doing in <placeName ref="#newyork">New York</placeName>.<l/>
@@ -146,12 +146,12 @@
             </figure>
             <p>
                couldn't get myself to react. I felt very still and very empty,<l/>
-               he way the eye of a tornado must feel<add>,</add> <del><gap reason="deleted" quantity="1" unit="char"></gap></del> moving dully along<l/>
+               he way the eye of a tornado must feel<add>,</add> <del><gap reason="illegible" quantity="1" unit="char"></gap></del> moving dully along<l/>
                in the middle of the surrounding hullaballoe.<l/>
             </p>
             <lb></lb>
             <p>
-               <space quantity="7" unit="chars"/>There were twelve of us at the hotel. We <add place="above">had all won</add><l/>
+               <space quantity="7" unit="chars"/>There were twelve of us at the hotel. We <del> <gap reason="illegible" quantity="1" unit="char"></gap> </del> <add place="above">had all won</add><l/>
                fashion magazines for college girls by writing essays and articles and<l/>
                stories and poems and fashion blurbs, and as prizes <del><gap reason="deleted" quantity="1" unit="char"></gap></del> <add place="above">they gave us</add><l/>
                jobs in <placeName ref="#newyork">New York</placeName> for a month, <del><gap reason="deleted" quantity="1" unit="char"></gap></del> expenses paid, and piles and piles<l/>
@@ -176,8 +176,8 @@
                <figure><graphic url="C:\Users\User\Downloads\Group 1.svg" style="z-index=1"></graphic></figure><space quantity="7" unit="chars"/>These were the sort of bits and pieces I'd never buy for myself<l/>
                because I never had the money, and I think they meant more to me<l/>
                than anything else that happened the whole time I was in <placeName ref="#newyork">New York</placeName>.<l/>
-               The people on that magazine were better than <c>Santa Claus</c> and<l/>
-               <c>Cinderella's</c> godmother put together.<l/>
+               The people on that magazine were better than <persName ref="#santaclaus">Santa Claus</persName> and<l/>
+               <persName ref="#cinderella">Cinderella's</persName> godmother put together.<l/>
             </p>
             <lb></lb>
             <p>
@@ -256,12 +256,12 @@
             </p>
             <lb></lb>
             <p>
-               <space quantity="7" unit="chars"/>The only thing <c ref="#doreen">Doreen</c> ever bawled me out about was bothering<l/>
+               <space quantity="7" unit="chars"/>The only thing <c>Doreen</c> ever bawled me out about was bothering<l/>
                to get my assignments in by a deadline.<l/>
             </p>
             <lb></lb>
             <p>
-               <space quantity="7" unit="chars"/>"What are you sweating over that for?" <del><gap reason="deleted" quantity="1" unit="char"></gap></del><c ref="#doreen">Doreen</c> lounged on<l/>
+               <space quantity="7" unit="chars"/><quote>"What are you sweating over that for?"</quote> <del><gap reason="deleted" quantity="1" unit="char"></gap></del><c ref="#doreen">Doreen</c> lounged on<l/>
                my bed in a peach silk dressing gown filing her long, nicotine-<l/>
                yellow nails with an emery board while I typed up the draft of<l/>
                an interview with a best-selling novelist. That was another<l/>
