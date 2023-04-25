@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:ns0="https://schema."
+         xmlns:ns1="https://purl.org/dc/terms/"
+         xmlns:ns2="http://cidoc-crm.org/cidoc-crm/"
+         xmlns:ns3="https://www.getty.edu/research/publications/electronic_publications/cdwa/"
+         xmlns:owl="http://www.w3.org/2002/07/owl#">
+
+  <rdf:Description rdf:about="https://w3id.org/thebelljar-dse/person/sylvia-plath">
+    <ns0:orgisSubjectOf>
+      <rdf:Description rdf:about="https://w3id.org/thebelljar-dse/item/casa-azul">
+        <rdf:type rdf:resource="http://cidoc-crm.org/cidoc-crm/E78_Curated_Holding"/>
+        <ns1:location rdf:resource="https://www.wikidata.org/wiki/Q33506"/>
+        <ns1:title rdf:resource="https://www.wikidata.org/wiki/Q20227883"/>
+        <ns2:P49_has_former_or_current_keeper rdf:resource="https://dbpedia.org/page/Federal_government_of_Mexico/"/>
+        <ns3:creation-date rdf:resource="https://w3id.org/thebelljar-dse/year/1957"/>
+        <ns1:creator rdf:resource="https://www.wikidata.org/wiki/Q4381"/>
+        <ns2:P19_was_intended_use_of rdf:resource="https://w3id.org/thebelljar-dse/item/sylvia-plath-house"/>
+      </rdf:Description>
+    </ns0:orgisSubjectOf>
+
+    <ns0:orgisSubjectOf>
+      <ns2:E36_Visual_Item rdf:about="https://w3id.org/thebelljar-dse/item/sylvia-plath-portrait">
+        <ns3:classification-term rdf:resource="https://www.wikidata.org/wiki/Property:P18"/>
+        <ns1:title>Frida Kahlo</ns1:title>
+        <ns1:created rdf:resource="https://w3id.org/thebelljar-dse/year/1939"/>
+        <ns1:created rdf:resource="https://dbpedia.org/page/Nickolas_Muray"/>
+        <ns2:P55_has_current_location>
+          <rdf:Description rdf:about="https://w3id.org/thebelljar-dse/institution/met-museum">
+            <owl:sameAs rdf:resource="https://viaf.org/viaf/126238294/#Metropolitan_museum_of_art_New_York,_N.Y."/>
+            <ns1:location rdf:resource="https://dbpedia.org/page/New_York"/>
+          </rdf:Description>
+        </ns2:P55_has_current_location>
+
+      </ns2:E36_Visual_Item>
+    </ns0:orgisSubjectOf>
+
+    <ns0:orgisSubjectOf>
+      <ns2:E31_Document rdf:about="https://w3id.org/thebelljar-dse/item/sylvia-plath-an-open-life">
+        <owl:sameAs rdf:resource="https://viaf.org/viaf/9133151965350400470006"/>
+        <ns1:title>Frida Kahlo: An Open Life</ns1:title>
+        <ns1:type rdf:resource="https://www.wikidata.org/wiki/Q571"/>
+        <ns1:isPartOf rdf:resource="https://viaf.org/viaf/307472291/"/>
+        <ns1:created rdf:resource="https://w3id.org/thebelljar-dse/year/1993"/>
+        <ns0:orgauthor rdf:resource="https://www.wikidata.org/wiki/Q6100511"/>
+        <ns0:orgpublishedBy rdf:resource="https://www.worldcat.org/identities/lccn-no2002007460/"/>
+        <ns1:language rdf:resource="https://www.wikidata.org/wiki/Q1860"/>
+      </ns2:E31_Document>
+    </ns0:orgisSubjectOf>
+
+  </rdf:Description>
+
+</rdf:RDF>
