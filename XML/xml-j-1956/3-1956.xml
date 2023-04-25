@@ -28,7 +28,7 @@
          <pb xml:id="third"></pb>
          <p>
             <date>February 26</date>
-            1<del><gap reason="deleted"></gap></del><add place="over" rend="overwrite" seq="1">9</add>.<l/>
+            1<del><gap reason="deleted"></gap></del><add place="above" rend="overwrite" seq="1">9</add>.<l/>
          </p> 
          
          <lb></lb>
@@ -36,18 +36,18 @@
          
    
          <p xml:id="p1">
-            We walked out as the blonde one was coming in, and <persName>Oswald</persName> said<l/>
+            We walked out as the blonde one was coming in, and <persName ref="#Oswald">Oswald</persName> said<l/>
             in his dry sarcasm something about "Tell us about bone structures<l/>
-             and that was the last party at <placeName>Saint John's</placeName> where I lost the<l/>
+             and that was the last party at <placeName ref="#SaintJohn">Saint John's</placeName> where I lost the<l/>
             red glove, as tonight I last the red bandeau which I loved with<l/>
             all the redness in my heart. Somehow these sluttish nights make<l/>
             me have a violent nunlike passion to write and sequester myself.<l/>
             I shall sequester. I don't want fo see anybody because they are<l/>
-            not <persName role="husband">Ted Hughes</persName>and I never have been made a fool of by a man.<l/>
+            not <persName ref="#TedHughes">Ted Hughes</persName>and I never have been made a fool of by a man.<l/>
             They are phonies, <persName>Hamish</persName> said: He is the biggest seducer in<l/>
-            <placeName>Cambridge</placeName>. Shall I write, and be different? Always, I grab it,<l/>
+            <placeName ref="#Cambridge">Cambridge</placeName>. Shall I write, and be different? Always, I grab it,<l/>
             the writing, hold it to me, defend, defend, against the flux,<l/>
-            the sameness of faces. He said my name, <rs role="author">Sylvia</rs>, in a blasting<l/>
+            the sameness of faces. He said my name, <persName ref="#SylviaPlath">Sylvia</persName>, in a blasting<l/>
             wind which shot off in the desert behind my eyes, behind his<l/>
             eyes, and his poems are clever and terrible and lovely.<l/>
          </p>
@@ -56,7 +56,7 @@
          <lb></lb>
             
          <p xml:id="p2">
-            Well, <persName>Hamish</persName>: and I took an incredibly long time walking about<l/>
+            Well, <persName ref="#Hamish">Hamish</persName>: and I took an incredibly long time walking about<l/>
             the misty streets in the moonlight and all was blurred behind<l/>
             a theatrical scrim of fog, and vague boys in black gowns staggered<l/>
             and sang. We hid behind a car, and he sild, the oroctors are<l/>
@@ -64,24 +64,24 @@
             being lucky, always, if you believe in something, because you<l/>
             can walk on water. Finally, after many strange streets which<l/>
             I did not know, being far far away in a land of whisky and<l/>
-            merrydown, saying <persName role="husband">Ted</persName> to the lam<unclear rend="faded">po</unclear>osts and calding myself with<l/>
-            <persName>Hamish</persName> <persName>Hamish</persName>, keeping saying it aloud to him, because he took<l/>
-            me away safely. We came to the gates of <placeName>Queens</placeName>, and I wanted<l/>
+            merrydown, saying <persName ref="#TedHughes">Ted</persName> to the lam<unclear rend="faded">po</unclear>osts and calding myself with<l/>
+            <persName ref="#Hamish">Hamish</persName>, keeping saying it aloud to him, because he took<l/>
+            me away safely. We came to the gates of <placeName ref="#Queens">Queens</placeName>, and I wanted<l/>
             like a baby to lie down and rest, Just peace, peace, I kept<l/>
             whispering. Five boys, five late babies came up, and surrounded<l/>
             me, gently saying, what are you doing here, are you all right,<l/>
             my you smell nice, that perfume, and may we kiss you, and I<l/>
             just stood there huddled to the iron fence, smiling like a lost<l/>
-            lamb and saying dear, dear, babies, and then <persName>Hamish</persName> was among<l/>
+            lamb and saying dear, dear, babies, and then <persName ref="#Hamish">Hamish</persName> was among<l/>
              them, and they climbed over and crossed the wooden bridge<l/>
-            that <persName role="scientist">Newton</persName> once put together without bolts.<l/>
+            that <persName ref="#Newton">Newton</persName> once put together without bolts.<l/>
          </p>
          
          <lb></lb>
          <lb></lb>
             
          <p xml:id="p3">
-            <persName>Hamish</persName> helped me up on the wall, and in my tight skirt, I<l/>
+            <persName ref="àHamish">Hamish</persName> helped me up on the wall, and in my tight skirt, I<l/>
             tried to step over the spikes; they pierced my skirt, my hands<l/>
             and I felt nothing, thinking from the great distance that I<l/>
             might at last lie on a bed of solkes and not feel 1t, like<l/>
@@ -91,7 +91,7 @@
             sald, frozen, looking at those raw frigid hands that should<l/>
             have been bleeding. But they were not bleeding. I had gotten<l/>
             over in an act of sublime drunkenness and falth. And then we<l/>
-            we<add place="above">nt</add> to <persName>Hamish</persName>'s room and lay on the floor by the fire and<l/>
+            we<add place="above">nt</add> to <persName ref="#Hamish">Hamish</persName>'s room and lay on the floor by the fire and<l/>
             I was just so damn grateful for his weight on me and his mouth<l/>
             which was nice, and begged that he scold me, and he Just sald<l/>
             I wasn't a whore or a slut like I said but only a very silly<l/>

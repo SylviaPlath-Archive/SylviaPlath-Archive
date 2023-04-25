@@ -29,26 +29,26 @@
          <p xml:id="onlyp">
             61<add place="bottom">2</add>
             <hi rend="underline">Sunday night: <date>March 2</date>:</hi> Again, late: It will betwelve before I<l/>
-            sleep. A strange, stopped day: <persName role="husband">Ted</persName> + I having morning coffee-<l/>
-            black + bitter-edged, with the <surname>Bramwells</surname> in their uncomfortable<l/>
+            sleep. A strange, stopped day: <persName ref="#TedHughes">Ted</persName> + I having morning coffee-<l/>
+            black + bitter-edged, with the <name ref="#Bramwells">Bramwells</name> in their uncomfortable<l/>
             second-flor flat, chairs turned wrond-side-to, records scattered,<l/>
-            white marble free place angular + functionless. <persName>James</persName> is<l/>
-            leaving for their home in <placeName>France</placeName> tomorrow. <persName role="husband">Ted</persName> met him in<l/>
+            white marble free place angular + functionless. <persName ref="#James">James</persName> is<l/>
+            leaving for their home in <placeName ref="#France">France</placeName> tomorrow. <persName ref="#TedHughes">Ted</persName> met him in<l/>
             the library yesterday, a few seconds before I came into the<l/>
             periodical room from my last class of the week: I looked<l/>
             into the room throught the glass door before I opened it, saw no<l/>
-            black coated <persName role="husband">Ted</persName>, pushed the door open, saw <persName>James</persName>' back in<l/>
-            brown, white tweed coat then <persName>Ted</persName>, dark, disheveled + with<l/>
+            black coated <persName ref="#TedHughes">Ted</persName>, pushed the door open, saw <persName ref="#James">James</persName>' back in<l/>
+            brown, white tweed coat then <persName ref="#TedHughes">Ted</persName>, dark, disheveled + with<l/>
             that  queer eletric invisible radiance he gives off as he<l/>
             did that first day I saw him over two years ago: to think,<l/>
             irony of <gap reason="illegible"></gap>, that two years ago I was  feverishly studying<l/>
-            <persName>Webster</persName><gap reason="illegible"></gap>for my supervisions (which very plays I<l/>
+            <persName ref="#Webster">Webster</persName><gap reason="illegible"></gap>for my supervisions (which very plays I<l/>
             am this week examinging my students on and furiously,<l/>
             desperately, taling myself into a crazy belief that I would<l/>
-            somehow mange to see <persName role="husband">Ted</persName> + imprint my markineffacably<l/>
-            on him before he left for <placeName>Australia</placeName> and murder his pale<l/>
-            freckled mistres named <persName>Shirley</persName>. let all rivals forever<l/>
-            be called <persName>Shirley</persName>. How, now sitting here in the calme clared<l/>
+            somehow mange to see <persName ref="#TedHughes">Ted</persName> + imprint my markineffacably<l/>
+            on him before he left for <placeName ref="#Australia">Australia</placeName> and murder his pale<l/>
+            freckled mistres named <persName ref="#Shirley">Shirley</persName>. let all rivals forever<l/>
+            be called <persName ref="#Shirley">Shirley</persName>. How, now sitting here in the calme clared<l/>
             livingroom where we have own ordered teas, I feel I have<l/>
             wrested chaos and despair - and all the mwasteful<l/>
             accident of life - into a rich and meaninfgful pattern -

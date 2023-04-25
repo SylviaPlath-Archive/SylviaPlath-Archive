@@ -29,7 +29,7 @@
       <body>
          <pb xml:id="fourth"></pb>
          <p>
-            <del><gap reason="deleted"></gap></del><add place="over" rend="overwrite" seq="1">20</add>
+            <del><gap reason="deleted"></gap></del><add place="above" rend="overwrite" seq="1">20</add>
             <date>February 26:</date><l/>
          </p>
          
@@ -42,7 +42,7 @@
             crossing the snow fleld to him, walting for the sudden flash of<l/>
             light, the: hey, there, you stop<add place="inline">!</add> and the crack of pistols. It<l/>
             was dead quiet, and the cold snow was in my shoes and I felt<l/>
-            nothing. We went through the gap in the box hedge, and <persName>Hamish</persName><l/>
+            nothing. We went through the gap in the box hedge, and <persName ref="#Hamish">Hamish</persName><l/>
             tested the ice on the river; he sald the porter chopped it,<l/>
             but it was whole, and bore us, and we crossed, free, walking<l/>
             home. And I heard the clocks striking three in the deathly<l/>
@@ -56,8 +56,8 @@
          <p xml:id="p2">
             And now it is today, and I slept only six hours and am weary<l/>
             and walting till next day and next to recover. I must write<l/>
-            <persName>Racine</persName> paper, today, dinner with <persName>Mallory</persName> (can I live) and then<l/>
-            <persName>Ronsard</persName> desperately tomorrow.<l/>
+            <persName ref="#Racine">Racine</persName> paper, today, dinner with <persName ref="#Mallory">Mallory</persName> (can I live) and then<l/>
+            <persName ref="#Ronsard">Ronsard</persName> desperately tomorrow.<l/>
          </p>
          
          <lb></lb>
@@ -67,7 +67,7 @@
             Perhaps at dinner they will be laughing at me. Well, they are<l/>
             hardly white, even though they are men. But I shall be sober,<l/>
             oh for so long. Why won't I see him agaln? But I won't. I dream<l/>
-            of banging and crashing in a high wind in <placeName>London</placeName>. But I want<l/>    
+            of banging and crashing in a high wind in <placeName ref="#London">London</placeName>. But I want<l/>    
             to know him sober; I want to write to him, with that kind of<l/>
             discipline and blaze. So I shall shut up and get some sleep<l/>
             tonight and tomorrow, and do so.<l/>

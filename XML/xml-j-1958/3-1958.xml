@@ -31,15 +31,15 @@
  
          <p>whose life' doesn't seem aavailable, processe in uniform,<l/>
             callophane-wrapped blocks, like synthetic orange cheese:<l/>
-            <persName>James</persName> has the authentic, cave-aged, mold-ripened smess of<l/>
-            The real thing. And yet, not a man, not completely. <persName>Joan</persName><l/>
+            <persName ref="#James">James</persName> has the authentic, cave-aged, mold-ripened smess of<l/>
+            The real thing. And yet, not a man, not completely. <persName ref="#Joan">Joan</persName><l/>
             seems young + then for him. At coffee this morning he<l/>
             seemed restored, jovial. We talked of bulls + bullfights,<l/>
-            after the two movies - on <persName>Goya</persName> + bullighting - last night.<l/>
-            I borrowed <persName>James</persName> autobiography + finished it tonight:<l/>
-            750 pages, <objectName type="book">"The Unfinished Man"</objectName> - about his experiences as<l/>
+            after the two movies - on <persName ref="#Goya">Goya</persName> + bullighting - last night.<l/>
+            I borrowed <persName ref="#James">James</persName> autobiography + finished it tonight:<l/>
+            750 pages, <objectName ref="#TheUnfinishedMan">"The Unfinished Man"</objectName> - about his experiences as<l/>
             a conscientious objector during the war: desultory<l/>
-            beginning, here, there, <placeName>Stockolm, Finland</placeName> + all told <hi rend="underline">about</hi>,<l/>
+            beginning, here, there, <placeName ref="#Stockolm">Stockolm</placeName>, <placeName ref="#Finland">Finland</placeName> + all told <hi rend="underline">about</hi>,<l/>
             characters pos trayed, not actually moving + talling on<l/>
             their own, but talked about, half-emerged, like a <gap reason="unclear"></gap> of<l/>
             flushed marble. And women: he seem to <gap reason="illegible"></gap> from them -<l/>
@@ -58,7 +58,7 @@
             clear of clogging half-full jais-are those of my youngness<l/>
             + my promise. I believe, whether in madness or in half-<l/>
             truth that if  I live' for a year with the two years of my<l/>
-            life + learning . at <placeName>Cambler</placeName>m age I can write + rewrite a<l/>
+            life + learning . at <placeName ref="#Cambler">Cambler</placeName>m age I can write + rewrite a<l/>
             good novel. Ten times this 35 page chapter + rewriting +<l/>
             rewriting'. Goal set: June 1959: a novel + book of<l/>
             poems, I can not draw in <persName>James'</persName> drama: war, <gap reason="illegible"></gap>,

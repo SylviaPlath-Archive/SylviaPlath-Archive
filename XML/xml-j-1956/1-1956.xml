@@ -28,7 +28,7 @@
       <body>
          <pb xml:id="first"></pb>
          <p>
-         1<subst><del><gap reason="deleted"></gap></del><add place="over" rend="overwrite" seq="1">5</add></subst>.<l/>
+         1<subst><del><gap reason="deleted"></gap></del><add place="above" rend="overwrite" seq="1">5</add></subst>.<l/>
          <date>February 26: Sunday</date></p><l/>
          
          <lb></lb>
@@ -39,7 +39,7 @@
            A small note after a large orgy. It is morning, gray, most<l/>
            sober, with cold white puritan<del><gap reason="deleted" quantity="1" unit="character"></gap></del>ical eyes; looking at me. Last<l/>
            night I got drunk, very very beautifully drunk, and now I am<l/>
-           shot, after six holirs of warm sleep like a baby, with <persName role="author">Racine</persName><l/>
+           shot, after six holirs of warm sleep like a baby, with <persName ref="#Racine">Racine</persName><l/>
            to read, and not even the energy to type; I am getting the dts.<l/>
            Or something.<l/></p>
          
@@ -47,12 +47,12 @@
          <lb></lb>
                  
          <p xml:id="p2">
-          <persName>Hamish</persName> came in cab, and there was a tedious time standing slanted<l/>
-          against, the bar in <placeName>Miller's </placeName>with some ugly gat-toothed squat<l/>
-          grinning guy named <persName>Meeson</persName>trying to be devastatingly clever and<l/>
+          <persName ref="#Hamish">Hamish</persName> came in cab, and there was a tedious time standing slanted<l/>
+          against, the bar in <placeName ref="#Miller">Miller's </placeName>with some ugly gat-toothed squat<l/>
+          grinning guy named <persName ref="#Meeson">Meeson</persName>trying to be devastatingly clever and<l/>
           making intense devastating remarks about nothing. <persName>Hamish</persName><l/>
           pale, pink and light blue eyes. I drank steadily the goblets<l/>
-          with the red<unclear reason="illegible"></unclear>gold <objectName>Whiskey Macs</objectName>, one-after the other, and by<l/>
+          with the red<gap reason="#illegible"></gap>gold Whiskey Macs, one-after the other, and by<l/>
           the time we left an hour later, I felt that strong, silted-up<l/>
           force that makes one move through air like swimming, with<l/>
           brave ease.<l/>
@@ -62,26 +62,26 @@
          <lb></lb>
          
          <p xml:id="p3">
-           <orgName><hi rend="underline">Falcon's Yard</hi></orgName>, and the syncopated strut of a piano upstairs,<l/>
+           <orgName ref="#FalconsYard"><hi rend="underline">Falcon's Yard</hi></orgName>, and the syncopated strut of a piano upstairs,<l/>
            and oh it was very Bohemian, with boys in turtle-neck sweaters<l/>
            and girls being blue-eye-lidded or elegant in black. <persName>Derrek</persName><l/>
-           was there, with guitar, and <persName>Bert</persName> was looking shining and proud<l/>
+           was there, with guitar, and <persName ref="#Bert">Bert</persName> was looking shining and proud<l/>
            as if he had just delivered five babies, sald something obvious<l/>
-           about having drunk alot, and began talking about how <persName>Luke</persName> was<l/>
-           satanic after he had rur through the poetry in <placeName>St. Botolph's</placeName><l/>
-           and yelled about it: satanic <persName>Luke</persName>, very very drunk, with a<l/>
+           about having drunk alot, and began talking about how <persName ref="#Luke">Luke</persName> was<l/>
+           satanic after he had rur through the poetry in <placeName ref="#St.Botolphs">St. Botolph's</placeName><l/>
+           and yelled about it: satanic <persName ref="#Luke">Luke</persName>, very very drunk, with a<l/>
            stupid satanic smile on his pale face, dark sideburns and<l/>
            rumpled hair, black-and-white checked baggy pants and a loose<l/>
            swinging jacket, was doling that slow crazy english jive with<l/>
            a green-clad girl, quite black-halred and eyed and a good<l/>
-           part pixie, and when they stopped dancing, <persName>Luke</persName> was chasing<l/>
-           her around. <persName>Dan Huys</persName> being very pale, frightfully pale and<l/>
+           part pixie, and when they stopped dancing, <persName ref="#Luke">Luke</persName> was chasing<l/>
+           her around. <persName ref="#DanHuys">Dan Huys</persName> being very pale, frightfully pale and<l/>
            freckled, and me at last saying my immortal line of introduction<l/>
            which has been with me ever since his clever precocious<l/>
            slanted review: "Is this the better or worse half?" and he<l/>
-           looking incredibly young to even think hard yet.<persName>Than Minton</persName>,<l/>
+           looking incredibly young to even think hard yet.<persName ref="#ThanMinton">Than Minton</persName>,<l/>
            so small and dark one would have fo slit down to talk to him,<l/>
-           and <persName>Welssbort</persName>, small again and very curvy. Ross, immaculate<del><gap reason="deleted" quantity="1" unit="character"></gap></del><l/>
+           and <persName ref="#Welssbort">Welssbort</persName>, small again and very curvy. Ross, immaculate<del><gap reason="deleted" quantity="1" unit="character"></gap></del><l/>
            and dark. They were all dark.<l/>
            
           <lb></lb>
@@ -98,7 +98,7 @@
            things, and he was slobbing around. Well, I was slobbing<l/>
            around, ‘blub, maundering" and I didn't even have the excuse<l/>
            of having written those things; I suppose if you can write<l/>
-           sestinas which<del><gap reason="deleted" quantity="2" unit="character"></gap></del>bam crash through lines and rules after<l/>
+           sestinas which <del><gap reason="deleted" quantity="2" unit="character"></gap></del>bam crash through lines and rules after<l/>
            having raped them to the purpose, then you can be satanic and<l/>
            smile like a cretin beelzebub.<l/>
          
@@ -112,7 +112,7 @@
             one there huge enough for me, who have been hunching around<l/>
            over women, and whose name I had asked the minute I had come<l/>
            into the room, but no one told me, came over and was looking<l/>
-           hard in my eyes and it was <persName type="husband">Ted Hughes</persName>. I started yelling<l/>
+           hard in my eyes and it was <persName ref="#TedHughes">Ted Hughes</persName>. I started yelling<l/>
            again about his poems and quoting: "most dear unscratchable<l/>
          
           <lb></lb>
