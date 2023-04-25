@@ -21,24 +21,26 @@
             </sourceDesc>
         </fileDesc>
     </teiHeader>
+    <!--
     <facsimile>
         <surface xml:id="pag1">
             <graphic url="../img/Stings(3)/Stings_mem_0.jpg"></graphic>
         </surface>
     </facsimile>
+    -->
     <text>
         <body>
             <div>
                 <pb n="01" facs="#pag1" />
                     
                 
-           <head rend="underline">3. Stings</head>
+           <head>3.<hi rend="underline">Stings</hi></head>
                 <p><date>October 6 1962</date> 1</p>
             <lg>
                 <l>Bare-handed, I hand the combs.</l>
                 <l>The man in white smiles, bare-handed._</l>
                 <l>our cheesecloth gauntlets <del ><gap reason="deleted" ></gap></del> <unclear>neat</unclear> a sweet,</l>
-                <l>The throath of our wrists <subst><del  ><gap reason="deleted"></gap></del><add place="above">brave</add> </subst>  lilies.</l> 
+                <l>The throath of our wrists <subst><del><gap reason="deleted"></gap></del><add place="above">brave</add> </subst>  lilies.</l> 
                 <l><del >The <unclear>bread</unclear> combs are a <gap reason="deleted"></gap> mahogn</del></l>            
                 <l>He &amp; I, he and I</l>
             </lg>
@@ -47,7 +49,7 @@
                 <l>Have a thousand clean cells between us,</l>
                 <l><add place="margin">Eight </add><del>comb after</del> combs of yellow cups,</l>
                 <l><add place="margin">And </add>The hive itself <del><gap reason="deleted" quantity="1" unit="character"></gap></del> a teacup,</l>
-                <l>White <del><gap reason="deleted" ></gap></del> with pink flowers on it <del><gap  reason="deleted" ></gap></del>.</l>
+                <l>White <del><gap reason="deleted"></gap></del> with pink flowers on it <del><gap reason="deleted"></gap></del>.</l>
                 <l>With excessive love I enamelled it</l>
             </lg>
             <lg> 
@@ -80,11 +82,12 @@
                 <l>Blue dew from dangerous skin.</l>
                 <l>Will they hate me,</l>
                 <l>these women who only scurry,</l>
-                <l>Whose<add place="above"><del><gap reason="deleted"></gap></del></add> news is the open cherry, <del> <unclear>is</unclear> </del> the <del><gap reason="illegible"></gap></del> <add place="above">open</add> clover?</l>
+                <l>Whose<add place="above"><del><gap reason="deleted"></gap></del></add> news is the open cherry, <del> <unclear>is</unclear> </del> the <subst> <del><gap reason="deleted"></gap></del> <add place="above">open</add></subst> clover?</l>
             </lg>
             </div>  
         </body>
     </text>
+    <!--
     <facsimile >
         <surface xml:id="pag2">
             <graphic url="../img/Stings(3)/Stings_mem_1.jpg"></graphic>
@@ -204,5 +207,5 @@
             </div>
         </body>
     </text> 
-    
+    -->
 </TEI>

@@ -1606,6 +1606,17 @@ tei-gap[data-tei-reason='lost']:after {
 tei-gap[data-tei-reason='illegible']:after {
   content: attr(data-content);
 }
+ /* gap deleted */
+
+tei-gap[reason='deleted']:before {
+  content:'[';
+}
+tei-gap[reason='deleted']:after {
+  content: attr(data-content) ']';
+}
+
+
+ /* End */
 tei-gb {
   /* Empty Rule Set */
 }
