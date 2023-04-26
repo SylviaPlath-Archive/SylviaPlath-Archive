@@ -2,7 +2,15 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:dbo="http://dbpedia.org/ontology/"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:frbr="http://purl.org/vocab/frbr/core#"   
+   >
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -26,10 +34,113 @@
             <p>Information about the source</p>
          </sourceDesc>
       </fileDesc>
+     <profileDesc>
+        <particDesc>
+           <listPerson>
+              <person xml:id="therosenbergs">
+                 <persName> The Rosenbergs</persName>
+              </person>
+              <person xml:id="Doreen">
+                 <persName>Doreen</persName>
+              </person>
+              <person xml:id="BW">
+                 <persName>Buddy Willard</persName>
+              </person>
+              <person xml:id="SC">
+                 <persName>Santa Claus</persName>
+              </person>
+              <person xml:id="Cinderella">
+                 <persName>Cinderella</persName>
+              </person>
+              <person xml:id="KG">
+                 <persName>Katahrine Gibbs</persName>
+              </person>
+           </listPerson>
+        </particDesc>
+        <settingDesc>
+           <listPlace>
+              <place xml:id="NY">
+                 <placeName>New York</placeName>
+              </place>
+              <place xml:id="USA">
+                 <placeName>America</placeName>
+              </place>
+              <place xml:id="Switzerland">
+                 <placeName>Switzerland</placeName>
+              </place>
+              <place xml:id="Brazil">
+                 <placeName>Brazil</placeName>
+              </place>
+              <place xml:id="NE">
+                 <placeName>New England</placeName>
+              </place>
+           </listPlace>
+        </settingDesc>
+     </profileDesc>
+     <xenoData>
+        <frbr:frbr>
+           <frbr:description tei:ref="#therosenbergs" frbr:Person="https://dbpedia.org/page/Julius_and_Ethel_Rosenberg">
+              <frbr:isEmobiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
+              <frbr:label xml:lang="en">The Rosenbergs</frbr:label>
+           </frbr:description>
+           
+           <frbr:description tei:ref="#Doreen" frbr:Person="https://dbpedia.org/page/Doreen_(name)">
+              <frbr:isEmobiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
+              <frbr:label xml:lang="en">Doreen</frbr:label>
+           </frbr:description>
+           
+           <frbr:description tei:ref="#BW" frbr:Person="https://dbpedia.org/page/Category:English_masculine_given_names">
+              <frbr:isEmobiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
+              <frbr:label xml:lang="en">Buddy Willard</frbr:label>
+           </frbr:description>
+           
+           <frbr:description tei:ref="#SC" frbr:Person="https://dbpedia.org/page/Santa_Claus">
+              <frbr:isEmobiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
+              <frbr:label xml:lang="en">Santa Claus</frbr:label>
+           </frbr:description>
+           
+           <frbr:description tei:ref="#Cinderella" frbr:Person="https://dbpedia.org/page/Cinderella">
+              <frbr:isEmobiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
+              <frbr:label xml:lang="en">Cinderella</frbr:label>
+           </frbr:description>
+           
+           <frbr:description tei:ref="#KG" frbr:Person="https://dbpedia.org/page/English_name">
+              <frbr:isEmobiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
+              <frbr:label xml:lang="en">Katharine Gibbs</frbr:label>
+           </frbr:description>
+           
+           <frbr:description tei:ref="#NY" frbr:Person="https://dbpedia.org/page/New_York_City">
+              <frbr:isSubjectOf rdf:resource="http://purl.org/vocab/frbr/core#Place"/>
+              <frbr:label xml:lang="en">New York</frbr:label>
+           </frbr:description>
+           
+           <frbr:description tei:ref="#USA" frbr:Person="https://dbpedia.org/page/United_States">
+              <frbr:isSubjectOf rdf:resource="http://purl.org/vocab/frbr/core#Place"/>
+              <frbr:label xml:lang="en">America</frbr:label>
+           </frbr:description>
+           
+           <frbr:description tei:ref="#Switzerland" frbr:Person="https://dbpedia.org/page/Switzerland">
+              <frbr:isSubjectOf rdf:resource="http://purl.org/vocab/frbr/core#Place"/>
+              <frbr:label xml:lang="en">Switzerland</frbr:label>
+           </frbr:description>
+           
+           <frbr:description tei:ref="#Brazil" frbr:Person="https://dbpedia.org/page/Brazil">
+              <frbr:isSubjectOf rdf:resource="http://purl.org/vocab/frbr/core#Place"/>
+              <frbr:label xml:lang="en">Brazil</frbr:label>
+           </frbr:description>
+           
+           <frbr:description tei:ref="#NE" frbr:Person="https://dbpedia.org/page/New_England">
+              <frbr:isSubjectOf rdf:resource="http://purl.org/vocab/frbr/core#Place"/>
+              <frbr:label xml:lang="en">New England</frbr:label>
+           </frbr:description>
+           
+        </frbr:frbr>
+     </xenoData>
+     
   </teiHeader>
   <text>
       <body>
-         <pb xml:id="thebelljar-1" n="1"/>
+         <pb xml:id="thebelljar" n="1"/>
          <div xml:id="page-1">
             <figure><graphic url="https://github.com/TheBellJar-dse/TheBellJar-dse/blob/489e21573ddfb5cd7fd50dc3c10b7747bad6f4d3/img/The%20Bell%20Jar%20(5)/The%20Bell%20Jar%2001.jpg" type="page"/>
             </figure>
@@ -256,12 +367,12 @@
             </p>
             <lb></lb>
             <p>
-               <space quantity="7" unit="chars"/>The only thing <c>Doreen</c> ever bawled me out about was bothering<l/>
+               <space quantity="7" unit="chars"/>The only thing <persName>Doreen</persName> ever bawled me out about was bothering<l/>
                to get my assignments in by a deadline.<l/>
             </p>
             <lb></lb>
             <p>
-               <space quantity="7" unit="chars"/><quote>"What are you sweating over that for?"</quote> <del><gap reason="deleted" quantity="1" unit="char"></gap></del><c ref="#doreen">Doreen</c> lounged on<l/>
+               <space quantity="7" unit="chars"/><quote>"What are you sweating over that for?"</quote> <del><gap reason="deleted" quantity="1" unit="char"></gap></del><persName ref="#doreen">Doreen</persName> lounged on<l/>
                my bed in a peach silk dressing gown filing her long, nicotine-<l/>
                yellow nails with an emery board while I typed up the draft of<l/>
                an interview with a best-selling novelist. That was another<l/>
