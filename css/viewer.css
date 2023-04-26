@@ -2914,6 +2914,7 @@ tei-xr {
 /* z */
 tei-list {
   float: left;
+  margin-right: 10px;
 }
 
 /* styles for html shell and html elements in TEI (e.g.,<a> and <img>) */
