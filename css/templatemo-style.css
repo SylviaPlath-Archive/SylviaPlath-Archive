@@ -1049,3 +1049,24 @@ footer {
         margin-top: 120px;
     }
 }
+
+.navbar-right .editions ul li ul {
+    display: none;
+  }
+
+.navbar-right .editions ul li:hover ul {
+    display: block;
+    position: absolute;
+    padding: 0px;
+    background: white;
+    padding: 10px;
+    border: 1px solid black;
+  }
+
+.navbar-right .editions ul li:hover ul li {
+    display: block;
+  }
+
+.navbar-right .editions ul li:hover ul li a {
+    color: black;
+  }
