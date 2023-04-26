@@ -2912,8 +2912,8 @@ tei-xr {
   /* Empty Rule Set */
 }
 /* z */
-tei-zone {
-  /* Empty Rule Set */
+tei-list {
+  float: left;
 }
 
 /* styles for html shell and html elements in TEI (e.g.,<a> and <img>) */

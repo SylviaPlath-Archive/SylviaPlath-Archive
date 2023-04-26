@@ -14,7 +14,7 @@
   <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>The Bell Jar DSE</title>
+            <title>The Bell Jar: TEI Transcription</title>
             <author>Sylvia Plath</author>
          </titleStmt>
          <editionStmt>
@@ -22,10 +22,10 @@
             <respStmt>
                <resp>Transcription</resp>
                <persName>Camila Oliveira</persName>
-               <orgName>University of Bologna</orgName>
+               <orgName>Sylvia Plath's Archive</orgName>
             </respStmt>
          </editionStmt>
-         <publicationStmt><publisher>Classical Philology and Italian studies department</publisher>
+         <publicationStmt><publisher>University of Bologna</publisher>
             <availability status="free">
                <p>This work is the property of the University of Bologna. It may be used freely by individuals for research, teaching and personal use as long as this statement of availability is included in the text.</p>
             </availability>
@@ -263,7 +263,7 @@
             <lb></lb>
             <p>
                <space quantity="7" unit="chars"/>There were twelve of us at the hotel. We <del> <gap reason="illegible" quantity="1" unit="char"></gap> </del> <add place="above">had all won</add><l/>
-               fashion magazines for college girls by writing essays and articles and<l/>
+               <add place="above"> Doreen<add place="above">fashion magazines</add></add>contest for college girls by writing essays and articles and<l/>
                stories and poems and fashion blurbs, and as prizes <del><gap reason="illegible" quantity="1" unit="char"></gap></del> <add place="above">they gave us</add><l/>
                jobs in <placeName ref="#newyork">New York</placeName> for a month, <del><gap reason="illegible" quantity="1" unit="char"></gap></del> expenses paid, and piles and piles<l/>
                of free bonuses like ballet tickets and passes to fashion shows<l/>
