@@ -19,6 +19,7 @@ Encoding
 - #Journals
 
 - #Stings
+- #Sleep In The Mojave Desert
 
 - #The Bell Jar:
 The drafts for the prose of The Bell Jar has the presence of many extra annotations by the author in many different ways.
