@@ -335,16 +335,17 @@
                at Christmas and bored with the men in <placeName ref="#brazil">Brazil</placeName>. Girls like that<l/>
                make me sick. I'm so jealous of them I can't speak. Nineteen<l/>
                years, and I hadn't been <del rend="strikethrough">out of my home state one minute</del><add place="above"><placeName ref="#newengland">out of New England</placeName></add> except<l/>
-               for this trip to <placeName ref="#newyork">New York</placeName>. <del rend="strikethrough">This</del><add place="above">It</add> was my first big chance,<del><gap reason="deleted" quantity="1" unit="char"></gap></del><l/>
-               <add place="above">but for some reason</add> <del><gap reason="deleted" quantity="1" unit="char"></gap></del> I <del rend="strikethrough">was</del>, just <del><gap reason="deleted" quantity="1" unit="char"></gap></del> <add place="above">at</add> back<add>,</add> <del rend="strikethrough">and</del> letting it <add place="bottom">ran</add><del rend="strikethrough">slip through</del> my fingers <add>like so much water.</add><l/>
+               for this trip to <placeName ref="#newyork">New York</placeName>. <del rend="strikethrough">This</del><add place="above">It</add> was my first big chance,<del><gap reason="deleted" quantity="1" unit="char"></gap></del><add place="above">but for some reason</add><l/>
+               <del><gap reason="deleted" quantity="1" unit="char"></gap></del> I <del rend="strikethrough">was</del>, just <del><gap reason="deleted" quantity="1" unit="char"></gap></del> <add place="above">at</add> back<add>,</add> <del rend="strikethrough">and</del> letting it <add place="below">ran<del><gap reason="deleted" quantity="1" unit="char"></gap></del></add><del rend="strikethrough">slip through</del> my<l/>
+               fingers <add>like so much water.</add><l/>
             </p>
          </div>
          <div xml:id="page-5">
             <figure><graphic url="https://github.com/TheBellJar-dse/TheBellJar-dse/blob/489e21573ddfb5cd7fd50dc3c10b7747bad6f4d3/img/The%20Bell%20Jar%20(5)/The%20Bell%20Jar%2001.jpg" type="page"/>
             </figure>
             <p>
-               <space quantity="7" unit="chars"/>I guess one of my troubles was <del><gap reason="deleted" quantity="1" unit="char"></gap></del> <add place="above"><c ref="doreen">Doreen</c></add>. I'd never had a chance I've never known a girl like Doreen before.<l/>
-               <del rend="strikethrough">to know a girl like her at close quarters.</del> <c ref="#doreen">Doreen</c>came from a<l/>
+               <space quantity="7" unit="chars"/>I guess one of my troubles was <del><gap reason="deleted" quantity="1" unit="char"></gap></del> <add place="above"><persName ref="doreen">Doreen</persName></add>. <del rend="strikethrough">I'd never had a chance</del> <add place="above">I'd never known a girl like Doreen before.</add><l/>
+               <del rend="strikethrough">to know a girl like her at close quarters.</del> <persName ref="#doreen">Doreen</persName>came from a<l/>
                society girls' college down south and had bright white hair<l/>
                standing out in a cotton candy fluff round her head and blue eyes<l/>
                like <del><gap reason="deleted" quantity="1" unit="char"></gap></del> transparent agate marbles,hard and polished and just<l/>
@@ -355,7 +356,7 @@
             </p>
             <lb></lb>
             <p>
-               <space quantity="7" unit="chars"/><c ref="#doreen">Doreen</c> singled me out right away. She made me feel I was<l/>
+               <space quantity="7" unit="chars"/><persName ref="#doreen">Doreen</persName> singled me out right away. She made me feel I was<l/>
                that much sharper than the others, and she really was wonderfully<l/>
                funny. She used to sit next to me at the conference table, and<l/>
                when the visiting celebrities were talking, she'd whisper witty<l/>
