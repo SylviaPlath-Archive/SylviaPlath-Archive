@@ -26,8 +26,8 @@
   <text>
       <body>
          <pb xml:id="second"></pb>
-         <p xml:id="onlyp">experience: how does <persName>Woolf</persName> do it? How does Lawrence do<l/>
-            it? I come down to learn of those two: Lawrence,<l/> 
+         <p xml:id="onlyp">experience: how does <persName ref="#Woolf">Woolf</persName> do it? How does <persName ref="#Lawrence">Lawrence</persName> do<l/>
+            it? I come down to learn of those two: <persName ref="#Lawrence">Lawrence</persName>,<l/> 
             because of the rich physical passion,- fields of foces - <l/>
             and the real pres<hi rend="underline">en</hi>ce of leaves and earth and beasts<l/>
             and weathers, sap-rich, and Woolf because of tha<l/>
@@ -55,11 +55,11 @@
             wanted to quiet him, I get out of there, with the dilly<l/>
             girls listening over their periodicals. A chink opened into<l/>
             his heel: shat it must be to decide him to leave, +<l/>
-            how absurdly vindicated I felt, remembering <persName>Joans</persName><l/>
+            how absurdly vindicated I felt, remembering <persName ref="#Joans">Joans</persName><l/>
             mean-tuned "Why are you going? - Dont you <hi rend="underline">like</hi> it<l/>
             here?" How can James leave her? This always puzzles me,<l/>
-            I need <persName>Ted</persName> to smell + kiss + sleep + read by as I<l/>
-            need bread + wine. I like <persName>James</persName>; ine of the few men here                    
+            I need <persName ref="#TedHughes">Ted</persName> to smell + kiss + sleep + read by as I<l/>
+            need bread + wine. I like <persName ref="#James">James</persName>; ine of the few men here                    
          </p>
       </body>
   </text>

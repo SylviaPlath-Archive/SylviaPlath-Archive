@@ -2912,8 +2912,9 @@ tei-xr {
   /* Empty Rule Set */
 }
 /* z */
-tei-zone {
-  /* Empty Rule Set */
+tei-list {
+  float: left;
+  margin-right: 10px;
 }
 
 /* styles for html shell and html elements in TEI (e.g.,<a> and <img>) */
@@ -2936,7 +2937,7 @@ html {
 
 div.testo{
    
-    background-color: #f7f6f7;
+  background-color: #f7f6f7;
   width: 600px;
   height: 500px;
   overflow-x: hidden;

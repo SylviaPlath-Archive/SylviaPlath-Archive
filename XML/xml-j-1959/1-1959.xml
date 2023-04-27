@@ -31,21 +31,21 @@
          </p>
             <p xml:id="p1">
             As with April, spring manifests itself in joyous news, I am<l/>
-            tired, having got up and out of <persName role="husband">Ted</persName>'s work-room by 7, after<l/>
+            tired, having got up and out of <persName ref="#TedHughes">Ted</persName>'s work-room by 7, after<l/>
             two weeks of pre- and post-Guggenheim lethargy. We are transfigured,<l/>
             After a near-miss, a query and palterling over the budget and the<l/>
             lace of travel, we got it, and rounded off to the farthest thousand,<l/>
             $5,000, which seems incredibly princely to us, After an imvitation<l/>
-            to Yaddo for two months in September and October, which we at first<l/>
-            interpreted as a consolation prize, Guggenheim day: Friday April 10,<l/>
+            to <placeName ref="#Yaddo">Yaddo</placeName> for two months in September and October, which we at first<l/>
+            interpreted as a consolation prize, Guggenheim day: <date>Friday April 10</date>,<l/>
             </p>
          
             <lb></lb>
             <lb></lb>
 
             <p xml:id="p2">
-               Also, <date>yesterday</date>, my second acceptance from the <hi rend="underline"><objectName>New Yorker</objectName></hi>: a pleasant<l/>
-            two: <objectName>the Watercolor of Granchester Meadows</objectName> which I wrote bucolically<l/>
+            Also, yesterday, my second acceptance from the <hi rend="underline"> New Yorker </hi>: a pleasant<l/>
+            two: the Watercolor of Granchester Meadows which I wrote bucolically<l/>
             "for" them, and Man in Black, the only "love" poem in my book, and<l/>
             the book-poém which I wrote only a little over a month ago at one<l/>
             of my fruitful visits to Winthrop, Must do justice to my father's<l/>
@@ -53,7 +53,7 @@
             end rhetorical, , A leaf from Ann Sexton's book would do here, She<l/>
             has none of my elenches and an ease of phrase, and an honest<gap rend="deleted"></gap>y.<l/>
             I have my <add>4</add>O unattackable poems. I think, And a joy about them<l/>
-            of sorts, Although I would love more potent ones, All the <placeName>Smith</placeName><l/>
+            of sorts, Although I would love more potent ones, All the <placeName ref="#Smith">Smith</placeName><l/>
             ones are miserable death-wishes, The ones here, however grey<l/>
             (Companionalle Ills, Owl) have a verve and life=-joy.<l/></p>
             
@@ -62,7 +62,7 @@
          
             <p xml:id="p3">
             I am still blocked sbout prose, A novel still scares me, Have<l/>
-            been reading "Passage to India" for the first time and admiring<l/>
+            been reading <objectName ref="PassageToIndia">"Passage to India"</objectName> for the first time and admiring<l/>
             the miraculous flow and eése of it, To have the time to show<l/>
             the placing of a red card on a black, the change of daylight<l/>
             and the geography of certain hills: the blessings of the novelists<l/>
@@ -98,11 +98,11 @@
          
            
             <p xml:id="p6">
-            Worked and worked with <persName>Beuscher</persName>: the skip of a week gave me courage<l/>
+            Worked and worked with <persName ref="#Beuscher">Beuscher</persName>: the skip of a week gave me courage<l/>
             and momentum: stayed awake the whole night before thinking over what<l/>
             I have come through and to, Concentrated on my suicide: a knot in<l/>
             which much is caught, Weary still from the absolutely deadening<l/>
-            weekend in <placeName>Northampton</placeName> and <placeName>Holyoke</placeName>, The strain of <placeName>Stanley</placeName>'s<l/>
+            weekend in <placeName ref="#Northampton">Northampton</placeName> and <placeName ref="#Holyoke">Holyoke</placeName>, The strain of <placeName ref="Stanley">Stanley</placeName>'s<l/>
             intolerable position, How to overcome my naivete in writing?<l/>
             Read others and think hard, Never step outside my own voice,<l/>
             such as I know it,
@@ -113,14 +113,14 @@
          
             
             <p xml:id="p7">
-            I think: a <objectName type="book">Wuthering Heights</objectName> article for red-shoe money, Correct<l/>
+            I think: a <objectName ref="#WutheringHeights">Wuthering Heights</objectName> article for red-shoe money, Correct<l/>
             the word in my Monitor poem, Start a poem for the bed book,<l/>
             A story on the hospital, About the affair of Starbuck and Sexton.<l/>
-            A double story, <objectName><persName>August Lighthill</persName>and the Other Women.</objectName><l/>
-            Also about the children, seen through <persName>Jan</persName>'s eyes, Here is horror,<l/>
+            A double story, <persName ref="#AugutstLighthill">August Lighthill</persName>and the Other Women.<l/>
+            Also about the children, seen through <persName ref="#Jan">Jan</persName>'s eyes, Here is horror,<l/>
             And_all the details, Get life in spurts in stories, then the novel<l/>
-            will come. A way, By the time I get to <placeName>Yaddo</placeName>, three good publishable<l/>
-            stories and the <objectName>Bed Book</objectName>done<gap reason="deleted"></gap><l/>
+            will come. A way, By the time I get to <placeName ref="#Yaddo">Yaddo</placeName>, three good publishable<l/>
+            stories and the <objectName ref="#BedBook">Bed Book</objectName>done<gap reason="deleted"></gap><l/>
             </p>
       </body>
   </text>

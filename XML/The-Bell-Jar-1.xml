@@ -2,11 +2,19 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:dbo="http://dbpedia.org/ontology/"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:frbr="http://purl.org/vocab/frbr/core#"   
+   >
   <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>The Bell Jar DSE</title>
+            <title>The Bell Jar: TEI Transcription</title>
             <author>Sylvia Plath</author>
          </titleStmt>
          <editionStmt>
@@ -14,10 +22,10 @@
             <respStmt>
                <resp>Transcription</resp>
                <persName>Camila Oliveira</persName>
-               <orgName>University of Bologna</orgName>
+               <orgName>Sylvia Plath's Archive</orgName>
             </respStmt>
          </editionStmt>
-         <publicationStmt><publisher>Classical Philology and Italian studies department</publisher>
+         <publicationStmt><publisher>University of Bologna</publisher>
             <availability status="free">
                <p>This work is the property of the University of Bologna. It may be used freely by individuals for research, teaching and personal use as long as this statement of availability is included in the text.</p>
             </availability>
@@ -26,10 +34,113 @@
             <p>Information about the source</p>
          </sourceDesc>
       </fileDesc>
+     <profileDesc>
+        <particDesc>
+           <listPerson>
+              <person xml:id="therosenbergs">
+                 <persName> The Rosenbergs</persName>
+              </person>
+              <person xml:id="Doreen">
+                 <persName>Doreen</persName>
+              </person>
+              <person xml:id="BW">
+                 <persName>Buddy Willard</persName>
+              </person>
+              <person xml:id="SC">
+                 <persName>Santa Claus</persName>
+              </person>
+              <person xml:id="Cinderella">
+                 <persName>Cinderella</persName>
+              </person>
+              <person xml:id="KG">
+                 <persName>Katahrine Gibbs</persName>
+              </person>
+           </listPerson>
+        </particDesc>
+        <settingDesc>
+           <listPlace>
+              <place xml:id="NY">
+                 <placeName>New York</placeName>
+              </place>
+              <place xml:id="USA">
+                 <placeName>America</placeName>
+              </place>
+              <place xml:id="Switzerland">
+                 <placeName>Switzerland</placeName>
+              </place>
+              <place xml:id="Brazil">
+                 <placeName>Brazil</placeName>
+              </place>
+              <place xml:id="NE">
+                 <placeName>New England</placeName>
+              </place>
+           </listPlace>
+        </settingDesc>
+     </profileDesc>
+     <xenoData>
+        <frbr:frbr>
+           <frbr:description tei:ref="#therosenbergs" frbr:Person="https://dbpedia.org/page/Julius_and_Ethel_Rosenberg">
+              <frbr:isEmobiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
+              <frbr:label xml:lang="en">The Rosenbergs</frbr:label>
+           </frbr:description>
+           
+           <frbr:description tei:ref="#Doreen" frbr:Person="https://dbpedia.org/page/Doreen_(name)">
+              <frbr:isEmobiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
+              <frbr:label xml:lang="en">Doreen</frbr:label>
+           </frbr:description>
+           
+           <frbr:description tei:ref="#BW" frbr:Person="https://dbpedia.org/page/Category:English_masculine_given_names">
+              <frbr:isEmobiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
+              <frbr:label xml:lang="en">Buddy Willard</frbr:label>
+           </frbr:description>
+           
+           <frbr:description tei:ref="#SC" frbr:Person="https://dbpedia.org/page/Santa_Claus">
+              <frbr:isEmobiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
+              <frbr:label xml:lang="en">Santa Claus</frbr:label>
+           </frbr:description>
+           
+           <frbr:description tei:ref="#Cinderella" frbr:Person="https://dbpedia.org/page/Cinderella">
+              <frbr:isEmobiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
+              <frbr:label xml:lang="en">Cinderella</frbr:label>
+           </frbr:description>
+           
+           <frbr:description tei:ref="#KG" frbr:Person="https://dbpedia.org/page/English_name">
+              <frbr:isEmobiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
+              <frbr:label xml:lang="en">Katharine Gibbs</frbr:label>
+           </frbr:description>
+           
+           <frbr:description tei:ref="#NY" frbr:Person="https://dbpedia.org/page/New_York_City">
+              <frbr:isSubjectOf rdf:resource="http://purl.org/vocab/frbr/core#Place"/>
+              <frbr:label xml:lang="en">New York</frbr:label>
+           </frbr:description>
+           
+           <frbr:description tei:ref="#USA" frbr:Person="https://dbpedia.org/page/United_States">
+              <frbr:isSubjectOf rdf:resource="http://purl.org/vocab/frbr/core#Place"/>
+              <frbr:label xml:lang="en">America</frbr:label>
+           </frbr:description>
+           
+           <frbr:description tei:ref="#Switzerland" frbr:Person="https://dbpedia.org/page/Switzerland">
+              <frbr:isSubjectOf rdf:resource="http://purl.org/vocab/frbr/core#Place"/>
+              <frbr:label xml:lang="en">Switzerland</frbr:label>
+           </frbr:description>
+           
+           <frbr:description tei:ref="#Brazil" frbr:Person="https://dbpedia.org/page/Brazil">
+              <frbr:isSubjectOf rdf:resource="http://purl.org/vocab/frbr/core#Place"/>
+              <frbr:label xml:lang="en">Brazil</frbr:label>
+           </frbr:description>
+           
+           <frbr:description tei:ref="#NE" frbr:Person="https://dbpedia.org/page/New_England">
+              <frbr:isSubjectOf rdf:resource="http://purl.org/vocab/frbr/core#Place"/>
+              <frbr:label xml:lang="en">New England</frbr:label>
+           </frbr:description>
+           
+        </frbr:frbr>
+     </xenoData>
+     
   </teiHeader>
   <text>
       <body>
-         <pb xml:id="thebelljar-1" n="1"/>
+         <pb xml:id="thebelljar" n="1"/>
          <div xml:id="page-1">
             <figure><graphic url="https://github.com/TheBellJar-dse/TheBellJar-dse/blob/489e21573ddfb5cd7fd50dc3c10b7747bad6f4d3/img/The%20Bell%20Jar%20(5)/The%20Bell%20Jar%2001.jpg" type="page"/>
             </figure>
@@ -64,7 +175,7 @@
                <item>26</item>
                <item>289</item>
              </list>  
-            <div type="chapter" n="1" xml:id="page-2">
+            <div type="chapter" n="1" xml:id="page-1">
             <p>
                <space quantity="7" unit="chars"/>It was a queer, sultry summer, the summer they electrocuted<l/>
                <persName ref="#therosenbergs">the Rosenbergs</persName>, and I didn't know what I was doing in <placeName ref="#newyork">New York</placeName>.<l/>
@@ -146,15 +257,15 @@
             </figure>
             <p>
                couldn't get myself to react. I felt very still and very empty,<l/>
-               he way the eye of a tornado must feel<add>,</add> <del><gap reason="deleted" quantity="1" unit="char"></gap></del> moving dully along<l/>
+               he way the eye of a tornado must feel<add>,</add> <del><gap reason="illegible" quantity="1" unit="char"></gap></del> moving dully along<l/>
                in the middle of the surrounding hullaballoe.<l/>
             </p>
             <lb></lb>
             <p>
-               <space quantity="7" unit="chars"/>There were twelve of us at the hotel. We <add place="above">had all won</add><l/>
-               fashion magazines for college girls by writing essays and articles and<l/>
-               stories and poems and fashion blurbs, and as prizes <del><gap reason="deleted" quantity="1" unit="char"></gap></del> <add place="above">they gave us</add><l/>
-               jobs in <placeName ref="#newyork">New York</placeName> for a month, <del><gap reason="deleted" quantity="1" unit="char"></gap></del> expenses paid, and piles and piles<l/>
+               <space quantity="7" unit="chars"/>There were twelve of us at the hotel. We <del> <gap reason="illegible" quantity="1" unit="char"></gap> </del> <add place="above">had all won</add><l/>
+               <add place="above"> Doreen<add place="above">fashion magazines</add></add>contest for college girls by writing essays and articles and<l/>
+               stories and poems and fashion blurbs, and as prizes <del><gap reason="illegible" quantity="1" unit="char"></gap></del> <add place="above">they gave us</add><l/>
+               jobs in <placeName ref="#newyork">New York</placeName> for a month, <del><gap reason="illegible" quantity="1" unit="char"></gap></del> expenses paid, and piles and piles<l/>
                of free bonuses like ballet tickets and passes to fashion shows<l/>
                and hair stylings at a famous expensive salon and chances to meet<l/>
                successful people in the field of our desire and advice about<l/>
@@ -176,8 +287,8 @@
                <figure><graphic url="C:\Users\User\Downloads\Group 1.svg" style="z-index=1"></graphic></figure><space quantity="7" unit="chars"/>These were the sort of bits and pieces I'd never buy for myself<l/>
                because I never had the money, and I think they meant more to me<l/>
                than anything else that happened the whole time I was in <placeName ref="#newyork">New York</placeName>.<l/>
-               The people on that magazine were better than <c>Santa Claus</c> and<l/>
-               <c>Cinderella's</c> godmother put together.<l/>
+               The people on that magazine were better than <persName ref="#santaclaus">Santa Claus</persName> and<l/>
+               <persName ref="#cinderella">Cinderella's</persName> godmother put together.<l/>
             </p>
             <lb></lb>
             <p>
@@ -256,12 +367,12 @@
             </p>
             <lb></lb>
             <p>
-               <space quantity="7" unit="chars"/>The only thing <c ref="#doreen">Doreen</c> ever bawled me out about was bothering<l/>
+               <space quantity="7" unit="chars"/>The only thing <persName>Doreen</persName> ever bawled me out about was bothering<l/>
                to get my assignments in by a deadline.<l/>
             </p>
             <lb></lb>
             <p>
-               <space quantity="7" unit="chars"/>"What are you sweating over that for?" <del><gap reason="deleted" quantity="1" unit="char"></gap></del><c ref="#doreen">Doreen</c> lounged on<l/>
+               <space quantity="7" unit="chars"/><quote>"What are you sweating over that for?"</quote> <del><gap reason="deleted" quantity="1" unit="char"></gap></del><persName ref="#doreen">Doreen</persName> lounged on<l/>
                my bed in a peach silk dressing gown filing her long, nicotine-<l/>
                yellow nails with an emery board while I typed up the draft of<l/>
                an interview with a best-selling novelist. That was another<l/>

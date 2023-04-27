@@ -28,7 +28,7 @@
          <pb xml:id="second"></pb>
 
            <p>   
-              1<del><gap reason="deleted"></gap></del><add place="over" rend="overwrite" seq="1">8</add>.<l/>
+              1<del><gap reason="deleted"></gap></del><add place="above" rend="overwrite" seq="1">8</add>.<l/>
               <date>February 26 </date>(con)<l/>
            </p> 
          
@@ -40,7 +40,7 @@
            diamond" and he yelled back, colossal, in a voice that should<l/>
            have come from a Pole, "You like?" and asking  me  if I wanted<l/>
            brandy, and me yelling yes and backing into the next room past<l/>
-           the smug shining blub face of dear <persName>Bert</persName>, looking as if he had<l/>
+           the smug shining blub face of dear <persName ref="#Bert">Bert</persName>, looking as if he had<l/>
            delivered at least nine or ten babies, and bang the door was<l/>
            shut and he was sloshing brandy into a glass and I was sloshing<l/>
            it at the place <del><gap reason="deleted" quantity="3" unit="character"></gap></del> where my mouth was when I last knew about it.<l/></p>
@@ -49,7 +49,7 @@
          <lb></lb>
             
          <p xml:id="p2">We shouted as if in a high wind, about the review, and he saying<l/>
-            <persName>Dan</persName> knew I was beautiful, he wouldn't have written it about a<l/>
+            <persName ref="#Dan">Dan</persName> knew I was beautiful, he wouldn't have written it about a<l/>
             cripple, and my yelling drotest in which the words "sleep with<l/>
             the editor" occurred with startling frequency. And then it<l/>
             came to the fact that I was all there, wasn't I, and I stamped<l/>
@@ -68,7 +68,7 @@
             and dynamic chunks of words; his poems are strong and blasting<l/>
             like a high wind in steel girders. And Iscreamed in myself,<l/>
             thinking: oh, to give myself crashing, fighting, to you. The<l/>
-            one man since I've lived who could blast <persName>Richard</persName>.<l/>
+            one man since I've lived who could blast <persName ref="#Richard">Richard</persName>.<l/>
          </p>
          
          <lb></lb>
@@ -80,7 +80,7 @@
             at heart. I shall zo on. I shall write a detalled description <del><gap reason="deleted" quantity="1" unit="character"></gap></del><l/>
             of shock treatment, tight, blasting short descriptions with<l/>
             not one smudge of coy sentimentality, and when I get enough<l/>
-            I shall send them to <persName>David Ross</persName>. There will be no hurry,<l/>
+            I shall send them to <persName ref="#DavidRoss">David Ross</persName>. There will be no hurry,<l/>
             because I am too desperately vengeful now. But I will pile them<l/>
             up. I thought about the shock treatment description last night:<l/>
             the deadly sleep of her madness, and the breakfast not coming,<l/>
@@ -99,8 +99,8 @@
             day crowd in like the spikes on the gates at Jueens last night<l/>
             I could never sleep with him anyway, with all his friends here<l/>
             and his close relation to them, laughing, talking, I should<l/>
-            be the world's whore, as well as <persName>Roget</persName>'s strumpet. I shall never<l/>
-            see him, he will never look for me. He said my name, <persName corresp="author">Sylvia</persName>,<l/>
+            be the world's whore, as well as <persName ref="#Roget">Roget</persName>'s strumpet. I shall never<l/>
+            see him, he will never look for me. He said my name, <persName ref="#SylviaPlath">Sylvia</persName>,<l/>
             and banged a black grinning look into my eyes, and I would like<l/>
             to try Just this wnce, my force against his. But he will never<l/>
             come, and the blonde one, pure and snug and favored, looks, is<l/>
@@ -112,7 +112,7 @@
              
            <p xml:id="p5">
             
-            But <persName>Hamish</persName> was very kind and would have fought for me. It gave<l/>
+            But <persName ref="#Hamish">Hamish</persName> was very kind and would have fought for me. It gave<l/>
             him a kind of glory to take me away from them, those fiends and I am worth fighting for, I had been nice, to him, he said.<l/>
            </p>
          
