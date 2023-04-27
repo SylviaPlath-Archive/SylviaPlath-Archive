@@ -7,9 +7,17 @@
             
             <titleStmt>
                 <title>Stings</title>
-                <author><persName>Sylvia Plath</persName></author>
+                <author>Sylvia Plath</author>
                 
             </titleStmt>
+            <editionStmt>
+                <edition> Manuscript of Stings, 1962</edition>
+                <respStmt>
+                    <resp>Encoding</resp>
+                    <persName>Loredana Salvatore</persName>
+                    <orgName>Alma Mater Studiorum - University of Bologna</orgName>
+                </respStmt>
+            </editionStmt>
             <publicationStmt>
                 <p>for exercise only</p>
             </publicationStmt>
