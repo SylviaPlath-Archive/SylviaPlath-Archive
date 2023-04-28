@@ -2958,6 +2958,10 @@ div.container-fluid{
   color: #AD06BC;
 }
 
-tei-item #add1{
-  color: #AD06BC;
+tei-add[data-origid=add-2] {
+  color: #000066;
+}
+
+tei-tei #add-3{
+  color: chartreuse;
 }
