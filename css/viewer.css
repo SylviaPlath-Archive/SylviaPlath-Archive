@@ -2965,3 +2965,11 @@ tei-add[id=add-2] {
 tei-tei #add-3{
   color: chartreuse;
 }
+
+body > tei-tei #add-4 {
+  color: chocolate;
+ }
+
+tei-add #add5{
+  width: 20%;
+ }
