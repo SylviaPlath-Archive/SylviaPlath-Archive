@@ -2959,18 +2959,18 @@ div.container-fluid{
   margin-top: 0;
 }
 
-#add-3{
-  color: deeppink;
-}
-
 #add-5{
-  float: right;
+  right: 20px;
  }
 
  #add-6{
-  float: right;
+  right: 15px;
  }
 
  #chapter-1{
   text-decoration: underline;
+ }
+
+ #add-7{
+  right: 50%;
  }
