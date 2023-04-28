@@ -140,9 +140,9 @@
   </teiHeader>
   <text>
       <body>
-         <pb xml:id="thebelljar" n="1"/>
+         <!--<pb xml:id="thebelljar" n="1"/>
          <div xml:id="page-1">
-            <!-- <graphic url="https://github.com/TheBellJar-dse/TheBellJar-dse/blob/489e21573ddfb5cd7fd50dc3c10b7747bad6f4d3/img/The%20Bell%20Jar%20(5)/The%20Bell%20Jar%2001.jpg" type="page"/>-->
+            <graphic url="https://github.com/TheBellJar-dse/TheBellJar-dse/blob/489e21573ddfb5cd7fd50dc3c10b7747bad6f4d3/img/The%20Bell%20Jar%20(5)/The%20Bell%20Jar%2001.jpg" type="page"/>
             
             <head>
                
@@ -210,7 +210,6 @@
             </p>
             </div>
          </div>
-         <!--
          <div xml:id="page-2">
             <graphic url="https://github.com/TheBellJar-dse/TheBellJar-dse/blob/489e21573ddfb5cd7fd50dc3c10b7747bad6f4d3/img/The%20Bell%20Jar%20(5)/The%20Bell%20Jar%2001.jpg" type="page"/>
             
@@ -300,9 +299,9 @@
                gifts showering onto us. For a long time afterward I hid them<l/>
                <l/>
             </p>
-         </div>
+         </div>-->
          <div xml:id="page-4">
-            <graphic url="https://github.com/TheBellJar-dse/TheBellJar-dse/blob/489e21573ddfb5cd7fd50dc3c10b7747bad6f4d3/img/The%20Bell%20Jar%20(5)/The%20Bell%20Jar%2001.jpg" type="page"/>
+            <!--<graphic url="https://github.com/TheBellJar-dse/TheBellJar-dse/blob/489e21573ddfb5cd7fd50dc3c10b7747bad6f4d3/img/The%20Bell%20Jar%20(5)/The%20Bell%20Jar%2001.jpg" type="page"/>-->
           
             <p>
                away, but later, when I was all right again, I brought them out,<l/>
@@ -341,7 +340,7 @@
                fingers <add>like so much water.</add><l/>
             </p>
          </div>
-         <div xml:id="page-5">
+         <!--<div xml:id="page-5">
            <graphic url="https://github.com/TheBellJar-dse/TheBellJar-dse/blob/489e21573ddfb5cd7fd50dc3c10b7747bad6f4d3/img/The%20Bell%20Jar%20(5)/The%20Bell%20Jar%2001.jpg" type="page"/>
             
             <p>
@@ -384,7 +383,7 @@
                beachcoats, but Doreen wore these full-length nylon and lace<l/>
                jobs you could half see through, and dressing gowns the color of<l/>
             </p>
-         </div> -->
+         </div>-->
       </body>
   </text>
 </TEI>

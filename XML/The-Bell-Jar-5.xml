@@ -140,9 +140,9 @@
   </teiHeader>
   <text>
       <body>
-         <pb xml:id="thebelljar" n="1"/>
+         <!--<pb xml:id="thebelljar" n="1"/>
          <div xml:id="page-1">
-            <!-- <graphic url="https://github.com/TheBellJar-dse/TheBellJar-dse/blob/489e21573ddfb5cd7fd50dc3c10b7747bad6f4d3/img/The%20Bell%20Jar%20(5)/The%20Bell%20Jar%2001.jpg" type="page"/>-->
+            <graphic url="https://github.com/TheBellJar-dse/TheBellJar-dse/blob/489e21573ddfb5cd7fd50dc3c10b7747bad6f4d3/img/The%20Bell%20Jar%20(5)/The%20Bell%20Jar%2001.jpg" type="page"/>
             
             <head>
                
@@ -210,7 +210,6 @@
             </p>
             </div>
          </div>
-         <!--
          <div xml:id="page-2">
             <graphic url="https://github.com/TheBellJar-dse/TheBellJar-dse/blob/489e21573ddfb5cd7fd50dc3c10b7747bad6f4d3/img/The%20Bell%20Jar%20(5)/The%20Bell%20Jar%2001.jpg" type="page"/>
             
@@ -340,9 +339,9 @@
                <del><gap reason="deleted" quantity="1" unit="char"></gap></del> I <del rend="strikethrough">was</del>, just <del><gap reason="deleted" quantity="1" unit="char"></gap></del> <add place="above">at</add> back<add>,</add> <del rend="strikethrough">and</del> letting it <add place="below">ran<del><gap reason="deleted" quantity="1" unit="char"></gap></del></add><del rend="strikethrough">slip through</del> my<l/>
                fingers <add>like so much water.</add><l/>
             </p>
-         </div>
+         </div>-->
          <div xml:id="page-5">
-           <graphic url="https://github.com/TheBellJar-dse/TheBellJar-dse/blob/489e21573ddfb5cd7fd50dc3c10b7747bad6f4d3/img/The%20Bell%20Jar%20(5)/The%20Bell%20Jar%2001.jpg" type="page"/>
+           <!--<graphic url="https://github.com/TheBellJar-dse/TheBellJar-dse/blob/489e21573ddfb5cd7fd50dc3c10b7747bad6f4d3/img/The%20Bell%20Jar%20(5)/The%20Bell%20Jar%2001.jpg" type="page"/>-->
             
             <p>
                <space quantity="7" unit="chars"/>I guess one of my troubles was <del><gap reason="deleted" quantity="1" unit="char"></gap></del> <add place="above"><persName ref="doreen">Doreen</persName></add>. <del rend="strikethrough">I'd never had a chance</del> <add place="above">I'd never known a girl like Doreen before.</add><l/>
@@ -384,7 +383,7 @@
                beachcoats, but Doreen wore these full-length nylon and lace<l/>
                jobs you could half see through, and dressing gowns the color of<l/>
             </p>
-         </div> -->
+         </div>
       </body>
   </text>
 </TEI>
