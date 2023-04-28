@@ -2964,5 +2964,13 @@ div.container-fluid{
 }
 
 #add-5{
-  width: 20%;
+  float: right;
+ }
+
+ #add-6{
+  float: right;
+ }
+
+ #chapter-1{
+  text-decoration: underline;
  }

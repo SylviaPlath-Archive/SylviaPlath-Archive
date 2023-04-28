@@ -146,11 +146,11 @@
             </figure>
             <head>
                
-               <subst xml:id="sub-1"><del><gap reason="illegible" quantity="8" unit="character"></gap></del><add xml:id="add-1" place="above">The Bell Jar</add></subst><del><gap reason="illegible" quantity="8" unit="character"></gap></del><add xml:id="add-2" place="above"><gap reason="illegible" quantity="8" unit="character"></gap></add>Lucas <add xml:id="add-3" rend="circled">Second Draft</add> <add xml:id="add-4">Chapter 1</add><add rend="circled">14</add> <add xml:id="add-5">Chapter 2</add> <add rend="circled">10</add>
+               <subst xml:id="sub-1"><del><gap reason="illegible" quantity="8" unit="character"></gap></del><add xml:id="add-1" place="above">The Bell Jar</add></subst><del><gap reason="illegible" quantity="8" unit="character"></gap></del><add xml:id="add-2" place="above"><gap reason="illegible" quantity="8" unit="character"></gap></add>Lucas <add xml:id="add-3" rend="circled">Second Draft</add> <add xml:id="add-4">Chapter 1</add><add rend="circled">14</add> <add xml:id="add-5">Chapter 2</add> <add xml:id="add-6" rend="circled">10</add>
                <lb/>
-               <add xml:id="add-6" rend="circled">Chapters 1-16</add>
+               <add xml:id="add-7" rend="circled">Chapters 1-16</add>
                <lb/>
-               <title> CHAPTER I</title><lb/>
+               <title xml:id="chapter-1"> CHAPTER I</title><lb/>
             </head>
             <list type="simple">
                <item>14</item>
@@ -190,10 +190,10 @@
             </p>
             <lb></lb>
             <p>
-               <space quantity="7" unit="chars"/><placeName ref="#newyork">New York</placeName> , <subst><del rend="strikethrough">made me sick</del> <add xml:id="add-7" place="above" rend="superscript">was bad</add></subst> enough. By <add place="above" rend="superscript">nine</add><del><gap reason="illegible" quantity="2" unit="character"></gap> </del>in the morning<l/>
+               <space quantity="7" unit="chars"/><placeName ref="#newyork">New York</placeName> , <subst><del rend="strikethrough">made me sick</del> <add xml:id="add-8" place="above" rend="superscript">was bad</add></subst> enough. By <add place="above" rend="superscript">nine</add><del><gap reason="illegible" quantity="2" unit="character"></gap> </del>in the morning<l/>
                the fake, country-wet freshness that somehow seeped in overnight<l/>
                evaporated like the tail end of-a sweet dream. At the bottom of<l/>
-               their granite canyons, the <add place="below">/not</add><add place="supralinear" rend="m" hand="Pound"><add xml:id="add-8" rend="circled">mirage-grey</add></add>streets wavered <del rend="strikethrough">grey as a mirage</del> in the<l/>
+               their granite canyons, the <add place="below">/not</add><add place="supralinear" rend="m" hand="Pound"><add xml:id="add-9" rend="circled">mirage-grey</add></add>streets wavered <del rend="strikethrough">grey as a mirage</del> in the<l/>
                <del><gap reason="illegible" quantity="2" unit="character"></gap></del>sun, the car tops sizzled and glittered, and the dry, cindery <l/>
                dust blew into my eyes and down my throat.<l/>
             </p>
@@ -211,8 +211,8 @@
             </div>
          </div>
          <div xml:id="page-2">
-            <figure><graphic url="https://github.com/TheBellJar-dse/TheBellJar-dse/blob/489e21573ddfb5cd7fd50dc3c10b7747bad6f4d3/img/The%20Bell%20Jar%20(5)/The%20Bell%20Jar%2001.jpg" type="page"/>
-            </figure>
+            <!--<graphic url="https://github.com/TheBellJar-dse/TheBellJar-dse/blob/489e21573ddfb5cd7fd50dc3c10b7747bad6f4d3/img/The%20Bell%20Jar%20(5)/The%20Bell%20Jar%2001.jpg" type="page"/>-->
+            
             <p>
                <space quantity="7" unit="chars"/>I kn<del rend="overwrite" seq="1">i</del> <add place="over" rend="overwrite" seq="2">e</add>w something was wrong with me that summer, because all<l/>
                I could think about was <persName ref="#therosenbergs">the Rosenbergs</persName> and how stupid I'd been to<l/>
@@ -254,8 +254,8 @@
             </p>
             </div>
          <div xml:id="page-3">
-            <figure><graphic url="https://github.com/TheBellJar-dse/TheBellJar-dse/blob/489e21573ddfb5cd7fd50dc3c10b7747bad6f4d3/img/The%20Bell%20Jar%20(5)/The%20Bell%20Jar%2001.jpg" type="page"/>
-            </figure>
+            <!--<graphic url="https://github.com/TheBellJar-dse/TheBellJar-dse/blob/489e21573ddfb5cd7fd50dc3c10b7747bad6f4d3/img/The%20Bell%20Jar%20(5)/The%20Bell%20Jar%2001.jpg" type="page"/>-->
+           
             <p>
                couldn't get myself to react. I felt very still and very empty,<l/>
                he way the eye of a tornado must feel<add>,</add> <del><gap reason="illegible" quantity="1" unit="char"></gap></del> moving dully along<l/>
@@ -301,8 +301,8 @@
             </p>
          </div>
          <div xml:id="page-4">
-            <figure><graphic url="https://github.com/TheBellJar-dse/TheBellJar-dse/blob/489e21573ddfb5cd7fd50dc3c10b7747bad6f4d3/img/The%20Bell%20Jar%20(5)/The%20Bell%20Jar%2001.jpg" type="page"/>
-            </figure>
+            <!--<graphic url="https://github.com/TheBellJar-dse/TheBellJar-dse/blob/489e21573ddfb5cd7fd50dc3c10b7747bad6f4d3/img/The%20Bell%20Jar%20(5)/The%20Bell%20Jar%2001.jpg" type="page"/>-->
+          
             <p>
                away, but later, when I was all right again, I brought them out,<l/>
                and I still have them around the house. I use the lipsticks now<l/>
@@ -341,8 +341,8 @@
             </p>
          </div>
          <div xml:id="page-5">
-            <figure><graphic url="https://github.com/TheBellJar-dse/TheBellJar-dse/blob/489e21573ddfb5cd7fd50dc3c10b7747bad6f4d3/img/The%20Bell%20Jar%20(5)/The%20Bell%20Jar%2001.jpg" type="page"/>
-            </figure>
+           <!--<graphic url="https://github.com/TheBellJar-dse/TheBellJar-dse/blob/489e21573ddfb5cd7fd50dc3c10b7747bad6f4d3/img/The%20Bell%20Jar%20(5)/The%20Bell%20Jar%2001.jpg" type="page"/>-->
+            
             <p>
                <space quantity="7" unit="chars"/>I guess one of my troubles was <del><gap reason="deleted" quantity="1" unit="char"></gap></del> <add place="above"><persName ref="doreen">Doreen</persName></add>. <del rend="strikethrough">I'd never had a chance</del> <add place="above">I'd never known a girl like Doreen before.</add><l/>
                <del rend="strikethrough">to know a girl like her at close quarters.</del> <persName ref="#doreen">Doreen</persName>came from a<l/>
