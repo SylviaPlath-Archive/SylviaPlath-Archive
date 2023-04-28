@@ -9,9 +9,17 @@
             
             <titleStmt>
                 <title>Stings</title>
-                <author><persName>Sylvia Plath</persName></author>
+                <author>Sylvia Plath</author>
                 
             </titleStmt>
+            <editionStmt>
+                <edition>Manuscript of Stings, 1962</edition>
+                <respStmt>
+                    <resp>Encoding</resp>
+                    <persName>Loredana Salvatore</persName>
+                    <orgName>Alma Mater Studiorum - University of Bologna</orgName>
+                </respStmt>
+            </editionStmt>
             <publicationStmt>
                 <p>for exercise only</p>
             </publicationStmt>
@@ -35,7 +43,8 @@
                     
                 
            <head>3.<hi rend="underline">Stings</hi></head>
-                <p><date>October 6 1962</date> 1</p>
+                <p><date>October 6 1962</date></p> 
+                <w rend="circled">1</w>
             <lg>
                 <l>Bare-handed, I hand the combs.</l>
                 <l>The man in white smiles, bare-handed._</l>

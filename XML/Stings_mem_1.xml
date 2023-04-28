@@ -7,9 +7,17 @@
             
             <titleStmt>
                 <title>Stings</title>
-                <author><persName>Sylvia Plath</persName></author>
+                <author>Sylvia Plath</author>
                 
             </titleStmt>
+            <editionStmt>
+                <edition>Manuscript of Stings, 1962</edition>
+                <respStmt>
+                    <resp>Encoding</resp>
+                    <persName>Loredana Salvatore</persName>
+                    <orgName>Alma Mater Studiorum - University of Bologna</orgName>
+                </respStmt>
+            </editionStmt>
             <publicationStmt>
                 <p>for exercise only</p>
             </publicationStmt>
@@ -24,7 +32,7 @@
             <div>
                 <pb n="02" facs="#pag2" />
                     <head><hi rend="underline">Stings</hi></head>
-                    <p>2</p>
+                    <w rend="circled">2</w>
                     <lg>
                         <l>It is  almost over.</l>
                         <l>I am in control, I am in control.</l>

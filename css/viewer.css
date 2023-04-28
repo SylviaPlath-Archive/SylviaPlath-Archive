@@ -1155,7 +1155,7 @@ tei-add[place=inline]:after {
 tei-add[place=below] {
   vertical-align: sub;
 }
-tei-addName {
+tei-add {
   /* Empty Rule Set */
 }
 tei-addSpan {
@@ -1761,6 +1761,9 @@ tei-hi {
   text-decoration: underline;
   /* GLS: do we want to bold this or change the background color? */
 }
+[rend="circled"]{border-radius: 100%; border:1px solid black; padding: 1%;}
+tei-p[rend="circled"]{border-radius: 100%; border:1px solid black;padding: 1%;}
+tei-w[rend="circled"]{border-radius: 100%; border:1px solid black; padding: 1%;}
 tei-history {
   /* Empty Rule Set */
 }
@@ -2912,8 +2915,9 @@ tei-xr {
   /* Empty Rule Set */
 }
 /* z */
-tei-zone {
-  /* Empty Rule Set */
+tei-list {
+  float: left;
+  margin-right: 10px;
 }
 
 /* styles for html shell and html elements in TEI (e.g.,<a> and <img>) */
@@ -2936,7 +2940,7 @@ html {
 
 div.testo{
    
-    background-color: #f7f6f7;
+  background-color: #f7f6f7;
   width: 600px;
   height: 500px;
   overflow-x: hidden;
@@ -2949,3 +2953,26 @@ div.testo{
 div.container-fluid{
     padding:5%;
 }
+
+#add-1{
+  position: relative;
+  margin-top: 0;
+}
+
+#add-5{
+  margin-right: 35px;
+ }
+
+ #add-6{
+  margin-right: 30px;
+ }
+
+ #chapter-1{
+  text-decoration: underline;
+ }
+
+ #add-7{
+  right: 50%;
+ }
+
+ #circled-item{border-radius: 100%; border:1px solid black;padding: 1%;}
