@@ -146,9 +146,9 @@
             </figure>
             <head>
                
-               <subst xml:id="sub-1"><del><gap reason="illegible" quantity="8" unit="character"></gap></del><add xml:id="add1" place="above">The Bell Jar</add></subst><del><gap reason="illegible" quantity="8" unit="character"></gap></del><add xml:id="add2" place="above"><gap reason="illegible" quantity="8" unit="character"></gap></add>Lucas <add xml:id="add3">Second Draft</add> <add xml:id="add4">Chapter 1 14</add> <add xml:id="add5">Chapter 2 10</add>
+               <subst xml:id="sub-1"><del><gap reason="illegible" quantity="8" unit="character"></gap></del><add xml:id="add1" place="above">The Bell Jar</add></subst><del><gap reason="illegible" quantity="8" unit="character"></gap></del><add xml:id="add2" place="above"><gap reason="illegible" quantity="8" unit="character"></gap></add>Lucas <add xml:id="add3" rend="circled">Second Draft</add> <add xml:id="add4">Chapter 1</add><add rend="circled">14</add> <add xml:id="add5">Chapter 2</add> <add rend="circled">10</add>
                <lb/>
-               <add xml:id="add6">Chapters 1-16</add>
+               <add xml:id="add6" rend="circled">Chapters 1-16</add>
                <lb/>
                <title> CHAPTER I</title><lb/>
             </head>
