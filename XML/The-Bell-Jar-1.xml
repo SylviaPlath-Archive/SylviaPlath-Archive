@@ -142,8 +142,8 @@
       <body>
          <pb xml:id="thebelljar" n="1"/>
          <div xml:id="page-1">
-            <figure><graphic url="https://github.com/TheBellJar-dse/TheBellJar-dse/blob/489e21573ddfb5cd7fd50dc3c10b7747bad6f4d3/img/The%20Bell%20Jar%20(5)/The%20Bell%20Jar%2001.jpg" type="page"/>
-            </figure>
+            <!-- <graphic url="https://github.com/TheBellJar-dse/TheBellJar-dse/blob/489e21573ddfb5cd7fd50dc3c10b7747bad6f4d3/img/The%20Bell%20Jar%20(5)/The%20Bell%20Jar%2001.jpg" type="page"/>-->
+            
             <head>
                
                <subst xml:id="sub-1"><del><gap reason="illegible" quantity="8" unit="character"></gap></del><add xml:id="add-1" place="above">The Bell Jar</add></subst><del><gap reason="illegible" quantity="8" unit="character"></gap></del><add xml:id="add-2" place="above"><gap reason="illegible" quantity="8" unit="character"></gap></add>Lucas <add xml:id="add-3" rend="circled">Second Draft</add> <add xml:id="add-4">Chapter 1</add><add rend="circled">14</add> <add xml:id="add-5">Chapter 2</add> <add xml:id="add-6" rend="circled">10</add>
