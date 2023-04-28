@@ -1155,8 +1155,8 @@ tei-add[place=inline]:after {
 tei-add[place=below] {
   vertical-align: sub;
 }
-tei-add #add7 {
-  margin-bottom: 10px;
+tei-add {
+  /* Empty Rule Set */
 }
 tei-addSpan {
   /* Empty Rule Set */
@@ -2954,10 +2954,10 @@ div.container-fluid{
     padding:5%;
 }
 
-tei-add #add-3{
+#add-3{
   color: chartreuse;
 }
 
-tei-add #add-5{
+#add-5{
   width: 20%;
  }
