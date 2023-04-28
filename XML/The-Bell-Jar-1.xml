@@ -148,7 +148,7 @@
                
                <subst xml:id="sub-1"><del><gap reason="illegible" quantity="8" unit="character"></gap></del><add xml:id="add1" place="above">The Bell Jar</add></subst><del><gap reason="illegible" quantity="8" unit="character"></gap></del><add xml:id="add2" place="above"><gap reason="illegible" quantity="8" unit="character"></gap></add>Lucas <add xml:id="add3">Second Draft</add> <add xml:id="add4">Chapter 1 14</add> <add xml:id="add5">Chapter 2 10</add>
                <lb/>
-               <add>Chapters 1-16</add>
+               <add xml:id="add6">Chapters 1-16</add>
                <lb/>
                <title> CHAPTER I</title><lb/>
             </head>
@@ -190,7 +190,7 @@
             </p>
             <lb></lb>
             <p>
-               <space quantity="7" unit="chars"/><placeName ref="#newyork">New York</placeName> , <subst><del rend="strikethrough">made me sick</del> <add place="above" rend="superscript">was bad</add></subst> enough. By <add place="above" rend="superscript">nine</add><del><gap reason="illegible" quantity="2" unit="character"></gap> </del>in the morning<l/>
+               <space quantity="7" unit="chars"/><placeName ref="#newyork">New York</placeName> , <subst><del rend="strikethrough">made me sick</del> <add xml:id="add7" place="above" rend="superscript">was bad</add></subst> enough. By <add place="above" rend="superscript">nine</add><del><gap reason="illegible" quantity="2" unit="character"></gap> </del>in the morning<l/>
                the fake, country-wet freshness that somehow seeped in overnight<l/>
                evaporated like the tail end of-a sweet dream. At the bottom of<l/>
                their granite canyons, the <add place="below">/not</add><add place="supralinear" rend="circled" hand="Pound"><hi xml:id="hi-1" rend="circled">mirage-grey</hi></add>streets wavered <del rend="strikethrough">grey as a mirage</del> in the<l/>
