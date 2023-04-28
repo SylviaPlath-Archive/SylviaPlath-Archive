@@ -40,5 +40,5 @@ img {
   opacity: 1;
 }
 .gallery__selector:checked ~ .gallery__thumb > img {
-  box-shadow: 0 0 0 3px #0be2f6;
+  box-shadow: 0 0 0 3px brown;
 }
