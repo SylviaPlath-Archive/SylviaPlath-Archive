@@ -110,12 +110,27 @@ http://www.templatemo.com/preview/templatemo_427_timeline
 
                     </div>
                 
-    <div class="testo" >
-            <div id="TEI" style="color: brown;" class=" scroll-column zoom"></div>
-        </div>
-</div>
-</div>
-        <script src="CETEI.js"></script>
+                    <div class="testo" >
+                        <div id="TEI" style="color: brown; margin-top: 10px;" class=" scroll-column zoom">
+                        Select an image to visualize the corresponding textual transcription!
+                    </div>
+            
+                    </div>
+            </div>
+            </div>
+            </div>
+                    <script src="CETEI.js"></script>
+                    <script>
+                    function displayxml(xmlpath){
+                        console.log("load of xml file")
+                    var CETEIcean = new CETEI()
+                            CETEIcean.getHTML5(xmlpath, function(data) {
+                                document.getElementById("TEI").innerHTML = "";
+                              document.getElementById("TEI").appendChild(data)
+                            })
+                        }
+                    </script>
+       <!--<script src="CETEI.js"></script>
         <script>
         var CETEIcean = new CETEI();
         var images = [];
@@ -174,7 +189,7 @@ http://www.templatemo.com/preview/templatemo_427_timeline
             }
             img.src = "http://eebo.chadwyck.com/fetchimage?vid=5891&page=1&width=100";
         });
-        </script>
+        </script>-->
 
     <footer>
         <div class="container">
