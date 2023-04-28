@@ -2,47 +2,117 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:dbo="http://dbpedia.org/ontology/"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:frbr="http://purl.org/vocab/frbr/core#">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Sylvia Plath's Journals</title>
+            <title>Sylvia Plath's Journal - 2 March 1958</title>
+            <author>Sylvia Plath</author>
          </titleStmt>
          <editionStmt>
-            <p>First typewritten page<date>1958</date></p>
-            <p>Edited by <name>Anita Livabella</name></p>
+            <edition>Series I. Writings. Journals. Autograph manuscript on lined paper, half-bound in red cloth with maroon paper over boards, blind-stamped on back cover: C. Cambridge Ltd. / Birmingham / C.B. 900, iv, 181, [3] numbered pages (pages 177-78 are lacking), 1957 Aug 28-1958 Oct 15.</edition>
+            <respStmt>
+               <resp>Encoding</resp>
+               <persName>Anita Liviabella</persName>
+               <orgName>Alma Mater Studiorum - University of Bologna</orgName>
+            </respStmt>
          </editionStmt>
          <publicationStmt>
-            <publisher>University of Bologna</publisher>
-            <availability status="free">
-               <p>This work is the property of the University of Bologna. It may be used freely by individuals for research, teaching and personal use as long as this statement of availability is included in the text.</p>
-            </availability>
+            <p>for exercise only</p>
          </publicationStmt>
          <sourceDesc>
-            <p>From British Library</p>
+            <p>From the Mortimer Rare Book Room, Smith College Libraries (Massachusetts)</p>
          </sourceDesc>
-      </fileDesc>
+      </fileDesc> 
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="TedHughes">
+                  <persName>TedHughes</persName>
+               </person>
+               <person xml:id="JamesBramwell">
+                  <persName>James Bramwell</persName>
+               </person>
+               <person xml:id="JohnWebster">
+                  <persName>John Webster</persName>
+               </person>
+               <person xml:id="Shirley">
+                  <persName>Shirley</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <place xml:id="France">
+                  <placeName>France</placeName>
+               </place>
+               <place xml:id="Australia">
+                  <placeName>Australia</placeName>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <xenoData>
+         <frbr:frbr>
+            <frbr:description tei:ref="#TedHughes" frbr:Person="https://dbpedia.org/page/Ted_Hughes">
+               <frbr:isEmbodiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
+               <frbr:label xml:lang="en">Ted Hughes</frbr:label>
+            </frbr:description>
+            <frbr:description tei:ref="#JamesBramwell" frbr:Person="https://dbpedia.org/page/Category:English_masculine_given_names">
+               <frbr:isEmbodiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
+               <frbr:label xml:lang="en">Jean Racine</frbr:label>
+            </frbr:description>
+            <frbr:description tei:ref="#JohnWebster" frbr:Person="https://dbpedia.org/page/John_Webster">
+               <frbr:isEmbodiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
+               <frbr:label xml:lang="en">John Webster</frbr:label>
+            </frbr:description>
+            
+            <frbr:description tei:ref="#Shirley" frbr:Person="https://dbpedia.org/page/English_name">
+               <frbr:isEmbodiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
+               <frbr:label xml:lang="en">Shirley</frbr:label>
+            </frbr:description>
+            
+            <frbr:description tei:ref="#France" frbr:Place="https://dbpedia.org/page/France">
+               <frbr:isSubjectOf rdf:resource="http://purl.org/vocab/frbr/core#Place"/>
+               <frbr:label xml:lang="en">France</frbr:label>
+            </frbr:description>
+            
+            <frbr:description tei:ref="#Australia" frbr:Place="https://dbpedia.org/page/Australia">
+               <frbr:isSubjectOf rdf:resource="http://purl.org/vocab/frbr/core#Place"/>
+               <frbr:label xml:lang="en">Australia</frbr:label>
+            </frbr:description>
+            
+         </frbr:frbr>
+      </xenoData> 
    </teiHeader>
   <text>
       <body>
-         <pb xml:id="first"></pb>
-         <p xml:id="onlyp">
-            61<add place="bottom">2</add>
-            <hi rend="underline">Sunday night: <date>March 2</date>:</hi> Again, late: It will betwelve before I<l/>
+         <pb n="01" facs="#page1"></pb>
+         <p><w rend="circled">61</w><add place="below">2</add><l/></p>
+            <lb></lb>
+            
+            <p><hi rend="underline">Sunday night: <date>March 2</date>:</hi> Again, late: It will betwelve before I<l/>
             sleep. A strange, stopped day: <persName ref="#TedHughes">Ted</persName> + I having morning coffee-<l/>
-            black + bitter-edged, with the <name ref="#Bramwells">Bramwells</name> in their uncomfortable<l/>
+            black + bitter-edged, with the Bramwells in their uncomfortable<l/>
             second-flor flat, chairs turned wrond-side-to, records scattered,<l/>
-            white marble free place angular + functionless. <persName ref="#James">James</persName> is<l/>
+            white marble free place angular + functionless. <persName ref="#JamesBramwell">James</persName> is<l/>
             leaving for their home in <placeName ref="#France">France</placeName> tomorrow. <persName ref="#TedHughes">Ted</persName> met him in<l/>
             the library yesterday, a few seconds before I came into the<l/>
             periodical room from my last class of the week: I looked<l/>
             into the room throught the glass door before I opened it, saw no<l/>
-            black coated <persName ref="#TedHughes">Ted</persName>, pushed the door open, saw <persName ref="#James">James</persName>' back in<l/>
+            black coated <persName ref="#TedHughes">Ted</persName>, pushed the door open, saw <persName ref="#JamesBramwell">James</persName>' back in<l/>
             brown, white tweed coat then <persName ref="#TedHughes">Ted</persName>, dark, disheveled + with<l/>
             that  queer eletric invisible radiance he gives off as he<l/>
             did that first day I saw him over two years ago: to think,<l/>
             irony of <gap reason="illegible"></gap>, that two years ago I was  feverishly studying<l/>
-            <persName ref="#Webster">Webster</persName><gap reason="illegible"></gap>for my supervisions (which very plays I<l/>
+            <persName ref="#JohnWebster">Webster</persName><gap reason="illegible"></gap>for my supervisions (which very plays I<l/>
             am this week examinging my students on and furiously,<l/>
             desperately, taling myself into a crazy belief that I would<l/>
             somehow mange to see <persName ref="#TedHughes">Ted</persName> + imprint my markineffacably<l/>
