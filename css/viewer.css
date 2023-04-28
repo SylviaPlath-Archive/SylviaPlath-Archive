@@ -1761,6 +1761,8 @@ tei-hi {
   text-decoration: underline;
   /* GLS: do we want to bold this or change the background color? */
 }
+[rend="circled"]{border-radius: 100; border:2px solid black;}
+tei-p[rend="circled"]{border-radius: 100; border:2px solid black;}
 tei-history {
   /* Empty Rule Set */
 }
