@@ -2954,21 +2954,9 @@ div.container-fluid{
     padding:5%;
 }
 
-#add-1{
-  color: #AD06BC;
-}
-
-tei-add[id=add-2] {
-  color: #000066;
-}
-
-tei-tei #add-3{
+tei-add #add-3{
   color: chartreuse;
 }
-
-body > tei-tei #add-4 {
-  color: chocolate;
- }
 
 tei-add #add5{
   width: 20%;
