@@ -2,47 +2,109 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:dbo="http://dbpedia.org/ontology/"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:frbr="http://purl.org/vocab/frbr/core#">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Sylvia Plath's Journals</title>
+            <title>Sylvia Plath's Journal - 26 February 1956</title>
+            <author>Sylvia Plath</author>
          </titleStmt>
          <editionStmt>
-            <p>Fourth typewritten page<date>1956</date></p>
-            <p>Edited by <name>Anita Livabella</name></p>
+            <edition>Series I. Writings. Journals. Typescript on white paper with autograph manuscript corrections, 38 numbered leaves, 1955 Nov-1956 Apr.</edition>
+            <respStmt>
+               <resp>Encoding</resp>
+               <persName>Anita Liviabella</persName>
+               <orgName>Alma Mater Studiorum - University of Bologna</orgName>
+            </respStmt>
          </editionStmt>
          <publicationStmt>
-            <publisher>University of Bologna</publisher>
-            <availability status="free">
-               <p>This work is the property of the University of Bologna. It may be used freely by individuals for research, teaching and personal use as long as this statement of availability is included in the text.</p>
-            </availability>
+            <p>for exercise only</p>
          </publicationStmt>
          <sourceDesc>
-            <p>From British Library</p>
+            <p>From the Mortimer Rare Book Room, Smith College Libraries (Massachusetts)</p>
          </sourceDesc>
-      </fileDesc>
+      </fileDesc> 
+      
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="HamishStewart">
+                  <persName>Hamish Stewart</persName>
+               </person>
+               <person xml:id="JeanRacine">
+                  <persName>Jean Racine</persName>
+               </person>
+               <person xml:id="Ronsard">
+                  <persName>Ronsard</persName>
+               </person>
+               <person xml:id="Mallory">
+                  <persName>Mallory</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <place xml:id="London">
+                  <placeName>London</placeName>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <xenoData>
+         <frbr:frbr>
+          
+            <frbr:description tei:ref="#HamishStewart" frbr:Person="https://dbpedia.org/page/Category:English_masculine_given_names">
+               <frbr:isEmbodiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
+               <frbr:label xml:lang="en">Hamish Stewart</frbr:label>
+            </frbr:description>
+            
+            <frbr:description tei:ref="#JeanRacine" frbr:Person="https://dbpedia.org/page/Jean_Racine">
+               <frbr:isEmbodiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
+               <frbr:label xml:lang="en">Jean Racine</frbr:label>
+            </frbr:description>
+            <frbr:description tei:ref="#Ronsard" frbr:Person="https://dbpedia.org/page/Category:English_masculine_given_names">
+               <frbr:isEmbodiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
+               <frbr:label xml:lang="en">Ronsard</frbr:label>
+            </frbr:description>
+            
+            <frbr:description tei:ref="#Mallory" frbr:Person="https://dbpedia.org/page/English_name">
+               <frbr:isEmbodiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
+               <frbr:label xml:lang="en">Mallory</frbr:label>
+            </frbr:description>
+           
+            <frbr:description tei:ref="#London" frbr:Place="https://dbpedia.org/page/University_of_London">
+               <frbr:isSubjectOf rdf:resource="http://purl.org/vocab/frbr/core#Place"/>
+               <frbr:label xml:lang="en">London</frbr:label>
+            </frbr:description>
+            
+            
+            
+         </frbr:frbr>
+      </xenoData>
    </teiHeader>
 
   <text>
     
       <body>
-         <pb xml:id="fourth"></pb>
-         <p>
-            <del><gap reason="deleted"></gap></del><add place="above" rend="overwrite" seq="1">20</add>
-            <date>February 26:</date><l/>
-         </p>
-         
+         <pb n="04" facs="#page4"></pb>
+         <p>20</p>
          <lb></lb>
+         <p><date>February 26:</date></p>
          <lb></lb>
          
-         <p xml:id="p1">
-            He beckoned, I came walking along the outer path, through the<l/>
+         <p>He beckoned, I came walking along the outer path, through the<l/>
             crust of snow, breaking, hearing the dry cru<del><gap reason="deleted" quantity="1" unit="character"></gap></del>nch and then<l/>
             crossing the snow fleld to him, walting for the sudden flash of<l/>
             light, the: hey, there, you stop<add place="inline">!</add> and the crack of pistols. It<l/>
             was dead quiet, and the cold snow was in my shoes and I felt<l/>
-            nothing. We went through the gap in the box hedge, and <persName ref="#Hamish">Hamish</persName><l/>
+            nothing. We went through the gap in the box hedge, and <persName ref="#HamishStewart">Hamish</persName><l/>
             tested the ice on the river; he sald the porter chopped it,<l/>
             but it was whole, and bore us, and we crossed, free, walking<l/>
             home. And I heard the clocks striking three in the deathly<l/>
@@ -51,19 +113,16 @@
          </p>
          
          <lb></lb>
-         <lb></lb>
-            
-         <p xml:id="p2">
-            And now it is today, and I slept only six hours and am weary<l/>
+         
+         <p>And now it is today, and I slept only six hours and am weary<l/>
             and walting till next day and next to recover. I must write<l/>
-            <persName ref="#Racine">Racine</persName> paper, today, dinner with <persName ref="#Mallory">Mallory</persName> (can I live) and then<l/>
+            <persName ref="#JeanRacine">Racine</persName> paper, today, dinner with <persName ref="#Mallory">Mallory</persName> (can I live) and then<l/>
             <persName ref="#Ronsard">Ronsard</persName> desperately tomorrow.<l/>
          </p>
+      
+         <lb></lb> 
          
-         <lb></lb>
-         <lb></lb>
-            
-         <p xml:id="p3">
+         <p>
             Perhaps at dinner they will be laughing at me. Well, they are<l/>
             hardly white, even though they are men. But I shall be sober,<l/>
             oh for so long. Why won't I see him agaln? But I won't. I dream<l/>
@@ -74,8 +133,7 @@
          </p>
          
          <lb></lb>
-         <lb></lb>
-         
+              
       </body>
   </text>
 </TEI>

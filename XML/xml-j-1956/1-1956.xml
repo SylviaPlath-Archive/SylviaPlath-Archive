@@ -2,127 +2,225 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:dbo="http://dbpedia.org/ontology/"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:frbr="http://purl.org/vocab/frbr/core#"   
+   >
    <teiHeader>
+      
       <fileDesc>
          <titleStmt>
-            <title>Sylvia Plath's Journals</title>
+            <title>Sylvia Plath's Journal - 26 February 1956</title>
+            <author>Sylvia Plath</author>
          </titleStmt>
          <editionStmt>
-            <p>First typewritten page<date>1956</date></p>
-            <p>Edited by <name>Anita Livabella</name></p>
+            <edition>Series I. Writings. Journals. Typescript on white paper with autograph manuscript corrections, 38 numbered leaves, 1955 Nov-1956 Apr.</edition>
+            <respStmt>
+               <resp>Encoding</resp>
+               <persName>Anita Liviabella</persName>
+               <orgName>Alma Mater Studiorum - University of Bologna</orgName>
+            </respStmt>
          </editionStmt>
          <publicationStmt>
-            <publisher>University of Bologna</publisher>
-            <availability status="free">
-               <p>This work is the property of the University of Bologna. It may be used freely by individuals for research, teaching and personal use as long as this statement of availability is included in the text.</p>
-            </availability>
+            <p>for exercise only</p>
          </publicationStmt>
          <sourceDesc>
-            <p>From British Library</p>
+            <p>From the Mortimer Rare Book Room, Smith College Libraries (Massachusetts)</p>
          </sourceDesc>
-      </fileDesc>
+      </fileDesc> 
+      
+      <profileDesc>
+         <particDesc>
+            
+            <listPerson>
+               <person xml:id="JeanRacine">
+                  <persName>Jean Racine</persName>
+               </person>
+               <person xml:id="HamishStewart">
+                  <persName>Hamish Stewart</persName>
+               </person>
+               <person xml:id="Meeson">
+                  <persName>Meeson</persName>
+               </person>
+               <person xml:id="Derrek">
+                  <persName>Derrek</persName>
+               </person>
+               <person xml:id="Bert">
+                  <persName>Bert</persName>
+               </person>
+               <person xml:id="Luke">
+                  <persName>Lucas Myers</persName>
+               </person>
+               <person xml:id="DanHuws">
+                  <persName>Daniel Huws</persName>
+               </person>
+               <person xml:id="ThanMorton">
+                  <persName>Than Morton</persName>
+               </person>
+               <person xml:id="DanielWeissbort">
+                  <persName>Daniel Weissbort</persName>
+               </person>
+               <person xml:id="TedHughes">
+                  <persName>Ted Hughes</persName>
+               </person>  
+               <person xml:id="DavidRoss">
+                  <persName>David Ross</persName>
+               </person>
+            </listPerson>
+            
+         </particDesc>
+      </profileDesc>
+      
+      <xenoData>
+         <frbr:frbr>
+            <frbr:description tei:ref="#JeanRacine" frbr:Person="https://dbpedia.org/page/Jean_Racine">
+               <frbr:isEmbodiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
+               <frbr:label xml:lang="en">Jean Racine</frbr:label>
+            </frbr:description>
+            
+            <frbr:description tei:ref="#HamishStewart" frbr:Person="https://dbpedia.org/page/Category:English_masculine_given_names">
+               <frbr:isEmbodiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
+               <frbr:label xml:lang="en">Hamish Stewart</frbr:label>
+            </frbr:description>
+            
+            <frbr:description tei:ref="#Meeson" frbr:Person="https://dbpedia.org/page/Category:English_masculine_given_names">
+               <frbr:isEmbodiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
+               <frbr:label xml:lang="en">Meeson</frbr:label>
+            </frbr:description>
+            
+            <frbr:description tei:ref="#Derrek" frbr:Person="https://dbpedia.org/page/Category:English_masculine_given_names">
+               <frbr:isEmbodiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
+               <frbr:label xml:lang="en">Derrek</frbr:label>
+            </frbr:description>
+            
+            <frbr:description tei:ref="#Bert" frbr:Person="https://dbpedia.org/page/Category:English_masculine_given_names">
+               <frbr:isEmbodiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
+               <frbr:label xml:lang="en">Bert</frbr:label>
+            </frbr:description>
+            
+            <frbr:description tei:ref="#LucasMyers" frbr:Person="https://dbpedia.org/page/Category:English_masculine_given_names">
+               <frbr:isEmbodiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
+               <frbr:label xml:lang="en">Lucas Myers</frbr:label>
+            </frbr:description>
+            
+            <frbr:description tei:ref="#DanHuws" frbr:Person="https://dbpedia.org/page/Daniel_Huws">
+               <frbr:isEmbodiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
+               <frbr:label xml:lang="en">Daniel Huws</frbr:label>
+            </frbr:description>
+            
+            <frbr:description tei:ref="#ThanMorton" frbr:Person="https://dbpedia.org/page/Category:English_masculine_given_names">
+               <frbr:isEmbodiementOF rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
+               <frbr:label xml:lang="en">Than Morton</frbr:label>
+            </frbr:description>
+            
+            <frbr:description tei:ref="#DanielWeissbort" frbr:Person="https://dbpedia.org/page/Daniel_Weissbort">
+               <frbr:isEmbodiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
+               <frbr:label xml:lang="en">Daniel Weissbort</frbr:label>
+            </frbr:description>
+            
+            <frbr:description tei:ref="#TedHughes" frbr:Person="https://dbpedia.org/page/Ted_Hughes">
+               <frbr:isEmbodiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
+               <frbr:label xml:lang="en">Ted Hughes</frbr:label>
+            </frbr:description>
+            
+            <frbr:description tei:ref="DavidRoss" frbr:Person="https://dbpedia.org/page/Category:English_masculine_given_names">
+               <frbr:isEmbodiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
+               <frbr:label xml:lang="en">David Ross</frbr:label>
+            </frbr:description>
+            
+         </frbr:frbr>
+      </xenoData>
+      
    </teiHeader>
    
   <text>
       <body>
-         <pb xml:id="first"></pb>
-         <p>
-         1<subst><del><gap reason="deleted"></gap></del><add place="above" rend="overwrite" seq="1">5</add></subst>.<l/>
-         <date>February 26: Sunday</date></p><l/>
-         
-         <lb></lb>
-         <lb></lb>
-       
-         
-         <p xml:id="p1">
-           A small note after a large orgy. It is morning, gray, most<l/>
-           sober, with cold white puritan<del><gap reason="deleted" quantity="1" unit="character"></gap></del>ical eyes; looking at me. Last<l/>
-           night I got drunk, very very beautifully drunk, and now I am<l/>
-           shot, after six holirs of warm sleep like a baby, with <persName ref="#Racine">Racine</persName><l/>
-           to read, and not even the energy to type; I am getting the dts.<l/>
-           Or something.<l/></p>
-         
-         <lb></lb>
-         <lb></lb>
-                 
-         <p xml:id="p2">
-          <persName ref="#Hamish">Hamish</persName> came in cab, and there was a tedious time standing slanted<l/>
-          against, the bar in <placeName ref="#Miller">Miller's </placeName>with some ugly gat-toothed squat<l/>
-          grinning guy named <persName ref="#Meeson">Meeson</persName>trying to be devastatingly clever and<l/>
-          making intense devastating remarks about nothing. <persName>Hamish</persName><l/>
-          pale, pink and light blue eyes. I drank steadily the goblets<l/>
-          with the red<gap reason="#illegible"></gap>gold Whiskey Macs, one-after the other, and by<l/>
-          the time we left an hour later, I felt that strong, silted-up<l/>
-          force that makes one move through air like swimming, with<l/>
-          brave ease.<l/>
-         </p>
-         
-         <lb></lb>
-         <lb></lb>
-         
-         <p xml:id="p3">
-           <orgName ref="#FalconsYard"><hi rend="underline">Falcon's Yard</hi></orgName>, and the syncopated strut of a piano upstairs,<l/>
-           and oh it was very Bohemian, with boys in turtle-neck sweaters<l/>
-           and girls being blue-eye-lidded or elegant in black. <persName>Derrek</persName><l/>
-           was there, with guitar, and <persName ref="#Bert">Bert</persName> was looking shining and proud<l/>
-           as if he had just delivered five babies, sald something obvious<l/>
-           about having drunk alot, and began talking about how <persName ref="#Luke">Luke</persName> was<l/>
-           satanic after he had rur through the poetry in <placeName ref="#St.Botolphs">St. Botolph's</placeName><l/>
-           and yelled about it: satanic <persName ref="#Luke">Luke</persName>, very very drunk, with a<l/>
-           stupid satanic smile on his pale face, dark sideburns and<l/>
-           rumpled hair, black-and-white checked baggy pants and a loose<l/>
-           swinging jacket, was doling that slow crazy english jive with<l/>
-           a green-clad girl, quite black-halred and eyed and a good<l/>
-           part pixie, and when they stopped dancing, <persName ref="#Luke">Luke</persName> was chasing<l/>
-           her around. <persName ref="#DanHuys">Dan Huys</persName> being very pale, frightfully pale and<l/>
-           freckled, and me at last saying my immortal line of introduction<l/>
-           which has been with me ever since his clever precocious<l/>
-           slanted review: "Is this the better or worse half?" and he<l/>
-           looking incredibly young to even think hard yet.<persName ref="#ThanMinton">Than Minton</persName>,<l/>
-           so small and dark one would have fo slit down to talk to him,<l/>
-           and <persName ref="#Welssbort">Welssbort</persName>, small again and very curvy. Ross, immaculate<del><gap reason="deleted" quantity="1" unit="character"></gap></del><l/>
-           and dark. They were all dark.<l/>
-           
-          <lb></lb>
-          <lb></lb>
-          </p>
-            
-         <p xml:id="p4">
-           By this time I had spilled one drink, partly into my mouth,<l/>
-           partly over my hands and floor, and the Jazz was beginning<l/>
-           to get under my skin, and I started dancing with <persName>Luke</persName> and<l/>
-           knew I was very bad, having crossed the river and banged<l/>
-           into the trees, yelling about the poems, and he only smiling<l/>
-            with that far-off look of a cretin satan. he wrote those<l/>
-           things, and he was slobbing around. Well, I was slobbing<l/>
-           around, ‘blub, maundering" and I didn't even have the excuse<l/>
-           of having written those things; I suppose if you can write<l/>
-           sestinas which <del><gap reason="deleted" quantity="2" unit="character"></gap></del>bam crash through lines and rules after<l/>
-           having raped them to the purpose, then you can be satanic and<l/>
-           smile like a cretin beelzebub.<l/>
-         
-         <lb></lb>
-         <lb></lb>
-            
-         </p>
-            
-         <p xml:id="p5">
-           Then the worst happened, that big, dark, hunky boy, the only<l/>
-            one there huge enough for me, who have been hunching around<l/>
-           over women, and whose name I had asked the minute I had come<l/>
-           into the room, but no one told me, came over and was looking<l/>
-           hard in my eyes and it was <persName ref="#TedHughes">Ted Hughes</persName>. I started yelling<l/>
-           again about his poems and quoting: "most dear unscratchable<l/>
-         
-          <lb></lb>
-          <lb></lb>
-            
-           
-         </p>
+         <pb n="01" facs="#pag1"/>
       
+         <p>15</p>
          
+         <lb></lb>
          
+         <p><date>February 26: Sunday</date></p>
+         
+         <lb></lb>
+         
+         <p>A small note after a large orgy. It is morning, gray, most<l/>
+            sober, with cold white puritan<del><gap reason="deleted" quantity="1" unit="character"></gap></del>ical eyes; looking at me. Last<l/>
+            night I got drunk, very very beautifully drunk, and now I am<l/>
+            shot, after six holirs of warm sleep like a baby, with <persName ref="#JeanRacine">Racine</persName><l/>
+            to read, and not even the energy to type; I am getting the dts.<l/>
+            Or something.<l/>
+         </p>
+        
+         <lb></lb>
+        
+         <p><persName ref="#HamishStweart">Hamish</persName> came in cab, and there was a tedious time standing slanted<l/>
+            against, the bar in Miller's with some ugly gat-toothed squat<l/>
+            grinning guy named <persName ref="#Meeson">Meeson</persName>trying to be devastatingly clever and<l/>
+            making intense devastating remarks about nothing. <persName ref="#HamishStewart">Hamish</persName><l/>
+            pale, pink and light blue eyes. I drank steadily the goblets<l/>
+            with the red-gold Whiskey Macs, one-after the other, and by<l/>
+            the time we left an hour later, I felt that strong, silted-up<l/>
+            force that makes one move through air like swimming, with<l/>
+            brave ease.<l/></p>
+         
+         <lb></lb>
+         <lb></lb>
+         
+         <p><hi rend="underline">Falcon's Yard</hi>, and the syncopated strut of a piano upstairs,<l/>
+            and oh it was very Bohemian, with boys in turtle-neck sweaters<l/>
+            and girls being blue-eye-lidded or elegant in black. <persName ref="#Derrek">Derrek</persName><l/>
+            was there, with guitar, and <persName ref="#Bert">Bert</persName> was looking shining and proud<l/>
+            as if he had just delivered five babies, sald something obvious<l/>
+            about having drunk alot, and began talking about how <persName ref="#LucasMyers">Luke</persName> was<l/>
+            satanic after he had run through the poetry in <objectName ref="#St.Botolphs">St. Botolph's</objectName><l/>
+            and yelled about it: satanic <persName ref="#LucasMyers">Luke</persName>, very very drunk, with a<l/>
+            stupid satanic smile on his pale face, dark sideburns and<l/>
+            rumpled hair, black-and-white checked baggy pants and a loose<l/>
+            swinging jacket, was doling that slow crazy english jive with<l/>
+            a green-clad girl, quite black-haired and eyed and a good<l/>
+            part pixie, and when they stopped dancing, <persName ref="#LucasMyers">Luke</persName> was chasing<l/>
+            her around. <persName ref="#DanHuws">Dan Huys</persName> being very pale, frightfully pale and<l/>
+            freckled, and me at last saying my immortal line of introduction<l/>
+            which has been with me ever since his clever precocious<l/>
+            slanted review: "Is this the better or worse half?" and he<l/>
+            looking incredibly young to even think hard yet.<persName ref="#ThanMorton">Than Minton</persName>,<l/>
+            so small and dark one would have fo slit down to talk to him,<l/>
+            and <persName ref="#DavidWeissbort">Weissbort</persName>, small again and very curvy. <persName ref="DavidRoss">Ross</persName>, immaculate<del><gap reason="deleted" quantity="1" unit="character"></gap></del><l/>
+            and dark. They were all dark.</p>
+           
+        <lb></lb>   
+            
+        <p>By this time I had spilled one drink, partly into my mouth,<l/>
+         partly over my hands and floor, and the Jazz was beginning<l/>
+         to get under my skin, and I started dancing with <persName ref="#LucasMyers">Luke</persName> and<l/>
+         knew I was very bad, having crossed the river and banged<l/>
+         into the trees, yelling about the poems, and he only smiling<l/>
+         with that far-off look of a cretin satan. he wrote those<l/>
+         things, and he was slobbing around. Well, I was slobbing<l/>
+         around, ‘blub, maundering" and I didn't even have the excuse<l/>
+         of having written those things; I suppose if you can write<l/>
+         sestinas which <del><gap reason="deleted" quantity="2" unit="character"></gap></del>bam crash through lines and rules after<l/>
+         having raped them to the purpose, then you can be satanic and<l/>
+         smile like a cretin beelzebub.</p>
+         
+         <lb></lb>
+         
+         <p>Then the worst happened, that big, dark, hunky boy, the only<l/>
+         one there huge enough for me, who have been hunching around<l/>
+         over women, and whose name I had asked the minute I had come<l/>
+         into the room, but no one told me, came over and was looking<l/>
+         hard in my eyes and it was <persName ref="#TedHughes">Ted Hughes</persName>. I started yelling<l/>
+         again about his poems and quoting: "most dear unscratchable</p>
+         
+          <lb></lb>
+      
       </body>
   </text>
 </TEI>

@@ -2,62 +2,120 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:dbo="http://dbpedia.org/ontology/"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:frbr="http://purl.org/vocab/frbr/core#" >
    <teiHeader>
+      
       <fileDesc>
          <titleStmt>
-            <title>Sylvia Plath's Journals</title>
+            <title>Sylvia Plath's Journal - 26 February 1956</title>
+            <author>Sylvia Plath</author>
          </titleStmt>
          <editionStmt>
-            <p>Third typewritten page<date>1956</date></p>
-            <p>Edited by <name>Anita Livabella</name></p>
+            <edition>Series I. Writings. Journals. Typescript on white paper with autograph manuscript corrections, 38 numbered leaves, 1955 Nov-1956 Apr.</edition>
+            <respStmt>
+               <resp>Encoding</resp>
+               <persName>Anita Liviabella</persName>
+               <orgName>Alma Mater Studiorum - University of Bologna</orgName>
+            </respStmt>
          </editionStmt>
          <publicationStmt>
-            <publisher>University of Bologna</publisher>
-            <availability status="free">
-               <p>This work is the property of the University of Bologna. It may be used freely by individuals for research, teaching and personal use as long as this statement of availability is included in the text.</p>
-            </availability>
+            <p>for exercise only</p>
          </publicationStmt>
          <sourceDesc>
-            <p>From British Library</p>
+            <p>From the Mortimer Rare Book Room, Smith College Libraries (Massachusetts)</p>
          </sourceDesc>
-      </fileDesc>
+      </fileDesc> 
+      
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="Oswald">
+                  <persName>Oswald</persName>
+               </person>
+               <person xml:id="TedHughes">
+                  <persName>Ted Hughes</persName>
+               </person>
+               <person xml:id="SylviaPlath">
+                  <persName>Richard</persName>
+               </person>
+               <person xml:id="HamishStewart">
+                  <persName>Hamish Stewart</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <place xml:id="Cambridge">
+                  <placeName>Cambridge</placeName>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <xenoData>
+         <frbr:frbr>
+           
+            
+            <frbr:description tei:ref="#SylivaPlath" frbr:Person="https://dbpedia.org/page/Sylvia_Plath">
+               <frbr:isEmbodiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
+               <frbr:label xml:lang="en">Sylvia Plath</frbr:label>
+            </frbr:description>
+            
+            <frbr:description tei:ref="#HamishStewart" frbr:Person="https://dbpedia.org/page/Category:English_masculine_given_names">
+               <frbr:isEmbodiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
+               <frbr:label xml:lang="en">Hamish Stewart</frbr:label>
+            </frbr:description>
+            <frbr:description tei:ref="#IsaacNewton" frbr:Person="https://dbpedia.org/page/Isaac_Newton">
+               <frbr:isEmodiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person">
+                  <frbr:label xml:lang="en">Isaac Netwon</frbr:label>
+               </frbr:isEmodiementOf>
+            </frbr:description>
+             
+            <frbr:description tei:ref="#Cambridge" frbr:Place="https://dbpedia.org/page/University_of_Cambridge">
+               <frbr:isSubjectOf rdf:resource="http://purl.org/vocab/frbr/core#Place"/>
+               <frbr:label xml:lang="en">Cambridge</frbr:label>
+            </frbr:description>
+            
+         </frbr:frbr>
+      </xenoData>
    </teiHeader>
   <text>
       <body>
-         <pb xml:id="third"></pb>
-         <p>
-            <date>February 26</date>
-            1<del><gap reason="deleted"></gap></del><add place="above" rend="overwrite" seq="1">9</add>.<l/>
-         </p> 
+         <pb n="03" facs="#page3"></pb>
+         
+         <p>19.</p>
          
          <lb></lb>
-         <lb></lb>
          
-   
-         <p xml:id="p1">
-            We walked out as the blonde one was coming in, and <persName ref="#Oswald">Oswald</persName> said<l/>
+         <p><date>February 26</date></p>
+         
+         <lb></lb>
+      
+         <p>We walked out as the blonde one was coming in, and <persName ref="#Oswald">Oswald</persName> said<l/>
             in his dry sarcasm something about "Tell us about bone structures<l/>
-             and that was the last party at <placeName ref="#SaintJohn">Saint John's</placeName> where I lost the<l/>
+            and that was the last party at Saint John's where I lost the<l/>
             red glove, as tonight I last the red bandeau which I loved with<l/>
             all the redness in my heart. Somehow these sluttish nights make<l/>
             me have a violent nunlike passion to write and sequester myself.<l/>
             I shall sequester. I don't want fo see anybody because they are<l/>
             not <persName ref="#TedHughes">Ted Hughes</persName>and I never have been made a fool of by a man.<l/>
-            They are phonies, <persName>Hamish</persName> said: He is the biggest seducer in<l/>
+            They are phonies, <persName ref="#HamishStewart">Hamish</persName> said: He is the biggest seducer in<l/>
             <placeName ref="#Cambridge">Cambridge</placeName>. Shall I write, and be different? Always, I grab it,<l/>
             the writing, hold it to me, defend, defend, against the flux,<l/>
             the sameness of faces. He said my name, <persName ref="#SylviaPlath">Sylvia</persName>, in a blasting<l/>
             wind which shot off in the desert behind my eyes, behind his<l/>
-            eyes, and his poems are clever and terrible and lovely.<l/>
-         </p>
-         
-         <lb></lb>
+            eyes, and his poems are clever and terrible and lovely.<l/></p>
+          
          <lb></lb>
             
-         <p xml:id="p2">
-            Well, <persName ref="#Hamish">Hamish</persName>: and I took an incredibly long time walking about<l/>
-            the misty streets in the moonlight and all was blurred behind<l/>
+         <p>Well, <persName ref="#HamishStewart">Hamish</persName>: and I took an incredibly long time walking about<l/>
+            he misty streets in the moonlight and all was blurred behind<l/>
             a theatrical scrim of fog, and vague boys in black gowns staggered<l/>
             and sang. We hid behind a car, and he sild, the oroctors are<l/>
             out after me,and I kept blithering on about having faith and<l/>
@@ -65,33 +123,31 @@
             can walk on water. Finally, after many strange streets which<l/>
             I did not know, being far far away in a land of whisky and<l/>
             merrydown, saying <persName ref="#TedHughes">Ted</persName> to the lam<unclear rend="faded">po</unclear>osts and calding myself with<l/>
-            <persName ref="#Hamish">Hamish</persName>, keeping saying it aloud to him, because he took<l/>
-            me away safely. We came to the gates of <placeName ref="#Queens">Queens</placeName>, and I wanted<l/>
+            <persName ref="#HamishStewart">Hamish</persName>, keeping saying it aloud to him, because he took<l/>
+            me away safely. We came to the gates of Queens, and I wanted<l/>
             like a baby to lie down and rest, Just peace, peace, I kept<l/>
             whispering. Five boys, five late babies came up, and surrounded<l/>
             me, gently saying, what are you doing here, are you all right,<l/>
             my you smell nice, that perfume, and may we kiss you, and I<l/>
             just stood there huddled to the iron fence, smiling like a lost<l/>
-            lamb and saying dear, dear, babies, and then <persName ref="#Hamish">Hamish</persName> was among<l/>
-             them, and they climbed over and crossed the wooden bridge<l/>
-            that <persName ref="#Newton">Newton</persName> once put together without bolts.<l/>
-         </p>
+            lamb and saying dear, dear, babies, and then <persName ref="#HamishStewart">Hamish</persName> was among<l/>
+            them, and they climbed over and crossed the wooden bridge<l/>
+            that <persName ref="#IsaacNewton">Newton</persName> once put together without bolts.<l/></p>
          
          <lb></lb>
          <lb></lb>
             
-         <p xml:id="p3">
-            <persName ref="àHamish">Hamish</persName> helped me up on the wall, and in my tight skirt, I<l/>
+         <p><persName ref="HamishStewart">Hamish</persName> helped me up on the wall, and in my tight skirt, I<l/>
             tried to step over the spikes; they pierced my skirt, my hands<l/>
             and I felt nothing, thinking from the great distance that I<l/>
             might at last lie on a bed of solkes and not feel 1t, like<l/>
             the yoga, like celia copplestone, crucified, near an anthill,<l/>
             at last, peace, and the nails went through my hands, and my<l/>
-            legs were bare to the thigh, and I was over. The stigmata, I<l/>
+            egs were bare to the thigh, and I was over. The stigmata, I<l/>
             sald, frozen, looking at those raw frigid hands that should<l/>
             have been bleeding. But they were not bleeding. I had gotten<l/>
             over in an act of sublime drunkenness and falth. And then we<l/>
-            we<add place="above">nt</add> to <persName ref="#Hamish">Hamish</persName>'s room and lay on the floor by the fire and<l/>
+            we<add place="above" rend="overwrite">nt</add> to <persName ref="#HamishStewart">Hamish</persName>'s room and lay on the floor by the fire and<l/>
             I was just so damn grateful for his weight on me and his mouth<l/>
             which was nice, and begged that he scold me, and he Just sald<l/>
             I wasn't a whore or a slut like I said but only a very silly<l/>
