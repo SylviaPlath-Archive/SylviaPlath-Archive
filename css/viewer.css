@@ -1155,8 +1155,8 @@ tei-add[place=inline]:after {
 tei-add[place=below] {
   vertical-align: sub;
 }
-tei-addName {
-  /* Empty Rule Set */
+tei-add #add7 {
+  margin-bottom: 10px;
 }
 tei-addSpan {
   /* Empty Rule Set */
