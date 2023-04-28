@@ -2974,3 +2974,5 @@ div.container-fluid{
  #add-7{
   right: 50%;
  }
+
+ #circled-item{border-radius: 100%; border:1px solid black;padding: 1%;}
