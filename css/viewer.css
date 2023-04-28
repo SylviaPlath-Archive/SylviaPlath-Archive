@@ -2943,10 +2943,12 @@ div.testo{
   background-color: #f7f6f7;
   width: 600px;
   height: 500px;
+  margin-top: 30px;
   overflow-x: hidden;
   overflow-y: auto;
   text-align: center;
   padding: 20px;
+  margin-bottom: 5%;
 }
 
 

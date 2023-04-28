@@ -1049,22 +1049,22 @@ footer {
     }
 }
 
+.navbar-right .dropdown{
+    float: left;
+    margin-top: 12px;
+
+}
 .dropbtn {
     border: none;
     background-color: transparent;
     border-width: 0;
     text-transform: uppercase;
-    /*font-family: inherit;
+    font-family: inherit;
     font-size: inherit;
     font-style: inherit;
     font-weight: inherit;
-    line-height: inherit;*/
-    padding: 0;
-    position: relative;
-    -webkit-transition: all 350ms ease-in-out;
-    -moz-transition: all 350ms ease-in-out;
-    -o-transition: all 350ms ease-in-out;
-    transition: all 350ms ease-in-out;
+    line-height: inherit;
+    position: inherit;
 }
 
 .dropdown li{
