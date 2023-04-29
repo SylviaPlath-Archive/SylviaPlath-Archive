@@ -2965,11 +2965,11 @@ div.container-fluid{
 }
 
 #add-5{
-  margin-left: 60%;
+  margin-left: 75%;
  }
 
  #add-6{
-  margin-right: 5%;
+  margin-right: 2cm;
  }
 
  #chapter-1{
@@ -2984,4 +2984,6 @@ div.container-fluid{
 
  #arrow{
   z-index: 1;
+  margin-left: 15%;
+  size: 10px;
  }
