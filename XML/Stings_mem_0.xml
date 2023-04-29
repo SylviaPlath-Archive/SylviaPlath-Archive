@@ -44,7 +44,7 @@
                 
            <head>3.<hi rend="underline">Stings</hi></head>
                 <p><date>October 6 1962</date></p> 
-                <w rend="circled">1</w>
+                <p><w rend="circled" xml:id="uno_stings">1</w></p>
             <lg>
                 <l>Bare-handed, I hand the combs.</l>
                 <l>The man in white smiles, bare-handed._</l>
