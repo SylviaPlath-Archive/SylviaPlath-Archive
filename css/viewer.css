@@ -2981,10 +2981,15 @@ div.container-fluid{
   top: 10%;
  }
 
+ #del-1{
+  margin-top: 10%;
+  margin-left: 30%;
+ }
+
  #circled-item-bell-jar{border-radius: 100%; border:1px solid black;padding: 1%; font-size: large;}
 
  #arrow{
   z-index: 1;
   margin-left: 15%;
-  size: 10px;
+  max-width: 10px;
  }
