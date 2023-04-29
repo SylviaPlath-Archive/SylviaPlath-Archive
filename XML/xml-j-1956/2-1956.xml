@@ -2,59 +2,145 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:dbo="http://dbpedia.org/ontology/"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:frbr="http://purl.org/vocab/frbr/core#"  >
+   
    <teiHeader>
+      
       <fileDesc>
          <titleStmt>
-            <title>Sylvia Plath's Journals</title>
+            <title>Sylvia Plath's Journal - 26 February 1956</title>
+            <author>Sylvia Plath</author>
          </titleStmt>
          <editionStmt>
-            <p>Second typewritten page<date>1956</date></p>
-            <p>Edited by <name>Anita Livabella</name></p>
+            <edition>Series I. Writings. Journals. Typescript on white paper with autograph manuscript corrections, 38 numbered leaves, 1955 Nov-1956 Apr.</edition>
+            <respStmt>
+               <resp>Encoding</resp>
+               <persName>Anita Liviabella</persName>
+               <orgName>Alma Mater Studiorum - University of Bologna</orgName>
+            </respStmt>
          </editionStmt>
          <publicationStmt>
-            <publisher>University of Bologna</publisher>
-            <availability status="free">
-               <p>This work is the property of the University of Bologna. It may be used freely by individuals for research, teaching and personal use as long as this statement of availability is included in the text.</p>
-            </availability>
+            <p>for exercise only</p>
          </publicationStmt>
          <sourceDesc>
-            <p>From British Library</p>
+            <p>From the Mortimer Rare Book Room, Smith College Libraries (Massachusetts)</p>
          </sourceDesc>
-      </fileDesc>
+      </fileDesc> 
+
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="Bert">
+                  <persName>Bert</persName>
+               </person>
+               <person xml:id="DanielWeissbort">
+                  <persName>Daniel Weissbort</persName>
+               </person>
+               <person xml:id="Richard">
+                  <persName>Richard</persName>
+               </person>
+               <person xml:id="DavidRoss">
+                  <persName>David Ross</persName>
+               </person>
+               <person xml:id="Roget">
+                  <persName>Roget</persName>
+               </person>
+               <person xml:id="SylviaPlath">
+                  <persName>Sylvia Plath</persName>
+               </person>
+               <person xml:id="HamishStewart">
+                  <persName>Hamish Stewart</persName>
+               </person>
+         </listPerson>
+        </particDesc>
+         <settingDesc>
+            <listPlace>
+               <place xml:id="London">
+                  <placeName>London</placeName>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <xenoData>
+         <frbr:frbr>
+            
+            <frbr:description tei:ref="#Bert" frbr:Person="https://dbpedia.org/page/Category:English_masculine_given_names">
+               <frbr:isEmbodiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
+               <frbr:label xml:lang="en">Bert</frbr:label>
+            </frbr:description>
+            
+            <frbr:description tei:ref="#DanielWeissbort" frbr:Person="https://dbpedia.org/page/Daniel_Weissbort">
+               <frbr:isEmbodiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
+               <frbr:label xml:lang="en">Daniel Weissbort</frbr:label>
+            </frbr:description>
+            
+            <frbr:description tei:ref="#Richard" frbr:Person="https://dbpedia.org/page/Category:English_masculine_given_names">
+               <frbr:isEmbodiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
+               <frbr:label xml:lang="en">Richard</frbr:label>
+            </frbr:description>
+                  
+            <frbr:description tei:ref="DavidRoss" frbr:Person="https://dbpedia.org/page/Category:English_masculine_given_names">
+               <frbr:isEmbodiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
+               <frbr:label xml:lang="en">David Ross</frbr:label>
+            </frbr:description>
+            
+            <frbr:description tei:ref="#Roget" frbr:Person="https://dbpedia.org/page/Category:English_masculine_given_names">
+               <frbr:isEmbodiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
+               <frbr:label xml:lang="en">Roget</frbr:label>
+            </frbr:description>
+            
+            <frbr:description tei:ref="#SylivaPlath" frbr:Person="https://dbpedia.org/page/Sylvia_Plath">
+               <frbr:isEmbodiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
+               <frbr:label xml:lang="en">Sylvia Plath</frbr:label>
+            </frbr:description>
+           
+            <frbr:description tei:ref="#HamishStewart" frbr:Person="https://dbpedia.org/page/Category:English_masculine_given_names">
+               <frbr:isEmbodiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
+               <frbr:label xml:lang="en">Hamish Stewart</frbr:label>
+            </frbr:description>
+            
+            <frbr:description tei:ref="#London" frbr:Place="https://dbpedia.org/page/London">
+               <frbr:isSubjectOf rdf:resource="http://purl.org/vocab/frbr/core#Place"/>
+               <frbr:label xml:lang="en">London</frbr:label>
+            </frbr:description>
+
+         </frbr:frbr>
+      </xenoData>
    </teiHeader>
   <text>
       <body>
-         <pb xml:id="second"></pb>
+         <pb n="02" facs="#page2"></pb>
 
-           <p>   
-              1<del><gap reason="deleted"></gap></del><add place="above" rend="overwrite" seq="1">8</add>.<l/>
-              <date>February 26 </date>(con)<l/>
-           </p> 
-         
+         <p>18.</p> 
          <lb></lb>
+         <p><date>February 26 </date>(con)<l/></p>
+         
          <lb></lb>
    
-             
-         <p xml:id="p1">
-           diamond" and he yelled back, colossal, in a voice that should<l/>
-           have come from a Pole, "You like?" and asking  me  if I wanted<l/>
-           brandy, and me yelling yes and backing into the next room past<l/>
-           the smug shining blub face of dear <persName ref="#Bert">Bert</persName>, looking as if he had<l/>
-           delivered at least nine or ten babies, and bang the door was<l/>
-           shut and he was sloshing brandy into a glass and I was sloshing<l/>
-           it at the place <del><gap reason="deleted" quantity="3" unit="character"></gap></del> where my mouth was when I last knew about it.<l/></p>
+         <p>diamond" and he yelled back, colossal, in a voice that should<l/>
+            have come from a Pole, "You like?" and asking  me  if I wanted<l/>
+            brandy, and me yelling yes and backing into the next room past<l/>
+            the smug shining blub face of dear <persName ref="#Bert">Bert</persName>, looking as if he had<l/>
+            delivered at least nine or ten babies, and bang the door was<l/>
+            shut and he was sloshing brandy into a glass and I was sloshing<l/>
+            it at the place <del><gap reason="deleted" quantity="3" unit="character"></gap></del> where my mouth was when I last knew about it.<l/></p>
          
          <lb></lb>
-         <lb></lb>
             
-         <p xml:id="p2">We shouted as if in a high wind, about the review, and he saying<l/>
-            <persName ref="#Dan">Dan</persName> knew I was beautiful, he wouldn't have written it about a<l/>
+         <p>We shouted as if in a high wind, about the review, and he saying<l/>
+            <persName ref="#DanielWeissbort">Dan</persName> knew I was beautiful, he wouldn't have written it about a<l/>
             cripple, and my yelling drotest in which the words "sleep with<l/>
             the editor" occurred with startling frequency. And then it<l/>
             came to the fact that I was all there, wasn't I, and I stamped<l/>
             and screamed yes, and he had obligations in the next room, and<l/>
-            he was working in London, earning ten pounds a week so he could<l/>
+            he was working in <placeName ref="#London">London</placeName>, earning ten pounds a week so he could<l/>
             later earn twelve pounds a week, and I was stamping and he was<l/>
             stampig on the floor, and then hekissed me bang smash on the<l/>
             mouth and ripped my hairband off, my lovely red hairband scarf<l/>
@@ -66,17 +152,13 @@
             violence, and I can see how women lie down for artists. The one<l/>
             man in the room who was as big as his poems, huge, with hulk<l/>
             and dynamic chunks of words; his poems are strong and blasting<l/>
-            like a high wind in steel girders. And Iscreamed in myself,<l/>
+            like a high wind in steel girders. And I screamed in myself,<l/>
             thinking: oh, to give myself crashing, fighting, to you. The<l/>
-            one man since I've lived who could blast <persName ref="#Richard">Richard</persName>.<l/>
-         </p>
-         
-         <lb></lb>
+            one man since I've lived who could blast <persName ref="#Richard">Richard</persName>.<l/></p>
+             
          <lb></lb>
             
-         <p xml:id="p3">
-            
-            And now I sit here, demure and tired in brown, slightly sick<l/>
+         <p>And now I sit here, demure and tired in brown, slightly sick<l/>
             at heart. I shall zo on. I shall write a detalled description <del><gap reason="deleted" quantity="1" unit="character"></gap></del><l/>
             of shock treatment, tight, blasting short descriptions with<l/>
             not one smudge of coy sentimentality, and when I get enough<l/>
@@ -85,40 +167,29 @@
             up. I thought about the shock treatment description last night:<l/>
             the deadly sleep of her madness, and the breakfast not coming,<l/>
             the little details, the flashback to the shock treatment that<l/>
-            went wrong: electrocu<unclear reason="illegible">t</unclear>ion brought in, and the inevitable<l/>
+            went wrong: electrocution brought in, and the inevitable<l/>
             going down the subterranean hall, waking to a new world, with<l/>
-            no name, being born again, and not of woman.<l/>
-            
-         </p>
-         
-         <lb></lb>
+            no name, being born again, and not of woman.<l/></p>
+              
          <lb></lb>
             
-            <p xml:id="p4">
-            I shall never see him again, and the thorny limitations of the<l/>
-            day crowd in like the spikes on the gates at Jueens last night<l/>
+         <p>I shall never see him again, and the thorny limitations of the<l/>
+            day crowd in like the spikes on the gates at Queens last night<l/>
             I could never sleep with him anyway, with all his friends here<l/>
             and his close relation to them, laughing, talking, I should<l/>
             be the world's whore, as well as <persName ref="#Roget">Roget</persName>'s strumpet. I shall never<l/>
             see him, he will never look for me. He said my name, <persName ref="#SylviaPlath">Sylvia</persName>,<l/>
             and banged a black grinning look into my eyes, and I would like<l/>
-            to try Just this wnce, my force against his. But he will never<l/>
+            to try just this once, my force against his. But he will never<l/>
             come, and the blonde one, pure and snug and favored, looks, is<l/>
-            it with projected nity and disguat<gap reason="illegible"></gap>at this drunken amo<gap reason="illegible"></gap>hic slut.<l/>
-            </p>
-         
-         <lb></lb>
+            it with projected nity and disguat<gap reason="illegible" quantity="1" unit="character"></gap>at this drunken amo<gap reason="illegible" quantity="2" unit="character"></gap>hic slut.<l/></p>
+        
          <lb></lb>
              
-           <p xml:id="p5">
-            
-            But <persName ref="#Hamish">Hamish</persName> was very kind and would have fought for me. It gave<l/>
-            him a kind of glory to take me away from them, those fiends and I am worth fighting for, I had been nice, to him, he said.<l/>
-           </p>
-         
-         <lb></lb>
+         <p>But <persName ref="#HamishStewart">Hamish</persName> was very kind and would have fought for me. It gave<l/>
+            him a kind of glory to take me away from them, those fiends and I am worth fighting for, I had been nice, to him, he said.<l/></p> 
          <lb></lb>
          
       </body>
   </text>
-</TEI>
+ </TEI>

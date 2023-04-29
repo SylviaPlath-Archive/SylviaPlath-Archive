@@ -12,6 +12,8 @@ img {
   margin: 10px auto;
   max-width: 600px;
   position: relative;
+  margin-top: 35px;
+  margin-bottom: 15px;
   padding-top: 66.6666666667%;
 }
 @media screen and (min-width: 600px) {
@@ -40,5 +42,5 @@ img {
   opacity: 1;
 }
 .gallery__selector:checked ~ .gallery__thumb > img {
-  box-shadow: 0 0 0 3px #0be2f6;
+  box-shadow: 0 0 0 3px brown;
 }

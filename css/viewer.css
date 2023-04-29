@@ -1155,7 +1155,7 @@ tei-add[place=inline]:after {
 tei-add[place=below] {
   vertical-align: sub;
 }
-tei-addName {
+tei-add {
   /* Empty Rule Set */
 }
 tei-addSpan {
@@ -2946,13 +2946,38 @@ div.testo{
   background-color: #f7f6f7;
   width: 600px;
   height: 500px;
+  margin-top: 30px;
   overflow-x: hidden;
   overflow-y: auto;
   text-align: center;
   padding: 20px;
+  margin-bottom: 5%;
 }
 
 
 div.container-fluid{
     padding:5%;
 }
+
+#add-1{
+  position: relative;
+  margin-top: 0;
+}
+
+#add-5{
+  margin-left: 60%;
+ }
+
+ #add-6{
+  margin-right: 5%;
+ }
+
+ #chapter-1{
+  text-decoration: underline;
+ }
+
+ #add-7{
+  right: 50%;
+ }
+
+ #circled-item-bell-jar{border-radius: 100%; border:1px solid black;padding: 1%; font-size: large;}

@@ -140,20 +140,20 @@
   </teiHeader>
   <text>
       <body>
-         <pb xml:id="thebelljar" n="1"/>
+         <!--<pb xml:id="thebelljar" n="1"/>
          <div xml:id="page-1">
-            <!-- <graphic url="https://github.com/TheBellJar-dse/TheBellJar-dse/blob/489e21573ddfb5cd7fd50dc3c10b7747bad6f4d3/img/The%20Bell%20Jar%20(5)/The%20Bell%20Jar%2001.jpg" type="page"/>-->
+            <graphic url="https://github.com/TheBellJar-dse/TheBellJar-dse/blob/489e21573ddfb5cd7fd50dc3c10b7747bad6f4d3/img/The%20Bell%20Jar%20(5)/The%20Bell%20Jar%2001.jpg" type="page"/>
             
             <head>
                
-               <del xml:id="del-1"><gap reason="deleted" quantity="8" unit="character"></gap></del><add xml:id="add-1" place="above">The Bell Jar</add><del xml:id="del-2"><gap reason="deleted" quantity="8" unit="character"></gap></del><add xml:id="add-2" place="above"><gap xml:id="gap-1" reason="deleted" quantity="8" unit="character"></gap></add>Lucas <add xml:id="add-3" rend="circled">Second Draft</add> <add xml:id="add-4">Chapter 1</add><add rend="circled">14</add> <add xml:id="add-5">Chapter 2</add> <add xml:id="add-6" rend="circled">10</add>
+               <subst xml:id="sub-1"><del xml:id="del-1"><gap reason="deleted" quantity="8" unit="character"></gap></del><add xml:id="add-1" place="above">The Bell Jar</add></subst><del><gap reason="deleted" quantity="8" unit="character"></gap></del><add xml:id="add-2" place="above"><gap reason="deleted" quantity="8" unit="character"></gap></add>Lucas <add xml:id="add-3" rend="circled">Second Draft</add> <add xml:id="add-4">Chapter 1</add><add rend="circled">14</add> <add xml:id="add-5">Chapter 2</add> <add xml:id="add-6" rend="circled">10</add>
                <lb/>
                <add xml:id="add-7" rend="circled">Chapters 1-16</add>
                <lb/>
                <title xml:id="chapter-1"> CHAPTER I</title><lb/>
             </head>
             <list type="simple">
-               <item xml:id="circled-item-bell-jar">14</item>
+               <item xml:id="circled-item">14</item>
                <item>8</item>
                <item>14</item>
                <item>10</item>
@@ -176,13 +176,13 @@
                <item>26</item>
                <item>289</item>
              </list>  
-            <div type="chapter" n="1">
+            <div type="chapter" n="1" xml:id="page-1">
             <p>
                <space quantity="7" unit="chars"/>It was a queer, sultry summer, the summer they electrocuted<l/>
                <persName ref="#therosenbergs">the Rosenbergs</persName>, and I didn't know what I was doing in <placeName ref="#newyork">New York</placeName>.<l/>
                I'm stupide about executions. The idea of being electrocuted<l/>
                makes me sick, <del rend="strikethrough">I can't see it</del> that's all there was to read<l/>
-               about in the papers---goggle-eyed headlines staring up at me on<l/>
+               about in the papersgoggle-eyed headlines staring up at me on<l/>
                every street corner and at the fusty, peanut-smelling mouth of<l/>
                every subway. It had nothing to do with me, but I couldn'thelp<l/>
                wondering what it would be like, being burned alive all along<l/>
@@ -190,19 +190,19 @@
             </p>
             <lb></lb>
             <p>
-               <space quantity="7" unit="chars"/><placeName ref="#newyork">New York</placeName> , <del rend="strikethrough">made me sick</del> <add xml:id="add-8" place="above" rend="superscript">was bad</add>enough. By <add xml:id="add-9" place="above" rend="superscript">nine</add><del><gap reason="deleted" quantity="2" unit="character"></gap> </del>in the morning<l/>
+               <space quantity="7" unit="chars"/><placeName ref="#newyork">New York</placeName> , <subst><del rend="strikethrough">made me sick</del> <add xml:id="add-8" place="above" rend="superscript">was bad</add></subst> enough. By <add place="above" rend="superscript">nine</add><del><gap reason="deleted" quantity="2" unit="character"></gap> </del>in the morning<l/>
                the fake, country-wet freshness that somehow seeped in overnight<l/>
                evaporated like the tail end of-a sweet dream. At the bottom of<l/>
-               their granite canyons, the <add xml:id="add-10" place="below">/not</add><add place="supralinear" rend="m" hand="Pound"><add xml:id="add-11" rend="circled">mirage-grey</add></add>streets wavered <del rend="strikethrough">grey as a mirage</del> in the<l/>
+               their granite canyons, the <add place="below">/not</add><add place="supralinear" rend="m" hand="Pound"><add xml:id="add-9" rend="circled">mirage-grey</add></add>streets wavered <del rend="strikethrough">grey as a mirage</del> in the<l/>
                <del><gap reason="deleted" quantity="2" unit="character"></gap></del>sun, the car tops sizzled and glittered, and the dry, cindery <l/>
                dust blew into my eyes and down my throat.<l/>
             </p>
             <lb></lb>
-            <p xml:id="p-final-bj-1">
+            <p>
                <space quantity="7" unit="chars"/>I kept hearing about <persName ref="#therosenbergs">the Rosenbergs</persName> over the radio and at<l/>
                the office till I couldn't get them out of my ymind. It was like<l/>
                the first time I saw a cadaver. For weeks afterward, the cadaver's<l/>
-               head---or what there was left of it---floated up behind my eggs<l/>
+               heador what there was left of itfloated up behind my eggs<l/>
                and bacon at breakfast and behind the face of <persName ref="#buddywillard">Buddy Willard</persName>, who<l/>
                was responsible for my seeing it in the first place, and pretty<l/>
                soon I felt to be carrying that cadaver's head around with me on<l/>
@@ -210,7 +210,6 @@
             </p>
             </div>
          </div>
-         <!--
          <div xml:id="page-2">
             <graphic url="https://github.com/TheBellJar-dse/TheBellJar-dse/blob/489e21573ddfb5cd7fd50dc3c10b7747bad6f4d3/img/The%20Bell%20Jar%20(5)/The%20Bell%20Jar%2001.jpg" type="page"/>
             
@@ -253,9 +252,9 @@
                <del><gap reason="deleted" quantity="2" unit="character"></gap></del> back to <del><gap reason="deleted" quantity="2" unit="character"></gap></del> <add place="above">work</add> like a a numb trolley bus. I guess I Should<l/>
                have been excited the way most of the other girls were, but I<l/>
             </p>
-            </div>
+            </div>-->
          <div xml:id="page-3">
-            <graphic url="https://github.com/TheBellJar-dse/TheBellJar-dse/blob/489e21573ddfb5cd7fd50dc3c10b7747bad6f4d3/img/The%20Bell%20Jar%20(5)/The%20Bell%20Jar%2001.jpg" type="page"/>
+            <!--<graphic url="https://github.com/TheBellJar-dse/TheBellJar-dse/blob/489e21573ddfb5cd7fd50dc3c10b7747bad6f4d3/img/The%20Bell%20Jar%20(5)/The%20Bell%20Jar%2001.jpg" type="page"/>-->
            
             <p>
                couldn't get myself to react. I felt very still and very empty,<l/>
@@ -301,7 +300,7 @@
                <l/>
             </p>
          </div>
-         <div xml:id="page-4">
+         <!--<div xml:id="page-4">
             <graphic url="https://github.com/TheBellJar-dse/TheBellJar-dse/blob/489e21573ddfb5cd7fd50dc3c10b7747bad6f4d3/img/The%20Bell%20Jar%20(5)/The%20Bell%20Jar%2001.jpg" type="page"/>
           
             <p>
@@ -384,7 +383,7 @@
                beachcoats, but Doreen wore these full-length nylon and lace<l/>
                jobs you could half see through, and dressing gowns the color of<l/>
             </p>
-         </div> -->
+         </div>-->
       </body>
   </text>
 </TEI>
