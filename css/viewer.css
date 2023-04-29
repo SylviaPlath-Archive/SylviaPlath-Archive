@@ -1764,6 +1764,9 @@ tei-hi {
 [rend="circled"]{border-radius: 100%; border:1px solid black; padding: 1%;}
 tei-p[rend="circled"]{border-radius: 100%; border:1px solid black;padding: 1%;}
 tei-w[rend="circled"]{border-radius: 100%; border:1px solid black; padding: 1%;}
+tei-b[rend="line"]{border-bottom: 1px solid black;}
+#uno_stings, #due_stings, #tre_stings{margin-right: 0px;}
+
 tei-history {
   /* Empty Rule Set */
 }
