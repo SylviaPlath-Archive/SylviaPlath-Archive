@@ -2962,11 +2962,11 @@ div.container-fluid{
 }
 
 #add-5{
-  margin-left: 50%;
+  margin-left: 60%;
  }
 
  #add-6{
-  margin-right: 5px;
+  margin-right: 5%;
  }
 
  #chapter-1{
@@ -2977,4 +2977,4 @@ div.container-fluid{
   right: 50%;
  }
 
- #circled-item{border-radius: 100%; border:1px solid black;padding: 1%;}
+ #circled-item-bell-jar{border-radius: 100%; border:1px solid black;padding: 1%; font-size: large;}

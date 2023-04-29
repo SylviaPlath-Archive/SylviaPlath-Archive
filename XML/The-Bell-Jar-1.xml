@@ -146,14 +146,14 @@
             
             <head>
                
-               <del xml:id="del-1"><gap reason="deleted" quantity="8" unit="character"></gap></del><add xml:id="add-1" place="above">The Bell Jar</add><del><gap reason="deleted" quantity="8" unit="character"></gap></del><add xml:id="add-2" place="above"><gap reason="deleted" quantity="8" unit="character"></gap></add>Lucas <add xml:id="add-3" rend="circled">Second Draft</add> <add xml:id="add-4">Chapter 1</add><add rend="circled">14</add> <add xml:id="add-5">Chapter 2</add> <add xml:id="add-6" rend="circled">10</add>
+               <del xml:id="del-1"><gap reason="deleted" quantity="8" unit="character"></gap></del><add xml:id="add-1" place="above">The Bell Jar</add><del xml:id="del-2"><gap reason="deleted" quantity="8" unit="character"></gap></del><add xml:id="add-2" place="above"><gap xml:id="gap-1" reason="deleted" quantity="8" unit="character"></gap></add>Lucas <add xml:id="add-3" rend="circled">Second Draft</add> <add xml:id="add-4">Chapter 1</add><add rend="circled">14</add> <add xml:id="add-5">Chapter 2</add> <add xml:id="add-6" rend="circled">10</add>
                <lb/>
                <add xml:id="add-7" rend="circled">Chapters 1-16</add>
                <lb/>
                <title xml:id="chapter-1"> CHAPTER I</title><lb/>
             </head>
             <list type="simple">
-               <item xml:id="circled-item">14</item>
+               <item xml:id="circled-item-bell-jar">14</item>
                <item>8</item>
                <item>14</item>
                <item>10</item>
@@ -190,15 +190,15 @@
             </p>
             <lb></lb>
             <p>
-               <space quantity="7" unit="chars"/><placeName ref="#newyork">New York</placeName> , <del rend="strikethrough">made me sick</del> <add xml:id="add-8" place="above" rend="superscript">was bad</add>enough. By <add place="above" rend="superscript">nine</add><del><gap reason="deleted" quantity="2" unit="character"></gap> </del>in the morning<l/>
+               <space quantity="7" unit="chars"/><placeName ref="#newyork">New York</placeName> , <del rend="strikethrough">made me sick</del> <add xml:id="add-8" place="above" rend="superscript">was bad</add>enough. By <add xml:id="add-9" place="above" rend="superscript">nine</add><del><gap reason="deleted" quantity="2" unit="character"></gap> </del>in the morning<l/>
                the fake, country-wet freshness that somehow seeped in overnight<l/>
                evaporated like the tail end of-a sweet dream. At the bottom of<l/>
-               their granite canyons, the <add place="below">/not</add><add place="supralinear" rend="m" hand="Pound"><add xml:id="add-9" rend="circled">mirage-grey</add></add>streets wavered <del rend="strikethrough">grey as a mirage</del> in the<l/>
+               their granite canyons, the <add xml:id="add-10" place="below">/not</add><add place="supralinear" rend="m" hand="Pound"><add xml:id="add-11" rend="circled">mirage-grey</add></add>streets wavered <del rend="strikethrough">grey as a mirage</del> in the<l/>
                <del><gap reason="deleted" quantity="2" unit="character"></gap></del>sun, the car tops sizzled and glittered, and the dry, cindery <l/>
                dust blew into my eyes and down my throat.<l/>
             </p>
             <lb></lb>
-            <p>
+            <p xml:id="p-final-bj-1">
                <space quantity="7" unit="chars"/>I kept hearing about <persName ref="#therosenbergs">the Rosenbergs</persName> over the radio and at<l/>
                the office till I couldn't get them out of my ymind. It was like<l/>
                the first time I saw a cadaver. For weeks afterward, the cadaver's<l/>
