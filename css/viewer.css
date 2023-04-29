@@ -2977,7 +2977,8 @@ div.container-fluid{
  }
 
  #add-7{
-  right: 50%;
+  right: 40%;
+  top: 10%;
  }
 
  #circled-item-bell-jar{border-radius: 100%; border:1px solid black;padding: 1%; font-size: large;}
