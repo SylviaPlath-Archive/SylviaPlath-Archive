@@ -2978,3 +2978,7 @@ div.container-fluid{
  }
 
  #circled-item-bell-jar{border-radius: 100%; border:1px solid black;padding: 1%; font-size: large;}
+
+ #arrow{
+  z-index: 1;
+ }
