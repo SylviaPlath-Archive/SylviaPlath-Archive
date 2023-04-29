@@ -1764,6 +1764,9 @@ tei-hi {
 [rend="circled"]{border-radius: 100%; border:1px solid black; padding: 1%;}
 tei-p[rend="circled"]{border-radius: 100%; border:1px solid black;padding: 1%;}
 tei-w[rend="circled"]{border-radius: 100%; border:1px solid black; padding: 1%;}
+tei-b[rend="line"]{border-bottom: 1px solid black;}
+#uno_stings, #due_stings, #tre_stings{margin-right: 0px;}
+
 tei-history {
   /* Empty Rule Set */
 }
@@ -2943,10 +2946,12 @@ div.testo{
   background-color: #f7f6f7;
   width: 600px;
   height: 500px;
+  margin-top: 30px;
   overflow-x: hidden;
   overflow-y: auto;
   text-align: center;
   padding: 20px;
+  margin-bottom: 5%;
 }
 
 
@@ -2960,11 +2965,11 @@ div.container-fluid{
 }
 
 #add-5{
-  margin-right: 35px;
+  margin-left: 75%;
  }
 
  #add-6{
-  margin-right: 30px;
+  margin-right: 2cm;
  }
 
  #chapter-1{
@@ -2972,7 +2977,19 @@ div.container-fluid{
  }
 
  #add-7{
-  right: 50%;
+  right: 40%;
+  top: 10%;
  }
 
- #circled-item{border-radius: 100%; border:1px solid black;padding: 1%;}
+ #del-1{
+  margin-top: 10%;
+  margin-left: 30%;
+ }
+
+ #circled-item-bell-jar{border-radius: 100%; border:1px solid black;padding: 1%; font-size: large;}
+
+ #arrow{
+  z-index: 1;
+  margin-left: 15%;
+  max-width: 10px;
+ }
