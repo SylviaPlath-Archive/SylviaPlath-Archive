@@ -43,9 +43,9 @@
                     
                 
            <head>3.<hi rend="underline">Stings</hi></head>
-                <p><date>October 6 1962</date></p> 
-                <p><w rend="circled" xml:id="uno_stings">1</w></p>
-            <lg>
+                <p rend="pos_right"><date>October 6 1962</date></p> 
+                <p rend="pos_right"> <w rend="circled" xml:id="uno_stings">1</w></p>
+            <lg rend="right-align">
                 <l>Bare-handed, I hand the combs.</l>
                 <l>The man in white smiles, bare-handed._</l>
                 <l>our cheesecloth gauntlets <del ><gap reason="deleted" ></gap></del> <unclear>neat</unclear> a sweet,</l>
@@ -54,14 +54,14 @@
                 <l>He &amp; I, he and I</l>
             </lg>
                 
-            <lg>
+             <lg rend="right-align">
                 <l>Have a thousand clean cells between us,</l>
                 <l><add place="margin">Eight </add><del>comb after</del> combs of yellow cups,</l>
                 <l><add place="margin">And </add>The hive itself <del><gap reason="deleted" quantity="1" unit="character"></gap></del> a teacup,</l>
                 <l>White <del><gap reason="deleted"></gap></del> with pink flowers on it <del><gap reason="deleted"></gap></del>.</l>
                 <l>With excessive love I enamelled it</l>
             </lg>
-            <lg> 
+            <lg rend="right-align"> 
                 <l>Thinking <add place="above"><del><gap reason="deleted"></gap></del></add> "Sweetness, Sweetness"<del>,</del></l>
                 <l><del> <unclear>Seeing the</unclear> <gap reason="deleted" ></gap></del></l>
                 <l><del><unclear>The</unclear> </del> Brood cells <del><gap reason="deleted"></gap></del> grey as the fossils of shells</l>
@@ -70,7 +70,7 @@
                 <l><add place="margin">Is</add> <del> <unclear>Was</unclear> </del> there any queen at all in it?</l>
             </lg>
                 
-            <lg>
+            <lg rend="right-align">
                 <l>If there is,  <add place="above"> <del><gap reason="deleted"></gap> </del> </add> she <del><gap reason="deleted"></gap></del> <add place="above">is</add> old, <del><gap reason="illegible"></gap></del></l> 
                 <l>Her wings torn shawls, her long body</l>
                 <l>Rubbed of its plush -</l>
@@ -78,7 +78,7 @@
                 <l><del>I think I am being <unclear>cheated</unclear> </del></l>
                 <l>I stand in a <unclear>column</unclear> </l>
             </lg>
-            <lg>
+            <lg rend="right-align">
                 <l>Of winged, unmiraculous women,</l> 
                 <l>Honey-drudgers. <del><unclear>I am no </unclear> drudge</del></l>
                 <l>I am no drudge</l>
@@ -86,7 +86,7 @@
                 <l>And dried plates with my dense<add place="above"><del><gap reason="deleted"></gap></del></add> <add place="below"><gap reason="illegible"></gap></add> hair.</l>
             </lg>
                
-            <lg>
+            <lg rend="right-align">
                 <l>And seen my strangeness evaporate,</l>
                 <l>Blue dew from dangerous skin.</l>
                 <l>Will they hate me,</l>

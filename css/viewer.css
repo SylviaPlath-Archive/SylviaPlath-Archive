@@ -1,3 +1,17 @@
+html,
+body,
+#openseadragon1 {
+  width: 100%;
+  height: 100%
+}
+
+.loading {
+  position: absolute;
+  left: 50px;
+  top: 50px;
+  font-size: 30px;
+  z-index: 10;
+}
 /* 
 ** Copyright 2015 TEI Consortium
 
@@ -99,6 +113,8 @@ body.pagetable{
     position:absolute;
     float:right;
 }
+
+
 
 #lh-col{
     width:16%;
@@ -1765,7 +1781,8 @@ tei-hi {
 tei-p[rend="circled"]{border-radius: 100%; border:1px solid black;padding: 1%;}
 tei-w[rend="circled"]{border-radius: 100%; border:1px solid black; padding: 1%;}
 tei-b[rend="line"]{border-bottom: 1px solid black;}
-#uno_stings, #due_stings, #tre_stings{margin-right: 0px;}
+tei-p[rend="at_right"]{text-align: right;}
+tei-lg[rend="right-align"]{text-align: left;}
 
 tei-history {
   /* Empty Rule Set */
