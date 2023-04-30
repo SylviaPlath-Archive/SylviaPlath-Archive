@@ -1072,7 +1072,7 @@ footer {
     font-size: 16px;
     color: #eaffd6 !important;
     text-transform: uppercase;
-    height: 50px;
+    
     position: relative;
     display: inline-block;
     z-index: 210;
@@ -1082,14 +1082,14 @@ footer {
     display: none;
     position: absolute;
     min-width: 220px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    padding: 12px 16px;
+    background-color:#761d2c;
+    
     z-index: 211;   
 }
 
 .dropdown-content a {
     color: black;
-    padding: 12px 16px;
+    padding-left: 4%;
     display: block;
   }
   
