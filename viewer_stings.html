@@ -58,7 +58,7 @@ http://www.templatemo.com/preview/templatemo_427_timeline
                     <div class="collapse navbar-collapse" id="main-menu">
                         <ul class="nav navbar-nav navbar-right">
                             <li><span></span><a href="index.html" class="home">Home</a></li>
-                            <li><span></span><a href="index.html#first-section" class="about">Editions</a></li>
+                            <li><span></span><a href="" class="about">Editions</a></li>
                             <li><span></span><a href="index.html#second-section" class="portfolio">Documentation</a></li>
                             <li><span></span><a href="index.html#map" class="map">Location</a></li>
                             <li><span></span><a href="index.html#third-section" class="contact">About</a></li>
@@ -78,39 +78,134 @@ http://www.templatemo.com/preview/templatemo_427_timeline
         
               <div class="col-9 col-lg-5 col-md-9 col-sm-9" id ="imagegallery">
 
-                        <div id="container" style="float: left;">
-                            <section class="gallery">
-                                
-                                <div class="gallery__item">
-                                <input type="radio" id="img-2" name="gallery" class="gallery__selector" />
-                                <img class="gallery__img" src="img/Stings(3)/Stings_mem_0.jpg" alt="" height="400px"/>
-                                <label for="img-2" class="gallery__thumb"><img src="img/Stings(3)/Stings_mem_0.jpg" height="100px" alt="" onclick="displayxml('XML/Stings_mem_0.xml')"/></label>
-                                </div>
-                                <div class="gallery__item">
-                                <input type="radio" id="img-3" name="gallery" class="gallery__selector"/>
-                                <img class="gallery__img" src="img/Stings(3)/Stings_mem_1.jpg" alt="" height="400px" />
-                                <label for="img-3" class="gallery__thumb"><img src="img/Stings(3)/Stings_mem_1.jpg" height="100px" alt="" onclick="displayxml('XML/Stings_mem_1.xml')"/></label>
-                                </div>
-                                <div class="gallery__item">
-                                <input type="radio" id="img-4" name="gallery" class="gallery__selector"/>
-                                <img class="gallery__img" src="img/Stings(3)/Stings_mem_2.jpg" alt="" height="400px"/>
-                                <label for="img-4" class="gallery__thumb"><img src="img/Stings(3)/Stings_mem_2.jpg" height="100px" alt=""  onclick="displayxml('XML/Stings_mem_2.xml')"/></label>
-                                </div>
-                            </section>
-                        </div>
-
+           <!--  <div id="openseadragon1"></div>
+                <div class="loading">LOADING!</div>
+            -->   
+                    <div id="container" style="float: left;">
+                        <section class="gallery">
+                            
+                            <div class="gallery__item">
+                            <input type="radio" id="img-2" name="gallery" class="gallery__selector" />
+                            <img class="gallery__img" src="img/Stings(3)/Stings_mem_0.jpg" alt="" height="400px"/>
+                            <label for="img-2" class="gallery__thumb"><img src="img/Stings(3)/Stings_mem_0.jpg" height="100px" alt="" onclick="displayxml('XML/Stings_mem_0.xml')"/></label>
+                            </div>
+                            <div class="gallery__item">
+                            <input type="radio" id="img-3" name="gallery" class="gallery__selector"/>
+                            <img class="gallery__img" src="img/Stings(3)/Stings_mem_1.jpg" alt="" height="400px" />
+                            <label for="img-3" class="gallery__thumb"><img src="img/Stings(3)/Stings_mem_1.jpg" height="100px" alt="" onclick="displayxml('XML/Stings_mem_1.xml')"/></label>
+                            </div>
+                            <div class="gallery__item">
+                            <input type="radio" id="img-4" name="gallery" class="gallery__selector"/>
+                            <img class="gallery__img" src="img/Stings(3)/Stings_mem_2.jpg" alt="" height="400px"/>
+                            <label for="img-4" class="gallery__thumb"><img src="img/Stings(3)/Stings_mem_2.jpg" height="100px" alt=""  onclick="displayxml('XML/Stings_mem_2.xml')"/></label>
+                            </div>
+                        </section>
                     </div>
+              </div>
                 
-    <div class="testo" >
-            <div id="TEI" style="color: brown; margin-top: 10px;" class=" scroll-column zoom">
-            Select an image to visualize the corresponding textual transcription!
-        </div>
+
+
+              <div class="testo" >
+                        <div id="TEI" style="color: brown; margin-top: 10px;" class=" scroll-column zoom">
+                        Select an image to visualize the corresponding textual transcription!
+                    </div>
+    
 
         </div>
 </div>
 </div>
 </div>
-        <script src="CETEI.js"></script>
+        
+<script src="https://openseadragon.github.io/openseadragon/openseadragon.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script>
+// If you like my work, please consider supporting it at https://www.patreon.com/iangilman
+
+// Drag an image to move it around. Drag the background to pan.
+
+/*
+
+var highsmith = {
+    Image: {
+        xmlns: "http://schemas.microsoft.com/deepzoom/2008",
+        Url: "https://openseadragon.github.io/example-images/highsmith/highsmith_files/",
+        Format: "jpg",
+        Overlap: "2",
+        TileSize: "256",
+        Size: {
+            Width:  "7026",
+            Height: "9221"
+        }
+    }
+};
+
+var duomo = {
+    Image: {
+        xmlns: "http://schemas.microsoft.com/deepzoom/2008",
+        Url: "https://openseadragon.github.io/example-images/duomo/duomo_files/",
+        Format: "jpg",
+        Overlap: "2",
+        TileSize: "256",
+        Size: {
+            Width:  "13920",
+            Height: "10200"
+        }
+    }
+};
+
+var viewer = OpenSeadragon({
+    id: "openseadragon1",
+    prefixUrl: "https://openseadragon.github.io/openseadragon/images/",
+    tileSources: [
+        {
+            tileSource: highsmith,
+            x: 0
+        },
+        {
+            tileSource: duomo,
+            x: 1.1
+        }
+    ]
+});
+
+function areAllFullyLoaded() {
+  var tiledImage;
+  var count = viewer.world.getItemCount();
+  for (var i = 0; i < count; i++) {
+    tiledImage = viewer.world.getItemAt(i);
+    if (!tiledImage.getFullyLoaded()) {
+      return false;
+    }
+  }
+  return true;
+}
+
+var isFullyLoaded = false;
+
+function updateLoadingIndicator() {
+  // Note that this function gets called every time isFullyLoaded changes, which it will do as you 
+  // zoom and pan around. All we care about is the initial load, though, so we are just hiding the 
+  // loading indicator and not showing it again. 
+  if (isFullyLoaded) {
+    document.querySelector('.loading').style.display = 'none';
+  }
+}
+
+viewer.world.addHandler('add-item', function(event) {
+  var tiledImage = event.item;
+  tiledImage.addHandler('fully-loaded-change', function() {
+    var newFullyLoaded = areAllFullyLoaded();
+    if (newFullyLoaded !== isFullyLoaded) {
+      isFullyLoaded = newFullyLoaded;
+      updateLoadingIndicator();
+    }
+  });
+});
+
+*/
+</script>
+
+<script src="CETEI.js"></script>
         <script>
         function displayxml(xmlpath){
             console.log("load of xml file")
@@ -121,6 +216,10 @@ http://www.templatemo.com/preview/templatemo_427_timeline
                 })
             }
         </script>
+
+
+
+
 
     <footer>
         <div class="container">

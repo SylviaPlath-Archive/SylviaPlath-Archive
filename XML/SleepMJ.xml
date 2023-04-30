@@ -27,10 +27,13 @@
   </teiHeader>
   <text>
       <body>
+         <p rend="pos_right" xml:id="address"> <persName>Sylvia Plath</persName><lb/>
+            3 Chalcot Square<lb/>
+            <placeName ref="London">London N.W.l</placeName></p>
+         <div xml:id="heading">
          <head>Sleep in the <placeName ref="Mojave Desert"> Mojave Desert</placeName></head>
-         <p xml:id="address"> <persName>Sylvia Plath</persName><lb/>
-        3 Chalcot Square<lb/>
-           <placeName ref="London">London N.W.l</placeName></p>
+         </div>
+         <div xml:id="poem">
          <lg>
             <l>Out here there are no hearthstones,</l>
             <l>Hot grains,simply. It is dry, dry.</l>
@@ -62,7 +65,7 @@
             <l>To fiddle the short night away.</l>
          </lg>
          
-         
+         </div>
          
       </body>
   </text>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Documentary edition of Sylvia Plath's poem Mushroom (first page)</title>
+                <author>Sylvia Plath</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Mushroom Typescript first page, 1959-60</edition>
+                <respStmt>
+                    <resp>Encoding</resp>
+                    <persName>Loredana Salvatore</persName>
+                    <orgName>Alma Mater Studiorum - University of Bologna</orgName>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <p>For exercise only</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>From the British Library</p>
+            </sourceDesc>
+        </fileDesc>
+       </teiHeader>
+    <text>
+        <body>
+            <lg>
+                <l>Overnight, very</l>
+                <l>Whitely, discreetly</l>
+                <l>Very quietly</l>
+            </lg>
+            <lg>
+                <l>Our toes, our noses</l>
+                <l>Take hold on the loam</l>
+                <l>Acquire the air</l>
+            </lg>   
+            <lg>
+                 <l>Nobody sees us</l>
+                 <l>Stops us, betrays us</l>
+                 <l>The small grains make room</l>
+             </lg>       
+            <lg>
+                    <l>Soft fists insist on</l>
+                    <l>Heaving the needles</l>
+                    <l>The leafy bedding</l>
+            </lg>          
+            <lg>
+                    <l>Even the paving</l>
+                    <l>Our hammers, our rams</l>
+                    <l>Earless and eyeless</l>
+             </lg>           
+             <lg>
+                    <l>Perfectly voiceless</l>
+                    <l>Widen the crannies</l>
+                    <l>Shoulder through holes. We</l>
+           </lg>             
+            <lg>
+                     <l>Diet on water</l>
+                     <l>On crumbs of shadow</l>
+                     <l>Bland-mannered, asking</l>
+            </lg>
+            
+            
+            
+        </body>
+    </text>
+   </TEI>
