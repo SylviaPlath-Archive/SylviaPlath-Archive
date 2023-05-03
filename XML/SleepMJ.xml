@@ -36,6 +36,9 @@
               <place xml:id="London">
                  <placeName>London</placeName>
               </place>
+              <place xml:id="Mojave Desert">
+                 <placeName>Mojave Desert</placeName>
+              </place>
            </listPlace>
         </settingDesc>
      </profileDesc>
@@ -52,6 +55,10 @@
            <rdf:Description tei:ref="#London" rdf:about="https://dbpedia.org/page/London">
               <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
               <rdfs:label xml:lang="en">London</rdfs:label>
+           </rdf:Description>
+           <rdf:Description tei:ref="#Mojave Desert" rdf:about="https://dbpedia.org/page/Mojave_Desert">
+              <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+              <rdfs:label xml:lang="en">Mojave Desert</rdfs:label>
            </rdf:Description>
         </rdf:RDF>
      </xenoData>
