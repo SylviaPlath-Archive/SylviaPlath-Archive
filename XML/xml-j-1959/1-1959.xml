@@ -109,7 +109,7 @@
   <text>
       <body>
          <pb n="01" facs="page1"></pb>
-         <p>Thursday<l/>
+         <p rend="pos_right">Thursday<l/>
          <date>April 23</date></p>
             <p>As with April, spring manifests itself in joyous news.<l/>
                I am tired, having got up and out of <persName ref="#TedHughes">Ted</persName>'s work-room by 7, after<l/>

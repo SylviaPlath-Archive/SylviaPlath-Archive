@@ -94,7 +94,7 @@
     
       <body>
          <pb n="04" facs="#page4"></pb>
-         <p>20</p>
+         <p rend="pos_right">20</p>
          <lb></lb>
          <p><date>February 26:</date></p>
          <lb></lb>

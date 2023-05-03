@@ -95,7 +95,7 @@
   <text>
       <body>
          <pb n="01" facs="#page1"></pb>
-         <p><w rend="circled">61</w><add place="below">2</add><l/></p>
+         <p rend="pos_right"><w rend="circled">61</w><add place="below">2</add><l/></p>
             <lb></lb>
             
             <p><hi rend="underline">Sunday night: <date>March 2</date>:</hi> Again, late: It will betwelve before I<l/>

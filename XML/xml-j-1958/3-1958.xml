@@ -101,7 +101,7 @@
   <text>
       <body>
          <pb n="03" facs="page3"></pb>
-         <p><w rend="circled">63</w><add place="below">4</add><l/></p>
+         <p rend="pos_right"><w rend="circled">63</w><add place="below">4</add><l/></p>
          <lb></lb>
  
          <p>whose life' doesn't seem aavailable, processe in uniform,<l/>

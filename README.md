@@ -8,7 +8,7 @@ Project created for the Digital Text in The Humanities course by Tiziana Mancine
 Team
 -
 - **Loredana Salvatore:** insert tasks here
-- **Anita Liviabela:** insert tasks here
+- **Anita Liviabella:** insert tasks here
 - **Camila Oliveira:** insert tasks here
 
 Introduction
