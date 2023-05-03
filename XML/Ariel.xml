@@ -2,7 +2,13 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:dbo="http://dbpedia.org/ontology/"
+   xmlns:frbr="http://purl.org/vocab/frbr/core#">
   <teiHeader>
      <fileDesc>
         <titleStmt>
@@ -24,11 +30,36 @@
            <p>From the British Library</p>
         </sourceDesc>
      </fileDesc>
+     <profileDesc>
+        <particDesc>
+           <listPerson>
+              <person xml:id="Alvarez">
+                 <persName>Al Alvarez</persName>
+              </person>
+           </listPerson>
+        </particDesc>
+     </profileDesc>
+     <xenoData>
+        <!-- you can use http://www.easyrdf.org/converter -->
+        <rdf:RDF>
+           <!-- persons:
+                    @PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+                    @PREFIX dbo: <http://dbpedia.org/ontology/>.
+                    @PREFIX foaf: <http://xmlns.com/foaf/0.1/>.
+                    dbo:Marco_Polo a foaf:Person;
+                      rdfs:label "Marco Polo"@en.
+                -->
+           <rdf:Description tei:ref="#Alvarez" rdf:about="https://viaf.org/viaf/64034086/">
+              <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+              <rdfs:label xml:lang="en">Al Alvarez</rdfs:label>
+           </rdf:Description>
+        </rdf:RDF>
+     </xenoData>
   </teiHeader>
   <text>
       <body>
          <head>Ariel</head>
-         <p>(for Al)</p>
+         <p>(for <persName ref="#Alvarez">Al</persName>)</p>
          <lg>
             <l>Stasis in darkness.</l>
             <l>Then the substanceless blue  </l> 
