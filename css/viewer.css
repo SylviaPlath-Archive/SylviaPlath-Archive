@@ -3016,10 +3016,8 @@ div.container-fluid{
   box-sizing: border-box;
   border: 3px solid red;
   border-radius: 50%;
-  width: calc(100% + 16px);
-  height: calc(100% + 16px);
-  left: -8px;
-  top: -8px;
+  width: 31px;
+  height: 31px;
 }
 
  #circled-item-bell-jar{border-radius: 100%; border:1px solid black;padding: 1%; font-size: large;}
