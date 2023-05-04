@@ -8,7 +8,7 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:foaf="http://xmlns.com/foaf/0.1/"
    xmlns:dbo="http://dbpedia.org/ontology/"
-   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:dc="http://purl.org/dc/terms/"
    xmlns:frbr="http://purl.org/vocab/frbr/core#"   
    >
   <teiHeader>
@@ -38,102 +38,40 @@
         <particDesc>
            <listPerson>
               <person xml:id="therosenbergs">
-                 <persName> The Rosenbergs</persName>
-              </person>
-              <person xml:id="Doreen">
-                 <persName>Doreen</persName>
-              </person>
-              <person xml:id="BW">
-                 <persName>Buddy Willard</persName>
-              </person>
-              <person xml:id="SC">
-                 <persName>Santa Claus</persName>
-              </person>
-              <person xml:id="Cinderella">
-                 <persName>Cinderella</persName>
-              </person>
-              <person xml:id="KG">
-                 <persName>Katahrine Gibbs</persName>
+                 <persName type="cited_person"
+                    sameAs="https://dbpedia.org/page/Julius_and_Ethel_Rosenberg">The Rosenbergs</persName>
               </person>
            </listPerson>
         </particDesc>
         <settingDesc>
            <listPlace>
               <place xml:id="NY">
-                 <placeName>New York</placeName>
+                 <settlement type="city">New York</settlement>
               </place>
               <place xml:id="USA">
-                 <placeName>America</placeName>
+                 <settlement type="country">America</settlement>
               </place>
               <place xml:id="Switzerland">
-                 <placeName>Switzerland</placeName>
+                 <settlement type="country">Switzerland</settlement>
               </place>
               <place xml:id="Brazil">
-                 <placeName>Brazil</placeName>
+                 <settlement type="country">Brazil</settlement>
               </place>
               <place xml:id="NE">
-                 <placeName>New England</placeName>
+                 <settlement type="region">New England</settlement>
               </place>
            </listPlace>
         </settingDesc>
      </profileDesc>
      <xenoData>
         <frbr:frbr>
-           <frbr:description tei:ref="#therosenbergs" frbr:Person="https://dbpedia.org/page/Julius_and_Ethel_Rosenberg">
-              <frbr:isEmobiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
-              <frbr:label xml:lang="en">The Rosenbergs</frbr:label>
-           </frbr:description>
-           
-           <frbr:description tei:ref="#Doreen" frbr:Person="https://dbpedia.org/page/Doreen_(name)">
-              <frbr:isEmobiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
-              <frbr:label xml:lang="en">Doreen</frbr:label>
-           </frbr:description>
-           
-           <frbr:description tei:ref="#BW" frbr:Person="https://dbpedia.org/page/Category:English_masculine_given_names">
-              <frbr:isEmobiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
-              <frbr:label xml:lang="en">Buddy Willard</frbr:label>
-           </frbr:description>
-           
-           <frbr:description tei:ref="#SC" frbr:Person="https://dbpedia.org/page/Santa_Claus">
-              <frbr:isEmobiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
-              <frbr:label xml:lang="en">Santa Claus</frbr:label>
-           </frbr:description>
-           
-           <frbr:description tei:ref="#Cinderella" frbr:Person="https://dbpedia.org/page/Cinderella">
-              <frbr:isEmobiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
-              <frbr:label xml:lang="en">Cinderella</frbr:label>
-           </frbr:description>
-           
-           <frbr:description tei:ref="#KG" frbr:Person="https://dbpedia.org/page/English_name">
-              <frbr:isEmobiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
-              <frbr:label xml:lang="en">Katharine Gibbs</frbr:label>
-           </frbr:description>
-           
-           <frbr:description tei:ref="#NY" frbr:Person="https://dbpedia.org/page/New_York_City">
-              <frbr:isSubjectOf rdf:resource="http://purl.org/vocab/frbr/core#Place"/>
-              <frbr:label xml:lang="en">New York</frbr:label>
-           </frbr:description>
-           
-           <frbr:description tei:ref="#USA" frbr:Person="https://dbpedia.org/page/United_States">
-              <frbr:isSubjectOf rdf:resource="http://purl.org/vocab/frbr/core#Place"/>
-              <frbr:label xml:lang="en">America</frbr:label>
-           </frbr:description>
-           
-           <frbr:description tei:ref="#Switzerland" frbr:Person="https://dbpedia.org/page/Switzerland">
-              <frbr:isSubjectOf rdf:resource="http://purl.org/vocab/frbr/core#Place"/>
-              <frbr:label xml:lang="en">Switzerland</frbr:label>
-           </frbr:description>
-           
-           <frbr:description tei:ref="#Brazil" frbr:Person="https://dbpedia.org/page/Brazil">
-              <frbr:isSubjectOf rdf:resource="http://purl.org/vocab/frbr/core#Place"/>
-              <frbr:label xml:lang="en">Brazil</frbr:label>
-           </frbr:description>
-           
-           <frbr:description tei:ref="#NE" frbr:Person="https://dbpedia.org/page/New_England">
-              <frbr:isSubjectOf rdf:resource="http://purl.org/vocab/frbr/core#Place"/>
-              <frbr:label xml:lang="en">New England</frbr:label>
-           </frbr:description>
-           
+           <rdf:Description tei:ref="#thebelljaar" rdf:about="https://www.worldcat.org/it/title/1338682588">
+              <rdf:type frbr:work="http://purl.org/vocab/frbr/core#work"></rdf:type>
+              <dc:title xml:lang="en">The Bell Jar</dc:title>
+              <frbr:expression tei:ref="seconddraft" rdf:about="https://www.bl.uk/collection-items/typescript-second-draft-of-the-bell-jar-by-sylvia-plath"/>
+              <frbr:manifestation frbr:embodiment="https://schema.org/surface"/>
+              <frbr:item type=""></frbr:item>
+           </rdf:Description>
         </frbr:frbr>
      </xenoData>
      
@@ -148,7 +86,7 @@
                
                <del xml:id="del-1"><gap reason="deleted" quantity="8" unit="character"></gap></del><add xml:id="add-1" place="above">The Bell Jar</add><del xml:id="del-2"><gap reason="deleted" quantity="8" unit="character"></gap></del><add xml:id="add-2" place="above"><gap xml:id="gap-1" reason="deleted" quantity="8" unit="character"></gap></add>Lucas <add xml:id="add-3" rend="circled">Second Draft</add> <add xml:id="add-4">Chapter 1</add><add rend="circled">14</add> <add xml:id="add-5">Chapter 2</add> <add xml:id="add-6" rend="circled">10</add>
                <lb/>
-               <add xml:id="add-7" rend="circled">Chapters 1-16</add>
+               <add xml:id="round-element" rend="circled"></add><add xml:id="add-7" rend="circled">Chapters 1-16</add>
                <lb/>
                <title xml:id="chapter-1"> CHAPTER I</title><lb/>
             </head>
@@ -193,7 +131,7 @@
                <space quantity="7" unit="chars"/><placeName ref="#newyork">New York</placeName> , <del rend="strikethrough">made me sick</del> <add xml:id="add-8" place="above" rend="superscript">was bad</add>enough. By <add xml:id="add-9" place="above" rend="superscript">nine</add><del><gap reason="deleted" quantity="2" unit="character"></gap> </del>in the morning<l/>
                the fake, country-wet freshness that somehow seeped in overnight<l/>
                evaporated like the tail end of-a sweet dream. At the bottom of<l/>
-               their granite canyons, the <add xml:id="add-10" place="below">/not</add><add place="supralinear" rend="m" hand="Pound"><add xml:id="add-11" rend="circled">mirage-grey</add></add><graphic xml:id="arrow" url="arrow.svg"></graphic>streets wavered <del rend="strikethrough">grey as a mirage</del> in the<l/>
+               their granite canyons, the <add xml:id="add-10" place="below">/not</add><!--<add place="supralinear" rend="m" hand="Pound">--><add xml:id="add-11" rend="circled">mirage-grey</add><!--</add>--><add xml:id="arrow"></add>streets wavered <del rend="strikethrough">grey as a mirage</del> in the<l/>
                <del><gap reason="deleted" quantity="2" unit="character"></gap></del>sun, the car tops sizzled and glittered, and the dry, cindery <l/>
                dust blew into my eyes and down my throat.<l/>
             </p>
@@ -234,7 +172,7 @@
             working ondrinking martinis in a skimpy imitation-silver-<l/>
             lame <del><gap reason="deleted" quantity="2" unit="character"></gap></del> bodice <del><gap reason="deleted" quantity="2" unit="character"></gap></del> <add place="above" rend="superscript">stuck</add> onto a big fat cloud of white tulle, <subst><del><gap reason="deleted" quantity="2" unit="character"></gap></del> <add place="above">on same</add></subst><l/>
             <del><gap reason="deleted" quantity="2" unit="character"></gap></del><add><gap reason="deleted" quantity="2" unit="character"></gap>  </add> in the company of several anonymous young<l/>
-            men with all-American <del rend="strikethrough"><institution ref="#yaleuniversity"> Yale University</institution></del> bone structures hired or<l/>
+            men with all-American <del rend="strikethrough">Yale University</del> bone structures hired or<l/>
             loaned for the occasioneverybody would think I must be having<l/>
             a real whirl.<l/>
          </p>
@@ -320,7 +258,7 @@
                they were mostly girls my age with wealthy parents who wanted to<l/>
                be sure their daughters would be living where men couldn(t get<l/>
                at them and deceive them, and they were all going to posh secretarial<l/>
-               schools like <persName ref="#katharinegibbs">Katy Gibbs</persName>, where they had to wear hats and stockings<l/>
+               schools like Katy Gibbs, where they had to wear hats and stockings<l/>
                and gloves to class, or they had just graduated from places like<l/>
                <persName ref="#katharinegibbs">Katy Gibbs</persName> and were secretaries to executives and junior executives<l/>
                and simply hanging around in New York waiting to get married to<l/>
