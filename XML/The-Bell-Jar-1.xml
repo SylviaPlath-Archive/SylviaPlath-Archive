@@ -131,7 +131,7 @@
                <space quantity="7" unit="chars"/><placeName ref="#newyork">New York</placeName> , <del rend="strikethrough">made me sick</del> <add xml:id="add-8" place="above" rend="superscript">was bad</add>enough. By <add xml:id="add-9" place="above" rend="superscript">nine</add><del><gap reason="deleted" quantity="2" unit="character"></gap> </del>in the morning<l/>
                the fake, country-wet freshness that somehow seeped in overnight<l/>
                evaporated like the tail end of-a sweet dream. At the bottom of<l/>
-               their granite canyons, the <add xml:id="add-10" place="below">/not</add><add place="supralinear" rend="m" hand="Pound"><add xml:id="add-11" rend="circled">mirage-grey</add></add><graphic xml:id="arrow" url="arrow.svg"></graphic>streets wavered <del rend="strikethrough">grey as a mirage</del> in the<l/>
+               their granite canyons, the <add xml:id="add-10" place="below">/not</add><add place="supralinear" rend="m" hand="Pound"><add xml:id="add-11" rend="circled">mirage-grey</add></add><add xml:id="arrow"></add>streets wavered <del rend="strikethrough">grey as a mirage</del> in the<l/>
                <del><gap reason="deleted" quantity="2" unit="character"></gap></del>sun, the car tops sizzled and glittered, and the dry, cindery <l/>
                dust blew into my eyes and down my throat.<l/>
             </p>
