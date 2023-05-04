@@ -104,7 +104,7 @@ http://www.templatemo.com/preview/templatemo_427_timeline
             
 <div class="testo" >
         <div id="TEI" style="color: brown; margin-top: 10px;" class=" scroll-column zoom">
-        Select an image to visualize the corresponding textual transcription!
+       
     </div>
 
     </div>
@@ -113,14 +113,14 @@ http://www.templatemo.com/preview/templatemo_427_timeline
 </div>
     <script src="CETEI.js"></script>
     <script>
-    function displayxml(xmlpath){
+    
         console.log("load of xml file")
     var CETEIcean = new CETEI()
             CETEIcean.getHTML5("XML/Ariel.xml", function(data) {
                 document.getElementById("TEI").innerHTML = "";
               document.getElementById("TEI").appendChild(data)
             })
-        }
+        
     </script>
 
 <footer>
