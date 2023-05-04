@@ -26,8 +26,9 @@ img {
   top: 0;
   left: 0;
   opacity: 0;
-  transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
+
 .gallery__thumb {
   padding-top: 6px;
   margin: 6px;
@@ -38,9 +39,14 @@ img {
   opacity: 0;
   visibility: hidden;
 }
+
 .gallery__selector:checked + .gallery__img {
   opacity: 1;
 }
 .gallery__selector:checked ~ .gallery__thumb > img {
   box-shadow: 0 0 0 3px brown;
+}
+
+.gallery__thumb:hover + .gallery__img {
+  transform: scale(2.5);
 }
