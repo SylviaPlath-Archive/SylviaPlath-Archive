@@ -3006,7 +3006,20 @@ div.container-fluid{
   height: 30px;
   width: 30px;
   background-color: black;
+  padding: 2%;
   display: inline-block;
+}
+
+#round-element::after {
+  content: '';
+  position: absolute;
+  box-sizing: border-box;
+  border: 3px solid red;
+  border-radius: 50%;
+  width: calc(100% + 16px);
+  height: calc(100% + 16px);
+  left: -8px;
+  top: -8px;
 }
 
  #circled-item-bell-jar{border-radius: 100%; border:1px solid black;padding: 1%; font-size: large;}
