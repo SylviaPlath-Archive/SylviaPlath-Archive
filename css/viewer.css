@@ -2977,8 +2977,7 @@ div.container-fluid{
 }
 
 #add-1{
-  position: relative;
-  margin-top: 0;
+  margin-left: 5px;
 }
 
 #add-5{
@@ -2998,10 +2997,10 @@ div.container-fluid{
   top: 10%;
  }
 
- #del-1{
-  margin-top: 10%;
-  margin-left: 30%;
- }
+ /*#del-1{
+  margin-top: 10px;
+  margin-left: 30px;
+ }*/
 
  #circled-item-bell-jar{border-radius: 100%; border:1px solid black;padding: 1%; font-size: large;}
 
