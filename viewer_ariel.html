@@ -1,0 +1,159 @@
+
+<!DOCTYPE html>
+
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> 
+<![endif]
+https://raw.githubusercontent.com/TheBellJar-dse/TheBellJar-dse/main/XML/xml-j-1956/1-1956.xml
+-->
+<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8" lang="en"> 
+<![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+
+
+	<head>
+        
+<!-- 
+Timeline Template
+http://www.templatemo.com/preview/templatemo_427_timeline
+-->
+		<title>Sylvia Plath's Archive</title>
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+
+         <!-- Bootstrap -->
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="css/templatemo-style.css">
+        <link rel="stylesheet" type="text/css" href="css/stylegallery.css">
+        <link rel="stylesheet" type="text/css" href="css/tei.css">
+        <link rel="stylesheet" type="text/css" href="css/viewer.css">
+
+        
+ 
+
+        <!-- JavaScripts -->
+        <script src="js/vendor/jquery-1.10.2.min.js"></script>
+        <script src="js/vendor/modernizr.min.js"></script>
+        <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDY0kkJiTPVd2U7aTOAwhc9ySH6oHxOIYM"></script>
+        <script src="js/change.js"></script>
+
+	</head>
+	<body>
+        
+        <header class="site-header" id="top">
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="row">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                      <i class="fa fa-bars"></i>
+                    </button>
+                    <div class="logo-wrapper">
+                        <a class="navbar-brand" href="index.html">
+                            <p>S<em>ylvia Plath Archive</em></p>
+                        </a>
+                    </div>  
+                </div>
+                <div class="collapse navbar-collapse" id="main-menu">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><span></span><a href="index.html" class="home">Home</a></li>
+                        <div class="dropdown">
+                            <li><span></span><button class="dropbtn">Editions</button></li>
+                                <div class="dropdown-content">
+                                    <a href="viewer_journals1956.html">Journal - 1956</a>
+                                    <a href="viewer_journals1958.html">Journal - 1958</a>
+                                    <a href="viewer_journals1959.html">Journal - 1959</a>
+                                    <a href="viewer_smd.html">Sleep in the Mojave Desert</a>
+                                    <a href="viewer_ariel.html">Ariel</a>
+                                    <a href="viewer_smd.html">Stings</a>
+                                    <a href="viewer_thebelljar.html">The Bell Jar</a>
+                                </div>
+                            </div>
+                        <li><span></span><a href="index.html#second-section" class="portfolio">Documentation</a></li>
+                        <li><span></span><a href="index.html#map" class="map">Location</a></li>
+                        <li><span></span><a href="index.html#third-section" class="contact">About</a></li>
+                    </ul>
+                </div>
+            </div> 
+        </div>
+    </nav>
+</header>
+
+
+    <div class="container">
+    <div class="container-fluid" id="content">
+
+
+        <div class="row align-items-start">
+    
+          <div class="col-9 col-lg-5 col-md-9 col-sm-9" id ="imagegallery">
+
+                    <div id="container" style="float: left;">
+                        
+                           
+                           
+                            <img  src="img/ariel.jpg" alt="" height="400px"/>
+                            
+                        
+                    </div>
+
+                </div>
+            
+<div class="testo" >
+        <div id="TEI" style="color: brown; margin-top: 10px;" class=" scroll-column zoom">
+        Select an image to visualize the corresponding textual transcription!
+    </div>
+
+    </div>
+</div>
+</div>
+</div>
+    <script src="CETEI.js"></script>
+    <script>
+    function displayxml(xmlpath){
+        console.log("load of xml file")
+    var CETEIcean = new CETEI()
+            CETEIcean.getHTML5("XML/Ariel.xml", function(data) {
+                document.getElementById("TEI").innerHTML = "";
+              document.getElementById("TEI").appendChild(data)
+            })
+        }
+    </script>
+
+<footer>
+    <div class="container">
+        <div class="footer-content">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="col-md-4">
+                        <div class="copyright-text">
+                            <p>Copyright &copy; 2084 <a href="#">Company Name</a></p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="back-to-top">
+                            <a href="#top">Back To Top</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="social-icons">
+                            <ul>
+                                <li><a href="#" class="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#" class="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#" class="#"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="#" class="#"><i class="fa fa-rss"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+        </div>
+    </div>
+    
+</footer>
+
+</body>
+</html>

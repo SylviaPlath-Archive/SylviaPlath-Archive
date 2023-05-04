@@ -1088,6 +1088,7 @@ footer {
 }
 
 .dropdown-content a {
+    font-size: small;
     color: black;
     padding-left: 4%;
     display: block;
@@ -1097,5 +1098,5 @@ footer {
 
   .dropdown-content a:hover {background-color: #b3949c;}
   
-  .dropdown:hover .dropbtn {background-color: rgb(205, 147, 158);}
+  .dropdown:hover .dropbtn {background-color: #b3949c;}
 

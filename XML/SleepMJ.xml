@@ -60,6 +60,10 @@
               <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
               <rdfs:label xml:lang="en">Mojave Desert</rdfs:label>
            </rdf:Description>
+           <rdf:Description tei:ref="#" rdf:about="">
+              <rdf:type frbr:work=""/>
+              <rdfs:label xml:lang="en">...</rdfs:label>
+           </rdf:Description>
         </rdf:RDF>
      </xenoData>
   </teiHeader>
