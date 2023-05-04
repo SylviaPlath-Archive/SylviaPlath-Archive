@@ -3003,7 +3003,9 @@ div.container-fluid{
   width: 30px;
   background-color: black;
   padding: 2%;
-  display: inline-block;
+  float: left;
+  margin-left: 30px;
+  margin-top: 30px;
 }
 
  #circled-item-bell-jar{border-radius: 100%; border:1px solid black;padding: 1%; font-size: large;}
