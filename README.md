@@ -11,7 +11,8 @@ Team
 - **Anita Liviabella:** insert tasks here
 - **Camila Oliveira:** insert tasks here
 
-Introduction
+# Introduction
+
 The project provides a digital archive of selected works by Sylvia Plath, a renowned American poet, novelist, and short story writer. Plath’s confessional style and exploration of personal turmoil, depression and death have made her a highly influential figure in modern literature. Despite her relatively short life and career, her work continues to be widely studied and revered.
 The archive focuses especially on a decade of her production, from 1956 to 1963, and includes a range of texts that showcase various aspect of her writing. The collection features her prose, poetry, and private writing, highlighting the breadth and depth of her work.
 Plath’s private journals offer a particularly fascinating window into her personal life and creative process. In the 1956 journal, she reflects on her first encounter with fellow poet Ted Hughes at a literary party in Cambridge. In the 1958 journal, she delves into her writing process and the literary influence of DH Lawrence, Virginia Woolf, and her friend James Guy Bramwell.  This period also covers her life with her husband, and Plath reflects on their relationship as well as her admiration for Hughes’ writing. In the 1959 journal, she documents her financial struggles and her renewed enthusiasm for poetry despite experiencing depression.
