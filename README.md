@@ -12,14 +12,42 @@ Team
 - **Camila Oliveira:** insert tasks here
 
 Introduction
--
+The project provides a digital archive of selected works by Sylvia Plath, a renowned American poet, novelist, and short story writer. Plath’s confessional style and exploration of personal turmoil, depression and death have made her a highly influential figure in modern literature. Despite her relatively short life and career, her work continues to be widely studied and revered.
+The archive focuses especially on a decade of her production, from 1956 to 1963, and includes a range of texts that showcase various aspect of her writing. The collection features her prose, poetry, and private writing, highlighting the breadth and depth of her work.
+Plath’s private journals offer a particularly fascinating window into her personal life and creative process. In the 1956 journal, she reflects on her first encounter with fellow poet Ted Hughes at a literary party in Cambridge. In the 1958 journal, she delves into her writing process and the literary influence of DH Lawrence, Virginia Woolf, and her friend James Guy Bramwell.  This period also covers her life with her husband, and Plath reflects on their relationship as well as her admiration for Hughes’ writing. In the 1959 journal, she documents her financial struggles and her renewed enthusiasm for poetry despite experiencing depression.
+Plath’s journals provide valuable insight into her daily life, mental health struggles, relationships with family, friends, and lovers. Additionally, they offer deeper understanding of her literary influences and the themes and ideas that shaped her work. By analyzing her journals, scholars and readers can gain a better appreciation of Plath’s multifaced personality and creative process.
+Sylvia Plath is also known for her confessional style of poetry, which delves into intense emotions and personal issues. Her use of striking imagery to convey ideas has had a lasting impact on contemporary poetry. The archive showcases four of her selected poems:  Sleep in the Mojave Desert, Strings, Mushrooms and Ariel.
+Sleep in the Mojave Desert depicts a group of women sleeping in the desert, with each person in their own private space. The author uses vivid sensory details to create a haunting atmosphere and meditates on the fragility of human life and the inevitability of death.
+Stings explores the speaker’s emotional response to the death of a swarm of bees. The poem employs violent imagery to convey the speaker’s complex feelings of anger, sorrow, and strange sense of triumph.
+Ariel is about the poet riding her horse at daybreak, seemingly not in full control, being pulled by something through the air towards the moving sun. The title of the poem has multiple referents, including the name of Plath’s horse.
+Lastly, the archive presents the second draft of The Bell Jar, Sylvia Plath’s novel. The draft reveals Plath’s editing process and the evolving relationship between the author and her central characters. 
+The novel is an interesting work for several reason: first, it is semi-autobiographic novel that draws heavily from Plath’s own experiences with mental illness, particularly her own struggles with depression and suicidal thoughts. The novel offers a powerful and honest portrayal of the challenges faced by women in 1950s, including social pressures to conform to traditional gender roles and expectation.  These themes are particularly relevant to modern readers, as many individuals continue to struggle with questions of identity and purpose today.
 
-Encoding
--
+
+
+-	To add: Research question
+
+- The process and the methodologies
+The idea of the archive came out to provide a various digital platform, focused on different types of work, to give credits to the large production of Sylvia Plath.  All the images of the texts except DON’T REMEMBER held by the British Library.
+ 
+-	Be more precise about where we’ve found the material.
+
+- Encoding
+The texts have been retrieved and fully encoded in XML, to provide a structured format that can be easily processed and analyzed. The materials are accessible in the related sections of the website.
+
+-	To add: Details of the tags
 - #Journals
-
 - #Stings
-- #Sleep In The Mojave Desert
+- #Mushrooms
+- #Ariel
+- #Sleep on the Mojave Desert
+- #The Bell Jar: the drafts for the prose of The Bell Jar has the presence of many extra annotations by the author in many different ways.
 
-- #The Bell Jar:
-The drafts for the prose of The Bell Jar has the presence of many extra annotations by the author in many different ways.
+-	To add: Details about Xenodata 
+
+The CETEI.js library has been used to display and visualize the text in the browser. The use of the CETEI library makes the texts easily accessible and readable in the browser, providing a user-friendly interface for users. 
+
+-	To add: description LOD part
+
+
+
