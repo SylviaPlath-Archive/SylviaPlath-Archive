@@ -66,7 +66,7 @@
      <xenoData>
         <frbr:frbr>
            <rdf:Description tei:ref="#thebelljaar" rdf:about="https://www.worldcat.org/it/title/1338682588">
-              <rdf:type frbr:work="http://purl.org/vocab/frbr/core#work"></rdf:type>
+              <rdf:type rdf:resource="frbr:work"></rdf:type>
               <dc:title xml:lang="en">The Bell Jar</dc:title>
               <frbr:expression tei:ref="seconddraft" rdf:about="https://www.bl.uk/collection-items/typescript-second-draft-of-the-bell-jar-by-sylvia-plath"/>
               <frbr:manifestation frbr:embodiment="https://schema.org/surface"/>

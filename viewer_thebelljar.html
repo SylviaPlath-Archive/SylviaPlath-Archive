@@ -28,16 +28,39 @@ http://www.templatemo.com/preview/templatemo_427_timeline
         <link rel="stylesheet" type="text/css" href="css/templatemo-style.css">
         <link rel="stylesheet" type="text/css" href="css/stylegallery.css">
         <link rel="stylesheet" type="text/css" href="css/viewer.css">
-
-        
+        <link rel="stylesheet" type="text/css" href="css/zoomist.css">       
  
 
         <!-- JavaScripts -->
         <script src="js/vendor/jquery-1.10.2.min.js"></script>
         <script src="js/vendor/modernizr.min.js"></script>
         <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDY0kkJiTPVd2U7aTOAwhc9ySH6oHxOIYM"></script>
-        <script src="js/zoom.js"></script>
+        <script src="js/zoomist.js"></script>
 
+        <style>
+            /* custom */
+.custom-modules {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 50px;
+  display: inline-block;
+  z-index: 1;
+}
+.custom-in-zoomer, .custom-out-zoomer {
+  position: inherit;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  box-shadow: 3px 3px 7px rgba(0, 0, 0, .4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin: 10px auto;
+}
+        </style>
 	</head>
 	<body>
     
@@ -84,7 +107,12 @@ http://www.templatemo.com/preview/templatemo_427_timeline
         </nav>
     </header>
 
-   
+    <div class="custom-modules">
+        <div class="custom-in-zoomer" onclick="zoomIn()">+</div>
+        
+        <div class="custom-out-zoomer" onclick="zoomOut()">-</div>
+    </div>
+
     <div class="container">
         <div class="container-fluid" id="content">
 
@@ -95,11 +123,7 @@ http://www.templatemo.com/preview/templatemo_427_timeline
 
                         <div id="container" style="float: left;">
                             <section class="gallery">
-                                <div class="custom-modules">
-                                    <div class="custom-out-zoomer">-</div>
-                                    <div class="custom-slider"></div>
-                                    <div class="custom-in-zoomer">+</div>
-                                </div>
+                                
                                 <div class="gallery__item">
                                 <input type="radio" id="img-1" checked name="gallery" class="gallery__selector"/>
                                 <img class="gallery__img" src="img/The Bell Jar (5)/The Bell Jar 01.jpg" height="400px" alt=""/>
@@ -124,12 +148,13 @@ http://www.templatemo.com/preview/templatemo_427_timeline
                                 <input type="radio" id="img-5" name="gallery" class="gallery__selector"/>
                                 <img class="gallery__img" src="img/The Bell Jar (5)/The Bell Jar 05.jpg" height="400px" alt=""/>
                                 <label for="img-5" class="gallery__thumb"><img src="img/The Bell Jar (5)/The Bell Jar 05.jpg" height="100px" alt="" onclick="displayxml('XML/The-Bell-Jar-5.xml')"/></label>
-                                </div>
+                              
+                            </div>
+                            
                             </section>
                         </div>
 
                     </div>
-                
                     <div class="testo" >
                         <div id="TEI" style="color: brown; margin-top: 10px;" class=" scroll-column zoom">
                         Select an image to visualize the corresponding textual transcription!
@@ -150,6 +175,31 @@ http://www.templatemo.com/preview/templatemo_427_timeline
                             })
                         }
                     </script>
+
+<script>
+    var image = document.querySelector('.gallery__img');
+    var currentScale = 1;
+  
+    function zoomIn() {
+      currentScale += 0.1;
+      if (currentScale > 1.5) {
+        currentScale = 1.5;
+      }
+      image.style.transform = 'scale(' + currentScale + ')';
+    }
+  
+    function zoomOut() {
+      currentScale -= 0.1;
+      if (currentScale < 1) {
+        currentScale = 1;
+      }
+      image.style.transform = 'scale(' + currentScale + ')';
+    }
+  </script>
+   
+  
+  
+  
        <!--<script src="CETEI.js"></script>
         <script>
         var CETEIcean = new CETEI();
