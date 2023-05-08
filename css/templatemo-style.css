@@ -1100,3 +1100,8 @@ footer {
   
   .dropdown:hover .dropbtn {background-color: #b3949c;}
 
+  .container-footer-doc {
+    background-color: #761d2c;
+    margin-top: 40px;
+    right: 80px;
+}
