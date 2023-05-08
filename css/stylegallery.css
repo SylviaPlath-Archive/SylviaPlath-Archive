@@ -51,22 +51,3 @@ img {
   transform: scale(2.5);
 }
 
-.custom-modules {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  margin-top: 50px;
-  display: none;
-}
-.custom-in-zoomer, .custom-out-zoomer {
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  box-shadow: 3px 3px 7px rgba(0, 0, 0, .4);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-  margin: 0 10px;
-}
