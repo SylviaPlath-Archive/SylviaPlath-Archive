@@ -35,7 +35,7 @@ http://www.templatemo.com/preview/templatemo_427_timeline
         <script src="js/vendor/jquery-1.10.2.min.js"></script>
         <script src="js/vendor/modernizr.min.js"></script>
         <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDY0kkJiTPVd2U7aTOAwhc9ySH6oHxOIYM"></script>
-        <script src="js/zoomist.js"></script>
+        <script src="openseadragon-bin-4.0.0/openseadragon.min.js"></script>
 
         <style>
             /* custom */
@@ -122,7 +122,7 @@ http://www.templatemo.com/preview/templatemo_427_timeline
               <div class="col-9 col-lg-5 col-md-9 col-sm-9" id ="imagegallery">
 
                         <div id="container" style="float: left;">
-                            <section class="gallery">
+                            <section class="gallery" id="openseadragon1">
                                 
                                 <div class="gallery__item">
                                 <input type="radio" id="img-1" checked name="gallery" class="gallery__selector"/>
@@ -177,25 +177,35 @@ http://www.templatemo.com/preview/templatemo_427_timeline
                         }
                     </script>
 
-<script>
-    var image = document.querySelectorAll(img .gallery__img);
-    var currentScale = 1;
+<script type="text/javascript">
+    //var image = document.querySelectorAll(img .gallery__img);
+    //var currentScale = 1;
 
-    function zoomIn() {
-      currentScale += 0.1;
-      if (currentScale > 1.5) {
-        currentScale = 1.5;
-      }
-      images.style.transform = 'scale(' + currentScale + ')';
-    }
+    //function zoomIn() {
+      //currentScale += 0.1;
+      //if (currentScale > 1.5) {
+        //currentScale = 1.5;
+      //}
+      //images.style.transform = 'scale(' + currentScale + ')';
+    //}
   
-    function zoomOut() {
-      currentScale -= 0.1;
-      if (currentScale < 1) {
-        currentScale = 1;
-      }
-      images.style.transform = 'scale(' + currentScale + ')';
-    }
+    //function zoomOut() {
+      //currentScale -= 0.1;
+      //if (currentScale < 1) {
+        //currentScale = 1;
+      //}
+      //images.style.transform = 'scale(' + currentScale + ')';
+    //}
+
+    var viewer= OpenSeadragon({
+        id: "openseadragon1",
+        prefixUrl: "./img/The Bell Jar (5)/",
+        tileSources: {
+            type: 'image',
+            url:'./img/The Bell Jar (5)/The Bell Jar 01.jpg',
+         buildPyramid: false
+        }
+    });
 
   </script>
 
