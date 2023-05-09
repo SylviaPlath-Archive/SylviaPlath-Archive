@@ -31,12 +31,19 @@ Lastly, the archive presents the second draft of The Bell Jar, Sylvia Plath’s 
 Since materials from the author's personal life and professional one were being both analyzed, the main questions came up in the process:
 - How the deletions differ from each other in writings for published works and the ones for journals?
 - How does deletions differ from one published work to another? in this case, from the published poem and novel from the author.
+- How much of Sylvia Plath's private life we can see in her writings?
 
 # The process and the methodologies
 
 The idea of the archive came out to provide a various digital platform, focused on different types of work, to give credits to the large production of Sylvia Plath.  All the images of the texts except DON’T REMEMBER held by the British Library.
 
 The process to be followed in the project was only thought after the selection of the material to be encoded. And the selection of those happened in a sort of investigation. The primary goal was to understand what was the changes in the writing style of the author along a specific time span, as she also describes some occasions on her work that might have influenced those changes.
+
+## LOD
+
+The archive could be enriched with more of her works also following the process used in this project.
+
+Suggestions: Characters and people in network analysis.
  
 -	Be more precise about where we’ve found the material.
 
