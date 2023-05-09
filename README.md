@@ -27,13 +27,12 @@ Lastly, the archive presents the second draft of The Bell Jar, Sylvia Plath’s 
 
 
 # Research question
--
+
 Since materials from the author's personal life and professional one were being both analyzed, the main questions came up in the process:
 - How the deletions differ from each other in writings for published works and the ones for journals?
 - How does deletions differ from one published work to another? in this case, from the published poem and novel from the author.
 
 # The process and the methodologies
--
 
 The idea of the archive came out to provide a various digital platform, focused on different types of work, to give credits to the large production of Sylvia Plath.  All the images of the texts except DON’T REMEMBER held by the British Library.
 
@@ -42,7 +41,6 @@ The process to be followed in the project was only thought after the selection o
 -	Be more precise about where we’ve found the material.
 
 # Encoding
--
 
 The texts have been retrieved and fully encoded in XML, to provide a structured format that can be easily processed and analyzed. The materials are accessible in the related sections of the website.
 
