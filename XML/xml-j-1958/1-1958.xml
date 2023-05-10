@@ -35,59 +35,44 @@
          <particDesc>
             <listPerson>
                <person xml:id="TedHughes">
-                  <persName>TedHughes</persName>
+                  <persName type="cited_author"
+                     sameAs="https://dbpedia.org/page/Ted_Hughes">TedHughes</persName>
                </person>
                <person xml:id="JamesBramwell">
-                  <persName>James Bramwell</persName>
+                  <persName type="cited_person"
+                     sameAs="https://dbpedia.org/page/Category:English_masculine_given_names">James Bramwell</persName>
                </person>
                <person xml:id="JohnWebster">
-                  <persName>John Webster</persName>
+                  <persName type="cited_author"
+                     sameAs="https://dbpedia.org/page/John_Webster">John Webster</persName>
                </person>
                <person xml:id="Shirley">
-                  <persName>Shirley</persName>
+                  <persName type="cited_person"
+                     sameAs="https://dbpedia.org/page/English_name">Shirley</persName>
                </person>
             </listPerson>
          </particDesc>
          <settingDesc>
             <listPlace>
                <place xml:id="France">
-                  <placeName>France</placeName>
+                  <settlement type="country">France</settlement>
                </place>
                <place xml:id="Australia">
-                  <placeName>Australia</placeName>
+                  <settlement type="country">Australia</settlement>
                </place>
             </listPlace>
          </settingDesc>
       </profileDesc>
       <xenoData>
          <frbr:frbr>
-            <frbr:description tei:ref="#TedHughes" frbr:Person="https://dbpedia.org/page/Ted_Hughes">
-               <frbr:isEmbodiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
-               <frbr:label xml:lang="en">Ted Hughes</frbr:label>
-            </frbr:description>
-            <frbr:description tei:ref="#JamesBramwell" frbr:Person="https://dbpedia.org/page/Category:English_masculine_given_names">
-               <frbr:isEmbodiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
-               <frbr:label xml:lang="en">Jean Racine</frbr:label>
-            </frbr:description>
-            <frbr:description tei:ref="#JohnWebster" frbr:Person="https://dbpedia.org/page/John_Webster">
-               <frbr:isEmbodiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
-               <frbr:label xml:lang="en">John Webster</frbr:label>
-            </frbr:description>
             
-            <frbr:description tei:ref="#Shirley" frbr:Person="https://dbpedia.org/page/English_name">
-               <frbr:isEmbodiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
-               <frbr:label xml:lang="en">Shirley</frbr:label>
-            </frbr:description>
+
+
             
-            <frbr:description tei:ref="#France" frbr:Place="https://dbpedia.org/page/France">
-               <frbr:isSubjectOf rdf:resource="http://purl.org/vocab/frbr/core#Place"/>
-               <frbr:label xml:lang="en">France</frbr:label>
-            </frbr:description>
-            
-            <frbr:description tei:ref="#Australia" frbr:Place="https://dbpedia.org/page/Australia">
-               <frbr:isSubjectOf rdf:resource="http://purl.org/vocab/frbr/core#Place"/>
-               <frbr:label xml:lang="en">Australia</frbr:label>
-            </frbr:description>
+            <rdf:Description tei:ref="#Australia" rdf:about="https://dbpedia.org/page/Australia">
+               <rdf:type rdf:resource="dbo:Place"/>
+               <rdf:label xml:lang="en">Australia</rdf:label>
+            </rdf:Description>
             
          </frbr:frbr>
       </xenoData> 

@@ -37,23 +37,29 @@
          <particDesc>
             <listPerson>
                <person xml:id="JamesBramwell">
-                  <persName>James Bramwell</persName>
+                  <persName type="cited_person"
+                     sameAs="https://dbpedia.org/page/Category:English_masculine_given_names">James Bramwell</persName>
                </person>
                <person xml:id="FranciscoGoya">
-                  <persName>Francisco Goya</persName>
+                  <persName type="cited_artist"
+                     sameAs="https://dbpedia.org/page/Francisco_Goya">Francisco Goya</persName>
                </person>
                <person xml:id="Joan">
-                  <persName>Joan</persName>
+                  <persName type="cited_person"
+                     sameAs="https://dbpedia.org/page/English_name">Joan</persName>
                </person>
             </listPerson>
          </particDesc>
          <settingDesc>
             <listPlace>
                <place xml:id="Stockolm">
-                  <placeName>Stockolm</placeName>
+                  <settlement type="city">Stockolm</settlement>
                </place>
                <place xml:id="Finland">
-                  <placeName>Finland</placeName>
+                  <settlement type="country">Finland</settlement>
+               </place>
+               <place xml:id="America">
+                  <settlement type="country">America</settlement>
                </place>
             </listPlace>
          </settingDesc>
@@ -62,36 +68,7 @@
       </profileDesc>
       <xenoData>
          <frbr:frbr>
-            
-            <frbr:description tei:ref="#JamesBramwell" frbr:Person="https://dbpedia.org/page/Category:English_masculine_given_names">
-               <frbr:isEmbodiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
-               <frbr:label xml:lang="en">James Bramwell</frbr:label>           
-            </frbr:description>
-            
-            <frbr:description tei:ref="#FranciscoGoya" frbr:Person="https://dbpedia.org/page/Francisco_Goya">
-               <frbr:isEmbodiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
-               <frbr:label xml:lang="en">Francisco Goya</frbr:label>
-             </frbr:description>
-            
-            <frbr:description tei:ref="#Joan" frbr:Person="https://dbpedia.org/page/English_name">
-               <frbr:isEmbodiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
-               <frbr:label xml:lang="en">Joan</frbr:label>
-            </frbr:description>
-            
-            <frbr:description tei:ref="#Stockolm" frbr:Place="https://dbpedia.org/page/Stockolm">
-               <frbr:isSubjectOf rdf:resource="http://purl.org/vocab/frbr/core#Place"/>
-               <frbr:label xml:lang="en">Stockolm</frbr:label>
-            </frbr:description>
-            
-            <frbr:description tei:ref="#Finland" frbr:Place="https://dbpedia.org/page/Finland">
-               <frbr:isSubjectOf rdf:resource="http://purl.org/vocab/frbr/core#Place"/>
-               <frbr:label xml:lang="en">Finland</frbr:label>
-            </frbr:description>
-            
-            <frbr:description tei:ref="#America" frbr:Place="https://dbpedia.org/page/United_States">
-               <frbr:isSubjectOf rdf:resource="http://purl.org/vocab/frbr/core#Place"/>
-               <frbr:label xml:lang="en">Finland</frbr:label>
-            </frbr:description>
+
            
          </frbr:frbr>
       </xenoData> 

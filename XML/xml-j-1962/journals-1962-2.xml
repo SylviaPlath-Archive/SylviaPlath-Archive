@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:dbo="http://dbpedia.org/ontology/"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:frbr="http://purl.org/vocab/frbr/core#" >
+  <teiHeader>
+     <fileDesc>
+        <titleStmt>
+           <title>Sylvia Plath's Journal - 1962</title>
+           <author>Sylvia Plath</author>
+        </titleStmt>
+        <editionStmt>
+           <edition>© Estate of Sylvia Plath.</edition>
+           <respStmt>
+              <resp>Encoding</resp>
+              <persName>Anita Liviabella</persName>
+              <orgName>Alma Mater Studiorum - University of Bologna</orgName>
+           </respStmt>
+        </editionStmt>
+        <publicationStmt>
+           <p>for exercise only</p>
+        </publicationStmt>
+        <sourceDesc>
+           <p>Held by The British Library</p>
+        </sourceDesc>
+     </fileDesc> 
+     
+     <profileDesc>
+        <particDesc>
+           <listPerson>
+              <person xml:id="Rose">
+                 <persName type="cited_person"
+                    sameAs="https://dbpedia.org/page/English_name">Rose</persName>
+              </person>
+              <person xml:id="Percy">
+                 <persName type="cited_person"
+                    sameAs="https://dbpedia.org/page/Category:English_masculine_given_names">Percy</persName>
+              </person>
+              <person xml:id="Oddly">
+                 <persName type="cited_person"
+                    sameAs="https://dbpedia.org/page/Category:English_masculine_given_names">Oddly</persName>
+              </person>
+              <person xml:id="Frieda">
+                 <persName type="cited_person"
+                    sameAs="https://dbpedia.org/page/English_name">Frieda</persName>
+                 </person>
+           </listPerson>
+        </particDesc>
+        <settingDesc>
+           <listPlace>
+              <place xml:id="London">
+                 <settlement type="city">London</settlement>
+              </place>
+              <place xml:id="BoveyTracy">
+                 <settlement type="village">Bovey TracY</settlement>
+              </place>
+              
+           </listPlace>
+        </settingDesc>
+     </profileDesc>
+     <xenoData>
+        <frbr:frbr>
+           
+           
+        </frbr:frbr>
+     </xenoData>
+  </teiHeader>
+  <text>
+      <body>
+         <pb n="01" facs="#pag2"/>
+         <p><persName ref="#Rose">ROSE</persName> AND <persName ref="#Percy">PERCY</persName> KEY                             (2)</p>
+            <lb></lb>
+                                                 
+         <p>Upstairs, a pink bathroom, floors all sealed with new lino,<l/>
+            flounces and mirrors and chrome. A new cooker in the kitchen<l/>
+            (the other hire purchase item), a cage of pistachio and<l/>
+            pale-blue budgies creaking and whistling, up a step from<l/>
+            the livingroom.</p>
+         
+            <lb></lb>
+         
+         <p>First encounter: <persName ref="#Rose">Rose</persName> brought a tray of tea for us and<l/>
+            the workmen the day we moved in. A lively youngish looking<l/>
+            woman, brim full of gabble, seeming to listen not to you,<l/>
+            but to another invisible person slightly to one side who is<l/>
+            telling her something interesting and a bit similar, but<l/>
+            much more compellingly. Her 1ightish brown hair, smooth face,<l/>
+            plumping body. In her middle 50's? <persName ref="#Percy">Percy</persName> seems twenty years<l/>
+            older, very tall, spare, almost cadaverous. Wears a blue<l/>
+            peajacket. A weat<add place="above">h</add>ered, humorous wry face. Was a pub keeper<l/>
+            in <placeName ref="#London">London</placeName>. <placeName ref="London">South London</placeName>. <persName ref="#Oddly">Oddly</persName> sensitive about <persName ref="#Frieda">Frieda</persName> and<l/> 
+            the baby. Asks very right questions. Sings to <persName ref="#Frieda">Frieda</persName>. Eye<l/>
+            running, losing weight, no appetite, depressed after Christmas.<l/>
+            Mrs. <del unit="character" quantity="3">Key</del><add place="above">[B<del unit="character" quantity="4">rwon</del>]</add> caught Dr. Webb coming down from me one day. Got<l/>
+            <persName ref="#Percy">Percy</persName> a checkup. An Xray. He was coming out with others<l/>
+            from their Xrays but, unlike them, had no chart. “Vhere's<l/>
+            your chart, <persName ref="Percy">Perce</persName>?” Oh, the nurse said, he's to come back<l/>
+            for another after lunch. Now he is in Hawksmoor Chest Hospital<l/>
+            in the hills in <placeName ref="#BoveyTracy">Bovey Tracy</placeName> for a fortnight, <persName ref="#Rose">Rose</persName>s ignorance---<l/>
+            why a 2-week checkup? Is it a checkup or a treatment. She says<l/>
+            she will ask tomorrow when the <del unit="character" quantity="9">Crawfords</del><add place="above">[G<del unit="character" quantity="4">reen</del>s]</add> drive her out for a<l/>
+            visit. My startlement<hi>:</hi> these people ask nothing, they just go<l/>
+            to be <del><gap reason="deleted" unit="characters" quantity="5"></gap></del> treat' like mild cows.</p>
+      </body>
+  </text>
+</TEI>

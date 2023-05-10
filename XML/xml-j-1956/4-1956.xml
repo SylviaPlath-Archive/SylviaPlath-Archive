@@ -36,56 +36,35 @@
          <particDesc>
             <listPerson>
                <person xml:id="HamishStewart">
-                  <persName>Hamish Stewart</persName>
+                  <persName type="cited_person"
+                     sameAs="https://dbpedia.org/page/Category:English_masculine_given_names">
+                     Hamish Stewart</persName>
                </person>
                <person xml:id="JeanRacine">
-                  <persName>Jean Racine</persName>
+                  <persName type="cited_author"
+                     sameAs="https://dbpedia.org/page/Jean_Racine">Jean Racine</persName>
                </person>
                <person xml:id="Ronsard">
-                  <persName>Ronsard</persName>
+                  <persName type="cited_person"
+                     sameAs="https://dbpedia.org/page/Category:English_masculine_given_names">Ronsard</persName>
                </person>
                <person xml:id="Mallory">
-                  <persName>Mallory</persName>
+                  <persName type="cited_person"
+                     sameAs="https://dbpedia.org/page/English_name">Mallory</persName>
                </person>
             </listPerson>
          </particDesc>
          <settingDesc>
             <listPlace>
                <place xml:id="London">
-                  <placeName>London</placeName>
+                  <settlement type="city">London</settlement>
                </place>
             </listPlace>
          </settingDesc>
       </profileDesc>
       <xenoData>
          <frbr:frbr>
-          
-            <frbr:description tei:ref="#HamishStewart" frbr:Person="https://dbpedia.org/page/Category:English_masculine_given_names">
-               <frbr:isEmbodiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
-               <frbr:label xml:lang="en">Hamish Stewart</frbr:label>
-            </frbr:description>
-            
-            <frbr:description tei:ref="#JeanRacine" frbr:Person="https://dbpedia.org/page/Jean_Racine">
-               <frbr:isEmbodiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
-               <frbr:label xml:lang="en">Jean Racine</frbr:label>
-            </frbr:description>
-            <frbr:description tei:ref="#Ronsard" frbr:Person="https://dbpedia.org/page/Category:English_masculine_given_names">
-               <frbr:isEmbodiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
-               <frbr:label xml:lang="en">Ronsard</frbr:label>
-            </frbr:description>
-            
-            <frbr:description tei:ref="#Mallory" frbr:Person="https://dbpedia.org/page/English_name">
-               <frbr:isEmbodiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
-               <frbr:label xml:lang="en">Mallory</frbr:label>
-            </frbr:description>
            
-            <frbr:description tei:ref="#London" frbr:Place="https://dbpedia.org/page/University_of_London">
-               <frbr:isSubjectOf rdf:resource="http://purl.org/vocab/frbr/core#Place"/>
-               <frbr:label xml:lang="en">London</frbr:label>
-            </frbr:description>
-            
-            
-            
          </frbr:frbr>
       </xenoData>
    </teiHeader>

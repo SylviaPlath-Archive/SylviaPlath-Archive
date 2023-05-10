@@ -38,32 +38,40 @@
          <particDesc>
             <listPerson>
                <person xml:id="Bert">
-                  <persName>Bert</persName>
+                  <persName type="cited_person"
+                     sameAs="https://dbpedia.org/page/Category:English_masculine_given_names"
+                     >Bert</persName>
                </person>
                <person xml:id="DanielWeissbort">
-                  <persName>Daniel Weissbort</persName>
+                  <persName type="cited_author"
+                     sameAs="https://dbpedia.org/page/Daniel_Weissbort">Daniel Weissbort</persName>
                </person>
                <person xml:id="Richard">
-                  <persName>Richard</persName>
+                  <persName type="cited_person"
+                     sameAs="https://dbpedia.org/page/Category:English_masculine_given_names">Richard</persName>
                </person>
                <person xml:id="DavidRoss">
-                  <persName>David Ross</persName>
+                  <persName type="cited_person"
+                     sameAs="https://dbpedia.org/page/Category:English_masculine_given_names">David Ross</persName>
                </person>
                <person xml:id="Roget">
-                  <persName>Roget</persName>
+                  <persName type="cited_person"
+                     sameAs="https://dbpedia.org/page/Category:English_masculine_given_names">Roget</persName>
                </person>
                <person xml:id="SylviaPlath">
-                  <persName>Sylvia Plath</persName>
+                  <persName type="cited_author"
+                     sameAs="https://dbpedia.org/page/Sylvia_Plath">Sylvia Plath</persName>
                </person>
                <person xml:id="HamishStewart">
-                  <persName>Hamish Stewart</persName>
+                  <persName type="cited_person"
+                     sameAs="https://dbpedia.org/page/Category:English_masculine_given_names">Hamish Stewart</persName>
                </person>
          </listPerson>
         </particDesc>
          <settingDesc>
             <listPlace>
                <place xml:id="London">
-                  <placeName>London</placeName>
+                  <settlement type="city">London</settlement>
                </place>
             </listPlace>
          </settingDesc>
@@ -71,46 +79,7 @@
       <xenoData>
          <frbr:frbr>
             
-            <frbr:description tei:ref="#Bert" frbr:Person="https://dbpedia.org/page/Category:English_masculine_given_names">
-               <frbr:isEmbodiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
-               <frbr:label xml:lang="en">Bert</frbr:label>
-            </frbr:description>
             
-            <frbr:description tei:ref="#DanielWeissbort" frbr:Person="https://dbpedia.org/page/Daniel_Weissbort">
-               <frbr:isEmbodiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
-               <frbr:label xml:lang="en">Daniel Weissbort</frbr:label>
-            </frbr:description>
-            
-            <frbr:description tei:ref="#Richard" frbr:Person="https://dbpedia.org/page/Category:English_masculine_given_names">
-               <frbr:isEmbodiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
-               <frbr:label xml:lang="en">Richard</frbr:label>
-            </frbr:description>
-                  
-            <frbr:description tei:ref="DavidRoss" frbr:Person="https://dbpedia.org/page/Category:English_masculine_given_names">
-               <frbr:isEmbodiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
-               <frbr:label xml:lang="en">David Ross</frbr:label>
-            </frbr:description>
-            
-            <frbr:description tei:ref="#Roget" frbr:Person="https://dbpedia.org/page/Category:English_masculine_given_names">
-               <frbr:isEmbodiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
-               <frbr:label xml:lang="en">Roget</frbr:label>
-            </frbr:description>
-            
-            <frbr:description tei:ref="#SylivaPlath" frbr:Person="https://dbpedia.org/page/Sylvia_Plath">
-               <frbr:isEmbodiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
-               <frbr:label xml:lang="en">Sylvia Plath</frbr:label>
-            </frbr:description>
-           
-            <frbr:description tei:ref="#HamishStewart" frbr:Person="https://dbpedia.org/page/Category:English_masculine_given_names">
-               <frbr:isEmbodiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
-               <frbr:label xml:lang="en">Hamish Stewart</frbr:label>
-            </frbr:description>
-            
-            <frbr:description tei:ref="#London" frbr:Place="https://dbpedia.org/page/London">
-               <frbr:isSubjectOf rdf:resource="http://purl.org/vocab/frbr/core#Place"/>
-               <frbr:label xml:lang="en">London</frbr:label>
-            </frbr:description>
-
          </frbr:frbr>
       </xenoData>
    </teiHeader>
@@ -131,9 +100,9 @@
             delivered at least nine or ten babies, and bang the door was<l/>
             shut and he was sloshing brandy into a glass and I was sloshing<l/>
             it at the place <del><gap reason="deleted" quantity="3" unit="character"></gap></del> where my mouth was when I last knew about it.<l/></p>
-         
+     
          <lb></lb>
-            
+         
          <p>We shouted as if in a high wind, about the review, and he saying<l/>
             <persName ref="#DanielWeissbort">Dan</persName> knew I was beautiful, he wouldn't have written it about a<l/>
             cripple, and my yelling drotest in which the words "sleep with<l/>
