@@ -709,6 +709,7 @@ html {
     width: 60%;
     background-color:#eee;
     opacity: 0.9;
+    text-decoration: none;
 }
 
 form {
