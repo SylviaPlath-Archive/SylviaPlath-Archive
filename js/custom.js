@@ -1,3 +1,31 @@
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.body.style.marginLeft = "250px";
+  document.getElementById("page_logo").style.marginLeft = "180px";
+  // document.getElementById("metadata").style.marginLeft = "300px";
+  // document.getElementById("toggler").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.body.style.marginLeft= "0";
+  document.getElementById("page_logo").style.marginLeft = "0";
+  // document.getElementById("metadata").style.marginLeft = "0";
+  // document.getElementById("toggler").style.marginLeft = "0";
+}
+
+function myFunction(id) {
+  var x = document.getElementById(id);
+  
+    x.style.display = "block";
+  
+}
+function myHideLOD(id) {
+  var x = document.getElementById(id);
+  
+  x.style.display = "none";
+}
+
 $(function() {
   $('a[href*=#]:not([href=#])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {

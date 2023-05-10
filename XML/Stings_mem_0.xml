@@ -34,6 +34,26 @@
                 <p>From the Smith College</p>
             </sourceDesc>
         </fileDesc>
+      <xenoData>
+                <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+                            <rdf:Description rdf:about="https://www.worldcat.org/it/title/9646204">
+                                <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#work"/>
+                            </rdf:Description>
+
+               </rdf:RDF>
+                <!--
+        <rdf:Description  rdf:about="#linktostings">
+        <dc:title>Stings</dc:title>
+        <dc:creator>Sylvia Plath</dc:creator>
+        <rdf:type rdf:resource="frbr:work">
+        <frbr:realization rdf:resource="#link to this draft">
+        </rdf:Description>
+        <rdf:Description rdf:about="#link to this draft">
+        <rdf:type rdf:resource="frbr:expression">
+        </rdf:Description>
+        -->
+      </xenoData>
     </teiHeader>
     <!--
     <facsimile>

@@ -1,0 +1,37 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix frbr: <http://purl.org/vocab/frbr/core#>.
+
+<https://www.bl.uk/collection-items/sylvia-plaths-ariel-dedicated-to-al-alvarez#work>
+  a frbr:Work ;
+  dc:title "Ariel" ;
+  dc:creator "Sylvia Plath" .
+
+  <https://www.bl.uk/collection-items/sylvia-plaths-ariel-dedicated-to-al-alvarez#expression>
+  a frbr:Expression ;
+  frbr:realizationOf <https://www.bl.uk/collection-items/sylvia-plaths-ariel-dedicated-to-al-alvarez#work> ;
+  dc:title "Ariel: Dedicated to Al Alvarez" ;
+  dc:date "1965" .
+
+  
+
+<https://www.bl.uk/collection-items/sylvia-plaths-ariel-dedicated-to-al-alvarez#digital>
+  a frbr:Manifestation ;
+  frbr:embodimentOf <https://www.bl.uk/collection-items/sylvia-plaths-ariel-dedicated-to-al-alvarez#expression> ;
+  dc:title "Ariel: Dedicated to Al Alvarez" ;
+  dc:date "2021" ;
+  dc:format "Digital" ;
+  dc:identifier "https://www.bl.uk/collection-items/sylvia-plaths-ariel-dedicated-to-al-alvarez" .
+
+<https://www.bl.uk/collection-items/sylvia-plaths-ariel-dedicated-to-al-alvarez#copy>
+  a frbr:Item ;
+  frbr:exemplarOf <https://www.bl.uk/collection-items/sylvia-plaths-ariel-dedicated-to-al-alvarez#digital> ;
+  dc:title "Ariel: Dedicated to Al Alvarez" ;
+  dc:date "2021" ;
+  dc:identifier "https://www.bl.uk/collection-items/sylvia-plaths-ariel-dedicated-to-al-alvarez" ;
+  dc:source "British Library" .
+

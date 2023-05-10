@@ -40,6 +40,9 @@ http://www.templatemo.com/preview/templatemo_427_timeline
         <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDY0kkJiTPVd2U7aTOAwhc9ySH6oHxOIYM"></script>
         <script src="js/change.js"></script>
 
+        <link rel="stylesheet" href="openseadragon-bin-4.0.0/openseadragon-bin-4.0.0/openseadragon.min.css" />
+        <script src="openseadragon-bin-4.0.0/openseadragon-bin-4.0.0/openseadragon.min.js"></script>
+
 	</head>
 	<body>
         
@@ -86,9 +89,25 @@ http://www.templatemo.com/preview/templatemo_427_timeline
 
     <div class="container">
     <div class="container-fluid" id="content">
+        <div id="openseadragon"></div>
+        <script type="text/javascript">
+            var viewer = OpenSeadragon({
+                id: "openseadragon",
+                prefixUrl: "openseadragon-bin-4.0.0/openseadragon-bin-4.0.0/images/",
+                tileSources: 
+                   "C:\\Users\\lored\\OneDrive\\Desktop\\Digital Humanities\\YEAR 1\\PLATH\\img"
+                    
+                ,
+                sequenceMode: true
+            });
+        </script>
 
 
         <div class="row align-items-start">
+
+
+            <!--
+
     
           <div class="col-9 col-lg-5 col-md-9 col-sm-9" id ="imagegallery">
 
@@ -102,11 +121,25 @@ http://www.templatemo.com/preview/templatemo_427_timeline
                     </div>
 
                 </div>
+                -->
             
 <div class="testo" >
         <div id="TEI" style="color: brown; margin-top: 10px;" class=" scroll-column zoom">
        
     </div>
+
+    <div id="openseadragon"></div>
+        <script >
+            var viewer = OpenSeadragon({
+                id: "openseadragon",
+                prefixUrl: "openseadragon-bin-4.0.0/openseadragon-bin-4.0.0/images/",
+                tileSources: 
+                   "openseadragon-bin-4.0.0/openseadragon-bin-4.0.0/images/ariel.jpg"
+                    
+                ,
+                sequenceMode: true
+            });
+        </script>
 
     </div>
 </div>
