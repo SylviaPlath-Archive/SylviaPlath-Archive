@@ -6,4 +6,14 @@
 @prefix schema: <http://schema.org/> .
 @prefix frbr: <http://purl.org/vocab/frbr/core#>.
 
-<https://www.worldcat.org/it/title/9646204> rdf:type frbr:work.
+<https://www.worldcat.org/it/title/9646204> rdf:type frbr:work;
+                                            frbr:title "Stings";
+                                            frbr:creator <>.
+<http://example.org/expression/1> frbr:realizationOf <https://www.worldcat.org/it/title/9646204>.
+<http://example.org/manifestation/1> frbr:embodimentOf <http://example.org/expression/1>.
+<http://example.org/item/1> frbr:itemOf <http://example.org/manifestation/1>.
+
+                                            
+
+
+
