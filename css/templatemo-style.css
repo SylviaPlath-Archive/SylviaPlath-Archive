@@ -9,6 +9,11 @@ http://www.templatemo.com/preview/templatemo_427_timeline
 
 @import url(http://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800);
 
+@font-face{
+    font-family: "fontawesome";
+    src:url("font-awesome-webfont.ttf");
+  }
+
 html {
     box-sizing: border-box;
 }
