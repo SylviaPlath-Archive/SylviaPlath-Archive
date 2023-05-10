@@ -49,8 +49,16 @@ Suggestions: Characters and people in network analysis.
 
 # Encoding
 
-The texts have been retrieved and fully encoded in XML, to provide a structured format that can be easily processed and analyzed. The materials are accessible in the related sections of the website.
+The texts have been retrieved and fully encoded in XML following the [TEI Guidelines](https://tei-c.org/), to provide a structured format that can be easily processed and analyzed in a machine-readable way. The materials are accessible in the related sections of the website.
 
+We drive special attention to the following TEI sections: 2 for the TEI Header, 10 for Manuscript Description and 11 for Representation of Primary Sources.
+
+Being the second one a module that defines a special purpose element which can be used to provide detailed descriptive information about handwritten primary sources and other text-bearing objects, and the third describes elements that may be used to represent primary source materials, such as manuscripts, printed books, ephemera, or other textual documents.
+
+Besides being a mandatory element, the TEI Header is being emphasized here because it was a fundamental section in order to add:
+
+- <xenoData> (non-TEI metadata): provides a container element into which metadata in non-TEI formats may be placed.
+- <listPerson> (list of persons): contains a list of descriptions, each of which provides information about an identifiable person or a group of people, for example the participants in a language interaction, or the people referred to in a historical source. 
 -	To add: Details of the tags
 - #Journals
 - #Stings
