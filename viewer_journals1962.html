@@ -36,6 +36,7 @@ http://www.templatemo.com/preview/templatemo_427_timeline
         <!-- JavaScripts -->
         <script src="js/vendor/jquery-1.10.2.min.js"></script>
         <script src="js/vendor/modernizr.min.js"></script>
+        <script src="js/custom.js"></script>
         <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDY0kkJiTPVd2U7aTOAwhc9ySH6oHxOIYM"></script>
         <script src="js/change.js"></script>
 
@@ -82,6 +83,24 @@ http://www.templatemo.com/preview/templatemo_427_timeline
         </nav>
     </header>
 
+    <div id="mySidenav" class="sidenav" style="padding-top: 5%;">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+
+        <button style="margin-top: 10%;"  onclick="myFunction('myDIV')">People</button> 
+
+            
+        <button  onclick="myFunction('myDIV2')">Places</button> 
+
+        <div id="myDIV" style="display: none;">
+            vn bm,
+            </div>
+
+            <div id="myDIV2" style="display: none;">
+            This is my DIV element.
+            </div>
+            
+      </div>
+
     
         <div class="container">
         <div class="container-fluid" id="content">
@@ -96,7 +115,7 @@ http://www.templatemo.com/preview/templatemo_427_timeline
                                 <div class="gallery__item" >
                                 <input type="radio" id="img-1" checked name="gallery" class="gallery__selector" />
                                 <img class="gallery__img" src="img/journal-1962 (2)/journals-1962.jpg" alt="" height="400px" />
-                                <label for="img-1" class="gallery__thumb"><img src="img/journal-1962 (2)/journals-1962.jpg" height="100px" alt="" onclick="displayxml('XML/xml-j-1962/journal-1962')"/></label>
+                                <label for="img-1" class="gallery__thumb"><img src="img/journal-1962 (2)/journals-1962.jpg" height="100px" alt="" onclick="displayxml('XML/xml-j-1962/journal-1962-1.xml')"/></label>
                                 </div>
                                 <div class="gallery__item">
                                 <input type="radio" id="img-2" name="gallery" class="gallery__selector" />
@@ -109,6 +128,8 @@ http://www.templatemo.com/preview/templatemo_427_timeline
                     </div>
                 
            <div class="testo" >
+            <button><a class="nav-link scrollto"><span onclick="openNav()">LOD</span></a></button>
+                        
               <div id="TEI" style="color: brown;" class=" scroll-column zoom">
                 Select an image to visualize the corresponding textual transcription!</div>
         

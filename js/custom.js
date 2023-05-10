@@ -10,7 +10,7 @@ function closeNav() {
 
 function myFunction(id) {
   var x = document.getElementById(id);
- 
+    
     x.style.display = "block";
 }
 function myHideLOD(id) {
