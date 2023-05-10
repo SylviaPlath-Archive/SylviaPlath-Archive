@@ -6,19 +6,19 @@
 @prefix schema: <http://schema.org/> .
 @prefix frbr: <http://purl.org/vocab/frbr/core#>.
 
-<http://maps-legacy.org/poets/m_r/plath/stingsdrafts.htm#work>
+<https://viaf.org/viaf/174076423/>
   a frbr:Work ;
-  dc:title "Stings Drafts" ;
+  dc:title "Stings" ;
   dc:creator "Sylvia Plath" .
-<http://maps-legacy.org/poets/m_r/plath/stingsdrafts.htm#expression>
+<https://lccn.loc.gov/83138766>
   a frbr:Expression ;
-  frbr:realizationOf <http://maps-legacy.org/poets/m_r/plath/stingsdrafts.htm#work> ;
-  dc:title "Stings Drafts" ;
+  frbr:realizationOf <https://viaf.org/viaf/174076423/>;
+  dc:title "Stings Draft" ;
   dc:date "1957" .
 <http://maps-legacy.org/poets/m_r/plath/stingsdrafts.htm#digital>
   a frbr:Manifestation ;
-  frbr:embodimentOf <http://maps-legacy.org/poets/m_r/plath/stingsdrafts.htm#expression> ;
-  dc:title "Stings Drafts" ;
+  frbr:embodimentOf <https://lccn.loc.gov/83138766> ;
+  dc:title "Stings Draft" ;
   dc:date "2023" ;
   dc:format "Digital" ;
   dc:identifier "http://maps-legacy.org/poets/m_r/plath/stingsdrafts.htm" .
@@ -27,7 +27,7 @@
 <http://maps-legacy.org/poets/m_r/plath/stingsdrafts.htm#copy>
   a frbr:Item ;
   frbr:exemplarOf <http://maps-legacy.org/poets/m_r/plath/stingsdrafts.htm#digital> ;
-  dc:title "Stings Drafts" ;
+  dc:title "Stings Draft" ;
   dc:date "2023" ;
   dc:identifier "http://maps-legacy.org/poets/m_r/plath/stingsdrafts.htm" ;
   dc:source "maps-legacy.org" .
