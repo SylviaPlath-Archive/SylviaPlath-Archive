@@ -40,18 +40,6 @@
               <person xml:id="therosenbergs">
                  <persName> The Rosenbergs</persName>
               </person>
-              <person xml:id="Doreen">
-                 <persName>Doreen</persName>
-              </person>
-              <person xml:id="BW">
-                 <persName>Buddy Willard</persName>
-              </person>
-              <person xml:id="SC">
-                 <persName>Santa Claus</persName>
-              </person>
-              <person xml:id="Cinderella">
-                 <persName>Cinderella</persName>
-              </person>
               <person xml:id="KG">
                  <persName>Katahrine Gibbs</persName>
               </person>
@@ -84,55 +72,7 @@
               <frbr:label xml:lang="en">The Rosenbergs</frbr:label>
            </frbr:description>
            
-           <frbr:description tei:ref="#Doreen" frbr:Person="https://dbpedia.org/page/Doreen_(name)">
-              <frbr:isEmobiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
-              <frbr:label xml:lang="en">Doreen</frbr:label>
-           </frbr:description>
            
-           <frbr:description tei:ref="#BW" frbr:Person="https://dbpedia.org/page/Category:English_masculine_given_names">
-              <frbr:isEmobiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
-              <frbr:label xml:lang="en">Buddy Willard</frbr:label>
-           </frbr:description>
-           
-           <frbr:description tei:ref="#SC" frbr:Person="https://dbpedia.org/page/Santa_Claus">
-              <frbr:isEmobiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
-              <frbr:label xml:lang="en">Santa Claus</frbr:label>
-           </frbr:description>
-           
-           <frbr:description tei:ref="#Cinderella" frbr:Person="https://dbpedia.org/page/Cinderella">
-              <frbr:isEmobiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
-              <frbr:label xml:lang="en">Cinderella</frbr:label>
-           </frbr:description>
-           
-           <frbr:description tei:ref="#KG" frbr:Person="https://dbpedia.org/page/English_name">
-              <frbr:isEmobiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
-              <frbr:label xml:lang="en">Katharine Gibbs</frbr:label>
-           </frbr:description>
-           
-           <frbr:description tei:ref="#NY" frbr:Person="https://dbpedia.org/page/New_York_City">
-              <frbr:isSubjectOf rdf:resource="http://purl.org/vocab/frbr/core#Place"/>
-              <frbr:label xml:lang="en">New York</frbr:label>
-           </frbr:description>
-           
-           <frbr:description tei:ref="#USA" frbr:Person="https://dbpedia.org/page/United_States">
-              <frbr:isSubjectOf rdf:resource="http://purl.org/vocab/frbr/core#Place"/>
-              <frbr:label xml:lang="en">America</frbr:label>
-           </frbr:description>
-           
-           <frbr:description tei:ref="#Switzerland" frbr:Person="https://dbpedia.org/page/Switzerland">
-              <frbr:isSubjectOf rdf:resource="http://purl.org/vocab/frbr/core#Place"/>
-              <frbr:label xml:lang="en">Switzerland</frbr:label>
-           </frbr:description>
-           
-           <frbr:description tei:ref="#Brazil" frbr:Person="https://dbpedia.org/page/Brazil">
-              <frbr:isSubjectOf rdf:resource="http://purl.org/vocab/frbr/core#Place"/>
-              <frbr:label xml:lang="en">Brazil</frbr:label>
-           </frbr:description>
-           
-           <frbr:description tei:ref="#NE" frbr:Person="https://dbpedia.org/page/New_England">
-              <frbr:isSubjectOf rdf:resource="http://purl.org/vocab/frbr/core#Place"/>
-              <frbr:label xml:lang="en">New England</frbr:label>
-           </frbr:description>
            
         </frbr:frbr>
      </xenoData>
@@ -233,7 +173,7 @@
             working on---drinking martinis in a skimpy imitation-silver-<l/>
             lame <del><gap reason="deleted" quantity="2" unit="character"></gap></del> bodice <del><gap reason="deleted" quantity="2" unit="character"></gap></del> <add place="above" rend="superscript">stuck</add> onto a big fat cloud of white tulle, <subst><del><gap reason="deleted" quantity="2" unit="character"></gap></del> <add place="above">on same</add></subst><l/>
             <del><gap reason="deleted" quantity="2" unit="character"></gap></del><add><gap reason="deleted" quantity="2" unit="character"></gap>  </add> in the company of several anonymous young<l/>
-            men with all-American <del rend="strikethrough"><name ref="#yaleuniversity"> Yale University</name></del> bone structures hired or<l/>
+            men with all-American <del rend="strikethrough">Yale University</del> bone structures hired or<l/>
             loaned for the occasion---everybody would think I must be having<l/>
             a real whirl.<l/>
          </p>
@@ -319,7 +259,7 @@
                they were mostly girls my age with wealthy parents who wanted to<l/>
                be sure their daughters would be living where men couldn(t get<l/>
                at them and deceive them, and they were all going to posh secretarial<l/>
-               schools like <persName ref="#katharinegibbs">Katy Gibbs</persName>, where they had to wear hats and stockings<l/>
+               schools like Katy Gibbs, where they had to wear hats and stockings<l/>
                and gloves to class, or they had just graduated from places like<l/>
                <persName ref="#katharinegibbs">Katy Gibbs</persName> and were secretaries to executives and junior executives<l/>
                and simply hanging around in New York waiting to get married to<l/>

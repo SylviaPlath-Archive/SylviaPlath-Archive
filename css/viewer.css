@@ -2977,16 +2977,11 @@ div.container-fluid{
 }
 
 #add-1{
-  position: relative;
-  margin-top: 0;
+  margin-left: 5px;
 }
 
 #add-5{
-  margin-left: 75%;
- }
-
- #add-6{
-  margin-right: 2cm;
+  margin-left: 10cm;
  }
 
  #chapter-1{
@@ -2998,15 +2993,47 @@ div.container-fluid{
   top: 10%;
  }
 
- #del-1{
-  margin-top: 10%;
-  margin-left: 30%;
- }
+ /*#del-1{
+  margin-top: 10px;
+  margin-left: 30px;
+ }*/
+
+#round-element{
+  height: 30px;
+  width: 30px;
+  background-color: black;
+  padding: 2%;
+  float: left;
+  margin-left: 30px;
+  margin-top: 30px;
+}
 
  #circled-item-bell-jar{border-radius: 100%; border:1px solid black;padding: 1%; font-size: large;}
 
  #arrow{
+  background-image: url(../XML/arrow.svg);
+  max-width: 80px;
+  position: absolute;
   z-index: 1;
-  margin-left: 15%;
-  max-width: 10px;
+  top: 70%;
+  right: 17%;
  }
+
+ #p-final-bj-1{
+  margin-left: 10%;
+ }
+
+ div.doc{
+  position: relative;
+  background-color: #f7f6f7;
+  width: 1000px;
+  height: 500px;
+  margin-top: 10%;
+  margin-left: 80px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 2%;
+  padding-top: 30px;
+}

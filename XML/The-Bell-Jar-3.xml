@@ -84,26 +84,6 @@
               <frbr:label xml:lang="en">The Rosenbergs</frbr:label>
            </frbr:description>
            
-           <frbr:description tei:ref="#Doreen" frbr:Person="https://dbpedia.org/page/Doreen_(name)">
-              <frbr:isEmobiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
-              <frbr:label xml:lang="en">Doreen</frbr:label>
-           </frbr:description>
-           
-           <frbr:description tei:ref="#BW" frbr:Person="https://dbpedia.org/page/Category:English_masculine_given_names">
-              <frbr:isEmobiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
-              <frbr:label xml:lang="en">Buddy Willard</frbr:label>
-           </frbr:description>
-           
-           <frbr:description tei:ref="#SC" frbr:Person="https://dbpedia.org/page/Santa_Claus">
-              <frbr:isEmobiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
-              <frbr:label xml:lang="en">Santa Claus</frbr:label>
-           </frbr:description>
-           
-           <frbr:description tei:ref="#Cinderella" frbr:Person="https://dbpedia.org/page/Cinderella">
-              <frbr:isEmobiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
-              <frbr:label xml:lang="en">Cinderella</frbr:label>
-           </frbr:description>
-           
            <frbr:description tei:ref="#KG" frbr:Person="https://dbpedia.org/page/English_name">
               <frbr:isEmobiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
               <frbr:label xml:lang="en">Katharine Gibbs</frbr:label>
@@ -233,7 +213,7 @@
             working ondrinking martinis in a skimpy imitation-silver-<l/>
             lame <del><gap reason="deleted" quantity="2" unit="character"></gap></del> bodice <del><gap reason="deleted" quantity="2" unit="character"></gap></del> <add place="above" rend="superscript">stuck</add> onto a big fat cloud of white tulle, <subst><del><gap reason="deleted" quantity="2" unit="character"></gap></del> <add place="above">on same</add></subst><l/>
             <del><gap reason="deleted" quantity="2" unit="character"></gap></del><add><gap reason="deleted" quantity="2" unit="character"></gap>  </add> in the company of several anonymous young<l/>
-            men with all-American <del rend="strikethrough"><institution ref="#yaleuniversity"> Yale University</institution></del> bone structures hired or<l/>
+            men with all-American <del rend="strikethrough">Yale University</del> bone structures hired or<l/>
             loaned for the occasioneverybody would think I must be having<l/>
             a real whirl.<l/>
          </p>
@@ -319,7 +299,7 @@
                they were mostly girls my age with wealthy parents who wanted to<l/>
                be sure their daughters would be living where men couldn(t get<l/>
                at them and deceive them, and they were all going to posh secretarial<l/>
-               schools like <persName ref="#katharinegibbs">Katy Gibbs</persName>, where they had to wear hats and stockings<l/>
+               schools like Katy Gibbs, where they had to wear hats and stockings<l/>
                and gloves to class, or they had just graduated from places like<l/>
                <persName ref="#katharinegibbs">Katy Gibbs</persName> and were secretaries to executives and junior executives<l/>
                and simply hanging around in New York waiting to get married to<l/>
