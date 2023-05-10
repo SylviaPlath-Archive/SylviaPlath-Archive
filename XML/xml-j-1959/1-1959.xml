@@ -36,29 +36,34 @@
          <particDesc>
             <listPerson>
                <person xml:id="TedHughes">
-                  <persName>Ted Hughes</persName>
+                  <persName type="cited_author"
+                     sameAs="https://dbpedia.org/page/Ted_Hughes">Ted Hughes</persName>
                </person>
-               <person xml:id="FranciscoGoya">
-                  <persName>Francisco Goya</persName>
+               <person xml:id="AnnSexton">
+                  <persName type="cited_author"
+                     sameAs="https://dbpedia.org/page/Anne_Sexton">Ann Sexton</persName>
                </person>
                <person xml:id="Joan">
-                  <persName>Joan</persName>
+                  <persName type="cited_person"
+                     sameAs="https://dbpedia.org/page/English_name">Joan</persName>
+               </person>
+               <person xml:id="AugutstLighthill">
+                  <persName type="cited_person"
+                     sameAs="https://dbpedia.org/page/Category:English_masculine_given_names"></persName>
                </person>
             </listPerson>
          </particDesc>
          <settingDesc>
             <listPlace>
                <place xml:id="Winthrop">
-                  <placeName>Winthrop</placeName>
+                  <settlement type="city">Winthrop</settlement>
                </place>
-               <place xml:id="Smith">
-                  <placeName>Smith College</placeName>
-               </place>
+
                <place xml:id="Northampton">
-                  <placeName>Northampton</placeName>
+                  <settlement type="city">Northampton</settlement>
                </place>
                <place xml:id="Holyoke">
-                 <placeName>Holyoke</placeName>
+                 <settlement type="city">Holyoke</settlement>
                </place>
             </listPlace>
          </settingDesc>
@@ -67,41 +72,7 @@
       </profileDesc>
       <xenoData>
          <frbr:frbr>
-            
-            <frbr:description tei:ref="#TedHughes" frbr:Person="https://dbpedia.org/page/Ted_Hughes">
-               <frbr:isEmbodiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
-               <frbr:label xml:lang="en">Ted Hughes</frbr:label>           
-            </frbr:description>
-            
-            <frbr:description tei:ref="#AnnSexton" frbr:Person="https://dbpedia.org/page/Anne_Sexton">
-               <frbr:isEmbodiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
-               <frbr:label xml:lang="en">Ann Sexton</frbr:label>
-            </frbr:description>
-            
-            <frbr:description tei:ref="#Joan" frbr:Person="https://dbpedia.org/page/English_name">
-               <frbr:isEmbodiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
-               <frbr:label xml:lang="en">Joan</frbr:label>
-            </frbr:description>
-            
-            <frbr:description tei:ref="#Winthrop" frbr:Place="https://dbpedia.org/page/Winthrop,_Massachusetts">
-               <frbr:isSubjectOf rdf:resource="http://purl.org/vocab/frbr/core#Place"/>
-               <frbr:label xml:lang="en">Winthrop</frbr:label>
-            </frbr:description>
-            
-            <frbr:description tei:ref="#Smith" frbr:Place="https://dbpedia.org/page/Category:Smith_College_faculty">
-               <frbr:isSubjectOf rdf:resource="http://purl.org/vocab/frbr/core#Place"/>
-               <frbr:label xml:lang="en">Smith College</frbr:label>
-            </frbr:description>
-            
-            <frbr:description tei:ref="#Northampton" frbr:Place="https://dbpedia.org/page/Northampton">
-               <frbr:isSubjectOf rdf:resource="http://purl.org/vocab/frbr/core#Place"/>
-               <frbr:label xml:lang="en">Northampton</frbr:label>
-            </frbr:description>
-            
-            <frbr:description tei:ref="#Holyoke" frbr:Place="https://dbpedia.org/page/Highlands,_Holyoke,_Massachusetts">
-               <frbr:isSubjectOf rdf:resource="http://purl.org/vocab/frbr/core#Place"/>
-               <frbr:label xml:lang="en">Holyoke</frbr:label>
-            </frbr:description>
+          
             
          </frbr:frbr>
       </xenoData> 
@@ -178,14 +149,14 @@
          
             <lb></lb>
    
-            <p>I think: a <objectName ref="#WutheringHeights">Wuthering Heights</objectName> article for red-shoe money, Correct<l/>
+            <p>I think: a Wuthering Heights article for red-shoe money, Correct<l/>
                the word in my Monitor poem, Start a poem for the bed book,<l/>
                A story on the hospital, About the affair of Starbuck and Sexton.<l/>
                A double story, <persName ref="#AugutstLighthill">August Lighthill</persName>and the Other Women.<l/>
                Also about the children, seen through <persName ref="#Jan">Jan</persName>'s eyes, Here is horror,<l/>
                And_all the details, Get life in spurts in stories, then the novel<l/>
-               will come. A way, By the time I get to <placeName ref="#Yaddo">Yaddo</placeName>, three good publishable<l/>
-               stories and the <objectName ref="#BedBook">Bed Book</objectName>done<gap reason="deleted"></gap><l/>
+               will come. A way, By the time I get to Yaddo, three good publishable<l/>
+               stories and the Bed Book done<gap reason="deleted"></gap><l/>
             </p>
             
             <lb></lb>

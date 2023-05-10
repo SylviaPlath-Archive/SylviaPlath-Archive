@@ -39,37 +39,48 @@
             
             <listPerson>
                <person xml:id="JeanRacine">
-                  <persName>Jean Racine</persName>
+                  <persName type="cited_author"
+                     sameAs="https://dbpedia.org/page/Jean_Racine">Jean Racine</persName>
                </person>
                <person xml:id="HamishStewart">
-                  <persName>Hamish Stewart</persName>
+                  <persName type="cited_person"
+                     sameAs="https://dbpedia.org/page/Category:English_masculine_given_names">Hamish Stewart</persName>
                </person>
                <person xml:id="Meeson">
-                  <persName>Meeson</persName>
+                  <persName type="cited_person"
+                     sameAs="https://dbpedia.org/page/Category:English_masculine_given_names">Meeson</persName>
                </person>
                <person xml:id="Derrek">
-                  <persName>Derrek</persName>
+                  <persName type="cited_person"
+                     sameAs="https://dbpedia.org/page/Category:English_masculine_given_names">Derrek</persName>
                </person>
                <person xml:id="Bert">
-                  <persName>Bert</persName>
+                  <persName type="cited_person"
+                     sameAs="https://dbpedia.org/page/Category:English_masculine_given_names">Bert</persName>
                </person>
-               <person xml:id="Luke">
-                  <persName>Lucas Myers</persName>
+               <person xml:id="LucasMyers">
+                  <persName type="cited_person"
+                     sameAs="https://dbpedia.org/page/Category:English_masculine_given_names">Lucas Myers</persName>
                </person>
                <person xml:id="DanHuws">
-                  <persName>Daniel Huws</persName>
+                  <persName type="cited_person"
+                     sameAs="https://dbpedia.org/page/Daniel_Huws">Daniel Huws</persName>
                </person>
                <person xml:id="ThanMorton">
-                  <persName>Than Morton</persName>
+                  <persName type="cited_person"
+                     sameAs="https://dbpedia.org/page/Category:English_masculine_given_names">Than Morton</persName>
                </person>
                <person xml:id="DanielWeissbort">
-                  <persName>Daniel Weissbort</persName>
+                  <persName type="cited_author"
+                     sameAs="https://dbpedia.org/page/Daniel_Weissbort">Daniel Weissbort</persName>
                </person>
                <person xml:id="TedHughes">
-                  <persName>Ted Hughes</persName>
+                  <persName type="cited_author"
+                     sameAs="https://dbpedia.org/page/Ted_Hughes">Ted Hughes</persName>
                </person>  
                <person xml:id="DavidRoss">
-                  <persName>David Ross</persName>
+                  <persName type="cited_person"
+                     sameAs="https://dbpedia.org/page/Category:English_masculine_given_names">David Ross</persName>
                </person>
             </listPerson>
             
@@ -78,60 +89,7 @@
       
       <xenoData>
          <frbr:frbr>
-            <frbr:description tei:ref="#JeanRacine" frbr:Person="https://dbpedia.org/page/Jean_Racine">
-               <frbr:isEmbodiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
-               <frbr:label xml:lang="en">Jean Racine</frbr:label>
-            </frbr:description>
-            
-            <frbr:description tei:ref="#HamishStewart" frbr:Person="https://dbpedia.org/page/Category:English_masculine_given_names">
-               <frbr:isEmbodiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
-               <frbr:label xml:lang="en">Hamish Stewart</frbr:label>
-            </frbr:description>
-            
-            <frbr:description tei:ref="#Meeson" frbr:Person="https://dbpedia.org/page/Category:English_masculine_given_names">
-               <frbr:isEmbodiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
-               <frbr:label xml:lang="en">Meeson</frbr:label>
-            </frbr:description>
-            
-            <frbr:description tei:ref="#Derrek" frbr:Person="https://dbpedia.org/page/Category:English_masculine_given_names">
-               <frbr:isEmbodiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
-               <frbr:label xml:lang="en">Derrek</frbr:label>
-            </frbr:description>
-            
-            <frbr:description tei:ref="#Bert" frbr:Person="https://dbpedia.org/page/Category:English_masculine_given_names">
-               <frbr:isEmbodiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
-               <frbr:label xml:lang="en">Bert</frbr:label>
-            </frbr:description>
-            
-            <frbr:description tei:ref="#LucasMyers" frbr:Person="https://dbpedia.org/page/Category:English_masculine_given_names">
-               <frbr:isEmbodiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
-               <frbr:label xml:lang="en">Lucas Myers</frbr:label>
-            </frbr:description>
-            
-            <frbr:description tei:ref="#DanHuws" frbr:Person="https://dbpedia.org/page/Daniel_Huws">
-               <frbr:isEmbodiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
-               <frbr:label xml:lang="en">Daniel Huws</frbr:label>
-            </frbr:description>
-            
-            <frbr:description tei:ref="#ThanMorton" frbr:Person="https://dbpedia.org/page/Category:English_masculine_given_names">
-               <frbr:isEmbodiementOF rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
-               <frbr:label xml:lang="en">Than Morton</frbr:label>
-            </frbr:description>
-            
-            <frbr:description tei:ref="#DanielWeissbort" frbr:Person="https://dbpedia.org/page/Daniel_Weissbort">
-               <frbr:isEmbodiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
-               <frbr:label xml:lang="en">Daniel Weissbort</frbr:label>
-            </frbr:description>
-            
-            <frbr:description tei:ref="#TedHughes" frbr:Person="https://dbpedia.org/page/Ted_Hughes">
-               <frbr:isEmbodiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
-               <frbr:label xml:lang="en">Ted Hughes</frbr:label>
-            </frbr:description>
-            
-            <frbr:description tei:ref="DavidRoss" frbr:Person="https://dbpedia.org/page/Category:English_masculine_given_names">
-               <frbr:isEmbodiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
-               <frbr:label xml:lang="en">David Ross</frbr:label>
-            </frbr:description>
+           
             
          </frbr:frbr>
       </xenoData>

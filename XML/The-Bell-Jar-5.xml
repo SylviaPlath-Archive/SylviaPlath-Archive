@@ -40,21 +40,6 @@
               <person xml:id="therosenbergs">
                  <persName> The Rosenbergs</persName>
               </person>
-              <person xml:id="Doreen">
-                 <persName>Doreen</persName>
-              </person>
-              <person xml:id="BW">
-                 <persName>Buddy Willard</persName>
-              </person>
-              <person xml:id="SC">
-                 <persName>Santa Claus</persName>
-              </person>
-              <person xml:id="Cinderella">
-                 <persName>Cinderella</persName>
-              </person>
-              <person xml:id="KG">
-                 <persName>Katahrine Gibbs</persName>
-              </person>
            </listPerson>
         </particDesc>
         <settingDesc>
@@ -79,60 +64,6 @@
      </profileDesc>
      <xenoData>
         <frbr:frbr>
-           <frbr:description tei:ref="#therosenbergs" frbr:Person="https://dbpedia.org/page/Julius_and_Ethel_Rosenberg">
-              <frbr:isEmobiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
-              <frbr:label xml:lang="en">The Rosenbergs</frbr:label>
-           </frbr:description>
-           
-           <frbr:description tei:ref="#Doreen" frbr:Person="https://dbpedia.org/page/Doreen_(name)">
-              <frbr:isEmobiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
-              <frbr:label xml:lang="en">Doreen</frbr:label>
-           </frbr:description>
-           
-           <frbr:description tei:ref="#BW" frbr:Person="https://dbpedia.org/page/Category:English_masculine_given_names">
-              <frbr:isEmobiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
-              <frbr:label xml:lang="en">Buddy Willard</frbr:label>
-           </frbr:description>
-           
-           <frbr:description tei:ref="#SC" frbr:Person="https://dbpedia.org/page/Santa_Claus">
-              <frbr:isEmobiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
-              <frbr:label xml:lang="en">Santa Claus</frbr:label>
-           </frbr:description>
-           
-           <frbr:description tei:ref="#Cinderella" frbr:Person="https://dbpedia.org/page/Cinderella">
-              <frbr:isEmobiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
-              <frbr:label xml:lang="en">Cinderella</frbr:label>
-           </frbr:description>
-           
-           <frbr:description tei:ref="#KG" frbr:Person="https://dbpedia.org/page/English_name">
-              <frbr:isEmobiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
-              <frbr:label xml:lang="en">Katharine Gibbs</frbr:label>
-           </frbr:description>
-           
-           <frbr:description tei:ref="#NY" frbr:Person="https://dbpedia.org/page/New_York_City">
-              <frbr:isSubjectOf rdf:resource="http://purl.org/vocab/frbr/core#Place"/>
-              <frbr:label xml:lang="en">New York</frbr:label>
-           </frbr:description>
-           
-           <frbr:description tei:ref="#USA" frbr:Person="https://dbpedia.org/page/United_States">
-              <frbr:isSubjectOf rdf:resource="http://purl.org/vocab/frbr/core#Place"/>
-              <frbr:label xml:lang="en">America</frbr:label>
-           </frbr:description>
-           
-           <frbr:description tei:ref="#Switzerland" frbr:Person="https://dbpedia.org/page/Switzerland">
-              <frbr:isSubjectOf rdf:resource="http://purl.org/vocab/frbr/core#Place"/>
-              <frbr:label xml:lang="en">Switzerland</frbr:label>
-           </frbr:description>
-           
-           <frbr:description tei:ref="#Brazil" frbr:Person="https://dbpedia.org/page/Brazil">
-              <frbr:isSubjectOf rdf:resource="http://purl.org/vocab/frbr/core#Place"/>
-              <frbr:label xml:lang="en">Brazil</frbr:label>
-           </frbr:description>
-           
-           <frbr:description tei:ref="#NE" frbr:Person="https://dbpedia.org/page/New_England">
-              <frbr:isSubjectOf rdf:resource="http://purl.org/vocab/frbr/core#Place"/>
-              <frbr:label xml:lang="en">New England</frbr:label>
-           </frbr:description>
            
         </frbr:frbr>
      </xenoData>
@@ -344,8 +275,8 @@
            <!--<graphic url="https://github.com/TheBellJar-dse/TheBellJar-dse/blob/489e21573ddfb5cd7fd50dc3c10b7747bad6f4d3/img/The%20Bell%20Jar%20(5)/The%20Bell%20Jar%2001.jpg" type="page"/>-->
             
             <p>
-               <space quantity="7" unit="chars"/>I guess one of my troubles was <del><gap reason="deleted" quantity="1" unit="char"></gap></del> <add place="above"><persName ref="doreen">Doreen</persName></add>. <del rend="strikethrough">I'd never had a chance</del> <add place="above">I'd never known a girl like Doreen before.</add><l/>
-               <del rend="strikethrough">to know a girl like her at close quarters.</del> <persName ref="#doreen">Doreen</persName>came from a<l/>
+               <space quantity="7" unit="chars"/>I guess one of my troubles was <del><gap reason="deleted" quantity="1" unit="char"></gap></del> <add place="above"><name ref="#doreen">Doreen</name></add>. <subst><del rend="strikethrough">I'd never had a chance</del> <add place="above">I'd never known a girl like <name ref="#doreen">Doreen</name> before.</add></subst><l/>
+               <del rend="strikethrough">to know a girl like her at close quarters.</del> <name ref="#doreen">Doreen</name>came from a<l/>
                society girls' college down south and had bright white hair<l/>
                standing out in a cotton candy fluff round her head and blue eyes<l/>
                like <del><gap reason="deleted" quantity="1" unit="char"></gap></del> transparent agate marbles,hard and polished and just<l/>
@@ -356,7 +287,7 @@
             </p>
             <lb></lb>
             <p>
-               <space quantity="7" unit="chars"/><persName ref="#doreen">Doreen</persName> singled me out right away. She made me feel I was<l/>
+               <space quantity="7" unit="chars"/><name ref="#doreen">Doreen</name> singled me out right away. She made me feel I was<l/>
                that much sharper than the others, and she really was wonderfully<l/>
                funny. She used to sit next to me at the conference table, and<l/>
                when the visiting celebrities were talking, she'd whisper witty<l/>
@@ -369,18 +300,18 @@
             </p>
             <lb></lb>
             <p>
-               <space quantity="7" unit="chars"/>The only thing <persName>Doreen</persName> ever bawled me out about was bothering<l/>
+               <space quantity="7" unit="chars"/>The only thing <name ref="#doreen">Doreen</name> ever bawled me out about was bothering<l/>
                to get my assignments in by a deadline.<l/>
             </p>
             <lb></lb>
             <p>
-               <space quantity="7" unit="chars"/><quote>"What are you sweating over that for?"</quote> <del><gap reason="deleted" quantity="1" unit="char"></gap></del><persName ref="#doreen">Doreen</persName> lounged on<l/>
+               <space quantity="7" unit="chars"/><quote>"What are you sweating over that for?"</quote> <del><gap reason="deleted" quantity="1" unit="char"></gap></del><name ref="#doreen">Doreen</name> lounged on<l/>
                my bed in a peach silk dressing gown filing her long, nicotine-<l/>
                yellow nails with an emery board while I typed up the draft of<l/>
                an interview with a best-selling novelist. That was another<l/>
                thing---the rest of us had starched cotton summer nighties and<l/>
-               quilted housecoats, or maybe terry towel robes that doubled <del><gap reason="deleted" quantity="1" unit="char"></gap></del> <add place="above">as</add><l/>
-               beachcoats, but Doreen wore these full-length nylon and lace<l/>
+               quilted housecoats, or maybe terry towel robes that doubled <subst><del><gap reason="deleted" quantity="1" unit="char"></gap></del> <add place="above">as</add></subst><l/>
+               beachcoats, but <name ref="#doreen">Doreen</name> wore these full-length nylon and lace<l/>
                jobs you could half see through, and dressing gowns the color of<l/>
             </p>
          </div>

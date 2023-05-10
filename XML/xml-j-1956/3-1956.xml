@@ -37,52 +37,36 @@
          <particDesc>
             <listPerson>
                <person xml:id="Oswald">
-                  <persName>Oswald</persName>
+                  <persName type="cited_person"
+                     sameAs="https://dbpedia.org/page/Category:English_masculine_given_names">Oswald</persName>
                </person>
                <person xml:id="TedHughes">
-                  <persName>Ted Hughes</persName>
+                  <persName type="cited_author"
+                     sameAs="https://dbpedia.org/page/Ted_Hughes">Ted Hughes</persName>
                </person>
                <person xml:id="SylviaPlath">
-                  <persName>Richard</persName>
+                  <persName type="cited_author"
+                     sameAs="https://dbpedia.org/page/Sylvia_Plath">Sylvia Plath</persName>
                </person>
                <person xml:id="HamishStewart">
-                  <persName>Hamish Stewart</persName>
+                  <persName type="cited_person"
+                     sameAs="https://dbpedia.org/page/Category:English_masculine_given_names">Hamish Stewart</persName>
                </person>
             </listPerson>
          </particDesc>
          <settingDesc>
             <listPlace>
                <place xml:id="Cambridge">
-                  <placeName>Cambridge</placeName>
+                  <settlement type="city">Cambridge</settlement>
                </place>
             </listPlace>
          </settingDesc>
       </profileDesc>
       <xenoData>
-         <frbr:frbr>
+         <rdf:RDF>
            
-            
-            <frbr:description tei:ref="#SylivaPlath" frbr:Person="https://dbpedia.org/page/Sylvia_Plath">
-               <frbr:isEmbodiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
-               <frbr:label xml:lang="en">Sylvia Plath</frbr:label>
-            </frbr:description>
-            
-            <frbr:description tei:ref="#HamishStewart" frbr:Person="https://dbpedia.org/page/Category:English_masculine_given_names">
-               <frbr:isEmbodiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
-               <frbr:label xml:lang="en">Hamish Stewart</frbr:label>
-            </frbr:description>
-            <frbr:description tei:ref="#IsaacNewton" frbr:Person="https://dbpedia.org/page/Isaac_Newton">
-               <frbr:isEmodiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person">
-                  <frbr:label xml:lang="en">Isaac Netwon</frbr:label>
-               </frbr:isEmodiementOf>
-            </frbr:description>
-             
-            <frbr:description tei:ref="#Cambridge" frbr:Place="https://dbpedia.org/page/University_of_Cambridge">
-               <frbr:isSubjectOf rdf:resource="http://purl.org/vocab/frbr/core#Place"/>
-               <frbr:label xml:lang="en">Cambridge</frbr:label>
-            </frbr:description>
-            
-         </frbr:frbr>
+    
+         </rdf:RDF>
       </xenoData>
    </teiHeader>
   <text>

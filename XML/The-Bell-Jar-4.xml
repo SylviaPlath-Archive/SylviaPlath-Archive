@@ -40,21 +40,6 @@
               <person xml:id="therosenbergs">
                  <persName> The Rosenbergs</persName>
               </person>
-              <person xml:id="Doreen">
-                 <persName>Doreen</persName>
-              </person>
-              <person xml:id="BW">
-                 <persName>Buddy Willard</persName>
-              </person>
-              <person xml:id="SC">
-                 <persName>Santa Claus</persName>
-              </person>
-              <person xml:id="Cinderella">
-                 <persName>Cinderella</persName>
-              </person>
-              <person xml:id="KG">
-                 <persName>Katahrine Gibbs</persName>
-              </person>
            </listPerson>
         </particDesc>
         <settingDesc>
@@ -79,60 +64,7 @@
      </profileDesc>
      <xenoData>
         <frbr:frbr>
-           <frbr:description tei:ref="#therosenbergs" frbr:Person="https://dbpedia.org/page/Julius_and_Ethel_Rosenberg">
-              <frbr:isEmobiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
-              <frbr:label xml:lang="en">The Rosenbergs</frbr:label>
-           </frbr:description>
            
-           <frbr:description tei:ref="#Doreen" frbr:Person="https://dbpedia.org/page/Doreen_(name)">
-              <frbr:isEmobiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
-              <frbr:label xml:lang="en">Doreen</frbr:label>
-           </frbr:description>
-           
-           <frbr:description tei:ref="#BW" frbr:Person="https://dbpedia.org/page/Category:English_masculine_given_names">
-              <frbr:isEmobiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
-              <frbr:label xml:lang="en">Buddy Willard</frbr:label>
-           </frbr:description>
-           
-           <frbr:description tei:ref="#SC" frbr:Person="https://dbpedia.org/page/Santa_Claus">
-              <frbr:isEmobiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
-              <frbr:label xml:lang="en">Santa Claus</frbr:label>
-           </frbr:description>
-           
-           <frbr:description tei:ref="#Cinderella" frbr:Person="https://dbpedia.org/page/Cinderella">
-              <frbr:isEmobiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
-              <frbr:label xml:lang="en">Cinderella</frbr:label>
-           </frbr:description>
-           
-           <frbr:description tei:ref="#KG" frbr:Person="https://dbpedia.org/page/English_name">
-              <frbr:isEmobiementOf rdf:resource="http://purl.org/vocab/frbr/core#Person"/>
-              <frbr:label xml:lang="en">Katharine Gibbs</frbr:label>
-           </frbr:description>
-           
-           <frbr:description tei:ref="#NY" frbr:Person="https://dbpedia.org/page/New_York_City">
-              <frbr:isSubjectOf rdf:resource="http://purl.org/vocab/frbr/core#Place"/>
-              <frbr:label xml:lang="en">New York</frbr:label>
-           </frbr:description>
-           
-           <frbr:description tei:ref="#USA" frbr:Person="https://dbpedia.org/page/United_States">
-              <frbr:isSubjectOf rdf:resource="http://purl.org/vocab/frbr/core#Place"/>
-              <frbr:label xml:lang="en">America</frbr:label>
-           </frbr:description>
-           
-           <frbr:description tei:ref="#Switzerland" frbr:Person="https://dbpedia.org/page/Switzerland">
-              <frbr:isSubjectOf rdf:resource="http://purl.org/vocab/frbr/core#Place"/>
-              <frbr:label xml:lang="en">Switzerland</frbr:label>
-           </frbr:description>
-           
-           <frbr:description tei:ref="#Brazil" frbr:Person="https://dbpedia.org/page/Brazil">
-              <frbr:isSubjectOf rdf:resource="http://purl.org/vocab/frbr/core#Place"/>
-              <frbr:label xml:lang="en">Brazil</frbr:label>
-           </frbr:description>
-           
-           <frbr:description tei:ref="#NE" frbr:Person="https://dbpedia.org/page/New_England">
-              <frbr:isSubjectOf rdf:resource="http://purl.org/vocab/frbr/core#Place"/>
-              <frbr:label xml:lang="en">New England</frbr:label>
-           </frbr:description>
            
         </frbr:frbr>
      </xenoData>
@@ -319,7 +251,7 @@
                they were mostly girls my age with wealthy parents who wanted to<l/>
                be sure their daughters would be living where men couldn(t get<l/>
                at them and deceive them, and they were all going to posh secretarial<l/>
-               schools like Katy Gibbs, where they had to wear hats and stockings<l/>
+               schools like <name xml:id="katygibbsschool">Katy Gibbs</name>, where they had to wear hats and stockings<l/>
                and gloves to class, or they had just graduated from places like<l/>
                <persName ref="#katharinegibbs">Katy Gibbs</persName> and were secretaries to executives and junior executives<l/>
                and simply hanging around in New York waiting to get married to<l/>
@@ -334,8 +266,8 @@
                flying around in airplanes and bored with skiing in <placeName ref="#switzerland">Switzerland</placeName><l/>
                at Christmas and bored with the men in <placeName ref="#brazil">Brazil</placeName>. Girls like that<l/>
                make me sick. I'm so jealous of them I can't speak. Nineteen<l/>
-               years, and I hadn't been <del rend="strikethrough">out of my home state one minute</del><add place="above"><placeName ref="#newengland">out of New England</placeName></add> except<l/>
-               for this trip to <placeName ref="#newyork">New York</placeName>. <del rend="strikethrough">This</del><add place="above">It</add> was my first big chance,<del><gap reason="deleted" quantity="1" unit="char"></gap></del><add place="above">but for some reason</add><l/>
+               years, and I hadn't been <subst><del rend="strikethrough">out of my home state one minute</del><add place="above"><placeName ref="#newengland">out of New England</placeName></add></subst> except<l/>
+               for this trip to <placeName ref="#newyork">New York</placeName>. <subst><del rend="strikethrough">This</del><add place="above">It</add></subst> was my first big chance,<del><gap reason="deleted" quantity="1" unit="char"></gap></del><add place="above">but for some reason</add><l/>
                <del><gap reason="deleted" quantity="1" unit="char"></gap></del> I <del rend="strikethrough">was</del>, just <del><gap reason="deleted" quantity="1" unit="char"></gap></del> <add place="above">at</add> back<add>,</add> <del rend="strikethrough">and</del> letting it <add place="below">ran<del><gap reason="deleted" quantity="1" unit="char"></gap></del></add><del rend="strikethrough">slip through</del> my<l/>
                fingers <add>like so much water.</add><l/>
             </p>

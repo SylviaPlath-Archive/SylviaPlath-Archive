@@ -637,9 +637,10 @@ html {
 }
 
 #cta {
-    background-image: url(../images/cta-bg.png);
-    background-size: cover;
+    background-image: url(../images/plath_2.jpg);
+    background-size:cover;
     background-repeat: no-repeat;
+    display: flex;
     width: 100%;
     height: 280px;
 }
@@ -667,35 +668,42 @@ html {
     color: #fff;
 }
 
-#map {
-    background-image: url(../images/map-bg.png);
+#disclaimer {
+    background-image: url(../images/bell_jar_BL.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
     height: 680px;
 }
 
-#map h4 {
+#disclaimer h4 {
     margin-top: 100px;
     font-family: 'Dosis';
     font-size: 42px;
     text-align: center;
     text-transform: uppercase;
     font-weight: 500;
-    color: #fff;
+    color: #761d2c;
 }
 
-#map p {
+#disclaimer p {
     font-family: 'Dosis';
     font-size: 22px;
     text-align: center;
     text-transform: uppercase;
     font-weight: 400;
-    color: #fff;
+    color: #761d2c;
 }
 
-.map-content {
-    margin-top: 50px;
+.disclaimer-content {
+    position:relative;
+    margin-top: 10px;
+    align-content: center;
+    left: 20%;
+    height: 20%;
+    width: 60%;
+    background-color:#eee;
+    opacity: 0.9;
 }
 
 form {
@@ -769,9 +777,11 @@ form {
     line-height: 20px;
 }
 
-#templatemo-map {
+#templatemo-disclaimer {
     width: 100%;
     height: 380px;
+    align-items: center;
+    padding: 15px;
 }
 
 footer {
@@ -882,7 +892,7 @@ footer {
         padding-bottom: 200px;
     }
 
-    #map {
+    #disclaimer {
         margin-top: 40px;
     }
 }

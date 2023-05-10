@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:dbo="http://dbpedia.org/ontology/"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:dc="http://purl.org/dc/terms/"
+   xmlns:frbr="http://purl.org/vocab/frbr/core#" >
+   <teiHeader>
+      
+      <fileDesc>
+         <titleStmt> 
+            <title>Sylvia Plath's Journal - </title>
+            <author>Sylvia Plath</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>© Estate of Sylvia Plath.</edition>
+            <respStmt>
+               <resp>Encoding</resp>
+               <persName>Anita Liviabella</persName>
+               <orgName>Alma Mater Studiorum - University of Bologna</orgName>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <p>for exercise only</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Held by The British Library</p>
+         </sourceDesc>
+      </fileDesc> 
+      
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="Rose">
+                  <persName type="cited_person"
+                     sameAs="https://dbpedia.org/page/English_name">Rose</persName>
+               </person>
+               <person xml:id="Percy">
+                  <persName type="cited_person"
+                     sameAs="https://dbpedia.org/page/Category:English_masculine_given_names">Percy</persName>
+               </person>
+               <person xml:id="SylviaPlath">
+                  <persName type="cited_author"
+                     sameAs="https://dbpedia.org/page/Sylvia_Plath">Percy</persName>
+               </person>
+               <person xml:id="Elsie">
+                  <persName type="cited_person"
+                     sameAs="https://dbpedia.org/page/English_name">Elsie</persName>
+               </person>
+               <person xml:id="Yvonne">
+                  <persName type="cited_person"
+                     sameAs="https://dbpedia.org/page/English_name">Yvonne</persName>
+               </person>
+               <person xml:id="Betty">
+                  <persName type="cited_person"
+                     sameAs="https://dbpedia.org/page/English_name">Betty</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <place xml:id="London">
+                  <settlement type="city">London</settlement>
+               </place>
+               <place xml:id="Okehampton">
+                  <settlement type="village">Okehapton</settlement>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+      <xenoData>
+         <frbr:frbr>
+            <frbr:frbr>
+
+            </frbr:frbr>
+            
+            
+         </frbr:frbr>
+      </xenoData>
+   </teiHeader>
+  <text>
+      <body>
+         <pb n="01" facs="#pag1" />
+         <p rend="pos_right">Partly Cut</p>
+         <lb></lb>
+         <p><persName ref="#Rose"></persName>ROSE AND <persName ref="#Percy">Percy</persName> K<add place="above">B. </add>EY (68) 13.P.          <persName ref="#SylviaPlath">S.P</persName>'s notes<l/></p>
+         <lb></lb>
+         <p>    Retired Londoners, our nearest neighbors, live [in<l/>
+            Number 4 Court Green cottages] on the steep rocky slant of<l/>
+            our driveway, looking into our high side hedge through the<l/>
+            small front windows. The cottage joined to the Watkins'<l/>
+            cottage on the corner, joined in turn to the tiny white cottage<l/>
+            of humpbacked <persName ref="#Elsie">Elsie</persName> fronting the street. A wreck when they<l/>
+            bought it: hadn't been lived in for two years, all muck and<l/>
+            falling plaster. They worked it to comfort all themselves.<l/>
+            A telly (on hire purchase) almost paid off), a small back<l/>
+            garden under our thatched cottage and strawberry patch,<l/>
+            hidden by a dense screen of holly and bush there, and by<l/>
+            a wattle fence and homemade garage on the drive-side. Tiny<l/>
+            rooms, bright, modernish, The typical British wallpaper---<l/>
+            a pale beige embossed with faintly sheened white roses, the<l/>
+            effect of cream scum patterns on weak tea. Starchy white<l/>
+            curtains, good for peeking from behind. A stuffed,<l/>
+            comfortable livingroom suite. A fireplace glowing with coal<l/>
+            and wood block. Pictures of the three daughters in wedding<l/>
+            dress-—-and album of the model daughter: hard-faced, black hair,<l/>
+            a Jewy rapaciousness. In modeling school they stole an<del><gap reason="deleted" quantity="1" unit="character"></gap></del><l/>
+            expensive sweater her mother bought. Two grandsons, one<l/>
+            from each other daughter. All daughters live in <placeName ref="#London">London</placeName>---<l/>
+            <persName ref="#Betty">Betty</persName>,<persName ref="#Yvonne">Yvonne</persName> and the third. A side room full of gaudy satin<l/>
+            materials the first day I came to visit, and a sewing machine<l/>
+            on which Rose runs up mattress coverings for a firm in<l/>
+            <placeName ref="#Okehampton">Okehampton</placeName>Okehampton in cerise and fuschia shiny stuff with lurid<l/>
+            sprawling patterns. <persName ref="#Percy">Percy</persName> "caretakes" a firm one day a month.</p>
+            
+      </body>
+  </text>
+</TEI>

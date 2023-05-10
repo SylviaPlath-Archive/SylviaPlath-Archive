@@ -40,9 +40,6 @@
               <person xml:id="therosenbergs">
                  <persName> The Rosenbergs</persName>
               </person>
-              <person xml:id="KG">
-                 <persName>Katahrine Gibbs</persName>
-              </person>
            </listPerson>
         </particDesc>
         <settingDesc>
@@ -171,8 +168,8 @@
             a black patent leather belt and black patent leather pocket book<l/>
             to match. And when my picture came out <add place="above">The twelve of us</add>in the magazine I <del><gap rend="above" reason="deleted" quantity="2" unit="character"></gap></del>were<l/>
             working on---drinking martinis in a skimpy imitation-silver-<l/>
-            lame <del><gap reason="deleted" quantity="2" unit="character"></gap></del> bodice <del><gap reason="deleted" quantity="2" unit="character"></gap></del> <add place="above" rend="superscript">stuck</add> onto a big fat cloud of white tulle, <subst><del><gap reason="deleted" quantity="2" unit="character"></gap></del> <add place="above">on same</add></subst><l/>
-            <del><gap reason="deleted" quantity="2" unit="character"></gap></del><add><gap reason="deleted" quantity="2" unit="character"></gap>  </add> in the company of several anonymous young<l/>
+            lame <del><gap reason="deleted" quantity="2" unit="character"></gap></del> bodice <subst><del><gap reason="deleted" quantity="2" unit="character"></gap></del> <add place="above" rend="superscript">stuck</add></subst> onto a big fat cloud of white tulle, <subst><del><gap reason="deleted" quantity="2" unit="character"></gap></del> <add place="above">on same</add></subst><l/>
+            <subst><del><gap reason="deleted" quantity="2" unit="character"></gap></del><add><gap reason="illegible" quantity="2" unit="character"></gap></add></subst> in the company of several anonymous young<l/>
             men with all-American <del rend="strikethrough">Yale University</del> bone structures hired or<l/>
             loaned for the occasion---everybody would think I must be having<l/>
             a real whirl.<l/>
