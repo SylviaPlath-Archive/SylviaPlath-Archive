@@ -28,16 +28,39 @@ http://www.templatemo.com/preview/templatemo_427_timeline
         <link rel="stylesheet" type="text/css" href="css/templatemo-style.css">
         <link rel="stylesheet" type="text/css" href="css/stylegallery.css">
         <link rel="stylesheet" type="text/css" href="css/viewer.css">
-
-        
+              
  
 
         <!-- JavaScripts -->
         <script src="js/vendor/jquery-1.10.2.min.js"></script>
         <script src="js/vendor/modernizr.min.js"></script>
         <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDY0kkJiTPVd2U7aTOAwhc9ySH6oHxOIYM"></script>
-        <script src="js/zoom.js"></script>
+        <script src="openseadragon-bin-4.0.0/openseadragon.min.js"></script>
 
+        <style>
+            /* custom */
+.custom-modules {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 50px;
+  display: inline-block;
+  z-index: 1;
+}
+.custom-in-zoomer, .custom-out-zoomer {
+  position: inherit;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  box-shadow: 3px 3px 7px rgba(0, 0, 0, .4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin: 10px auto;
+}
+        </style>
 	</head>
 	<body>
     
@@ -57,7 +80,7 @@ http://www.templatemo.com/preview/templatemo_427_timeline
                     </div>
                     <div class="collapse navbar-collapse" id="main-menu">
                         <ul class="nav navbar-nav navbar-right">
-                            <li><span></span><a href="#top" class="home">Home</a></li>
+                            <li><span></span><a href="index.html" class="home">Home</a></li>
                             
                             <div class="dropdown">
                             <li><span></span><button class="dropbtn">Editions</button></li>
@@ -74,7 +97,7 @@ http://www.templatemo.com/preview/templatemo_427_timeline
                             </div>
                             
 
-                            <li><span></span><a href="#second-section" class="portfolio">Documentation</a></li>
+                            <li><span></span><a href="documentation.html" class="portfolio">Documentation</a></li>
                             <li><span></span><a href="#map" class="map">Location</a></li>
                             <li><span></span><a href="#third-section" class="contact">Team</a></li>
                         </ul>
@@ -84,7 +107,12 @@ http://www.templatemo.com/preview/templatemo_427_timeline
         </nav>
     </header>
 
-   
+    <div class="custom-modules">
+        <div class="custom-in-zoomer" onclick="zoomIn()">+</div>
+        
+        <div class="custom-out-zoomer" onclick="zoomOut()">-</div>
+    </div>
+
     <div class="container">
         <div class="container-fluid" id="content">
 
@@ -94,44 +122,47 @@ http://www.templatemo.com/preview/templatemo_427_timeline
               <div class="col-9 col-lg-5 col-md-9 col-sm-9" id ="imagegallery">
 
                         <div id="container" style="float: left;">
-                            <section class="gallery">
+                            <section class="gallery" id="openseadragon1">
+                                
                                 <div class="gallery__item">
                                 <input type="radio" id="img-1" checked name="gallery" class="gallery__selector"/>
-                                <img class="gallery__img" src="img/The Bell Jar (5)/The Bell Jar 01.jpg" height="400px" alt=""/>
+                                <img class="gallery__img" src="img/The Bell Jar (5)/The Bell Jar 01.jpg" height="400px" alt="image 1"/>
                                 <label for="img-1" class="gallery__thumb"><img src="img/The Bell Jar (5)/The Bell Jar 01.jpg" height="100px" alt="" onclick="displayxml('XML/The-Bell-Jar-1.xml')"/></label>
                                 </div>
                                 <div class="gallery__item">
                                 <input type="radio" id="img-2" name="gallery" class="gallery__selector"/>
-                                <img class="gallery__img" src="img/The Bell Jar (5)/The Bell Jar 02.jpg" height="400px" alt=""/>
+                                <img class="gallery__img" src="img/The Bell Jar (5)/The Bell Jar 02.jpg" height="400px" alt="image 2"/>
                                 <label for="img-2" class="gallery__thumb"><img src="img/The Bell Jar (5)/The Bell Jar 02.jpg" height="100px" alt="" onclick="displayxml('XML/The-Bell-Jar-2.xml')"/></label>
                                 </div>
                                 <div class="gallery__item">
                                 <input type="radio" id="img-3" name="gallery" class="gallery__selector"/>
-                                <img class="gallery__img" src="img/The Bell Jar (5)/The Bell Jar 03.jpg" height="400px" alt=""/>
+                                <img class="gallery__img" src="img/The Bell Jar (5)/The Bell Jar 03.jpg" height="400px" alt="image 3"/>
                                 <label for="img-3" class="gallery__thumb"><img src="img/The Bell Jar (5)/The Bell Jar 03.jpg" height="100px" alt="" onclick="displayxml('XML/The-Bell-Jar-3.xml')"/></label>
                                 </div>
                                 <div class="gallery__item">
                                 <input type="radio" id="img-4" name="gallery" class="gallery__selector"/>
-                                <img class="gallery__img" src="img/The Bell Jar (5)/The Bell Jar 04.jpg" height="400px" alt=""/>
+                                <img class="gallery__img" src="img/The Bell Jar (5)/The Bell Jar 04.jpg" height="400px" alt="image 4"/>
                                 <label for="img-4" class="gallery__thumb"><img src="img/The Bell Jar (5)/The Bell Jar 04.jpg" height="100px" alt="" onclick="displayxml('XML/The-Bell-Jar-4.xml')"/></label>
                                 </div>
                                 <div class="gallery__item">
                                 <input type="radio" id="img-5" name="gallery" class="gallery__selector"/>
-                                <img class="gallery__img" src="img/The Bell Jar (5)/The Bell Jar 05.jpg" height="400px" alt=""/>
+                                <img class="gallery__img" src="img/The Bell Jar (5)/The Bell Jar 05.jpg" height="400px" alt="image"/>
                                 <label for="img-5" class="gallery__thumb"><img src="img/The Bell Jar (5)/The Bell Jar 05.jpg" height="100px" alt="" onclick="displayxml('XML/The-Bell-Jar-5.xml')"/></label>
-                                </div>
+                              
+                            </div>
+                            
                             </section>
                         </div>
 
                     </div>
-                
+
                     <div class="testo" >
                         <div id="TEI" style="color: brown; margin-top: 10px;" class=" scroll-column zoom">
                         Select an image to visualize the corresponding textual transcription!
                     </div>
             
                     </div>
-            </div>
+                </div>
             </div>
             </div>
                     <script src="CETEI.js"></script>
@@ -145,66 +176,38 @@ http://www.templatemo.com/preview/templatemo_427_timeline
                             })
                         }
                     </script>
-       <!--<script src="CETEI.js"></script>
-        <script>
-        var CETEIcean = new CETEI();
-        var images = [];
-        CETEIcean.addBehaviors({"tei":
-            {
-            "gap": ["[", "]"],
-            "note": function(elt) {
-                var span = document.createElement("span");
-                span.innerHTML = elt.getAttribute("place") == "margin"?"[<em>in marg.</em> ":"[";
-                span.innerHTML += elt.innerHTML + "]";
-                return span;
-            },
-            "pb": function(elt) {
-                var span = document.createElement("span");
-                var link = document.createElement("a");
-                link.setAttribute("style", "float:right;padding-left:1em;text-decoration:none;color:gray;");
-                if (elt.hasAttribute("facs")) {
-                var facs = elt.getAttribute("facs").replace("tcp:", "").replace(new RegExp(this.getPrefixDef("tcp")["matchPattern"]), "?vid=$1&page=$2");
-                link.setAttribute("href", "http://eebo.chadwyck.com/fetchimage" + facs + "&width=1500");
-                var img = document.createElement("img");
-                images.push(img);
-                img.setAttribute("src", "http://eebo.chadwyck.com/fetchimage" + facs + "&width=100");
-                img.setAttribute("height", "50px");
-                if (elt.hasAttribute("n")) {
-                    link.innerHTML = "<span style=\"position:relative; top: -1em;\">p. " + elt.getAttribute("n") + " </span>";
-                }
-                link.appendChild(img);
-                }
-                span.appendChild(document.createElement("br"));
-                span.appendChild(link);
-                span.appendChild(document.createElement("br"));
-                span.appendChild(document.createElement("br"));
-                span.appendChild(document.createElement("br"));
-                return span;
-            }
-            }});
-        CETEIcean.getHTML5('https://raw.githubusercontent.com/TheBellJar-dse/TheBellJar-dse/main/XML/The-Bell-Jar-1.xml', function(data) {
-            document.getElementById("TEI").innerHTML = "";
-            document.getElementById("TEI").appendChild(data);
-            // Fix combining abbreviation marker in Chrome
-            if (!!window.chrome) {
-            var gs = document.getElementsByTagName("tei-g");
-            for (var i = 0; i < gs.length; i++) {
-                if (gs[i].getAttribute("ref") == "char:cmbAbbrStroke") {
-                gs[i].setAttribute("class", "cmbAbbr");
-                }
-            }
-            }
-            // If not logged in to EEBO, use a local image instead of the preview
-            var img = new Image();
-            img.onerror = function() {
-            console.log("Not logged in.");
-            images.forEach(function(elt) {
-                elt.src = elt.src.replace("http://eebo.chadwyck.com/fetchimage", "images/page.jpg");
-            });
-            }
-            img.src = "http://eebo.chadwyck.com/fetchimage?vid=5891&page=1&width=100";
-        });
-        </script>-->
+
+<script type="text/javascript">
+    //var image = document.querySelectorAll(img .gallery__img);
+    //var currentScale = 1;
+
+    //function zoomIn() {
+      //currentScale += 0.1;
+      //if (currentScale > 1.5) {
+        //currentScale = 1.5;
+      //}
+      //images.style.transform = 'scale(' + currentScale + ')';
+    //}
+  
+    //function zoomOut() {
+      //currentScale -= 0.1;
+      //if (currentScale < 1) {
+        //currentScale = 1;
+      //}
+      //images.style.transform = 'scale(' + currentScale + ')';
+    //}
+
+    var viewer= OpenSeadragon({
+        id: "openseadragon1",
+        prefixUrl: "./img/The Bell Jar (5)/",
+        tileSources: {
+            type: 'image',
+            url:'./img/The Bell Jar (5)/The Bell Jar 01.jpg',
+         buildPyramid: false
+        }
+    });
+
+  </script>
 
     <footer>
         <div class="container">
