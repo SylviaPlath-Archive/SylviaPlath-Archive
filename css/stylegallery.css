@@ -47,6 +47,7 @@ img {
 .gallery__selector:checked + .gallery__img {
   opacity: 1;
 }
+
 .gallery__selector:checked ~ .gallery__thumb > img {
   box-shadow: 0 0 0 3px brown;
 }
@@ -54,5 +55,4 @@ img {
 /*.gallery__thumb:hover + .gallery__img {
   transform: scale(2.5);
 }*/
-
 
