@@ -18,6 +18,10 @@ html {
     box-sizing: border-box;
 }
 
+*{
+    font-family: fontawesome;
+}
+
 *, *:before, *:after {
     box-sizing: inherit;
 }
@@ -678,7 +682,7 @@ html {
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 680px;
+    height: 480px;
 }
 
 #disclaimer h4 {
@@ -692,10 +696,9 @@ html {
 }
 
 #disclaimer p {
-    font-family: 'Dosis';
+    font-family: 'fontawesome';
     font-size: 22px;
     text-align: center;
-    text-transform: uppercase;
     font-weight: 400;
     color: #761d2c;
 }
@@ -705,7 +708,7 @@ html {
     margin-top: 10px;
     align-content: center;
     left: 20%;
-    height: 20%;
+    height: 250px;
     width: 60%;
     background-color:#eee;
     opacity: 0.9;
@@ -1209,3 +1212,4 @@ footer {
     font-size: 15px;
     margin-bottom: 10px;
   }
+

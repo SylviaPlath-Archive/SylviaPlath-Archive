@@ -27,6 +27,12 @@ img {
   left: 0;
   opacity: 0;
   transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+
+}
+
+.gallery__img img :hover{
+     transform: scale(2.0);
+     z-index: 1;
 }
 
 .gallery__thumb {
@@ -43,11 +49,12 @@ img {
 .gallery__selector:checked + .gallery__img {
   opacity: 1;
 }
+
 .gallery__selector:checked ~ .gallery__thumb > img {
   box-shadow: 0 0 0 3px brown;
 }
 
-.gallery__thumb:hover + .gallery__img {
+/*.gallery__thumb:hover + .gallery__img {
   transform: scale(2.5);
-}
+}*/
 
