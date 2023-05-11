@@ -8,7 +8,10 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:foaf="http://xmlns.com/foaf/0.1/"
    xmlns:dbo="http://dbpedia.org/ontology/"
+   xmlns:dcterms="http://purl.org/dc/terms/"
    xmlns:frbr="http://purl.org/vocab/frbr/core#">
+
+   
   <teiHeader>
      <fileDesc>
         <titleStmt>
@@ -33,84 +36,119 @@
      <profileDesc>
         <particDesc>
            <listPerson>
-              <person xml:id="Alvarez">
-                 <persName>Al Alvarez</persName>
+              <person xml:id="Alvarez" >
+                 <persName type="cited_person" sameAs="https://viaf.org/viaf/64034086/">Al Alvarez</persName>
+
               </person>
            </listPerson>
         </particDesc>
      </profileDesc>
      <xenoData>
         <!-- you can use http://www.easyrdf.org/converter -->
-        <rdf:RDF>
-           <!-- persons:
-                    @PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
-                    @PREFIX dbo: <http://dbpedia.org/ontology/>.
-                    @PREFIX foaf: <http://xmlns.com/foaf/0.1/>.
-                    dbo:Marco_Polo a foaf:Person;
-                      rdfs:label "Marco Polo"@en.
-                -->
-           <rdf:Description tei:ref="#Alvarez" rdf:about="https://viaf.org/viaf/64034086/">
-              <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-              <rdfs:label xml:lang="en">Al Alvarez</rdfs:label>
-           </rdf:Description>
-        </rdf:RDF>
+       
+               <rdf:RDF >
+
+               <rdf:Description rdf:about="https://dbpedia.org/page/Ariel_(poetry_collection)"> 
+                  <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Work"/>
+                  <dcterms:title>Ariel</dcterms:title>
+                  <dcterms:creator>Sylvia Plath</dcterms:creator>
+                  <dbo:country rdf:resource="http://dbpedia.org/resource/United_States"/>
+                  <dbo:literaryGenre rdf:resource="http://dbpedia.org/resource/Poetry"/>
+                  <dbo:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1965</dbo:publicationDate>
+                  <dbo:publisher rdf:resource="http://dbpedia.org/resource/Faber_and_Faber"/>
+               </rdf:Description>
+
+               <rdf:Description rdf:about="https://www.bl.uk/collection-items/sylvia-plaths-ariel-dedicated-to-al-alvarez">
+                  <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Expression"/>
+                  <frbr:realizationOf rdf:resource="https://dbpedia.org/page/Ariel_(poetry_collection)"/>
+                  <dcterms:title>Ariel: Dedicated to Al Alvarez</dcterms:title>
+                  <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">c. 1962</dcterms:date>
+                  <dcterms:creator>Sylvia Plath</dcterms:creator>
+
+               </rdf:Description>
+
+               <rdf:Description rdf:about="">
+                  <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Manifestation"/>
+                  <frbr:embodimentOf rdf:resource="https://www.bl.uk/collection-items/sylvia-plaths-ariel-dedicated-to-al-alvarez"/>
+                  <dcterms:title>Ariel: Dedicated to Al Alvarez</dcterms:title>
+                  <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">c. 1962</dcterms:date>
+                  <dcterms:creator>Sylvia Plath</dcterms:creator>
+                  <dcterms:format>Manuscript</dcterms:format>
+                  </rdf:Description>
+
+               <rdf:Description rdf:about="">
+                  <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Item"/>
+                  <frbr:exemplarOf rdf:resource=""/>
+                  <dcterms:title>Ariel: Dedicated to Al Alvarez</dcterms:title>                 
+                  <dcterms:format>Digital</dcterms:format>
+                  <dcterms:source>British Library</dcterms:source>
+               </rdf:Description>
+
+               </rdf:RDF>
+
+                            
      </xenoData>
   </teiHeader>
   <text>
       <body>
          <head>Ariel</head>
-         <p>(for <persName ref="#Alvarez">Al</persName>)</p>
-         <lg>
+         <p xml:id="ariel_dedication">(for <persName ref="#Alvarez">Al</persName>)</p>
+         <lg rend="right-align">
             <l>Stasis in darkness.</l>
             <l>Then the substanceless blue  </l> 
             <l>Pour of tor and distances.</l>
          </lg> 
-         <lg>
+         <lg rend="right-align">
          <l>God’s Lioness,</l>   
          <l>How one we grow,</l>
          <l>Pivot of heels and knees! The furrow</l>
          </lg>
-         <lg>
+         <lg rend="right-align">
          <l>Splits and passes, sister to   </l>
          <l>The brown arc</l>
          <l>Of the neck I cannot catch,</l>
-         </lg>
-         <lg>
+         </lg >
+         <lg rend="right-align">
             <l>Nigger-eye   </l>
             <l>Berries cast dark</l>
             <l>Hooks—</l>
          </lg>
-         <lg>
+         <lg rend="right-align">
             <l>Black sweet blood mouthfuls,</l>   
             <l>Shadows.</l>
             <l>Something else</l>
          </lg>
-         <lg>
+         <lg rend="right-align">
             <l>Hauls me through air—</l>
             <l> Thighs, hair;</l>
             <l>Flakes from my heels.</l>
          </lg>
-         <lg>
+         <lg rend="right-align">
             <l>White</l>
             <l>Godiva, I unpeel—</l>
             <l>Dead hands, dead stringencies.</l>
          </lg>
+         <lg rend="right-align">
          <l>And now I</l>
          <l>Foam to wheat, a glitter of seas.   </l>
          <l>The child’s cry</l>
-         <lg>
+         </lg>
+         <lg rend="right-align">
             <l>Melts in the wall. </l>         
             <l>And I</l>
             <l>Am the arrow,</l>
          </lg>
-         <lg>
+         <lg rend="right-align">
             <l>The dew that flies</l>
             <l>Suicidal, at one with the drive</l>   
             <l>Into the red</l>
          </lg>
-         <l>Eye, the cauldron of morning.</l>
+         <l rend="right-align">Eye, the cauldron of morning.</l>
          
-         <p xml:id="signature">-Sylvia Plath-</p>
+         <p xml:id="ariel_signature">-Sylvia Plath-</p>
+         <figure xml:id="ariel_flower">
+            <graphic url="../images/flower.png"/>
+            </figure>
       </body>
   </text>
 </TEI>

@@ -1209,3 +1209,13 @@ footer {
     margin-bottom: 10px;
   }
 
+  div.doc{
+    font-size: medium;
+    
+    text-align: justify;
+    padding: 10%;
+    margin-bottom: 2%; 
+  }
+  
+  div.doc h1, div.doc h2{text-align: center; color:brown; padding: 1%;}
+

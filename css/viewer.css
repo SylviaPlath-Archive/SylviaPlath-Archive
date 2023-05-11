@@ -1667,7 +1667,8 @@ tei-gap[reason='deleted']:before {
 tei-gap[reason='deleted']:after {
   content: attr(data-content) ']';
 }
-
+tei-unclear:before{content: "(";}
+tei-unclear:after{content:"?)"}
 
  /* End */
 tei-gb {
@@ -1741,7 +1742,9 @@ tei-TEI tei-head {
   display: block;
   font-family: Arvo, sans-serif;
   font-weight: normal;
+  
 }
+tei-head[rend="leftmargin"]{text-align: left;}
 tei-body > tei-head {
   font-size: 180%;
   text-indent: -0.5em;
@@ -2429,6 +2432,10 @@ tei-quotation {
 tei-quote {
 tei-font-style:italic;
 }
+
+#ariel_dedication{text-align: center;}
+#ariel_signature{text-align: end;}
+#ariel_flower{width:15px; text-align: end;}
 /*
 tei-quote {
   quotes: "\201c" "\201d" "\2018" "\2019" "\201c" "\201d" "\2018" "\2019" "\201c" "\201d" "\2018" "\2019" "\201c" "\201d";
@@ -3060,17 +3067,4 @@ div.container-fluid{
   margin-left: 10%;
  }
 
- div.doc{
-  position: relative;
-  background-color: #f7f6f7;
-  width: 1000px;
-  height: 500px;
-  margin-top: 10%;
-  margin-left: 80px;
-  overflow-x: hidden;
-  overflow-y: auto;
-  text-align: center;
-  padding: 20px;
-  margin-bottom: 2%;
-  padding-top: 30px;
-}
+ 

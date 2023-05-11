@@ -7,7 +7,8 @@
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
     xmlns:foaf="http://xmlns.com/foaf/0.1/"
     xmlns:dbo="http://dbpedia.org/ontology/"
-    xmlns:frbr="http://purl.org/vocab/frbr/core#" >
+    xmlns:frbr="http://purl.org/vocab/frbr/core#" 
+    xmlns:dcterms="http://purl.org/dc/terms/">
     <teiHeader>
         <fileDesc>
             
@@ -32,12 +33,57 @@
                 <p>From the Smith College</p>
             </sourceDesc>
         </fileDesc>
+
+        <xenoData>
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+                <rdf:Description rdf:about="https://dbpedia.org/page/Ariel_(poetry_collection)"> 
+                  <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Work"/>
+                  <dcterms:title>Ariel</dcterms:title>
+                  <dcterms:creator>Sylvia Plath</dcterms:creator>
+                  <dbo:country rdf:resource="http://dbpedia.org/resource/United_States"/>
+                  <dbo:literaryGenre rdf:resource="http://dbpedia.org/resource/Poetry"/>
+                  <dbo:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1965</dbo:publicationDate>
+                  <dbo:publisher rdf:resource="http://dbpedia.org/resource/Faber_and_Faber"/>
+                </rdf:Description>
+
+               <rdf:Description rdf:about="http://maps-legacy.org/poets/m_r/plath/stingsdrafts.htm">
+                  <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Expression"/>
+                  <frbr:realizationOf rdf:resource="https://www.worldcat.org/it/title/crossing-the-water-transitional-poems/oclc/197197"/>
+                  <dcterms:title>Manuscript Draft of Stings</dcterms:title>
+                  <dbo:country rdf:resource="https://dbpedia.org/resource/England"/>
+      
+                  <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1962</dcterms:date>
+                  <dcterms:creator>Sylvia Plath</dcterms:creator>
+
+               </rdf:Description>
+
+               <rdf:Description rdf:about="">
+                  <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Manifestation"/>
+                  <frbr:embodimentOf rdf:resource="http://maps-legacy.org/poets/m_r/plath/stingsdrafts.htm"/>
+                  <dcterms:title>Manuscript Draft of Stings</dcterms:title>
+                  <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1962</dcterms:date>
+                  <dcterms:creator>Sylvia Plath</dcterms:creator>
+                  <dcterms:format>Manuscript</dcterms:format>
+                  <dcterms:medium>Memorandum Paper</dcterms:medium>
+                </rdf:Description>
+
+               <rdf:Description rdf:about="">
+                  <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Item"/>
+                  <frbr:exemplarOf rdf:resource=""/>
+                  <dcterms:title>Manuscript Draft of Stings</dcterms:title>                 
+                  <dcterms:format>Digital</dcterms:format>
+                  <dcterms:source>British Library</dcterms:source>
+               </rdf:Description>
+
+                           
+            </rdf:RDF>
+        </xenoData>   
     </teiHeader>
     <text>
         <body>
             <div>
                 <pb n="03" facs="#pag3"/>
-                <head>Stings</head>
+                <head rend="leftmargin">Stings</head>
                 <p rend="pos_right"><w rend="circled" xml:id="tre_stings">3</w></p>
                 <lg rend="right-align">
                     <l>Have a self to recover, a queen</l> 
