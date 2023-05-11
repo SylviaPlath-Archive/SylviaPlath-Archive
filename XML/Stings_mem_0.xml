@@ -9,7 +9,8 @@
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
     xmlns:foaf="http://xmlns.com/foaf/0.1/"
     xmlns:dbo="http://dbpedia.org/ontology/"
-    xmlns:frbr="http://purl.org/vocab/frbr/core#" >
+    xmlns:frbr="http://purl.org/vocab/frbr/core#" 
+    xmlns:dcterms="http://purl.org/dc/terms/">
     <teiHeader>
         <fileDesc>
             

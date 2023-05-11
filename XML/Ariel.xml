@@ -147,7 +147,7 @@
          
          <p xml:id="ariel_signature">-Sylvia Plath-</p>
          <figure xml:id="ariel_flower">
-            <graphic url="/images/flower.png"/>
+            <graphic url="../images/flower.png"/>
             </figure>
       </body>
   </text>

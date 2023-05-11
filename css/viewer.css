@@ -2435,7 +2435,7 @@ tei-font-style:italic;
 
 #ariel_dedication{text-align: center;}
 #ariel_signature{text-align: end;}
-#ariel_flower{width:5px;}
+#ariel_flower{width:15px; text-align: end;}
 /*
 tei-quote {
   quotes: "\201c" "\201d" "\2018" "\2019" "\201c" "\201d" "\2018" "\2019" "\201c" "\201d" "\2018" "\2019" "\201c" "\201d";
