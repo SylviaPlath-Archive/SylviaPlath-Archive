@@ -36,40 +36,61 @@
         </fileDesc>
       <xenoData>
                 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+                  <rdf:Description rdf:about="https://dbpedia.org/page/Ariel_(poetry_collection)"> 
+                  <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Work"/>
+                  <dcterms:title>Ariel</dcterms:title>
+                  <dcterms:creator>Sylvia Plath</dcterms:creator>
+                  <dbo:country rdf:resource="http://dbpedia.org/resource/United_States"/>
+                  <dbo:literaryGenre rdf:resource="http://dbpedia.org/resource/Poetry"/>
+                  <dbo:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1965</dbo:publicationDate>
+                  <dbo:publisher rdf:resource="http://dbpedia.org/resource/Faber_and_Faber"/>
+                  </rdf:Description>
 
-                            <rdf:Description rdf:about="https://www.worldcat.org/it/title/9646204">
-                                <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#work"/>
-                            </rdf:Description>
+               <rdf:Description rdf:about="http://maps-legacy.org/poets/m_r/plath/stingsdrafts.htm">
+                  <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Expression"/>
+                  <frbr:realizationOf rdf:resource="https://www.worldcat.org/it/title/crossing-the-water-transitional-poems/oclc/197197"/>
+                  <dcterms:title>Manuscript Draft of Stings</dcterms:title>
+                  <dbo:country rdf:resource="https://dbpedia.org/resource/England"/>
+      
+                  <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1962</dcterms:date>
+                  <dcterms:creator>Sylvia Plath</dcterms:creator>
 
+               </rdf:Description>
+
+               <rdf:Description rdf:about="">
+                  <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Manifestation"/>
+                  <frbr:embodimentOf rdf:resource="http://maps-legacy.org/poets/m_r/plath/stingsdrafts.htm"/>
+                  <dcterms:title>Manuscript Draft of Stings</dcterms:title>
+                  <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1962</dcterms:date>
+                  <dcterms:creator>Sylvia Plath</dcterms:creator>
+                  <dcterms:format>Manuscript</dcterms:format>
+                  <dcterms:medium>Memorandum Paper</dcterms:medium>
+                  </rdf:Description>
+
+               <rdf:Description rdf:about="">
+                  <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Item"/>
+                  <frbr:exemplarOf rdf:resource=""/>
+                  <dcterms:title>Manuscript Draft of Stings</dcterms:title>                 
+                  <dcterms:format>Digital</dcterms:format>
+                  <dcterms:source>British Library</dcterms:source>
+               </rdf:Description>
+
+                           
                </rdf:RDF>
-                <!--
-        <rdf:Description  rdf:about="#linktostings">
-        <dc:title>Stings</dc:title>
-        <dc:creator>Sylvia Plath</dc:creator>
-        <rdf:type rdf:resource="frbr:work">
-        <frbr:realization rdf:resource="#link to this draft">
-        </rdf:Description>
-        <rdf:Description rdf:about="#link to this draft">
-        <rdf:type rdf:resource="frbr:expression">
-        </rdf:Description>
-        -->
+                
       </xenoData>
     </teiHeader>
-    <!--
-    <facsimile>
-        <surface xml:id="pag1">
-            <graphic url="../img/Stings(3)/Stings_mem_0.jpg"></graphic>
-        </surface>
-    </facsimile>
-    -->
+    
+    
     <text>
         <body>
             <div>
                 <pb n="01" facs="#pag1" />
                     
                 
-           <head>3.<hi rend="underline">Stings</hi></head>
-                <p rend="pos_right"><date>October 6 1962</date></p> 
+           <head rend="leftmargin">3.<hi rend="underline">Stings</hi></head>
+                <p rend="pos_right"><date>October 6</date></p> 
+                <p rend="pos_right"><date>1962</date></p>
                 <p rend="pos_right"> <w rend="circled" xml:id="uno_stings">1</w></p>
             <lg rend="right-align">
                 <l>Bare-handed, I hand the combs.</l>
@@ -122,125 +143,6 @@
             </div>  
         </body>
     </text>
-    <!--
-    <facsimile >
-        <surface xml:id="pag2">
-            <graphic url="../img/Stings(3)/Stings_mem_1.jpg"></graphic>
-        </surface>
-    </facsimile>
-        <text>
-            <body>
-                <div>
-                    <pb n="02" facs="#pag2" />
-                    <head rend="underline">Stings</head>
-                    <p>2</p>
-                    <lg>
-                        <l>It is  almost over.</l>
-                        <l>I am in control, I am in control.</l>
-                        <l><del >Who is this  <gap reason="illegible"></gap>, this <unclear>extr</unclear> </del></l>
-                        <l><del> <unclear>Who watches &amp;</unclear> helps <gap reason="deleted"></gap>?</del></l>
-                        <l>Here is my honey-machine,</l> 
-                        <l>It will work without thinking,</l>
-                        <l>Opening in spring, like an industrious virgin</l>
-                        
-                    </lg>
-                    
-                    <lg> 
-                        <l>to scour the creaming crests</l>
-                        <l> As the moon scours the sea, <del>a</del>  hive of light!</l>
-                        <l>There is a third one, watching.</l>
-                        <l>He has nothing to do with me or the bee-seller</l> 
-                        <l>Now he is gone</l>
-                    </lg>
-                    <lg>
-                        <l>In eight great bounds, a great scape goat.</l>
-                        <l>Here is his slipper, here is another</l>
-                        <l>And here the <add place="above">square of</add> white <del> <unclear>handkerchief</unclear></del> linen</l>
-                        <l>He wore instead of a hat.</l>
-                        <l>He was sweet,</l> 
-                    </lg> 
-                    <lg>
-                        <l>The sweat of his efforts a rain</l>  
-                        <l><subst><del>on the world that opens under his belly</del> <add place="above">tugging the world to fruit.</add></subst></l>
-                        <l>Now he peers through a warped silver rain drop;</l>
-                        <l>Seven lumps on his head</l>
-                        <l>And a <subst> <add place="above">big</add> <del><unclear>great</unclear></del></subst> boss on his forehead</l>
-                    </lg> 
-                    <lg>
-                        <l>Black as the devil, a vengeful.</l>
-                        <l>The bees found him out</l>
-                        <l>Molding onto his lips like lies,</l>
-                        <l>Complicating his features.</l>
-                        <l>They thought death is so worth it, but I</l>
-                    </lg> 
-                    <lb rend="line" />
-                    <lg> 
-                        <l><del>Have a <subst> <add place="above">self</add><del><unclear>soul</unclear></del> </subst> to recover, a queen</del></l>
-                        <l><del>Climbing into a bride-flight</del></l>
-                        <l><del>In a glitter of years like <unclear>dow diamonds</unclear></del></l>
-                        <l><del>The new queen sings over the old queen</del></l> 
-                        <l><del><unclear>I am</unclear> <unclear></unclear></del></l>
-                        <l><del>Now we are one</del></l>
-                    </lg> 
-                    
-                    <l><subst><add place="above">A queen,</add> <del><gap reason="deleted"></gap></del></subst> bored <subst><del>a long time</del> <add place ="above"> too long</add> </subst></l>
-                    
-                </div>
-            </body>
-        </text>
-    <facsimile>
-       <surface xml:id="pag3">
-           <graphic url="../img/Stings(3)/Stings_mem_2.jpg"></graphic>
-       </surface> 
-    </facsimile>
-    <text>
-        <body>
-            <div>
-                <pb n="03" facs="#pag3"/>
-                <head rend="underline">Stings</head>
-                <p>3</p>
-                <lg>
-                    <l>Have a self to recover, a queen</l> 
-                    <l><add place="left"><del>That </del></add>Climb<add place="above"><del><gap reason="deleted" quantity="1" unit="character"></gap></del></add>  <subst><del><gap reason="deleted"></gap></del><add place="above">ing</add></subst> <subst><del><gap reason="deleted"></gap></del><add place="above">in</add></subst>to a|[?]<add place="above">s<del><gap reason="illegible"></gap></del></add> bride-flight </l>
-                    <l>In a glitter of years like dew diamonds.</l>
-                    <l>Is she dead? Is she sleeping?</l>
-                    <l><subst><del>Has she<unclear></unclear> been sleeping? </del> <add place="below">How long has she been unheard of!</add> </subst></l>
-                </lg>
-                <lg>
-                    <l>Her wings <del><gap reason="illegible"></gap></del><add place="above">of</add> clear glass.</l>
-                    <l>She is more terrible then she ever was,</l>
-                    <l>Her banded body</l>
-                    <l>Deserting the nurseries, the workers</l>
-                </lg>
-                <lg>
-                    <l>Have a self to recover, a queen,</l>
-                    <l><del>That dreams of a second bride-flight</del></l>
-                    <l>Who climbs <del>to a second bride flight</del>,</l>
-                    <l>Her wings of clear glass,</l>
-                    <l>Her banded body</l>
-                    <l>More terrible then it ever was.</l>
-                    <l>Deserting the nurseries, the workers,</l>
-                    <l>The years. a glitter of dew</l>
-                    <l><unclear>on blades</unclear> she will not return to.</l>
-                    
-                </lg>
-                <lg>
-                    <l><add place="above">Have a self to recover, a queen,</add> Is she dead, is she sleeping?</l>
-                    <l>Where has she been, <del>she who rises</del></l>
-                    <l><del>Rising this time, in wings of clear glass,</del></l>
-                    <l><del>Over the <unclear>deserted</unclear> nurseries</del></l>
-                    <l>With her lion-red body, her wings of glass?</l>
-                    <l>Now she is flying</l>
-                    <l>More terrible than she ever was,</l>
-                    <l><del>leaving the stiff wax,</del></l>
-                    <l><del>The dead <unclear>dress at the linted</unclear></del></l>
-                    <l>Clear as glass, <del><gap reason="illegible"></gap></del></l>
-                    <l>A lens of <unclear></unclear>,</l>
-                    <l>Over the engine that killed her, the white stiff wax,</l>
-                    <l>The deserted nurseries, <del> <unclear> the dead men at the door.</unclear></del> <add place="below">The stingless dead men.</add> </l>
-                </lg>
-            </div>
-        </body>
-    </text> 
-    -->
+    
+              
 </TEI>

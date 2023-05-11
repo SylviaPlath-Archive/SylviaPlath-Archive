@@ -34,10 +34,10 @@
         <settingDesc>
            <listPlace>
               <place xml:id="London">
-                 <placeName>London</placeName>
+                 <settlement type="city" sameAs="https://www.geonames.org/2643743">London</settlement>
               </place>
               <place xml:id="Mojave Desert">
-                 <placeName>Mojave Desert</placeName>
+                 <placeName sameAs="http://www.geonames.org/5373972">Mojave Desert</placeName>
               </place>
            </listPlace>
         </settingDesc>
@@ -45,25 +45,47 @@
      <xenoData>
         <!-- you can use http://www.easyrdf.org/converter -->
         <rdf:RDF>
-           <!-- persons:
-                    @PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
-                    @PREFIX dbo: <http://dbpedia.org/ontology/>.
-                    @PREFIX foaf: <http://xmlns.com/foaf/0.1/>.
-                    dbo:Marco_Polo a foaf:Person;
-                      rdfs:label "Marco Polo"@en.
-                -->
-           <rdf:Description tei:ref="#London" rdf:about="https://dbpedia.org/page/London">
-              <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
-              <rdfs:label xml:lang="en">London</rdfs:label>
-           </rdf:Description>
-           <rdf:Description tei:ref="#Mojave Desert" rdf:about="https://dbpedia.org/page/Mojave_Desert">
-              <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
-              <rdfs:label xml:lang="en">Mojave Desert</rdfs:label>
-           </rdf:Description>
-           <rdf:Description tei:ref="#" rdf:about="">
-              <rdf:type frbr:work=""/>
-              <rdfs:label xml:lang="en">...</rdfs:label>
-           </rdf:Description>
+         
+           
+
+          
+
+           <rdf:Description rdf:about="https://www.worldcat.org/it/title/crossing-the-water-transitional-poems/oclc/197197"> 
+                  <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Work"/>
+                  <dcterms:title>Crossing The Water</dcterms:title>
+                  <dcterms:creator>Sylvia Plath</dcterms:creator>
+                  <dbo:literaryGenre rdf:resource="http://dbpedia.org/resource/Poetry"/>
+                  <dbo:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1971</dbo:publicationDate>
+                  </rdf:Description>
+
+               <rdf:Description rdf:about="https://www.bl.uk/collection-items/typescript-drafts-of-mushrooms-and-sleep-in-the-mojave-desert-by-sylvia-plath">
+                  <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Expression"/>
+                  <frbr:realizationOf rdf:resource="https://www.worldcat.org/it/title/crossing-the-water-transitional-poems/oclc/197197"/>
+                  <dcterms:title>Typescript Draft of Sleep In The Mojave Desert</dcterms:title>
+                  <dbo:country rdf:resource="https://dbpedia.org/resource/England"/>
+      
+                  <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">c. 1959-60</dcterms:date>
+                  <dcterms:creator>Sylvia Plath</dcterms:creator>
+
+               </rdf:Description>
+
+               <rdf:Description rdf:about="">
+                  <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Manifestation"/>
+                  <frbr:embodimentOf rdf:resource="https://www.bl.uk/collection-items/typescript-drafts-of-mushrooms-and-sleep-in-the-mojave-desert-by-sylvia-plath"/>
+                  <dcterms:title>Typescript Draft of Sleep In The Mojave Desert</dcterms:title>
+                  <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">c. 1959-60</dcterms:date>
+                  <dcterms:creator>Sylvia Plath</dcterms:creator>
+                  <dcterms:format>Typescript</dcterms:format>
+                  </rdf:Description>
+
+               <rdf:Description rdf:about="">
+                  <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Item"/>
+                  <frbr:exemplarOf rdf:resource=""/>
+                  <dcterms:title>Typescript Draft of Sleep In The Mojave Desert</dcterms:title>                 
+                  <dcterms:format>Digital</dcterms:format>
+                  <dcterms:source>British Library</dcterms:source>
+               </rdf:Description>
+
         </rdf:RDF>
      </xenoData>
   </teiHeader>
@@ -76,7 +98,7 @@
          <head>Sleep in the <placeName ref="Mojave Desert"> Mojave Desert</placeName></head>
          </div>
          <div xml:id="poem">
-         <lg>
+         <lg rend="right-align">
             <l>Out here there are no hearthstones,</l>
             <l>Hot grains,simply. It is dry, dry.</l>
             <l>And the air dangerous. Noonday acts queerly</l>
@@ -91,7 +113,7 @@
             <l>Or those glittery fictions of split water</l>
             <l>That glide ahead of the very thirsty.</l>
          </lg>
-         <lg>
+         <lg rend="right-align">
             <l>I think of the lizards airing their tongues</l>
             <l>In the crevice of an extremely small shadow</l>
             <l>And the toad guarding his heart's droplet.</l>
