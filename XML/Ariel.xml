@@ -107,7 +107,7 @@
          <l>Splits and passes, sister to   </l>
          <l>The brown arc</l>
          <l>Of the neck I cannot catch,</l>
-         </lg>
+         </lg >
          <lg rend="right-align">
             <l>Nigger-eye   </l>
             <l>Berries cast dark</l>
@@ -128,9 +128,11 @@
             <l>Godiva, I unpeel—</l>
             <l>Dead hands, dead stringencies.</l>
          </lg>
+         <lg rend="right-align">
          <l>And now I</l>
          <l>Foam to wheat, a glitter of seas.   </l>
          <l>The child’s cry</l>
+         </lg>
          <lg rend="right-align">
             <l>Melts in the wall. </l>         
             <l>And I</l>
@@ -141,7 +143,7 @@
             <l>Suicidal, at one with the drive</l>   
             <l>Into the red</l>
          </lg>
-         <l>Eye, the cauldron of morning.</l>
+         <l rend="right-align">Eye, the cauldron of morning.</l>
          
          <p xml:id="ariel_signature">-Sylvia Plath-</p>
          <figure xml:id="ariel_flower">
