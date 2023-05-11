@@ -46,9 +46,6 @@
      <xenoData>
         <!-- you can use http://www.easyrdf.org/converter -->
         <rdf:RDF>
-         
-           
-
           
 
            <rdf:Description rdf:about="https://www.worldcat.org/it/title/crossing-the-water-transitional-poems/oclc/197197"> 
@@ -96,7 +93,7 @@
             3 Chalcot Square<lb/>
             <placeName ref="London">London N.W.l</placeName></p>
          <div xml:id="heading">
-         <head>Sleep in the <placeName ref="Mojave Desert"> Mojave Desert</placeName></head>
+         <head rend="right-align">Sleep in the <placeName ref="Mojave Desert"> Mojave Desert</placeName></head>
          </div>
          <div xml:id="poem">
          <lg rend="right-align">
