@@ -30,7 +30,7 @@ img {
 
 }
 
-.gallery__img:hover{
+.container .gallery__img :hover{
   transform: scale(2.0);
 }
 
