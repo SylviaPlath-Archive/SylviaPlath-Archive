@@ -73,7 +73,8 @@ html {
     transition: all 350ms ease-in-out;
 }
 
-.navbar-right a:hover {
+.navbar-right li:hover {
+    background-color: #b3949c;
   /*background-color: #fff !important;*/
   /*color: #b3949c !important;*/
 }
@@ -103,7 +104,7 @@ html {
 }
 
 .navbar-right li:hover a {
-    color: rgb(205, 147, 158)!important;
+    /*color: rgb(205, 147, 158)!important;*/
 }
 
 #big-banner {
@@ -843,6 +844,35 @@ footer {
     border-color: #b3949c;
 }
 
+ button.download{
+    border: 3px solid #b3949c;
+    background-color: #761d2c;
+    width:30%;
+    margin-bottom:15px ;
+    margin-top:15px ;
+    display:inline;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+
+ }
+ button.explore{border: 3px solid #b3949c;
+    background-color: #761d2c;
+    /*width:30%;
+    margin-bottom:15px ;
+    margin-top:15px ;*/
+    margin-top:0;
+    margin-bottom: 15px;
+    margin-left: 0;
+     
+    display:inline;
+    text-align: center;
+  }
+button.explore a{
+    color: #fff;
+    text-decoration: none;
+}
+
 .social-icons ul {
     text-align: right;
     margin-top: 15px;
@@ -1111,7 +1141,7 @@ footer {
   
   .dropdown:hover .dropdown-content {display: block;}
 
-  .dropdown-content a:hover {background-color: #b3949c;}
+  .dropdown li:hover {background-color: #b3949c;}
   
   .dropdown:hover .dropbtn {background-color: #b3949c;}
 
@@ -1218,4 +1248,30 @@ footer {
   }
   
   div.doc h1, div.doc h2{text-align: center; color:brown; padding: 1%;}
+
+   /* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .accordion:hover {
+    background-color: #ccc;
+  }
+  
+  /* Style the accordion panel. Note: hidden by default */
+  .panel {
+    padding: 0 5px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+  } 
 
