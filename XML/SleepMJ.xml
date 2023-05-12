@@ -89,9 +89,11 @@
   </teiHeader>
   <text>
       <body>
-         <p rend="pos_right" xml:id="address"> <persName>Sylvia Plath</persName><lb/>
-            3 Chalcot Square<lb/>
-            <placeName ref="London">London N.W.l</placeName></p>
+         <div xml:id="author_address">
+            <p rend="pos_right" xml:id="address"> <persName>Sylvia Plath</persName></p>
+            <p rend="pos_right">3 Chalcot Square</p>
+            <p rend="pos_right"><placeName ref="London">London N.W.l</placeName></p>
+         </div>
          <div xml:id="heading">
          <head rend="right-align">Sleep in the <placeName ref="Mojave Desert"> Mojave Desert</placeName></head>
          </div>

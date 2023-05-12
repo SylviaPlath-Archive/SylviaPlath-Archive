@@ -1823,6 +1823,7 @@ tei-w[rend="circled"]{border-radius: 100%; border:1px solid black; padding: 1%;}
 tei-b[rend="line"]{border-bottom: 1px solid black;}
 tei-p[rend="pos_right"]{text-align: end;}
 tei-lg[rend="right-align"]{text-align: left;}
+tei-head[rend="right-align"]{text-align: left;}
 
 tei-history {
   /* Empty Rule Set */
@@ -1942,6 +1943,7 @@ tei-layoutDesc {
   /* Empty Rule Set */
 }
 tei-lb {
+  white-space:break-spaces;
   /* Empty Rule Set */
 }
 
