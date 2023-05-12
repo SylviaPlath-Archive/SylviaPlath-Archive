@@ -38,6 +38,7 @@ http://www.templatemo.com/preview/templatemo_427_timeline
         <script src="js/vendor/modernizr.min.js"></script>
         <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDY0kkJiTPVd2U7aTOAwhc9ySH6oHxOIYM"></script>
         <script src="js/change.js"></script>
+        <script src="js/custom.js"></script>
 
 	</head>
 	<body>
@@ -83,19 +84,31 @@ http://www.templatemo.com/preview/templatemo_427_timeline
     </header>
     <div id="mySidenav" class="sidenav" style="padding-top: 5%;">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        
+        <button class="accordion">People</button>
+        <div class="panel">
+          <ul>
+            <li>hijk</li>
+            <li>hijk</li>
+            <li>hijk</li>
+            <li>hijk</li>
 
-        <button style="margin-top: 10%;"  onclick="myFunction('myDIV')">People</button> 
-
-            
-        <button  onclick="myFunction('myDIV2')">Places</button> 
-
-        <div id="myDIV" style="display: none;">
-            vn bm,
-            </div>
-
-            <div id="myDIV2" style="display: none;">
-            This is my DIV element.
-            </div>
+          </ul>
+        </div>
+        
+        <button class="accordion">Places</button>
+        <div class="panel">
+            <ul>
+                <li>hijk</li>
+                <li>hijk</li>
+                <li>hijk</li>
+                <li>hijk</li>
+    
+              </ul>
+        </div>
+        
+        <button class="download">XML file</button>
+        <button class="download">TTL file</button>    
             
       </div>
 
@@ -152,6 +165,20 @@ http://www.templatemo.com/preview/templatemo_427_timeline
                 })
             }
         </script>
+        <script>var acc = document.getElementsByClassName("accordion");
+            var i;
+            
+            for (i = 0; i < acc.length; i++) {
+              acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                  panel.style.display = "none";
+                } else {
+                  panel.style.display = "block";
+                }
+              });
+            }</script>
 
     <footer>
         <div class="container">

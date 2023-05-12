@@ -1,11 +1,11 @@
 function openNav() {
-  document.getElementById("mySidenav").style.width = "250px";
-  document.body.style.marginLeft = "250px";
+  document.getElementById("mySidenav").style.width = "550px";
+  //document.body.style.marginLeft = "250px";
   }
 
 function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
-  document.body.style.marginLeft= "0";
+  //document.body.style.marginLeft= "0";
   }
 
 function myFunction(id) {
@@ -18,6 +18,9 @@ function myHideLOD(id) {
   
   x.style.display = "none";
 }
+
+
+
 
 $(function() {
   $('a[href*=#]:not([href=#])').click(function() {
