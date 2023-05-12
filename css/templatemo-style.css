@@ -844,7 +844,7 @@ footer {
     border-color: #b3949c;
 }
 
- #mySidenav button.download{
+ button.download{
     border: 3px solid #b3949c;
     background-color: #761d2c;
     width:30%;
@@ -856,6 +856,22 @@ footer {
     text-decoration: none;
 
  }
+ button.explore{border: 3px solid #b3949c;
+    background-color: #761d2c;
+    /*width:30%;
+    margin-bottom:15px ;
+    margin-top:15px ;*/
+    margin-top:0;
+    margin-bottom: 15px;
+    margin-left: 0;
+     
+    display:inline;
+    text-align: center;
+  }
+button.explore a{
+    color: #fff;
+    text-decoration: none;
+}
 
 .social-icons ul {
     text-align: right;
