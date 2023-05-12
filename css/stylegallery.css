@@ -30,9 +30,13 @@ img {
 
 }
 
-.gallery__img img :hover{
+.imagegallery .gallery__img:hover{
      transform: scale(2.0);
      z-index: 1;
+}
+
+.gallery__thumb:not(:hover){
+  opacity: 0.3;
 }
 
 .gallery__thumb {
