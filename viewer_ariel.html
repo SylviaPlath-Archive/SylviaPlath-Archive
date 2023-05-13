@@ -153,35 +153,34 @@ http://www.templatemo.com/preview/templatemo_427_timeline
     
          <div id="openseadragon"></div>
          <script type="text/javascript">
-             var viewer = OpenSeadragon({
-                 id: "openseadragon",
-                 prefixUrl: "openseadragon-bin-4.0.0/openseadragon-bin-4.0.0/images/",
-                 tileSources: 
-                    {
-  "@context" : "http://iiif.io/api/image/2/context.json",
-  "@id" : "http://free.iiifhosting.com/iiif/60e1064e4324dc78814c921688365f650a58dc93b45565639e04b4e2cc39b698",
-  "protocol" : "http://iiif.io/api/image",
-  "width" : 1577,
-  "height" : 1994,
-  "sizes" : [
-     { "width" : 197, "height" : 249 },
-     { "width" : 394, "height" : 498 },
-     { "width" : 788, "height" : 997 }
-  ],
-  "tiles" : [
-     { "width" : 256, "height" : 256, "scaleFactors" : [ 1, 2, 4, 8 ] }
-  ],
-  "profile" : [
-     "http://iiif.io/api/image/2/level1.json",
-     { "formats" : [ "jpg" ],
-       "qualities" : [ "native","color","gray" ],
-       "supports" : ["regionByPct","regionSquare","sizeByForcedWh","sizeByWh","sizeAboveFull","rotationBy90s","mirroring"] }
-  ]
-}
-                     
-                 ,
-                 sequenceMode: true
-             });
+                       
+                       var viewer = OpenSeadragon({
+    id: "openseadragon-viewer",
+    prefixUrl: "https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.2/images/",
+    tileSources: {
+        "@context": "http://iiif.io/api/image/2/context.json",
+        "@id": "http://free.iiifhosting.com/iiif/60e1064e4324dc78814c921688365f650a58dc93b45565639e04b4e2cc39b698",
+        "protocol": "http://iiif.io/api/image",
+        "width": 1577,
+        "height": 1994,
+        "sizes": [
+            { "width": 197, "height": 249 },
+            { "width": 394, "height": 498 },
+            { "width": 788, "height": 997 }
+        ],
+        "tiles": [
+            { "width": 256, "height": 256, "scaleFactors": [1, 2, 4, 8] }
+        ],
+        "profile": [
+            "http://iiif.io/api/image/2/level1.json",
+            {
+                "formats": ["jpg"],
+                "qualities": ["native", "color", "gray"],
+                "supports": ["regionByPct", "regionSquare", "sizeByForcedWh", "sizeByWh", "sizeAboveFull", "rotationBy90s", "mirroring"]
+            }
+        ]
+    }
+});
          </script>
 
     </div>
