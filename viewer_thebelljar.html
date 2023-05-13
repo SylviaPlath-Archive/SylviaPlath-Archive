@@ -35,8 +35,7 @@ http://www.templatemo.com/preview/templatemo_427_timeline
         <script src="js/vendor/jquery-1.10.2.min.js"></script>
         <script src="js/vendor/modernizr.min.js"></script>
         <script src="js/custom.js"></script>
-        <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDY0kkJiTPVd2U7aTOAwhc9ySH6oHxOIYM"></script>
-        <script src="openseadragon-bin-4.0.0/openseadragon.min.js"></script>
+       
 
         <!--<style>
             /* custom */
@@ -62,6 +61,14 @@ http://www.templatemo.com/preview/templatemo_427_timeline
   margin: 10px auto;
 }
         </style>-->
+
+    <style>
+        .zoom {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+    </style>
 	</head>
 	<body>
     
@@ -138,12 +145,7 @@ http://www.templatemo.com/preview/templatemo_427_timeline
             
       </div>
 
-    <div class="custom-modules">
-        <div class="custom-in-zoomer" onclick="zoomIn()">+</div>
-        
-        <div class="custom-out-zoomer" onclick="zoomOut()">-</div>
-    </div>
-
+      <div id="my-mirador"/> 
     <div class="container">
         <div class="container-fluid" id="content">
 
@@ -157,7 +159,7 @@ http://www.templatemo.com/preview/templatemo_427_timeline
                                 
                                 <div class="gallery__item">
                                 <input type="radio" id="img-1" checked name="gallery" class="gallery__selector"/>
-                                <img class="gallery__img" src="img/The Bell Jar (5)/The Bell Jar 01.jpg" height="400px" alt=""/>
+                                <img class="gallery__img" src="img/The Bell Jar (5)/The Bell Jar 01.jpg" height="400px" alt=""onmouseover="bigImg(this)" onmouseout="normalImg(this)" />
                                 <label for="img-1" class="gallery__thumb"><img src="img/The Bell Jar (5)/The Bell Jar 01.jpg" height="100px" alt="" onclick="displayxml('XML/The-Bell-Jar-1.xml')"/></label>
                                 </div>
                                 <div class="gallery__item">
@@ -207,6 +209,27 @@ http://www.templatemo.com/preview/templatemo_427_timeline
                               document.getElementById("TEI").appendChild(data)
                             })
                         }
+<<<<<<< HEAD
+
+var mirador = Mirador.viewer({
+  "id": "my-mirador",
+  "manifests": {
+    "https://iiif.lib.harvard.edu/manifests/drs:48309543": {
+      "provider": "Harvard University"
+    }
+  },
+  "windows": [
+    {
+      "loadedManifest": "https://iiif.lib.harvard.edu/manifests/drs:48309543",
+      "canvasIndex": 2,
+      "thumbnailNavigationPosition": 'far-bottom'
+    }
+  ]
+});
+
+</script>
+</script>
+=======
                     </script>
                     <script>var acc = document.getElementsByClassName("accordion");
                         var i;
@@ -222,6 +245,7 @@ http://www.templatemo.com/preview/templatemo_427_timeline
                             }
                           });
                         }</script>
+>>>>>>> ed181f34e0fc2a94ff25607a962705cf2fc1c19e
 
 
     <footer>
@@ -242,10 +266,9 @@ http://www.templatemo.com/preview/templatemo_427_timeline
                         <div class="col-md-4">
                             <div class="social-icons">
                                 <ul>
-                                    <li><a href="#" class="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#" class="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#" class="#"><i class="fa fa-linkedin"></i></a></li>
-                                    <li><a href="#" class="#"><i class="fa fa-rss"></i></a></li>
+                                    <li><a href="https://github.com/SylviaPlath-Archive/SylviaPlath-Archive" class="#" style="border:none;"><i class="fa fa-github" style="font-size:36px"></i></a></li>
+                                </ul>
+
                                 </ul>
                             </div>
                         </div>
