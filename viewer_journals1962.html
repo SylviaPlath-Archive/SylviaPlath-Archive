@@ -74,7 +74,7 @@ http://www.templatemo.com/preview/templatemo_427_timeline
                                     </div>
                                 </div>
                             <li><span></span><a href="documentation.html" class="portfolio">Documentation</a></li>
-                            <li><span></span><a href="index.html#disclaimer" class="map">Disclaimer</a></li>
+                            <li><span></span><a href="index.html#disclaimer" class="disclaimer">Disclaimer</a></li>
                             <li><span></span><a href="index.html#third-section" class="contact">Team</a></li>
                         </ul>
                     </div>
@@ -85,19 +85,31 @@ http://www.templatemo.com/preview/templatemo_427_timeline
 
     <div id="mySidenav" class="sidenav" style="padding-top: 5%;">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        
+        <button class="accordion">People</button>
+        <div class="panel">
+          <ul>
+            <li>hijk</li>
+            <li>hijk</li>
+            <li>hijk</li>
+            <li>hijk</li>
 
-        <button style="margin-top: 10%;"  onclick="myFunction('myDIV')">People</button> 
-
-            
-        <button  onclick="myFunction('myDIV2')">Places</button> 
-
-        <div id="myDIV" style="display: none;">
-            vn bm,
-            </div>
-
-            <div id="myDIV2" style="display: none;">
-            This is my DIV element.
-            </div>
+          </ul>
+        </div>
+        
+        <button class="accordion">Places</button>
+        <div class="panel">
+            <ul>
+                <li>hijk</li>
+                <li>hijk</li>
+                <li>hijk</li>
+                <li>hijk</li>
+    
+              </ul>
+        </div>
+        
+        <button class="download">XML file</button>
+        <button class="download">TTL file</button>    
             
       </div>
 
@@ -115,12 +127,12 @@ http://www.templatemo.com/preview/templatemo_427_timeline
                                 <div class="gallery__item" >
                                 <input type="radio" id="img-1" checked name="gallery" class="gallery__selector" />
                                 <img class="gallery__img" src="img/journal-1962 (2)/journals-1962.jpg" alt="" height="400px" />
-                                <label for="img-1" class="gallery__thumb"><img src="img/journal-1962 (2)/journals-1962.jpg" height="100px" alt="" onclick="displayxml('XML/xml-j-1962/journal-1962-1.xml')"/></label>
+                                <label for="img-1" class="gallery__thumb"><img src="img/journal-1962 (2)/journals-1962.jpg" height="100px" alt="" onclick="displayxml('XML/xml-j-1962/journals-1962-1.xml')"/></label>
                                 </div>
                                 <div class="gallery__item">
                                 <input type="radio" id="img-2" name="gallery" class="gallery__selector" />
                                 <img class="gallery__img" src="img/journal-1962 (2)/journals-1962-2.jpg" alt="" height="400px"/>
-                                <label for="img-2" class="gallery__thumb"><img src="img/journal-1962 (2)/journals-1962-2.jpg" height="100px" alt="" onclick="displayxml('XML/xml-j-1962/journal-1962-2.xml')"/></label>
+                                <label for="img-2" class="gallery__thumb"><img src="img/journal-1962 (2)/journals-1962-2.jpg" height="100px" alt="" onclick="displayxml('XML/xml-j-1962/journals-1962-2.xml')"/></label>
                                 </div>
                             </section>
                         </div>
@@ -129,7 +141,7 @@ http://www.templatemo.com/preview/templatemo_427_timeline
                 
            <div class="testo" >
             <button><a class="nav-link scrollto"><span onclick="openNav()">LOD</span></a></button>
-                        
+            
               <div id="TEI" style="color: brown;" class=" scroll-column zoom">
                 Select an image to visualize the corresponding textual transcription!</div>
         
@@ -149,6 +161,20 @@ http://www.templatemo.com/preview/templatemo_427_timeline
                 })
             }
         </script>
+        <script>var acc = document.getElementsByClassName("accordion");
+            var i;
+            
+            for (i = 0; i < acc.length; i++) {
+              acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                  panel.style.display = "none";
+                } else {
+                  panel.style.display = "block";
+                }
+              });
+            }</script>
 
     <footer>
         <div class="container">

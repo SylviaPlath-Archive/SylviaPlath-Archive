@@ -1823,6 +1823,7 @@ tei-w[rend="circled"]{border-radius: 100%; border:1px solid black; padding: 1%;}
 tei-b[rend="line"]{border-bottom: 1px solid black;}
 tei-p[rend="pos_right"]{text-align: end;}
 tei-lg[rend="right-align"]{text-align: left;}
+tei-head[rend="right-align"]{text-align: left;}
 
 tei-history {
   /* Empty Rule Set */
@@ -1942,10 +1943,12 @@ tei-layoutDesc {
   /* Empty Rule Set */
 }
 tei-lb {
+  white-space:break-spaces;
   /* Empty Rule Set */
 }
-tei-lb:after {
-  content: '\a';
+
+tei-lb[rend="long_line"]::after {
+  content: '________________________________________________________________________     ';
   white-space: pre;
 }
 tei-lbl {
@@ -2435,7 +2438,10 @@ tei-font-style:italic;
 
 #ariel_dedication{text-align: center;}
 #ariel_signature{text-align: end;}
-#ariel_flower{width:15px; text-align: end;}
+#ariel_flower{
+  margin-right: 40px;
+  width: 20px;
+  }
 /*
 tei-quote {
   quotes: "\201c" "\201d" "\2018" "\2019" "\201c" "\201d" "\2018" "\2019" "\201c" "\201d" "\2018" "\2019" "\201c" "\201d";
