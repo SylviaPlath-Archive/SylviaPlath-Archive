@@ -1824,6 +1824,7 @@ tei-b[rend="line"]{border-bottom: 1px solid black;}
 tei-p[rend="pos_right"]{text-align: end;}
 tei-lg[rend="right-align"]{text-align: left;}
 tei-head[rend="right-align"]{text-align: left;}
+tei-l[rend="right-align"]{text-align: left;}
 
 tei-history {
   /* Empty Rule Set */
@@ -2442,6 +2443,7 @@ tei-font-style:italic;
   margin-right: 40px;
   width: 20px;
   }
+  #ariel-flower img {max-width: 100%;}
 /*
 tei-quote {
   quotes: "\201c" "\201d" "\2018" "\2019" "\201c" "\201d" "\2018" "\2019" "\201c" "\201d" "\2018" "\2019" "\201c" "\201d";
