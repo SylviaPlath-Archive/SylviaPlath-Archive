@@ -1,0 +1,298 @@
+{
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "http://11848d91-34d5-460a-8b4c-17dc0b50a25d",
+	"@type": "sc:Manifest",
+	"label": "Sylvia Plath's journal, 26 February 1956",
+	"metadata": [],
+	"description": [
+		{
+			"@value": "Sylvia Plath met Ted Hughes while ‘very very beautifully drunk’ at a literary party in Cambridge on 25 February, 1956. She already knew his poems from student magazines, but in this diary entry she describes with vivid intensity the first time she saw ‘that big, dark, hunky boy’ in person. They shouted about poetry over the noise, and then he kissed her, ripping off her earrings and ‘lovely red hairband’, and she ‘bit him long and hard on the cheek’.",
+			"@language": "en"
+		}
+	],
+	"license": "https://creativecommons.org/licenses/by/3.0/",
+	"attribution": "[Click to edit attribution]",
+	"sequences": [
+		{
+			"@id": "http://b163cb67-4905-4038-943d-cc33e10df6ba",
+			"@type": "sc:Sequence",
+			"label": [
+				{
+					"@value": "Normal Sequence",
+					"@language": "en"
+				}
+			],
+			"canvases": [
+				{
+					"@id": "http://fda653ca-59a5-4834-a097-b766cb645626",
+					"@type": "sc:Canvas",
+					"label": "Sylvia Plath's journal, 26 February 1956 (page 1)",
+					"height": 2000,
+					"width": 1549,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://f99a660a-0861-4292-a53d-81860a69e7c3",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "http://127.0.0.1:8182/iiif/2/Plath-1956-1.jpg/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "http://127.0.0.1:8182/iiif/2/Plath-1956-1.jpg",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"jpg",
+												"tif",
+												"gif",
+												"png"
+											],
+											"maxArea": 3098000,
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 2000,
+								"width": 1549
+							},
+							"on": "http://fda653ca-59a5-4834-a097-b766cb645626"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://86350c88-c425-4fd1-8fe5-6a8c6136ce67",
+					"@type": "sc:Canvas",
+					"label": "Sylvia Plath's journal, 26 February 1956 (page 2)",
+					"height": 2000,
+					"width": 1545,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://7103214f-7ef7-41e7-bc3b-41082cbf9cc7",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "http://127.0.0.1:8182/iiif/2/Plath-1956-2.jpg/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "http://127.0.0.1:8182/iiif/2/Plath-1956-2.jpg",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"jpg",
+												"tif",
+												"gif",
+												"png"
+											],
+											"maxArea": 3090000,
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 2000,
+								"width": 1545
+							},
+							"on": "http://86350c88-c425-4fd1-8fe5-6a8c6136ce67"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://fd6da8d7-2e74-4fc3-be21-1eecb739d61d",
+					"@type": "sc:Canvas",
+					"label": "Sylvia Plath's journal, 26 February 1956 (page 3)",
+					"height": 2006,
+					"width": 1548,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://f855f7ad-3097-44cb-b30f-97f2c471c36b",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "http://127.0.0.1:8182/iiif/2/Plath-1956-3.jpg/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "http://127.0.0.1:8182/iiif/2/Plath-1956-3.jpg",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"jpg",
+												"tif",
+												"gif",
+												"png"
+											],
+											"maxArea": 3105288,
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 2006,
+								"width": 1548
+							},
+							"on": "http://fd6da8d7-2e74-4fc3-be21-1eecb739d61d"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://63f8b079-2102-44b3-8c8b-02aec0e3c818",
+					"@type": "sc:Canvas",
+					"label": "Sylvia Plath's journal, 26 February 1956 (page 4)",
+					"height": 2000,
+					"width": 1546,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://b02fb70a-db44-4ced-983a-956c0c885724",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "http://127.0.0.1:8182/iiif/2/Plath-1956-4.jpg/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "http://127.0.0.1:8182/iiif/2/Plath-1956-4.jpg",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"jpg",
+												"tif",
+												"gif",
+												"png"
+											],
+											"maxArea": 3092000,
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 2000,
+								"width": 1546
+							},
+							"on": "http://63f8b079-2102-44b3-8c8b-02aec0e3c818"
+						}
+					],
+					"related": ""
+				}
+			]
+		}
+	],
+	"structures": []
+}

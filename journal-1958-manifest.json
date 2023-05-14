@@ -1,0 +1,231 @@
+{
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "http://02eb9658-4792-41bd-91ad-234617e73453",
+	"@type": "sc:Manifest",
+	"label": "Sylvia Plath's journal, 2 March 1958",
+	"metadata": [],
+	"description": [
+		{
+			"@value": "In this handwritten diary entry, Sylvia Plath writes self-reflexively about the process of writing, reading and making meaning from the chaos of life. She is inspired by the works of D H Lawrence, Virginia Woolf and her friend James Guy Bramwell, but seeks a new tone for her novel – one which will re-shape her experiences into something like a ‘prose-poem’, seen from a woman’s perspective. ",
+			"@language": "en"
+		}
+	],
+	"license": "https://creativecommons.org/licenses/by/3.0/",
+	"attribution": "[Click to edit attribution]",
+	"sequences": [
+		{
+			"@id": "http://4a8cbf56-db63-4e60-9f76-dc001710d547",
+			"@type": "sc:Sequence",
+			"label": [
+				{
+					"@value": "Normal Sequence",
+					"@language": "en"
+				}
+			],
+			"canvases": [
+				{
+					"@id": "http://466997d2-bf4a-40d6-b0b1-d5682e674c8b",
+					"@type": "sc:Canvas",
+					"label": "Sylvia Plath's journal, 2 March 1958 (page 1)",
+					"height": 2201,
+					"width": 1421,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://6782b567-8e58-4233-87b6-481ea733d266",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "http://127.0.0.1:8182/iiif/2/Plath%20Journal%2001.jpg/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "http://127.0.0.1:8182/iiif/2/Plath%20Journal%2001.jpg",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"jpg",
+												"tif",
+												"gif",
+												"png"
+											],
+											"maxArea": 3127621,
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 2201,
+								"width": 1421
+							},
+							"on": "http://466997d2-bf4a-40d6-b0b1-d5682e674c8b"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://c737d29a-5a84-40d5-bc67-0f4b8bc21535",
+					"@type": "sc:Canvas",
+					"label": "Sylvia Plath's journal, 2 March 1958 (page 2)",
+					"height": 2000,
+					"width": 1273,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://cc78a33d-5640-455b-b6d1-24392f8f89fc",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "http://127.0.0.1:8182/iiif/2/Plath%20Journal%2002.jpg/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "http://127.0.0.1:8182/iiif/2/Plath%20Journal%2002.jpg",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"jpg",
+												"tif",
+												"gif",
+												"png"
+											],
+											"maxArea": 2546000,
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 2000,
+								"width": 1273
+							},
+							"on": "http://c737d29a-5a84-40d5-bc67-0f4b8bc21535"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://bb49df5e-263b-46c6-8712-11a1be7d0dd6",
+					"@type": "sc:Canvas",
+					"label": "Sylvia Plath's journal, 2 March 1958 (page 3)",
+					"height": 2234,
+					"width": 1410,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://2775b82e-40f2-4d89-ac0a-8c3ea538837a",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "http://127.0.0.1:8182/iiif/2/Plath%20Journal%2003.jpg/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "http://127.0.0.1:8182/iiif/2/Plath%20Journal%2003.jpg",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"jpg",
+												"tif",
+												"gif",
+												"png"
+											],
+											"maxArea": 3149940,
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 2234,
+								"width": 1410
+							},
+							"on": "http://bb49df5e-263b-46c6-8712-11a1be7d0dd6"
+						}
+					],
+					"related": ""
+				}
+			]
+		}
+	],
+	"structures": []
+}

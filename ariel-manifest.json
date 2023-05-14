@@ -1,0 +1,97 @@
+{
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "http://3d25057a-31e4-47b8-ba46-3ba1589895d7",
+	"@type": "sc:Manifest",
+	"label": "Ariel Manuscript by Sylvia Plath",
+	"metadata": [],
+	"description": [
+		{
+			"@value": "Sylvia Plath’s poem ‘Ariel’ portrays the poet riding a horse at daybreak. The rider does not appear to be fully in control: ‘Shadows. /Something else / Hauls me through air–’. She advances towards the morning sun as if driven by a magnetic force. As Ted Hughes clarified in his explanatory notes to the poem, Ariel was the name of Plath’s horse. However, the title could have other referents: Ariel is also a character in Shakespeare’s The Tempest, a spirit who eventually achieves freedom from Prospero.\n\nPlath dedicated this manuscript fair copy of the poem to her friend the literary critic Al Alvarez. Alvarez, then poetry editor for the Observer newspaper, was one of the early champions of Plath’s poetry. He wrote an encouraging review of Plath’s first collection, The Colossus, and was one of the first people to hear the poems she wrote in 1962, which Plath read to him on a visit to his flat in London.",
+			"@language": "en"
+		}
+	],
+	"license": "https://creativecommons.org/licenses/by/3.0/",
+	"attribution": "https://www.bl.uk/collection-items/sylvia-plaths-ariel-dedicated-to-al-alvarez",
+	"sequences": [
+		{
+			"@id": "http://c93dc01b-bf28-4376-a43a-4255d01ec256",
+			"@type": "sc:Sequence",
+			"label": [
+				{
+					"@value": "Normal Sequence",
+					"@language": "en"
+				}
+			],
+			"canvases": [
+				{
+					"@id": "http://27feef56-1fb4-4034-95f2-7f3d7d2e95d8",
+					"@type": "sc:Canvas",
+					"label": "Ariel Manuscript by Sylvia Plath",
+					"height": 2000,
+					"width": 1584,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://be026578-754f-4814-a147-665acea9c6cf",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "http://127.0.0.1:8182/iiif/2/ariel.jpg/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "http://127.0.0.1:8182/iiif/2/ariel.jpg",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"jpg",
+												"tif",
+												"gif",
+												"png"
+											],
+											"maxArea": 3168000,
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 2000,
+								"width": 1584
+							},
+							"on": "http://27feef56-1fb4-4034-95f2-7f3d7d2e95d8"
+						}
+					],
+					"related": ""
+				}
+			]
+		}
+	],
+	"structures": []
+}

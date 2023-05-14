@@ -1,0 +1,164 @@
+{
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "http://df2150c5-b810-4b8c-82ca-3c941b75f25f",
+	"@type": "sc:Manifest",
+	"label": "'Rose & Percy Key' by Sylvia Plath",
+	"metadata": [],
+	"description": [
+		{
+			"@value": "This series of journal entries entitled ‘Rose & Percy Key’ was written by Sylvia Plath in 1962. At this time, Plath was living in North Tawton, Devon, with her husband Ted Hughes and their daughter Frieda. The entries record Plath and Hughes’s acquaintanceship with their neighbours Mr and Mrs Key, describing different episodes from the day they met until the death of Percy Key.\n\nPlath’s detached tone when writing about the illness and death of her neighbour is sometimes startling. Like many other writers, Plath drew inspiration from the people and locations around her, and she probably conceived of the entries about her neighbours partly as a writing exercise. As can be seen from the drafts, Plath typed and edited the entries as if they were one of her short stories.",
+			"@language": "en"
+		}
+	],
+	"license": "https://creativecommons.org/licenses/by/3.0/",
+	"attribution": "[Click to edit attribution]",
+	"sequences": [
+		{
+			"@id": "http://80625343-9e59-42dd-903b-87e34e26f9e2",
+			"@type": "sc:Sequence",
+			"label": [
+				{
+					"@value": "Normal Sequence",
+					"@language": "en"
+				}
+			],
+			"canvases": [
+				{
+					"@id": "http://580a4b2b-b607-4773-ba40-bf7863c56948",
+					"@type": "sc:Canvas",
+					"label": "'Rose & Percy Key' by Sylvia Plath",
+					"height": 2000,
+					"width": 1437,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://dacb66b9-d9bc-45f0-bc58-1c8db158849b",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "http://127.0.0.1:8182/iiif/2/journals-1962.jpg/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "http://127.0.0.1:8182/iiif/2/journals-1962.jpg",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"jpg",
+												"tif",
+												"gif",
+												"png"
+											],
+											"maxArea": 2874000,
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 2000,
+								"width": 1437
+							},
+							"on": "http://580a4b2b-b607-4773-ba40-bf7863c56948"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://564dbcbf-b45f-4cf2-89e1-52dee28a1778",
+					"@type": "sc:Canvas",
+					"label": "'Rose & Percy Key' by Sylvia Plath",
+					"height": 2000,
+					"width": 1437,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://49437a43-2d18-48da-9141-646aa60d7a02",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "http://127.0.0.1:8182/iiif/2/journals-1962-2.jpg/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "http://127.0.0.1:8182/iiif/2/journals-1962-2.jpg",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"jpg",
+												"tif",
+												"gif",
+												"png"
+											],
+											"maxArea": 2874000,
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 2000,
+								"width": 1437
+							},
+							"on": "http://564dbcbf-b45f-4cf2-89e1-52dee28a1778"
+						}
+					],
+					"related": ""
+				}
+			]
+		}
+	],
+	"structures": []
+}
