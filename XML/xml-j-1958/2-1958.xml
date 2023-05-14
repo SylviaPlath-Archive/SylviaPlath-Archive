@@ -67,14 +67,48 @@
       </profileDesc>
      
       <xenoData>
-         <frbr:frbr>
-     
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+                  <rdf:Description rdf:about="https://www.worldcat.org/it/title/44133088"> 
+                  <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Work"/>
+                  <dcterms:title>The Unabridged Journals</dcterms:title>
+                  <dcterms:creator>Sylvia Plath</dcterms:creator>
+                  <dbo:country rdf:resource="https://dbpedia.org/page/United_States"/>
+                  <dbo:literaryGenre rdf:resource="http://dbpedia.org/resource/Prose"/>
+                  <dbo:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2000</dbo:publicationDate>
+                  <dbo:publisher rdf:resource="https://dbpedia.org/page/Bantam_Books"/>
+                  </rdf:Description>
 
+               <rdf:Description rdf:about="https://www.bl.uk/collection-items/sylvia-plaths-journal-26-february-1956">
+                  <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Expression"/>
+                  <frbr:realizationOf rdf:resource="https://www.worldcat.org/it/title/44133088"/>
+                  <dcterms:title>Sylvia Plath's journal, 26 February 1956</dcterms:title>
+                  <dbo:country rdf:resource="https://dbpedia.org/resource/England"/>
+      
+                  <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1956</dcterms:date>
+                  <dcterms:creator>Sylvia Plath</dcterms:creator>
 
+               </rdf:Description>
 
+               <rdf:Description rdf:about=""> <!--lINK DA CREARE-->
+                  <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Manifestation"/>
+                  <frbr:embodimentOf rdf:resource="https://www.bl.uk/collection-items/sylvia-plaths-journal-26-february-1956"/>
+                  <dcterms:title>Typewritten draft of Sylvia Plath journal, 26 February 1956</dcterms:title>
+                  <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1956</dcterms:date>
+                  <dcterms:creator>Sylvia Plath</dcterms:creator>
+                  <dcterms:format>Typewritten page</dcterms:format>
+                  <dcterms:medium>Paper</dcterms:medium>
+                  </rdf:Description>
 
-            
-         </frbr:frbr>
+               <rdf:Description rdf:about=""> <!--CURI ON GITHUB-->
+                  <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Item"/>
+                  <frbr:exemplarOf rdf:resource=""/>
+                  <dcterms:title>Sylvia Plath's journal, 26 February 1956</dcterms:title>                 
+                  <dcterms:format>Digital</dcterms:format>
+                  <dcterms:source>British Library</dcterms:source>
+               </rdf:Description>
+
+                           
+               </rdf:RDF>
       </xenoData> 
    </teiHeader>
   <text>
