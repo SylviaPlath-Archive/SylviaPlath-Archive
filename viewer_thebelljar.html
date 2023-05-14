@@ -205,7 +205,41 @@ http://www.templatemo.com/preview/templatemo_427_timeline
                               document.getElementById("TEI").appendChild(data)
                             })
                         }</script>
+<<<<<<< Updated upstream
 
+=======
+<script>
+var mirador = Mirador.viewer({
+  "id": "my-mirador",
+  "manifests": {
+    "https://sylviaplath-archive.github.io/SylviaPlath-Archive/manifest.json": {
+      "provider": "Sylvia Plath Archive"
+    }
+  },
+  "windows": [
+    {
+      "loadedManifest": "https://sylviaplath-archive.github.io/SylviaPlath-Archive/manifest.json",
+      "canvasIndex": 2,
+      "thumbnailNavigationPosition": 'far-bottom'
+    }
+  ]
+});
+</script>
+<script>var acc = document.getElementsByClassName("accordion");
+    var i;
+    
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+          panel.style.display = "none";
+        } else {
+          panel.style.display = "block";
+        }
+      });
+    }</script>
+>>>>>>> Stashed changes
 
     <footer>
         <div class="container">
