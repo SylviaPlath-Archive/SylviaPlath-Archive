@@ -3,7 +3,7 @@
 Welcome to our archive of documentary digital editions of some selected Sylvia Plath's works! <br>
 Project created for the Digital Text in The Humanities course by Tiziana Mancinelli during the master degree of Digital Humanities and Digital Knowledge at the University of Bologna.
 
-[Project Website](https://thebelljar-dse.github.io/TheBellJar-dse/)
+[Project Website](https://SylviaPlath-Archive.github.io/SylviaPlath-Archive/)
 
 Team
 -

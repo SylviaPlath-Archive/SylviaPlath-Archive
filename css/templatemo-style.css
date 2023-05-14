@@ -20,7 +20,10 @@ html {
 
 *, *:before, *:after {
     box-sizing: inherit;
+    
 }
+
+div.doc, div#disclaimer>*{font-family: "fontawesome";}
 
 .blue {
 	color:#06F;
