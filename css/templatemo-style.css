@@ -1278,3 +1278,15 @@ button.explore a{
     overflow: hidden;
   } 
 
+  #my-mirador {
+    display: flex;
+    margin: 10px auto;
+    max-height: 200px;
+    position: relative;
+    margin-top: 40px;
+    top: 35px;
+    margin-bottom: 15px;
+    left: 5px;
+    padding-top: 66.6666666667%;
+    z-index: 0;
+  }

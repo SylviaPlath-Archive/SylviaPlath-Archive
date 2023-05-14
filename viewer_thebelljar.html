@@ -122,31 +122,26 @@ http://www.templatemo.com/preview/templatemo_427_timeline
         <button class="accordion">People</button>
         <div class="panel">
           <ul>
-            <li>hijk</li>
-            <li>hijk</li>
-            <li>hijk</li>
-            <li>hijk</li>
-
+            <li>The Rosenbergs</li>
           </ul>
         </div>
         
         <button class="accordion">Places</button>
         <div class="panel">
             <ul>
-                <li>hijk</li>
-                <li>hijk</li>
-                <li>hijk</li>
-                <li>hijk</li>
-    
+                <li>New York</li>
+                <li>Madison Avenue</li>
+                <li>United States of America</li>
+                <li>Switzerland</li>
+                <li>Brazil</li>
               </ul>
         </div>
         
-        <button class="download">XML file</button>
+        <button class="download"><a href="XML\The-Bell-Jar-Complete.xml" download></a>XML file</a></button>
         <button class="download">TTL file</button>    
             
       </div>
 
-      <div id="my-mirador"/> 
     <div class="container">
         <div class="container-fluid" id="content">
 
@@ -210,6 +205,9 @@ http://www.templatemo.com/preview/templatemo_427_timeline
                               document.getElementById("TEI").appendChild(data)
                             })
                         }</script>
+<<<<<<< Updated upstream
+
+=======
 <script>
 var mirador = Mirador.viewer({
   "id": "my-mirador",
@@ -227,7 +225,21 @@ var mirador = Mirador.viewer({
   ]
 });
 </script>
-
+<script>var acc = document.getElementsByClassName("accordion");
+    var i;
+    
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+          panel.style.display = "none";
+        } else {
+          panel.style.display = "block";
+        }
+      });
+    }</script>
+>>>>>>> Stashed changes
 
     <footer>
         <div class="container">

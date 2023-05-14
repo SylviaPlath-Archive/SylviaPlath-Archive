@@ -1,0 +1,97 @@
+{
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "http://65a8aefe-03a7-4832-b77d-843dad75919e",
+	"@type": "sc:Manifest",
+	"label": "Sylvia Plath's journal, 23 April 1959",
+	"metadata": [],
+	"description": [
+		{
+			"@value": "This diary entry shows Sylvia Plath’s struggle – both financial and creative – to be a published writer, but also the ‘verve and life-joy’ which she finds in poetry.\n\nIn April 1959, Plath and Ted Hughes were renting a flat in Boston, and here Plath records the ‘joyous news’ that Hughes has been awarded a Guggenheim Fellowship – an ‘incredibly princely’ sum of $5,000 which will allow them to travel and write, with less pressure to earn money. They have also been invited to spend the autumn at Yaddo, an artists’ retreat in Saratoga Springs, New York; and Plath has had two poems accepted by the prestigious New Yorker magazine. ",
+			"@language": "en"
+		}
+	],
+	"license": "https://creativecommons.org/licenses/by/3.0/",
+	"attribution": "[Click to edit attribution]",
+	"sequences": [
+		{
+			"@id": "http://a3ea57a4-6560-4122-8c86-33e87bee7e32",
+			"@type": "sc:Sequence",
+			"label": [
+				{
+					"@value": "Normal Sequence",
+					"@language": "en"
+				}
+			],
+			"canvases": [
+				{
+					"@id": "http://458d19de-bafc-42db-a406-a7d0c022ffe0",
+					"@type": "sc:Canvas",
+					"label": "Sylvia Plath's journal, 23 April 1959",
+					"height": 2002,
+					"width": 1559,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://b00fd82c-720f-421d-ade3-15b3ea3ca143",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "http://127.0.0.1:8182/iiif/2/Journals-1959(1).jpg/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "http://127.0.0.1:8182/iiif/2/Journals-1959(1).jpg",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"jpg",
+												"tif",
+												"gif",
+												"png"
+											],
+											"maxArea": 3121118,
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 2002,
+								"width": 1559
+							},
+							"on": "http://458d19de-bafc-42db-a406-a7d0c022ffe0"
+						}
+					],
+					"related": ""
+				}
+			]
+		}
+	],
+	"structures": []
+}
