@@ -1282,8 +1282,8 @@ button.explore a{
 
   #my-mirador {
     display: flex;
-    height: 40px;
-    width: 1000px;
+    height: 10%;
+    width: 800px;
     margin: 10px auto;
     position: relative;
     margin-top: 80px;
