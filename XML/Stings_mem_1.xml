@@ -56,7 +56,7 @@
 
                </rdf:Description>
 
-               <rdf:Description rdf:about="">
+               <rdf:Description rdf:about="http://maps-legacy.org/poets/m_r/plath/stings/3-17-Plath3.jpg">
                   <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Manifestation"/>
                   <frbr:embodimentOf rdf:resource="http://maps-legacy.org/poets/m_r/plath/stingsdrafts.htm"/>
                   <dcterms:title>Manuscript Draft of Stings</dcterms:title>
@@ -66,7 +66,7 @@
                   <dcterms:medium>Memorandum Paper</dcterms:medium>
                 </rdf:Description>
 
-               <rdf:Description rdf:about="">
+               <rdf:Description rdf:about="https://github.com/SylviaPlath-Archive/SylviaPlath-Archive/blob/main/img/Stings(3)/Stings_mem_1.jpg">
                   <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Item"/>
                   <frbr:exemplarOf rdf:resource=""/>
                   <dcterms:title>Manuscript Draft of Stings</dcterms:title>                 

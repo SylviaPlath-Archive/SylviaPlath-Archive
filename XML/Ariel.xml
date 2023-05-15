@@ -67,7 +67,7 @@
 
                </rdf:Description>
 
-               <rdf:Description rdf:about="">
+               <rdf:Description rdf:about="https://www.bl.uk/collection-items/sylvia-plaths-ariel-dedicated-to-al-alvarez">
                   <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Manifestation"/>
                   <frbr:embodimentOf rdf:resource="https://www.bl.uk/collection-items/sylvia-plaths-ariel-dedicated-to-al-alvarez"/>
                   <dcterms:title>Ariel: Dedicated to Al Alvarez</dcterms:title>
@@ -76,7 +76,7 @@
                   <dcterms:format>Manuscript</dcterms:format>
                   </rdf:Description>
 
-               <rdf:Description rdf:about="">
+               <rdf:Description rdf:about="https://github.com/SylviaPlath-Archive/SylviaPlath-Archive/blob/main/img/ariel.jpg">
                   <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Item"/>
                   <frbr:exemplarOf rdf:resource=""/>
                   <dcterms:title>Ariel: Dedicated to Al Alvarez</dcterms:title>                 
