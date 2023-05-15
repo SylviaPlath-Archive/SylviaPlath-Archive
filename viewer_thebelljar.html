@@ -206,6 +206,21 @@ http://www.templatemo.com/preview/templatemo_427_timeline
                               document.getElementById("TEI").appendChild(data)
                             })
                         }</script>
+<!--ACCORDION-->
+<script>var acc = document.getElementsByClassName("accordion");
+    var i;
+    
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+          panel.style.display = "none";
+        } else {
+          panel.style.display = "block";
+        }
+      });
+    }</script>
 
     <footer>
         <div class="container">
