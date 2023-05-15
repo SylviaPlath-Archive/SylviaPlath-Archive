@@ -90,28 +90,28 @@ http://www.templatemo.com/preview/templatemo_427_timeline
   
 
 <div id="mySidenav" class="sidenav" style="padding-top: 5%;">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-    
-    
-    <button class="accordion">People</button>
-    <div class="panel">
-        <ul>
-            <li><a href="https://viaf.org/viaf/64034086/">Al Alvarez</a></li>
-            <li><a href="https://dbpedia.org/page/Sylvia_Plath">Sylvia Plath</a></li>
-            
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                
+                
+                <button class="accordion">People</button>
+                <div class="panel">
+                    <ul>
+                        <li><a href="https://viaf.org/viaf/64034086/">Al Alvarez</a></li>
+                        <li><a href="https://dbpedia.org/page/Sylvia_Plath">Sylvia Plath</a></li>
+                        
 
-          </ul>
-    </div>
-    
-    <button class="accordion">Places</button>
-    <div class="panel">
-      <ul>
-        
-      </ul>
-    </div>
-    
-    <button class="download">XML file</button>
-    <button class="download">TTL file</button>    
+                    </ul>
+                </div>
+                
+                <button class="accordion">Places</button>
+                <div class="panel">
+                <ul>
+                    
+                </ul>
+                </div>
+                
+                <button class="download">XML file</button>
+                <button class="download">TTL file</button>    
         
   </div>
     <div class="container">
@@ -122,409 +122,38 @@ http://www.templatemo.com/preview/templatemo_427_timeline
         <div class="row align-items-start">
 
 
-            <!--
+            
 
     
-          <div class="col-9 col-lg-5 col-md-9 col-sm-9" id ="imagegallery">
+            <div class="col-9 col-lg-5 col-md-9 col-sm-9" id ="imagegallery">
 
-                    <div id="container" style="float: left;">
+                <div id="container" style="float: left;">
+                    <section class="gallery">
                         
-                           
-                           
-                            <img  src="img/ariel.jpg" alt="" height="400px"/>
-                            
+                        <div class="gallery__item">
+                        <input type="radio" id="img-2" name="gallery" class="gallery__selector" />
+                        <img class="gallery__img" src="img/ariel.jpg" alt="" height="400px"/>
+                        <label for="img-2" class="gallery__thumb"><img src="img/ariel.jpg" height="100px" alt="" onclick="displayxml('XML/Ariel.xml')"/></label>
+                        </div>
                         
-                    </div>
-
+                    </section>
                 </div>
-                -->
+
+            </div>
             
-<div class="testo" >
-    <button><a class="nav-link scrollto"><span onclick="openNav()">LOD</span></a></button>
-            
-        <div id="TEI" style="color: brown; margin-top: 10px;" class=" scroll-column zoom">
-       
-    </div>
+                <div class="testo" >
+                  <button><a class="nav-link scrollto"><span onclick="openNav()">LOD</span></a></button>
+                        
+                    <div id="TEI" style="color: brown; margin-top: 10px;" class=" scroll-column zoom">
+                
+                </div>
 
     
-         <div id="openseadragon"></div>
-         <script type="text/javascript">
-                       
-                       var viewer = OpenSeadragon({
-    id: "openseadragon-viewer",
-    prefixUrl: "https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.2/images/",
-    tileSources:[ {
-	"@context": "http://iiif.io/api/presentation/2/context.json",
-	"@id": "http://e137450e-93e9-4306-a93c-8d6ca5f1105d",
-	"@type": "sc:Manifest",
-	"label": "[Click to edit label]",
-	"metadata": [],
-	"description": [
-		{
-			"@value": "[Click to edit description]",
-			"@language": "en"
-		}
-	],
-	"license": "https://creativecommons.org/licenses/by/3.0/",
-	"attribution": "[Click to edit attribution]",
-	"sequences": [
-		{
-			"@id": "http://38ecfc89-a232-447b-947b-7bb736d5aeaf",
-			"@type": "sc:Sequence",
-			"label": [
-				{
-					"@value": "Normal Sequence",
-					"@language": "en"
-				}
-			],
-			"canvases": [
-				{
-					"@id": "http://3c735e5c-128f-4f60-93fa-fdfa603e45f9",
-					"@type": "sc:Canvas",
-					"label": "Empty canvas",
-					"height": 1994,
-					"width": 1577,
-					"images": [
-						{
-							"@context": "http://iiif.io/api/presentation/2/context.json",
-							"@id": "http://e93e0794-6913-462d-8b4c-ac1bf9947a82",
-							"@type": "oa:Annotation",
-							"motivation": "sc:painting",
-							"resource": {
-								"@id": "http://127.0.0.1:8182/iiif/2/The%20Bell%20Jar%2001.jpg/full/full/0/default.jpg",
-								"@type": "dctypes:Image",
-								"format": "image/jpeg",
-								"service": {
-									"@context": "http://iiif.io/api/image/2/context.json",
-									"@id": "http://127.0.0.1:8182/iiif/2/The%20Bell%20Jar%2001.jpg",
-									"profile": [
-										"http://iiif.io/api/image/2/level2.json",
-										{
-											"formats": [
-												"jpg",
-												"tif",
-												"gif",
-												"png"
-											],
-											"maxArea": 3144538,
-											"qualities": [
-												"bitonal",
-												"default",
-												"gray",
-												"color"
-											],
-											"supports": [
-												"regionByPx",
-												"sizeByW",
-												"sizeByWhListed",
-												"cors",
-												"regionSquare",
-												"sizeByDistortedWh",
-												"canonicalLinkHeader",
-												"sizeByConfinedWh",
-												"sizeByPct",
-												"jsonldMediaType",
-												"regionByPct",
-												"rotationArbitrary",
-												"sizeByH",
-												"baseUriRedirect",
-												"rotationBy90s",
-												"profileLinkHeader",
-												"sizeByForcedWh",
-												"sizeByWh",
-												"mirroring"
-											]
-										}
-									]
-								},
-								"height": 1994,
-								"width": 1577
-							},
-							"on": "http://3c735e5c-128f-4f60-93fa-fdfa603e45f9"
-						}
-					],
-					"related": ""
-				},
-				{
-					"@id": "http://bcf0ef0c-2284-459c-b025-b52c2b9a1ddb",
-					"@type": "sc:Canvas",
-					"label": "Empty canvas",
-					"height": 1983,
-					"width": 1566,
-					"images": [
-						{
-							"@context": "http://iiif.io/api/presentation/2/context.json",
-							"@id": "http://59373580-6c31-462f-8d7a-d4c8ec40b67c",
-							"@type": "oa:Annotation",
-							"motivation": "sc:painting",
-							"resource": {
-								"@id": "http://127.0.0.1:8182/iiif/2/The%20Bell%20Jar%2002.jpg/full/full/0/default.jpg",
-								"@type": "dctypes:Image",
-								"format": "image/jpeg",
-								"service": {
-									"@context": "http://iiif.io/api/image/2/context.json",
-									"@id": "http://127.0.0.1:8182/iiif/2/The%20Bell%20Jar%2002.jpg",
-									"profile": [
-										"http://iiif.io/api/image/2/level2.json",
-										{
-											"formats": [
-												"jpg",
-												"tif",
-												"gif",
-												"png"
-											],
-											"maxArea": 3105378,
-											"qualities": [
-												"bitonal",
-												"default",
-												"gray",
-												"color"
-											],
-											"supports": [
-												"regionByPx",
-												"sizeByW",
-												"sizeByWhListed",
-												"cors",
-												"regionSquare",
-												"sizeByDistortedWh",
-												"canonicalLinkHeader",
-												"sizeByConfinedWh",
-												"sizeByPct",
-												"jsonldMediaType",
-												"regionByPct",
-												"rotationArbitrary",
-												"sizeByH",
-												"baseUriRedirect",
-												"rotationBy90s",
-												"profileLinkHeader",
-												"sizeByForcedWh",
-												"sizeByWh",
-												"mirroring"
-											]
-										}
-									]
-								},
-								"height": 1983,
-								"width": 1566
-							},
-							"on": "http://bcf0ef0c-2284-459c-b025-b52c2b9a1ddb"
-						}
-					],
-					"related": ""
-				},
-				{
-					"@id": "http://77e5b35c-7dbc-49d9-a680-c34a369e806c",
-					"@type": "sc:Canvas",
-					"label": "Empty canvas",
-					"height": 1983,
-					"width": 1566,
-					"images": [
-						{
-							"@context": "http://iiif.io/api/presentation/2/context.json",
-							"@id": "http://74a27b0a-f2a7-49eb-a1d1-b6cfca50bbba",
-							"@type": "oa:Annotation",
-							"motivation": "sc:painting",
-							"resource": {
-								"@id": "http://127.0.0.1:8182/iiif/2/The%20Bell%20Jar%2003.jpg/full/full/0/default.jpg",
-								"@type": "dctypes:Image",
-								"format": "image/jpeg",
-								"service": {
-									"@context": "http://iiif.io/api/image/2/context.json",
-									"@id": "http://127.0.0.1:8182/iiif/2/The%20Bell%20Jar%2003.jpg",
-									"profile": [
-										"http://iiif.io/api/image/2/level2.json",
-										{
-											"formats": [
-												"jpg",
-												"tif",
-												"gif",
-												"png"
-											],
-											"maxArea": 3105378,
-											"qualities": [
-												"bitonal",
-												"default",
-												"gray",
-												"color"
-											],
-											"supports": [
-												"regionByPx",
-												"sizeByW",
-												"sizeByWhListed",
-												"cors",
-												"regionSquare",
-												"sizeByDistortedWh",
-												"canonicalLinkHeader",
-												"sizeByConfinedWh",
-												"sizeByPct",
-												"jsonldMediaType",
-												"regionByPct",
-												"rotationArbitrary",
-												"sizeByH",
-												"baseUriRedirect",
-												"rotationBy90s",
-												"profileLinkHeader",
-												"sizeByForcedWh",
-												"sizeByWh",
-												"mirroring"
-											]
-										}
-									]
-								},
-								"height": 1983,
-								"width": 1566
-							},
-							"on": "http://77e5b35c-7dbc-49d9-a680-c34a369e806c"
-						}
-					],
-					"related": ""
-				},
-				{
-					"@id": "http://e628d20e-cc6e-47d5-aa0d-0784dd2731ae",
-					"@type": "sc:Canvas",
-					"label": "Empty canvas",
-					"height": 1991,
-					"width": 1573,
-					"images": [
-						{
-							"@context": "http://iiif.io/api/presentation/2/context.json",
-							"@id": "http://6ba90a63-2e48-4a32-ab01-cfd307a40450",
-							"@type": "oa:Annotation",
-							"motivation": "sc:painting",
-							"resource": {
-								"@id": "http://127.0.0.1:8182/iiif/2/The%20Bell%20Jar%2004.jpg/full/full/0/default.jpg",
-								"@type": "dctypes:Image",
-								"format": "image/jpeg",
-								"service": {
-									"@context": "http://iiif.io/api/image/2/context.json",
-									"@id": "http://127.0.0.1:8182/iiif/2/The%20Bell%20Jar%2004.jpg",
-									"profile": [
-										"http://iiif.io/api/image/2/level2.json",
-										{
-											"formats": [
-												"jpg",
-												"tif",
-												"gif",
-												"png"
-											],
-											"maxArea": 3131843,
-											"qualities": [
-												"bitonal",
-												"default",
-												"gray",
-												"color"
-											],
-											"supports": [
-												"regionByPx",
-												"sizeByW",
-												"sizeByWhListed",
-												"cors",
-												"regionSquare",
-												"sizeByDistortedWh",
-												"canonicalLinkHeader",
-												"sizeByConfinedWh",
-												"sizeByPct",
-												"jsonldMediaType",
-												"regionByPct",
-												"rotationArbitrary",
-												"sizeByH",
-												"baseUriRedirect",
-												"rotationBy90s",
-												"profileLinkHeader",
-												"sizeByForcedWh",
-												"sizeByWh",
-												"mirroring"
-											]
-										}
-									]
-								},
-								"height": 1991,
-								"width": 1573
-							},
-							"on": "http://e628d20e-cc6e-47d5-aa0d-0784dd2731ae"
-						}
-					],
-					"related": ""
-				},
-				{
-					"@id": "http://171b8f60-fd95-4f3f-a0dc-47fa3e2c58a5",
-					"@type": "sc:Canvas",
-					"label": "Empty canvas",
-					"height": 1989,
-					"width": 1568,
-					"images": [
-						{
-							"@context": "http://iiif.io/api/presentation/2/context.json",
-							"@id": "http://e099441d-f945-425b-b43b-ba92e5d9b3cb",
-							"@type": "oa:Annotation",
-							"motivation": "sc:painting",
-							"resource": {
-								"@id": "http://127.0.0.1:8182/iiif/2/The%20Bell%20Jar%2005.jpg/full/full/0/default.jpg",
-								"@type": "dctypes:Image",
-								"format": "image/jpeg",
-								"service": {
-									"@context": "http://iiif.io/api/image/2/context.json",
-									"@id": "http://127.0.0.1:8182/iiif/2/The%20Bell%20Jar%2005.jpg",
-									"profile": [
-										"http://iiif.io/api/image/2/level2.json",
-										{
-											"formats": [
-												"jpg",
-												"tif",
-												"gif",
-												"png"
-											],
-											"maxArea": 3118752,
-											"qualities": [
-												"bitonal",
-												"default",
-												"gray",
-												"color"
-											],
-											"supports": [
-												"regionByPx",
-												"sizeByW",
-												"sizeByWhListed",
-												"cors",
-												"regionSquare",
-												"sizeByDistortedWh",
-												"canonicalLinkHeader",
-												"sizeByConfinedWh",
-												"sizeByPct",
-												"jsonldMediaType",
-												"regionByPct",
-												"rotationArbitrary",
-												"sizeByH",
-												"baseUriRedirect",
-												"rotationBy90s",
-												"profileLinkHeader",
-												"sizeByForcedWh",
-												"sizeByWh",
-												"mirroring"
-											]
-										}
-									]
-								},
-								"height": 1989,
-								"width": 1568
-							},
-							"on": "http://171b8f60-fd95-4f3f-a0dc-47fa3e2c58a5"
-						}
-					],
-					"related": ""
-				}
-			]
-		}
-	],
-	"structures": []
-}]
-});
-         </script>
-
+         
+        </div>
     </div>
-</div>
-</div>
-</div>
+    </div>
+
     <script src="CETEI.js"></script>
     <script>
     
@@ -550,7 +179,7 @@ http://www.templatemo.com/preview/templatemo_427_timeline
             }
           });
         }</script>
-
+</div>
 <footer>
     <div class="container">
         <div class="footer-content">
