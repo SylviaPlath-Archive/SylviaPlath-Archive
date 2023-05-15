@@ -1952,6 +1952,12 @@ tei-lb {
   white-space:break-spaces;
   /* Empty Rule Set */
 }
+/*, tei-l::after*/
+tei-lb::after {
+  content: '\a';
+  white-space: pre;
+  line-height: 100%;
+}
 
 tei-lb[rend="long_line"]::after {
   content: '________________________________________________________________________     ';
