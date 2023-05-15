@@ -19,7 +19,10 @@ function myHideLOD(id) {
   x.style.display = "none";
 }
 
-
+function light_people() {
+  var element = document.getElementsByTagName("tei-persname");
+  element.classList.add("highlight");
+} 
 
 
 $(function() {

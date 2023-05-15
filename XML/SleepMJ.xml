@@ -75,6 +75,7 @@
                   <dcterms:creator>Sylvia Plath</dcterms:creator>
                   <dcterms:format>Digital</dcterms:format>
                   <dcterms:format>Typescript</dcterms:format>
+                  <dcterms:source>British Library</dcterms:source>
                   </rdf:Description>
 
                <rdf:Description rdf:about="https://github.com/SylviaPlath-Archive/SylviaPlath-Archive/blob/main/img/Plath%2BHughes%20(2)/SleepIMD.jpg">
@@ -82,7 +83,7 @@
                   <frbr:exemplarOf rdf:resource=""/>
                   <dcterms:title>Typescript Draft of Sleep In The Mojave Desert</dcterms:title>                 
                   <dcterms:format>Digital</dcterms:format>
-                  <dcterms:source>British Library</dcterms:source>
+                  
                </rdf:Description>
 
         </rdf:RDF>

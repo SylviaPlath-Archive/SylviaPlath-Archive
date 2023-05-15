@@ -59,7 +59,7 @@
             <settingDesc>
                <listPlace>
                   <place xml:id="America">
-                     <settlement type="country">America</settlement>
+                     <settlement type="country" sameAs="https://dbpedia.org/page/United_States">America</settlement>
                   </place>
                </listPlace>
             </settingDesc>
@@ -74,37 +74,36 @@
                   <dcterms:creator>Sylvia Plath</dcterms:creator>
                   <dbo:country rdf:resource="https://dbpedia.org/page/United_States"/>
                   <dbo:literaryGenre rdf:resource="http://dbpedia.org/resource/Prose"/>
-                  <dbo:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2000</dbo:publicationDate>
-                  <dbo:publisher rdf:resource="https://dbpedia.org/page/Bantam_Books"/>
                   </rdf:Description>
 
-               <rdf:Description rdf:about="https://www.bl.uk/collection-items/sylvia-plaths-journal-26-february-1956">
+               <rdf:Description rdf:about="https://www.bl.uk/collection-items/sylvia-plaths-journal-2-march-1958">
                   <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Expression"/>
                   <frbr:realizationOf rdf:resource="https://www.worldcat.org/it/title/44133088"/>
-                  <dcterms:title>Sylvia Plath's journal, 26 February 1956</dcterms:title>
+                  <dcterms:title>Sylvia Plath's journal, 2 March 1958</dcterms:title>
                   <dbo:country rdf:resource="https://dbpedia.org/resource/England"/>
       
-                  <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1956</dcterms:date>
+                  <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1958</dcterms:date>
                   <dcterms:creator>Sylvia Plath</dcterms:creator>
 
                </rdf:Description>
 
-               <rdf:Description rdf:about=""> <!--lINK DA CREARE-->
+               <rdf:Description rdf:about="https://www.bl.uk/collection-items/sylvia-plaths-journal-2-march-1958"> <!--lINK DA bl-->
                   <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Manifestation"/>
                   <frbr:embodimentOf rdf:resource="https://www.bl.uk/collection-items/sylvia-plaths-journal-26-february-1956"/>
-                  <dcterms:title>Typewritten draft of Sylvia Plath journal, 26 February 1956</dcterms:title>
-                  <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1956</dcterms:date>
+                  <dcterms:title>Typewritten draft of Sylvia Plath journal, 2 March 1958</dcterms:title>
+                  <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1958</dcterms:date>
                   <dcterms:creator>Sylvia Plath</dcterms:creator>
                   <dcterms:format>Typewritten page</dcterms:format>
                   <dcterms:medium>Paper</dcterms:medium>
+                  <dcterms:source>British Library</dcterms:source>
                   </rdf:Description>
 
-               <rdf:Description rdf:about=""> <!--CURI ON GITHUB-->
+               <rdf:Description rdf:about="https://github.com/SylviaPlath-Archive/SylviaPlath-Archive/blob/main/img/Journal%20-%201958%20(3)/Plath%20Journal%2002.jpg"> <!--CURI ON GITHUB-->
                   <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Item"/>
                   <frbr:exemplarOf rdf:resource=""/>
-                  <dcterms:title>Sylvia Plath's journal, 26 February 1956</dcterms:title>                 
+                  <dcterms:title>Sylvia Plath's journal, 2 March 1958</dcterms:title>                 
                   <dcterms:format>Digital</dcterms:format>
-                  <dcterms:source>British Library</dcterms:source>
+                  
                </rdf:Description>
 
                            
