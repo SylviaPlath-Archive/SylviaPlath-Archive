@@ -1202,7 +1202,7 @@ tei-add[place="above"] {
   position: relative;
   display: inline-block;
   bottom: 0.6em;
-  margin-left: -6.4em;
+ 
 }
 
 tei-add[place=inline]:before {
