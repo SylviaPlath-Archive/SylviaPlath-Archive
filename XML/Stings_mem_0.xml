@@ -66,6 +66,7 @@
                   <dcterms:creator>Sylvia Plath</dcterms:creator>
                   <dcterms:format>Manuscript</dcterms:format>
                   <dcterms:medium>Memorandum Paper</dcterms:medium>
+                   <dcterms:source>Smith College</dcterms:source>
                   </rdf:Description>
 
                <rdf:Description rdf:about="https://github.com/SylviaPlath-Archive/SylviaPlath-Archive/blob/main/img/Stings(3)/Stings_mem_0.jpg">
@@ -73,7 +74,7 @@
                   <frbr:exemplarOf rdf:resource=""/>
                   <dcterms:title>Manuscript Draft of Stings</dcterms:title>                 
                   <dcterms:format>Digital</dcterms:format>
-                  <dcterms:source>Smith College</dcterms:source>
+                 
                </rdf:Description>
 
                            
