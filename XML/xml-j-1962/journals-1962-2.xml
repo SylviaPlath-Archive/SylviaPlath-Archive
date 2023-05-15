@@ -59,7 +59,7 @@
                  <settlement type="city">London</settlement>
               </place>
               <place xml:id="BoveyTracy">
-                 <settlement type="village">Bovey TracY</settlement>
+                 <settlement type="village">Bovey Tracy</settlement>
               </place>
               
            </listPlace>
@@ -77,33 +77,34 @@
                   <dbo:publisher rdf:resource="https://dbpedia.org/page/Bantam_Books"/>
                   </rdf:Description>
 
-               <rdf:Description rdf:about="https://www.bl.uk/collection-items/sylvia-plaths-journal-26-february-1956">
+               <rdf:Description rdf:about="https://www.bl.uk/collection-items/rose-and-percy-key-by-sylvia-plath">
                   <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Expression"/>
                   <frbr:realizationOf rdf:resource="https://www.worldcat.org/it/title/44133088"/>
-                  <dcterms:title>Sylvia Plath's journal, 26 February 1956</dcterms:title>
+                  <dcterms:title>Sylvia Plath's journal, 1962</dcterms:title>
                   <dbo:country rdf:resource="https://dbpedia.org/resource/England"/>
       
-                  <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1956</dcterms:date>
+                  <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1962</dcterms:date>
                   <dcterms:creator>Sylvia Plath</dcterms:creator>
 
                </rdf:Description>
 
-               <rdf:Description rdf:about=""> <!--lINK DA CREARE-->
+               <rdf:Description rdf:about="https://www.bl.uk/collection-items/rose-and-percy-key-by-sylvia-plath"> <!--lINK DA CREARE-->
                   <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Manifestation"/>
                   <frbr:embodimentOf rdf:resource="https://www.bl.uk/collection-items/sylvia-plaths-journal-26-february-1956"/>
-                  <dcterms:title>Typewritten draft of Sylvia Plath journal, 26 February 1956</dcterms:title>
-                  <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1956</dcterms:date>
+                  <dcterms:title>Typewritten draft of Sylvia Plath journal, 1962</dcterms:title>
+                  <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1962</dcterms:date>
                   <dcterms:creator>Sylvia Plath</dcterms:creator>
                   <dcterms:format>Typewritten page</dcterms:format>
                   <dcterms:medium>Paper</dcterms:medium>
+                  <dcterms:source>British Library</dcterms:source>
                   </rdf:Description>
 
-               <rdf:Description rdf:about=""> <!--CURI ON GITHUB-->
+               <rdf:Description rdf:about="https://github.com/SylviaPlath-Archive/SylviaPlath-Archive/blob/main/img/journal-1962%20(2)/journals-1962-2.jpg"> <!--CURI ON GITHUB-->
                   <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Item"/>
                   <frbr:exemplarOf rdf:resource=""/>
-                  <dcterms:title>Sylvia Plath's journal, 26 February 1956</dcterms:title>                 
+                  <dcterms:title>Sylvia Plath's journal,  1962</dcterms:title>                 
                   <dcterms:format>Digital</dcterms:format>
-                  <dcterms:source>British Library</dcterms:source>
+                  
                </rdf:Description>
 
                            
