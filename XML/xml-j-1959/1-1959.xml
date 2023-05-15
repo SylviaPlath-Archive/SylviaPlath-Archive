@@ -63,7 +63,7 @@
                   <settlement type="city" sameAs="https://dbpedia.org/page/Northampton">Northampton</settlement>
                </place>
                <place xml:id="Holyoke">
-                 <settlement type="city" sameAs=<"https://dbpedia.org/page/Highlands,_Holyoke,_Massachusetts">Holyoke</settlement>
+                 <settlement type="city" sameAs="https://dbpedia.org/page/Highlands,_Holyoke,_Massachusetts">Holyoke</settlement>
                </place>
             </listPlace>
          </settingDesc>
