@@ -72,7 +72,7 @@
             <listPlace>
                <place xml:id="London">
                   <settlement type="city"
-                  sameAs"https://dbpedia.org/page/London">London</settlement>
+                  sameAs="https://dbpedia.org/page/London">London</settlement>
                </place>
             </listPlace>
          </settingDesc>
