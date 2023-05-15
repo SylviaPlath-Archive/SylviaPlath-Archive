@@ -1148,10 +1148,11 @@ button.explore a{
   
   .dropdown:hover .dropbtn {background-color: #b3949c;}
 
-  .container-footer-doc {
+.container-footer-doc {
     background-color: #761d2c;
     margin-top: 40px;
-    right: 80px;
+    right: 60px;
+    margin-right: 8%;
 }
 
 #speakers {
@@ -1244,7 +1245,6 @@ button.explore a{
 
   div.doc{
     font-size: medium;
-    
     text-align: justify;
     padding: 10%;
     margin-bottom: 2%; 
