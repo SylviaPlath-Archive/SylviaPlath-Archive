@@ -1196,9 +1196,14 @@ tei-actor {
 }
 /* add */
 /* Could add other [place=] variations */
-tei-add[place=above] {
+
+tei-add[place="above"] {
   vertical-align: super;
+  position: relative;
+  display: inline-block;
+  bottom: 0.6em;
 }
+
 tei-add[place=inline]:before {
   content: "«";
 }
