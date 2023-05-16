@@ -3040,12 +3040,17 @@ div.container-fluid{
     padding:5%;
 }
 
+#add-4{
+  font-size: medium;
+}
+
 #add-1{
-  margin-left: 5px;
+  margin-left: -110px;
 }
 
 #add-5{
-  margin-left: 10cm;
+  margin-left: 420px;
+  font-size: medium;
  }
 
  #chapter-1{
@@ -3055,6 +3060,7 @@ div.container-fluid{
  #add-7{
   right: 40%;
   top: 10%;
+  margin-left: 100px;
  }
 
  /*#del-1{
