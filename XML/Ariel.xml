@@ -46,19 +46,15 @@
            </listPerson>
         </particDesc>
      </profileDesc>
-     <xenoData>
-        <!-- you can use http://www.easyrdf.org/converter -->
-       
+     <xenoData>     
                <rdf:RDF >
 
                <rdf:Description rdf:about="https://dbpedia.org/page/Ariel_(poetry_collection)"> 
                   <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Work"/>
                   <dcterms:title>Ariel</dcterms:title>
                   <dcterms:creator>Sylvia Plath</dcterms:creator>
-                  <dbo:country rdf:resource="http://dbpedia.org/resource/United_States"/>
                   <dbo:literaryGenre rdf:resource="http://dbpedia.org/resource/Poetry"/>
-                  <dbo:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1965</dbo:publicationDate>
-                  <dbo:publisher rdf:resource="http://dbpedia.org/resource/Faber_and_Faber"/>
+                  
                </rdf:Description>
 
                <rdf:Description rdf:about="https://www.bl.uk/collection-items/sylvia-plaths-ariel-dedicated-to-al-alvarez">
