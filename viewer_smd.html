@@ -147,14 +147,14 @@ http://www.templatemo.com/preview/templatemo_427_timeline
 </div>
         <script src="CETEI.js"></script>
         <script>
-        function displayxml(xmlpath){
+        
             console.log("load of xml file")
         var CETEIcean = new CETEI()
                 CETEIcean.getHTML5("XML/SleepMJ.xml", function(data) {
                     document.getElementById("TEI").innerHTML = "";
                   document.getElementById("TEI").appendChild(data)
                 })
-            }
+            
         </script>
         <script>var acc = document.getElementsByClassName("accordion");
             var i;
