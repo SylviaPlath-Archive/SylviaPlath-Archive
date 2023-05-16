@@ -7,7 +7,7 @@ Project created for the Digital Text in The Humanities course by Tiziana Mancine
 
 Team
 -
-- **Loredana Salvatore:** insert tasks here
+- **Loredana Salvatore:** encoding of Stings, Ariel and Sleep In The Mojave Desert; implementation of the CETEIcean technology; web development; Knowledge Graph production
 - **Anita Liviabella:** insert tasks here
 - **Camila Oliveira:** insert tasks here
 
