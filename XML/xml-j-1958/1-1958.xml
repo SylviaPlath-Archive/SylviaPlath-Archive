@@ -36,7 +36,7 @@
             <listPerson>
                <person xml:id="TedHughes">
                   <persName type="cited_author"
-                     sameAs="https://dbpedia.org/page/Ted_Hughes">TedHughes</persName>
+                     sameAs="https://dbpedia.org/page/Ted_Hughes">Ted Hughes</persName>
                </person>
                <person xml:id="JamesBramwell">
                   <persName type="cited_person"
@@ -91,7 +91,7 @@
                   <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1958</dcterms:date>
                   <dcterms:creator>Sylvia Plath</dcterms:creator>
                   <dcterms:format>Typewritten page</dcterms:format>
-                  <dcterms:medium>Paper</dcterms:medium>
+                  <dcterms:medium>Digital</dcterms:medium>
                   <dcterms:source>British Library</dcterms:source>
                   </rdf:Description>
 

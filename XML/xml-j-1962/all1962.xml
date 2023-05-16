@@ -60,6 +60,16 @@
                <person xml:id="Betty">
                   <persName type="cited_person"
                      sameAs="https://dbpedia.org/page/English_name">Betty</persName>
+                
+                <person xml:id="Oddly">
+                 <persName type="cited_person"
+                    sameAs="https://dbpedia.org/page/Category:English_masculine_given_names">Oddly</persName>
+              </person>
+              <person xml:id="Frieda">
+                 <persName type="cited_person"
+                    sameAs="https://dbpedia.org/page/English_name">Frieda</persName>
+                 </person>
+
                </person>
             </listPerson>
          </particDesc>
@@ -71,6 +81,9 @@
                <place xml:id="Okehampton">
                   <settlement type="village">Okehapton</settlement>
                </place>
+                          <place xml:id="BoveyTracy">
+                 <settlement type="village">Bovey Tracy</settlement>
+              </place>
             </listPlace>
          </settingDesc>
       </profileDesc>
@@ -96,25 +109,36 @@
 
                </rdf:Description>
 
-               <rdf:Description rdf:about="https://www.bl.uk/britishlibrary/~/media/bl/global/dl%2020th%20century/20th%20century%20collection%20items/rose-and-percy-key-add_88918_133_f1r.jpg"> 
+               <rdf:Description rdf:about="https://www.bl.uk/collection-items/rose-and-percy-key-by-sylvia-plath#Manifestation">
                   <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Manifestation"/>
                   <frbr:embodimentOf rdf:resource="https://www.bl.uk/collection-items/rose-and-percy-key-by-sylvia-plath"/>
                   <dcterms:title>Typewritten draft of Sylvia Plath journal, 1962</dcterms:title>
                   <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1962</dcterms:date>
                   <dcterms:creator>Sylvia Plath</dcterms:creator>
                   <dcterms:format>Typewritten page</dcterms:format>
-                  <dcterms:medium>Digital</dcterms:medium>
+                  <dcterms:medium>Paper</dcterms:medium>
                   <dcterms:source>British Library</dcterms:source>
                   </rdf:Description>
 
-               <rdf:Description rdf:about="https://github.com/SylviaPlath-Archive/SylviaPlath-Archive/blob/main/img/journal-1962%20(2)/journals-1962.jpg"> 
+            
+            <!--item1-->
+
+               <rdf:Description rdf:about="https://github.com/SylviaPlath-Archive/SylviaPlath-Archive/blob/main/img/journal-1962%20(2)/journals-1962.jpg"> <!--CURI ON GITHUB-->
                   <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Item"/>
                   <frbr:exemplarOf rdf:resource="https://www.bl.uk/britishlibrary/~/media/bl/global/dl%2020th%20century/20th%20century%20collection%20items/rose-and-percy-key-add_88918_133_f1r.jpg"/>
                   <dcterms:title>Sylvia Plath's journal, 1962</dcterms:title>                 
                   <dcterms:format>Digital</dcterms:format>
+                  
                </rdf:Description>
 
-                           
+            <!--item 2-->
+
+                <rdf:Description rdf:about="https://github.com/SylviaPlath-Archive/SylviaPlath-Archive/blob/main/img/journal-1962%20(2)/journals-1962-2.jpg"> 
+                  <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Item"/>
+                  <frbr:exemplarOf rdf:resource="https://www.bl.uk/britishlibrary/~/media/bl/global/dl%2020th%20century/20th%20century%20collection%20items/rose-and-percy-key-add_88918_133_f2r.jpg"/>
+                  <dcterms:title>Sylvia Plath's journal, 1962</dcterms:title>                 
+                  <dcterms:format>Digital</dcterms:format>
+               </rdf:Description>             
                </rdf:RDF>
 
       </xenoData>
@@ -154,6 +178,43 @@
             on which Rose runs up mattress coverings for a firm in<l/>
             <placeName ref="#Okehampton">Okehampton</placeName>Okehampton in cerise and fuschia shiny stuff with lurid<l/>
             sprawling patterns. <persName ref="#Percy">Percy</persName> "caretakes" a firm one day a month.</p>
+
+            <pb n="01" facs="#pag2"/>
+         <p><persName ref="#Rose">ROSE</persName> AND <persName ref="#Percy">PERCY</persName> KEY                             (2)</p>
+            <lb></lb>
+                                                 
+         <p>Upstairs, a pink bathroom, floors all sealed with new lino,<l/>
+            flounces and mirrors and chrome. A new cooker in the kitchen<l/>
+            (the other hire purchase item), a cage of pistachio and<l/>
+            pale-blue budgies creaking and whistling, up a step from<l/>
+            the livingroom.</p>
+         
+            <lb></lb>
+         
+         <p>First encounter: <persName ref="#Rose">Rose</persName> brought a tray of tea for us and<l/>
+            the workmen the day we moved in. A lively youngish looking<l/>
+            woman, brim full of gabble, seeming to listen not to you,<l/>
+            but to another invisible person slightly to one side who is<l/>
+            telling her something interesting and a bit similar, but<l/>
+            much more compellingly. Her 1ightish brown hair, smooth face,<l/>
+            plumping body. In her middle 50's? <persName ref="#Percy">Percy</persName> seems twenty years<l/>
+            older, very tall, spare, almost cadaverous. Wears a blue<l/>
+            peajacket. A weat<add place="above">h</add>ered, humorous wry face. Was a pub keeper<l/>
+            in <placeName ref="#London">London</placeName>. <placeName ref="London">South London</placeName>. <persName ref="#Oddly">Oddly</persName> sensitive about <persName ref="#Frieda">Frieda</persName> and<l/> 
+            the baby. Asks very right questions. Sings to <persName ref="#Frieda">Frieda</persName>. Eye<l/>
+            running, losing weight, no appetite, depressed after Christmas.<l/>
+            Mrs. <del unit="character" quantity="3">Key</del><add place="above">[B<del unit="character" quantity="4">rwon</del>]</add> caught Dr. Webb coming down from me one day. Got<l/>
+            <persName ref="#Percy">Percy</persName> a checkup. An Xray. He was coming out with others<l/>
+            from their Xrays but, unlike them, had no chart. “Vhere's<l/>
+            your chart, <persName ref="Percy">Perce</persName>?” Oh, the nurse said, he's to come back<l/>
+            for another after lunch. Now he is in Hawksmoor Chest Hospital<l/>
+            in the hills in <placeName ref="#BoveyTracy">Bovey Tracy</placeName> for a fortnight, <persName ref="#Rose">Rose</persName>s ignorance---<l/>
+            why a 2-week checkup? Is it a checkup or a treatment. She says<l/>
+            she will ask tomorrow when the <del unit="character" quantity="9">Crawfords</del><add place="above">[G<del unit="character" quantity="4">reen</del>s]</add> drive her out for a<l/>
+            visit. My startlement<hi>:</hi> these people ask nothing, they just go<l/>
+            to be <del><gap reason="deleted" unit="characters" quantity="5"></gap></del> treat' like mild cows.</p>
+
+
             
       </body>
   </text>

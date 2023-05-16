@@ -90,13 +90,13 @@
                   <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1956</dcterms:date>
                   <dcterms:creator>Sylvia Plath</dcterms:creator>
                   <dcterms:format>Typewritten page</dcterms:format>
-                  <dcterms:medium>Paper</dcterms:medium>
+                  <dcterms:medium>Digital</dcterms:medium>
                   <dcterms:source>British Library</dcterms:source>
                   </rdf:Description>
 
                <rdf:Description rdf:about="https://github.com/SylviaPlath-Archive/SylviaPlath-Archive/blob/main/img/Journal%20-%20Feb%201956%20(4)/Sylvia%20Plath's%20journal%2C%2026%20February%201956%20%5B4%5D.jpg"> <!--CURI ON GITHUB-->
                   <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Item"/>
-                  <frbr:exemplarOf rdf:resource=""/>
+                  <frbr:exemplarOf rdf:resource="https://www.bl.uk/collection-items/sylvia-plaths-journal-26-february-1956"/>
                   <dcterms:title>Sylvia Plath's journal, 26 February 1956</dcterms:title>                 
                   <dcterms:format>Digital</dcterms:format>
                   

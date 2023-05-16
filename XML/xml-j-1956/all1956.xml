@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:dbo="http://dbpedia.org/ontology/"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:frbr="http://purl.org/vocab/frbr/core#"   
+   >
+   <teiHeader>
+      
+      <fileDesc>
+         <titleStmt>
+            <title>Sylvia Plath's Journal - 26 February 1956</title>
+            <author>Sylvia Plath</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>Series I. Writings. Journals. Typescript on white paper with autograph manuscript corrections, 38 numbered leaves, 1955 Nov-1956 Apr.</edition>
+            <respStmt>
+               <resp>Encoding</resp>
+               <persName>Anita Liviabella</persName>
+               <orgName>Alma Mater Studiorum - University of Bologna</orgName>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <p>for exercise only</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>From the Mortimer Rare Book Room, Smith College Libraries (Massachusetts)</p>
+         </sourceDesc>
+      </fileDesc> 
+      
+      <profileDesc>
+         <particDesc>
+            
+            <listPerson>
+               <person xml:id="JeanRacine">
+                  <persName type="cited_author"
+                     sameAs="https://dbpedia.org/page/Jean_Racine">Jean Racine</persName>
+               </person>
+               <person xml:id="HamishStewart">
+                  <persName type="cited_person"
+                     sameAs="https://dbpedia.org/page/Category:English_masculine_given_names">Hamish Stewart</persName>
+               </person>
+               <person xml:id="Meeson">
+                  <persName type="cited_person"
+                     sameAs="https://dbpedia.org/page/Category:English_masculine_given_names">Meeson</persName>
+               </person>
+               <person xml:id="Derrek">
+                  <persName type="cited_person"
+                     sameAs="https://dbpedia.org/page/Category:English_masculine_given_names">Derrek</persName>
+               </person>
+               <person xml:id="Bert">
+                  <persName type="cited_person"
+                     sameAs="https://dbpedia.org/page/Category:English_masculine_given_names">Bert</persName>
+               </person>
+               <person xml:id="LucasMyers">
+                  <persName type="cited_person"
+                     sameAs="https://dbpedia.org/page/Category:English_masculine_given_names">Lucas Myers</persName>
+               </person>
+               <person xml:id="DanHuws">
+                  <persName type="cited_person"
+                     sameAs="https://dbpedia.org/page/Daniel_Huws">Daniel Huws</persName>
+               </person>
+               <person xml:id="ThanMorton">
+                  <persName type="cited_person"
+                     sameAs="https://dbpedia.org/page/Category:English_masculine_given_names">Than Morton</persName>
+               </person>
+               <person xml:id="DanielWeissbort">
+                  <persName type="cited_author"
+                     sameAs="https://dbpedia.org/page/Daniel_Weissbort">Daniel Weissbort</persName>
+               </person>
+               <person xml:id="TedHughes">
+                  <persName type="cited_author"
+                     sameAs="https://dbpedia.org/page/Ted_Hughes">Ted Hughes</persName>
+               </person>  
+               <person xml:id="DavidRoss">
+                  <persName type="cited_person"
+                     sameAs="https://dbpedia.org/page/Category:English_masculine_given_names">David Ross</persName>
+               </person>
+               <!--end for people of 1-1956-->
+
+               <person xml:id="Richard">
+                  <persName type="cited_person"
+                     sameAs="https://dbpedia.org/page/Category:English_masculine_given_names">Richard</persName>
+               </person>
+
+               <person xml:id="Roget">
+                  <persName type="cited_person"
+                     sameAs="https://dbpedia.org/page/Category:English_masculine_given_names">Roget</persName>
+               </person>
+               <person xml:id="SylviaPlath">
+                  <persName type="cited_author"
+                     sameAs="https://dbpedia.org/page/Sylvia_Plath">Sylvia Plath</persName>
+               </person>
+
+               <!--end people 2-1956-->
+
+               <person xml:id="Oswald">
+                  <persName type="cited_person"
+                     sameAs="https://dbpedia.org/page/Category:English_masculine_given_names">Oswald</persName>
+               </person>
+
+               <!--end people 3-1956-->
+               <person xml:id="Ronsard">
+                  <persName type="cited_person"
+                     sameAs="https://dbpedia.org/page/Category:English_masculine_given_names">Ronsard</persName>
+               </person>
+               <person xml:id="Mallory">
+                  <persName type="cited_person"
+                     sameAs="https://dbpedia.org/page/English_name">Mallory</persName>
+               </person>
+
+               <!--end people 4-1956-->
+
+
+            </listPerson>
+            
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <place xml:id="London">
+                  <settlement type="city"
+                  sameAs="https://dbpedia.org/page/London">London</settlement>
+               </place>
+
+                  <place xml:id="Cambridge">
+                  <settlement type="city" sameAs="https://dbpedia.org/page/University_of_Cambridge">Cambridge</settlement>
+               </place>
+            </listPlace>
+            
+         </settingDesc>
+      </profileDesc>
+      
+      <xenoData>
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+                  <rdf:Description rdf:about="https://www.worldcat.org/it/title/44133088"> 
+                  <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Work"/>
+                  <dcterms:title>The Unabridged Journals</dcterms:title>
+                  <dcterms:creator>Sylvia Plath</dcterms:creator> 
+                  <dbo:country rdf:resource="https://dbpedia.org/page/United_States"/>
+                  <dbo:literaryGenre rdf:resource="http://dbpedia.org/resource/Prose"/>
+                  </rdf:Description>
+
+               <rdf:Description rdf:about="https://www.bl.uk/collection-items/sylvia-plaths-journal-26-february-1956">
+                  <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Expression"/>
+                  <frbr:realizationOf rdf:resource="https://www.worldcat.org/it/title/44133088"/>
+                  <dcterms:title>Sylvia Plath's journal, 26 February 1956</dcterms:title>
+                  <dbo:country rdf:resource="https://dbpedia.org/resource/England"/>
+                  <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1956</dcterms:date>
+                  <dcterms:creator>Sylvia Plath</dcterms:creator>
+                </rdf:Description>
+
+            <!-- the manifestation-->
+
+                <rdf:Description rdf:about="https://www.bl.uk/collection-items/sylvia-plaths-journal-26-february-1956#Manifest"> <!--#Manifestation 1 for all-->
+                  <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Manifestation"/>
+                  <frbr:embodimentOf rdf:resource="https://www.bl.uk/collection-items/sylvia-plaths-journal-26-february-1956"/>
+                  <dcterms:title>Typewritten page of Sylvia Plath journal, 26 February 1956</dcterms:title>
+                  <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1956</dcterms:date>
+                  <dcterms:creator>Sylvia Plath</dcterms:creator>
+                  <dcterms:format>Typewritten page</dcterms:format>
+                  <dcterms:medium>Digital</dcterms:medium>
+                   <dcterms:source>British Library</dcterms:source>
+                  </rdf:Description>
+            
+
+            <!--all the items of 1956-->
+            <!--1-->
+
+               <rdf:Description rdf:about="https://github.com/SylviaPlath-Archive/SylviaPlath-Archive/blob/main/img/Journal%20-%20Feb%201956%20(4)/Sylvia%20Plath's%20journal%2C%2026%20February%201956%20%5B1%5D.jpg"> <!-- link immagine di github-->
+                  <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Item"/>
+                  <frbr:exemplarOf rdf:resource="https://www.bl.uk/britishlibrary/~/media/bl/global/dl%2020th%20century/20th%20century%20collection%20items/rs5167_smith_mrbr_45_b003_f009_001.jpg"/>
+                  <dcterms:title>Sylvia Plath's journal, 26 February 1956</dcterms:title>                 
+                  <dcterms:format>Digital</dcterms:format> <!--dital-->
+               </rdf:Description>
+
+            <!--2-->
+                <rdf:Description rdf:about="https://github.com/SylviaPlath-Archive/SylviaPlath-Archive/blob/main/img/Journal%20-%20Feb%201956%20(4)/Sylvia%20Plath's%20journal%2C%2026%20February%201956%20%5B2%5D.jpg"> <!-- link immagine di github-->
+                  <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Item"/>
+                  <frbr:exemplarOf rdf:resource="https://www.bl.uk/britishlibrary/~/media/bl/global/dl%2020th%20century/20th%20century%20collection%20items/rs5168_smith_mrbr_45_b003_f009_002.jpg"/>
+                  <dcterms:title>Sylvia Plath's journal, 26 February 1956</dcterms:title>                 
+                  <dcterms:format>Digital</dcterms:format>
+               </rdf:Description>
+            
+            <!--3-->
+
+                  <rdf:Description rdf:about="https://github.com/SylviaPlath-Archive/SylviaPlath-Archive/blob/main/img/Journal%20-%20Feb%201956%20(4)/Sylvia%20Plath's%20journal%2C%2026%20February%201956%20%5B3%5D.jpg"> <!--LINK ON GITHUB-->
+                  <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Item"/>
+                  <frbr:exemplarOf rdf:resource="https://www.bl.uk/britishlibrary/~/media/bl/global/dl%2020th%20century/20th%20century%20collection%20items/rs5169_smith_mrbr_45_b003_f009_003.jpg"/>
+                  <dcterms:title>Sylvia Plath's journal, 26 February 1956</dcterms:title>                 
+                  <dcterms:format>Digital</dcterms:format>                 
+               </rdf:Description>              
+               </rdf:RDF>
+
+            <!--4-->
+
+                  <rdf:Description rdf:about="https://github.com/SylviaPlath-Archive/SylviaPlath-Archive/blob/main/img/Journal%20-%20Feb%201956%20(4)/Sylvia%20Plath's%20journal%2C%2026%20February%201956%20%5B4%5D.jpg"> <!--CURI ON GITHUB-->
+                  <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Item"/>
+                  <frbr:exemplarOf rdf:resource="https://www.bl.uk/collection-items/sylvia-plaths-journal-26-february-1956"/>
+                  <dcterms:title>Sylvia Plath's journal, 26 February 1956</dcterms:title>                 
+                  <dcterms:format>Digital</dcterms:format>
+                  
+               </rdf:Description>
+
+               <!--item for every page-->
+
+        </rdf:Rdf>
+
+      </xenoData>
+      
+   </teiHeader>
+   
+  <text>
+      <body>
+         <pb n="01" facs="#pag1"/>
+      
+         <p rend="pos_right">15</p>
+         
+         <lb></lb>
+         
+         <p><date>February 26: Sunday</date></p>
+         
+         <lb></lb>
+         
+         <p>A small note after a large orgy. It is morning, gray, most<l/>
+            sober, with cold white puritan<del><gap reason="deleted" quantity="1" unit="character"></gap></del>ical eyes; looking at me. Last<l/>
+            night I got drunk, very very beautifully drunk, and now I am<l/>
+            shot, after six holirs of warm sleep like a baby, with <persName ref="#JeanRacine">Racine</persName><l/>
+            to read, and not even the energy to type; I am getting the dts.<l/>
+            Or something.<l/>
+         </p>
+        
+         <lb></lb>
+        
+         <p><persName ref="#HamishStweart">Hamish</persName> came in cab, and there was a tedious time standing slanted<l/>
+            against, the bar in Miller's with some ugly gat-toothed squat<l/>
+            grinning guy named <persName ref="#Meeson">Meeson</persName>trying to be devastatingly clever and<l/>
+            making intense devastating remarks about nothing. <persName ref="#HamishStewart">Hamish</persName><l/>
+            pale, pink and light blue eyes. I drank steadily the goblets<l/>
+            with the red-gold Whiskey Macs, one-after the other, and by<l/>
+            the time we left an hour later, I felt that strong, silted-up<l/>
+            force that makes one move through air like swimming, with<l/>
+            brave ease.<l/></p>
+         
+         <lb></lb>
+         
+         <p><hi rend="underline">Falcon's Yard</hi>, and the syncopated strut of a piano upstairs,<l/>
+            and oh it was very Bohemian, with boys in turtle-neck sweaters<l/>
+            and girls being blue-eye-lidded or elegant in black. <persName ref="#Derrek">Derrek</persName><l/>
+            was there, with guitar, and <persName ref="#Bert">Bert</persName> was looking shining and proud<l/>
+            as if he had just delivered five babies, sald something obvious<l/>
+            about having drunk alot, and began talking about how <persName ref="#LucasMyers">Luke</persName> was<l/>
+            satanic after he had run through the poetry in <objectName ref="#St.Botolphs">St. Botolph's</objectName><l/>
+            and yelled about it: satanic <persName ref="#LucasMyers">Luke</persName>, very very drunk, with a<l/>
+            stupid satanic smile on his pale face, dark sideburns and<l/>
+            rumpled hair, black-and-white checked baggy pants and a loose<l/>
+            swinging jacket, was doling that slow crazy english jive with<l/>
+            a green-clad girl, quite black-haired and eyed and a good<l/>
+            part pixie, and when they stopped dancing, <persName ref="#LucasMyers">Luke</persName> was chasing<l/>
+            her around. <persName ref="#DanHuws">Dan Huys</persName> being very pale, frightfully pale and<l/>
+            freckled, and me at last saying my immortal line of introduction<l/>
+            which has been with me ever since his clever precocious<l/>
+            slanted review: "Is this the better or worse half?" and he<l/>
+            looking incredibly young to even think hard yet.<persName ref="#ThanMorton">Than Minton</persName>,<l/>
+            so small and dark one would have fo slit down to talk to him,<l/>
+            and <persName ref="#DavidWeissbort">Weissbort</persName>, small again and very curvy. <persName ref="DavidRoss">Ross</persName>, immaculate<del><gap reason="deleted" quantity="1" unit="character"></gap></del><l/>
+            and dark. They were all dark.</p>
+           
+        <lb></lb>   
+            
+        <p>By this time I had spilled one drink, partly into my mouth,<l/>
+            partly over my hands and floor, and the Jazz was beginning<l/>
+            to get under my skin, and I started dancing with <persName ref="#LucasMyers">Luke</persName> and<l/>
+            knew I was very bad, having crossed the river and banged<l/>
+            into the trees, yelling about the poems, and he only smiling<l/>
+            with that far-off look of a cretin satan. he wrote those<l/>
+            things, and he was slobbing around. Well, I was slobbing<l/>
+            around, ‘blub, maundering" and I didn't even have the excuse<l/>
+            of having written those things; I suppose if you can write<l/>
+            sestinas which <del><gap reason="deleted" quantity="2" unit="character"></gap></del>bam crash through lines and rules after<l/>
+            having raped them to the purpose, then you can be satanic and<l/>
+            smile like a cretin beelzebub.</p>
+         
+         <lb></lb>
+         
+         <p>Then the worst happened, that big, dark, hunky boy, the only<l/>
+            one there huge enough for me, who have been hunching around<l/>
+            over women, and whose name I had asked the minute I had come<l/>
+            into the room, but no one told me, came over and was looking<l/>
+            hard in my eyes and it was <persName ref="#TedHughes">Ted Hughes</persName>. I started yelling<l/>
+            again about his poems and quoting: "most dear unscratchable</p>
+         
+          <lb></lb>
+
+         <pb n="02" facs="#page2"></pb>
+
+         <p rend="pos_right">18.</p> 
+         <lb></lb>
+         <p><date>February 26 </date>(con)<l/></p>
+         
+         <lb></lb>
+   
+         <p>diamond" and he yelled back, colossal, in a voice that should<l/>
+            have come from a Pole, "You like?" and asking  me  if I wanted<l/>
+            brandy, and me yelling yes and backing into the next room past<l/>
+            the smug shining blub face of dear <persName ref="#Bert">Bert</persName>, looking as if he had<l/>
+            delivered at least nine or ten babies, and bang the door was<l/>
+            shut and he was sloshing brandy into a glass and I was sloshing<l/>
+            it at the place <del><gap reason="deleted" quantity="3" unit="character"></gap></del> where my mouth was when I last knew about it.<l/></p>
+     
+         <lb></lb>
+         
+         <p>We shouted as if in a high wind, about the review, and he saying<l/>
+            <persName ref="#DanielWeissbort">Dan</persName> knew I was beautiful, he wouldn't have written it about a<l/>
+            cripple, and my yelling drotest in which the words "sleep with<l/>
+            the editor" occurred with startling frequency. And then it<l/>
+            came to the fact that I was all there, wasn't I, and I stamped<l/>
+            and screamed yes, and he had obligations in the next room, and<l/>
+            he was working in <placeName ref="#London">London</placeName>, earning ten pounds a week so he could<l/>
+            later earn twelve pounds a week, and I was stamping and he was<l/>
+            stampig on the floor, and then hekissed me bang smash on the<l/>
+            mouth and ripped my hairband off, my lovely red hairband scarf<l/>
+            which has weathered the sun and much love, and whose like I<l/>
+            shall never again find, and my favorite silver earrings: hah, I<l/>
+            shall keep, he barked. And when he kissed my neck I bit him<l/>
+            long and hard on the cheek, and when we came out of the room,<l/>
+            blood was running down his face. His poem <quote>"I did it, I."</quote>Such<l/>
+            violence, and I can see how women lie down for artists. The one<l/>
+            man in the room who was as big as his poems, huge, with hulk<l/>
+            and dynamic chunks of words; his poems are strong and blasting<l/>
+            like a high wind in steel girders. And I screamed in myself,<l/>
+            thinking: oh, to give myself crashing, fighting, to you. The<l/>
+            one man since I've lived who could blast <persName ref="#Richard">Richard</persName>.<l/></p>
+             
+         <lb></lb>
+            
+         <p>And now I sit here, demure and tired in brown, slightly sick<l/>
+            at heart. I shall zo on. I shall write a detalled description <del><gap reason="deleted" quantity="1" unit="character"></gap></del><l/>
+            of shock treatment, tight, blasting short descriptions with<l/>
+            not one smudge of coy sentimentality, and when I get enough<l/>
+            I shall send them to <persName ref="#DavidRoss">David Ross</persName>. There will be no hurry,<l/>
+            because I am too desperately vengeful now. But I will pile them<l/>
+            up. I thought about the shock treatment description last night:<l/>
+            the deadly sleep of her madness, and the breakfast not coming,<l/>
+            the little details, the flashback to the shock treatment that<l/>
+            went wrong: electrocution brought in, and the inevitable<l/>
+            going down the subterranean hall, waking to a new world, with<l/>
+            no name, being born again, and not of woman.<l/></p>
+              
+         <lb></lb>
+            
+         <p>I shall never see him again, and the thorny limitations of the<l/>
+            day crowd in like the spikes on the gates at Queens last night<l/>
+            I could never sleep with him anyway, with all his friends here<l/>
+            and his close relation to them, laughing, talking, I should<l/>
+            be the world's whore, as well as <persName ref="#Roget">Roget</persName>'s strumpet. I shall never<l/>
+            see him, he will never look for me. He said my name, <persName ref="#SylviaPlath">Sylvia</persName>,<l/>
+            and banged a black grinning look into my eyes, and I would like<l/>
+            to try just this once, my force against his. But he will never<l/>
+            come, and the blonde one, pure and snug and favored, looks, is<l/>
+            it with projected nity and disguat<gap reason="illegible" quantity="1" unit="character"></gap>at this drunken amo<gap reason="illegible" quantity="2" unit="character"></gap>hic slut.<l/></p>
+        
+         <lb></lb>
+             
+         <p>But <persName ref="#HamishStewart">Hamish</persName> was very kind and would have fought for me. It gave<l/>
+            him a kind of glory to take me away from them, those fiends and I am worth fighting for, I had been nice, to him, he said.<l/></p> 
+         <lb></lb>
+
+         <pb n="03" facs="#page3"></pb>
+         
+         <p rend="pos_right">19.</p>
+         
+         <lb></lb>
+         
+         <p><date>February 26</date></p>
+         
+         <lb></lb>
+      
+         <p>We walked out as the blonde one was coming in, and <persName ref="#Oswald">Oswald</persName> said<l/>
+            in his dry sarcasm something about "Tell us about bone structures<l/>
+            and that was the last party at Saint John's where I lost the<l/>
+            red glove, as tonight I last the red bandeau which I loved with<l/>
+            all the redness in my heart. Somehow these sluttish nights make<l/>
+            me have a violent nunlike passion to write and sequester myself.<l/>
+            I shall sequester. I don't want fo see anybody because they are<l/>
+            not <persName ref="#TedHughes">Ted Hughes</persName>and I never have been made a fool of by a man.<l/>
+            They are phonies, <persName ref="#HamishStewart">Hamish</persName> said: He is the biggest seducer in<l/>
+            <placeName ref="#Cambridge">Cambridge</placeName>. Shall I write, and be different? Always, I grab it,<l/>
+            the writing, hold it to me, defend, defend, against the flux,<l/>
+            the sameness of faces. He said my name, <persName ref="#SylviaPlath">Sylvia</persName>, in a blasting<l/>
+            wind which shot off in the desert behind my eyes, behind his<l/>
+            eyes, and his poems are clever and terrible and lovely.<l/></p>
+          
+         <lb></lb>
+            
+         <p>Well, <persName ref="#HamishStewart">Hamish</persName>: and I took an incredibly long time walking about<l/>
+            he misty streets in the moonlight and all was blurred behind<l/>
+            a theatrical scrim of fog, and vague boys in black gowns staggered<l/>
+            and sang. We hid behind a car, and he sild, the oroctors are<l/>
+            out after me,and I kept blithering on about having faith and<l/>
+            being lucky, always, if you believe in something, because you<l/>
+            can walk on water. Finally, after many strange streets which<l/>
+            I did not know, being far far away in a land of whisky and<l/>
+            merrydown, saying <persName ref="#TedHughes">Ted</persName> to the lam<unclear rend="faded">po</unclear>osts and calding myself with<l/>
+            <persName ref="#HamishStewart">Hamish</persName>, keeping saying it aloud to him, because he took<l/>
+            me away safely. We came to the gates of Queens, and I wanted<l/>
+            like a baby to lie down and rest, Just peace, peace, I kept<l/>
+            whispering. Five boys, five late babies came up, and surrounded<l/>
+            me, gently saying, what are you doing here, are you all right,<l/>
+            my you smell nice, that perfume, and may we kiss you, and I<l/>
+            just stood there huddled to the iron fence, smiling like a lost<l/>
+            lamb and saying dear, dear, babies, and then <persName ref="#HamishStewart">Hamish</persName> was among<l/>
+            them, and they climbed over and crossed the wooden bridge<l/>
+            that <persName ref="#IsaacNewton">Newton</persName> once put together without bolts.<l/></p>
+         
+         <lb></lb>
+         <lb></lb>
+            
+         <p><persName ref="HamishStewart">Hamish</persName> helped me up on the wall, and in my tight skirt, I<l/>
+            tried to step over the spikes; they pierced my skirt, my hands<l/>
+            and I felt nothing, thinking from the great distance that I<l/>
+            might at last lie on a bed of solkes and not feel 1t, like<l/>
+            the yoga, like celia copplestone, crucified, near an anthill,<l/>
+            at last, peace, and the nails went through my hands, and my<l/>
+            egs were bare to the thigh, and I was over. The stigmata, I<l/>
+            sald, frozen, looking at those raw frigid hands that should<l/>
+            have been bleeding. But they were not bleeding. I had gotten<l/>
+            over in an act of sublime drunkenness and falth. And then we<l/>
+            we<add place="above" rend="overwrite">nt</add> to <persName ref="#HamishStewart">Hamish</persName>'s room and lay on the floor by the fire and<l/>
+            I was just so damn grateful for his weight on me and his mouth<l/>
+            which was nice, and begged that he scold me, and he Just sald<l/>
+            I wasn't a whore or a slut like I said but only a very silly<l/>
+            girl and he kind of liked me and when would I learn-my lesson.<l/>
+            When? When? So 1t was suddenly two—thirty, and I couldn't<l/>
+            imagine being illegal, but I was, and we managed by the light<l/>
+            of two matches to get downstairs, and he walked out, a dark<l/>
+            lone figure against the pale white blur of snow in the dead<l/>
+            quiet crescent court.<l/>
+         </p>
+
+         <pb n="04" facs="#page4"></pb>
+         <p rend="pos_right">20</p>
+         <lb></lb>
+         <p><date>February 26:</date></p>
+         <lb></lb>
+         
+         <p>He beckoned, I came walking along the outer path, through the<l/>
+            crust of snow, breaking, hearing the dry cru<del><gap reason="deleted" quantity="1" unit="character"></gap></del>nch and then<l/>
+            crossing the snow fleld to him, walting for the sudden flash of<l/>
+            light, the: hey, there, you stop<add place="inline">!</add> and the crack of pistols. It<l/>
+            was dead quiet, and the cold snow was in my shoes and I felt<l/>
+            nothing. We went through the gap in the box hedge, and <persName ref="#HamishStewart">Hamish</persName><l/>
+            tested the ice on the river; he sald the porter chopped it,<l/>
+            but it was whole, and bore us, and we crossed, free, walking<l/>
+            home. And I heard the clocks striking three in the deathly<l/>
+            quiet of dreaming people, and climbed the stairs somehow<l/>
+            and went somehow after hot milk to bed.<l/>
+         </p>
+         
+         <lb></lb>
+         
+         <p>And now it is today, and I slept only six hours and am weary<l/>
+            and walting till next day and next to recover. I must write<l/>
+            <persName ref="#JeanRacine">Racine</persName> paper, today, dinner with <persName ref="#Mallory">Mallory</persName> (can I live) and then<l/>
+            <persName ref="#Ronsard">Ronsard</persName> desperately tomorrow.<l/>
+         </p>
+      
+         <lb></lb> 
+         
+         <p>
+            Perhaps at dinner they will be laughing at me. Well, they are<l/>
+            hardly white, even though they are men. But I shall be sober,<l/>
+            oh for so long. Why won't I see him agaln? But I won't. I dream<l/>
+            of banging and crashing in a high wind in <placeName ref="#London">London</placeName>. But I want<l/>    
+            to know him sober; I want to write to him, with that kind of<l/>
+            discipline and blaze. So I shall shut up and get some sleep<l/>
+            tonight and tomorrow, and do so.<l/>
+         </p>
+         
+         <lb></lb>
+      
+
+
+
+
+        
+
+
+
+
+
+
+
+
+      
+      </body>
+  </text>
+</TEI>
