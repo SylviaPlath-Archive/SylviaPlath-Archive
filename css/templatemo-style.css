@@ -1295,4 +1295,5 @@ button.explore a{
   }
 
   #mySidenav a:hover{color:#761d2c;}
-  .highlight{background-color: #98e361;}
+  
+.download a:hover{color: gray; text-decoration: underline;}
