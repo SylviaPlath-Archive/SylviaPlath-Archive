@@ -145,7 +145,7 @@
                </rdf:Description>
 
                <!--2-->
-                 <rdf:Description rdf:about=https://github.com/SylviaPlath-Archive/SylviaPlath-Archive/blob/main/img/Journal%20-%201958%20(3)/Plath%20Journal%2002.jpg"">
+                 <rdf:Description rdf:about="https://github.com/SylviaPlath-Archive/SylviaPlath-Archive/blob/main/img/Journal%20-%201958%20(3)/Plath%20Journal%2002.jpg">
                   <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Item"/>
                   <frbr:exemplarOf rdf:resource="https://www.bl.uk/britishlibrary/~/media/bl/global/dl%2020th%20century/20th%20century%20collection%20items/rs5183_smith_mrbr_45_b003_f020_001_p062.jpg"/>
                   <dcterms:title>Sylvia Plath's journal, 2 March 1958</dcterms:title>                 

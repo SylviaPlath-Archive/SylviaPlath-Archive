@@ -1,0 +1,282 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix ns0: <http://dbpedia.org/ontology/> .
+@prefix ns1: <http://purl.org/vocab/frbr/core#> .
+@prefix ns2: <http://www.tei-c.org/ns/1.> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<https://www.worldcat.org/it/title/44133088>
+  a <http://purl.org/vocab/frbr/core#Work> ;
+  dc:title "The Unabridged Journals" ;
+  dc:creator "Sylvia Plath" ;
+  ns0:country <https://dbpedia.org/page/United_States> ;
+  ns0:literaryGenre <http://dbpedia.org/resource/Prose> .
+
+<https://www.bl.uk/collection-items/sylvia-plaths-journal-26-february-1956>
+  a <http://purl.org/vocab/frbr/core#Expression> ;
+  ns1:realizationOf <https://www.worldcat.org/it/title/44133088> ;
+  dc:title "Sylvia Plath's journal, 26 February 1956" ;
+  ns0:country <https://dbpedia.org/resource/England> ;
+  dc:date 1956 ;
+  dc:creator "Sylvia Plath" .
+
+<https://www.bl.uk/britishlibrary/~/media/bl/global/dl%2020th%20century/20th%20century%20collection%20items/rs5167_smith_mrbr_45_b003_f009_001.jpg>
+  a ns1:Manifestation ;
+  ns1:embodimentOf <https://www.bl.uk/collection-items/sylvia-plaths-journal-26-february-1956> ;
+  dc:title "Typewritten page of Sylvia Plath journal, 26 February 1956" ;
+  dc:date 1956 ;
+  dc:creator "Sylvia Plath" ;
+  dc:format "Typewritten page" ;
+  dc:medium "Digital" ;
+  dc:source "British Library" .
+
+<https://github.com/SylviaPlath-Archive/SylviaPlath-Archive/blob/main/img/Journal%20-%20Feb%201956%20(4)/Sylvia%20Plath's%20journal%2C%2026%20February%201956%20%5B1%5D.jpg>
+  a ns1:Item ;
+  ns1:exemplarOf <https://www.bl.uk/britishlibrary/~/media/bl/global/dl%2020th%20century/20th%20century%20collection%20items/rs5167_smith_mrbr_45_b003_f009_001.jpg> ;
+  dc:title "Sylvia Plath's journal, 26 February 1956" ;
+  dc:format "Digital" .
+
+<https://www.bl.uk/collection-items/sylvia-plaths-journal-2-march-1958>
+  a ns1:Expression ;
+  ns1:realizationOf <https://www.worldcat.org/it/title/44133088> ;
+  dc:title "Sylvia Plath's journal, 2 March 1958" ;
+  ns0:country <https://dbpedia.org/resource/England> ;
+  dc:date 1958 ;
+  dc:creator "Sylvia Plath" .
+
+<https://www.bl.uk/collection-items/sylvia-plaths-journal-2-march-1958#Manifestation>
+  a ns1:Manifestation ;
+  ns1:embodimentOf <https://www.bl.uk/collection-items/sylvia-plaths-journal-26-february-1956> ;
+  dc:title "Typewritten draft of Sylvia Plath journal, 2 March 1958" ;
+  dc:date 1958 ;
+  dc:creator "Sylvia Plath" ;
+  dc:format "Typewritten page" ;
+  dc:medium "Digital" ;
+  dc:source "British Library" .
+
+<https://github.com/SylviaPlath-Archive/SylviaPlath-Archive/blob/main/img/Journal%20-%201958%20(3)/Plath%20Journal%2001.jpg>
+  a ns1:Item ;
+  ns1:exemplarOf <https://www.bl.uk/britishlibrary/~/media/bl/global/dl%2020th%20century/20th%20century%20collection%20items/rs5182_smith_mrbr_45_b003_f020_001_p061.jpg> ;
+  dc:title "Sylvia Plath's journal, 2 March 1958" ;
+  dc:format "Digital" .
+
+<https://github.com/SylviaPlath-Archive/SylviaPlath-Archive/blob/main/img/Journal%20-%201958%20(3)/Plath%20Journal%2002.jpg>
+  a ns1:Item ;
+  ns1:exemplarOf <https://www.bl.uk/britishlibrary/~/media/bl/global/dl%2020th%20century/20th%20century%20collection%20items/rs5183_smith_mrbr_45_b003_f020_001_p062.jpg> ;
+  dc:title "Sylvia Plath's journal, 2 March 1958" ;
+  dc:format "Digital" .
+
+<https://github.com/SylviaPlath-Archive/SylviaPlath-Archive/blob/main/img/Journal%20-%201958%20(3)/Plath%20Journal%2003.jpg>
+  a ns1:Item ;
+  ns1:exemplarOf <https://www.bl.uk/britishlibrary/~/media/bl/global/dl%2020th%20century/20th%20century%20collection%20items/rs5181_smith_mrbr_45_b003_f020_001_p063.jpg> ;
+  dc:title "Sylvia Plath's journal, 2 March 1958" ;
+  dc:format "Digital" .
+
+<https://www.bl.uk/collection-items/sylvia-plaths-journal-23-april-1959>
+  a ns1:Expression ;
+  ns1:realizationOf <https://www.worldcat.org/it/title/44133088> ;
+  dc:title "Sylvia Plath's journal, 23 April 1959" ;
+  ns0:country <https://dbpedia.org/resource/England> ;
+  dc:date 1959 ;
+  dc:creator "Sylvia Plath" .
+
+<https://www.bl.uk/britishlibrary/~/media/bl/global/dl%2020th%20century/20th%20century%20collection%20items/rs5171_smith_mrbr_45_b003_f024_001.jpg>
+  a ns1:Manifestation ;
+  ns1:embodimentOf <https://www.bl.uk/collection-items/sylvia-plaths-journal-26-february-1956> ;
+  dc:title "Typewritten draft of Sylvia Plath journal, 23 April 1959" ;
+  dc:date 1959 ;
+  dc:creator "Sylvia Plath" ;
+  dc:format "Typewritten page" ;
+  dc:medium "Digital" ;
+  dc:source "British Library" .
+
+<https://github.com/SylviaPlath-Archive/SylviaPlath-Archive/blob/main/img/Journal-1959(1)/Journals-1959(1).jpg>
+  a ns1:Item ;
+  ns1:exemplarOf <https://www.bl.uk/britishlibrary/~/media/bl/global/dl%2020th%20century/20th%20century%20collection%20items/rs5171_smith_mrbr_45_b003_f024_001.jpg> ;
+  dc:title "Sylvia Plath's journal, 23 April 1959" ;
+  dc:format "Digital" .
+
+<https://www.bl.uk/collection-items/rose-and-percy-key-by-sylvia-plath>
+  a ns1:Expression ;
+  ns1:realizationOf <https://www.worldcat.org/it/title/44133088> ;
+  dc:title "Sylvia Plath's journal, 1962" ;
+  ns0:country <https://dbpedia.org/resource/England> ;
+  dc:date 1962 ;
+  dc:creator "Sylvia Plath" .
+
+<https://www.bl.uk/collection-items/rose-and-percy-key-by-sylvia-plath#Manifestation>
+  a ns1:Manifestation ;
+  ns1:embodimentOf <https://www.bl.uk/collection-items/rose-and-percy-key-by-sylvia-plath> ;
+  dc:title "Typewritten draft of Sylvia Plath journal, 1962" ;
+  dc:date 1962 ;
+  dc:creator "Sylvia Plath" ;
+  dc:format "Typewritten page" ;
+  dc:medium "Paper" ;
+  dc:source "British Library" .
+
+<https://github.com/SylviaPlath-Archive/SylviaPlath-Archive/blob/main/img/journal-1962%20(2)/journals-1962.jpg>
+  a ns1:Item ;
+  ns1:exemplarOf <https://www.bl.uk/britishlibrary/~/media/bl/global/dl%2020th%20century/20th%20century%20collection%20items/rose-and-percy-key-add_88918_133_f1r.jpg> ;
+  dc:title "Sylvia Plath's journal, 1962" ;
+  dc:format "Digital" .
+
+<https://github.com/SylviaPlath-Archive/SylviaPlath-Archive/blob/main/img/journal-1962%20(2)/journals-1962-2.jpg>
+  a ns1:Item ;
+  ns1:exemplarOf <https://www.bl.uk/britishlibrary/~/media/bl/global/dl%2020th%20century/20th%20century%20collection%20items/rose-and-percy-key-add_88918_133_f2r.jpg> ;
+  dc:title "Sylvia Plath's journal, 1962" ;
+  dc:format "Digital" .
+
+<https://dbpedia.org/page/Ariel_(poetry_collection)>
+  a ns1:Work ;
+  dc:title "Ariel" ;
+  dc:creator "Sylvia Plath" ;
+  ns0:country <http://dbpedia.org/resource/United_States> ;
+  ns0:literaryGenre <http://dbpedia.org/resource/Poetry> ;
+  ns0:publicationDate 1965 ;
+  ns0:publisher <http://dbpedia.org/resource/Faber_and_Faber> .
+
+<https://www.bl.uk/collection-items/sylvia-plaths-ariel-dedicated-to-al-alvarez>
+  a ns1:Expression ;
+  ns1:realizationOf <https://dbpedia.org/page/Ariel_(poetry_collection)> ;
+  dc:title "Ariel: Dedicated to Al Alvarez" ;
+  dc:date 0 ;
+  dc:creator "Sylvia Plath" ;
+  dc:source "British Library" .
+
+<https://www.bl.uk/collection-items/sylvia-plaths-ariel-dedicated-to-al-alvarez#Manifestation>
+  a ns1:Manifestation ;
+  ns1:embodimentOf <https://www.bl.uk/collection-items/sylvia-plaths-ariel-dedicated-to-al-alvarez> ;
+  dc:title "Ariel: Dedicated to Al Alvarez" ;
+  dc:date 0 ;
+  dc:creator "Sylvia Plath" ;
+  dc:format "Digital" ;
+  dc:source "British Library" .
+
+<https://github.com/SylviaPlath-Archive/SylviaPlath-Archive/blob/main/img/ariel.jpg>
+  a ns1:Item ;
+  ns1:exemplarOf <https://www.bl.uk/collection-items/sylvia-plaths-ariel-dedicated-to-al-alvarez#Manifestation> ;
+  dc:title "Ariel: Dedicated to Al Alvarez" ;
+  dc:format "Digital" .
+
+<https://www.worldcat.org/it/title/crossing-the-water-transitional-poems/oclc/197197>
+  a ns1:Work ;
+  dc:title "Crossing The Water" ;
+  dc:creator "Sylvia Plath" ;
+  ns0:literaryGenre <http://dbpedia.org/resource/Poetry> ;
+  ns0:publicationDate 1971 .
+
+<https://www.bl.uk/collection-items/typescript-drafts-of-mushrooms-and-sleep-in-the-mojave-desert-by-sylvia-plath>
+  a ns1:Expression ;
+  ns1:realizationOf <https://www.worldcat.org/it/title/crossing-the-water-transitional-poems/oclc/197197> ;
+  dc:title "Typescript Draft of Sleep In The Mojave Desert" ;
+  ns0:country <https://dbpedia.org/resource/England> ;
+  dc:date 0 ;
+  dc:creator "Sylvia Plath" .
+
+<https://www.bl.uk/collection-items/typescript-drafts-of-mushrooms-and-sleep-in-the-mojave-desert-by-sylvia-plath#Manifestation>
+  a ns1:Manifestation ;
+  ns1:embodimentOf <https://www.bl.uk/collection-items/typescript-drafts-of-mushrooms-and-sleep-in-the-mojave-desert-by-sylvia-plath> ;
+  dc:title "Typescript Draft of Sleep In The Mojave Desert" ;
+  dc:date 0 ;
+  dc:creator "Sylvia Plath" ;
+  dc:format "Digital" ;
+  dc:source "British Library" .
+
+<https://github.com/SylviaPlath-Archive/SylviaPlath-Archive/blob/main/img/Plath%2BHughes%20(2)/SleepIMD.jpg>
+  a ns1:Item ;
+  ns1:exemplarOf <https://www.bl.uk/collection-items/typescript-drafts-of-mushrooms-and-sleep-in-the-mojave-desert-by-sylvia-plath#Manifestation> ;
+  dc:title "Typescript Draft of Sleep In The Mojave Desert" ;
+  dc:format "Digital" .
+
+<http://maps-legacy.org/poets/m_r/plath/stingsdrafts.htm>
+  a ns1:Expression ;
+  ns1:realizationOf <https://www.worldcat.org/it/title/crossing-the-water-transitional-poems/oclc/197197> ;
+  dc:title "Manuscript Draft of Stings" ;
+  ns0:country <https://dbpedia.org/resource/England> ;
+  dc:format "Manuscript" ;
+  dc:medium "Memorandum Paper" ;
+  dc:date 1962 ;
+  dc:creator "Sylvia Plath" ;
+  dc:source "Smith College" .
+
+<http://maps-legacy.org/poets/m_r/plath/stingsdrafts.htm#Manifestation>
+  a ns1:Manifestation ;
+  ns1:embodimentOf <http://maps-legacy.org/poets/m_r/plath/stingsdrafts.htm> ;
+  dc:title "Manuscript Draft of Stings" ;
+  dc:date 1962 ;
+  dc:creator "Sylvia Plath" ;
+  dc:format "Digital" ;
+  dc:source "Smith College" .
+
+<https://github.com/SylviaPlath-Archive/SylviaPlath-Archive/blob/main/img/Stings(3)/Stings_mem_0.jpg>
+  a ns1:Item ;
+  ns1:exemplarOf <http://maps-legacy.org/poets/m_r/plath/stingsdrafts.htm#Manifestation> ;
+  dc:title "Manuscript Draft of Stings" ;
+  dc:format "Digital" .
+
+<https://github.com/SylviaPlath-Archive/SylviaPlath-Archive/blob/main/img/Stings(3)/Stings_mem_1.jpg>
+  a ns1:Item ;
+  ns1:exemplarOf <http://njh.me/> ;
+  dc:title "Manuscript Draft of Stings" ;
+  dc:format "Digital" .
+
+<https://github.com/SylviaPlath-Archive/SylviaPlath-Archive/blob/main/img/Stings(3)/Stings_mem_2.jpg>
+  a ns1:Item ;
+  ns1:exemplarOf <http://njh.me/> ;
+  dc:title "Manuscript Draft of Stings" ;
+  dc:format "Digital" .
+
+<https://www.worldcat.org/it/title/1338682588>
+  a ns1:Work ;
+  dc:title "The Bell Jar" ;
+  dc:creator "Sylvia Plath" ;
+  ns0:country <http://dbpedia.org/resource/United_States> ;
+  ns0:literaryGenre <https://dbpedia.org/page/Prose> ;
+  ns0:publisher <https://dbpedia.org/page/Heinemann_(publisher)> .
+
+<https://www.bl.uk/collection-items/typescript-second-draft-of-the-bell-jar-by-sylvia-plath>
+  a ns1:Expression ;
+  ns1:realizationOf <https://www.worldcat.org/it/title/1338682588> ;
+  dc:title "Manuscript Draft of The Bell Jar" ;
+  ns0:country <https://dbpedia.org/resource/England> ;
+  dc:format "Manuscript" ;
+  dc:creator "Sylvia Plath" ;
+  dc:source "British Library" .
+
+<https://www.bl.uk/collection-items/typescript-second-draft-of-the-bell-jar-by-sylvia-plath#Manifestation>
+  a ns1:Manifestation ;
+  ns1:embodimentOf <https://www.bl.uk/collection-items/typescript-second-draft-of-the-bell-jar-by-sylvia-plath> ;
+  dc:title "Manuscript Draft of The Bell Jar" ;
+  dc:creator "Sylvia Plath" ;
+  dc:format "Digital" ;
+  dc:source "British Library" .
+
+<https://github.com/SylviaPlath-Archive/SylviaPlath-Archive/blob/main/img/The%20Bell%20Jar%20(5)/The%20Bell%20Jar%2001.jpg>
+  a ns1:Item ;
+  ns1:exemplarOf <https://www.bl.uk/collection-items/typescript-second-draft-of-the-bell-jar-by-sylvia-plath#Manifestation> ;
+  dc:title "Manuscript Draft of The Bell Jar" ;
+  dc:format "Digital" .
+
+<https://github.com/SylviaPlath-Archive/SylviaPlath-Archive/blob/main/img/The%20Bell%20Jar%20(5)/The%20Bell%20Jar%2002.jpg>
+  a ns1:Item ;
+  ns1:exemplarOf <http://njh.me/> ;
+  dc:title "Manuscript Draft of Stings" ;
+  dc:format "Digital" .
+
+<https://github.com/SylviaPlath-Archive/SylviaPlath-Archive/blob/main/img/The%20Bell%20Jar%20(5)/The%20Bell%20Jar%2003.jpg>
+  a ns1:Item ;
+  ns1:exemplarOf <http://njh.me/> ;
+  dc:title "Manuscript Draft of Stings" ;
+  dc:format "Digital" .
+
+<https://github.com/SylviaPlath-Archive/SylviaPlath-Archive/blob/main/img/The%20Bell%20Jar%20(5)/The%20Bell%20Jar%2004.jpg>
+  a ns1:Item ;
+  ns1:exemplarOf <http://njh.me/> ;
+  dc:title "Manuscript Draft of Stings" ;
+  dc:format "Digital" .
+
+<https://github.com/SylviaPlath-Archive/SylviaPlath-Archive/blob/main/img/The%20Bell%20Jar%20(5)/The%20Bell%20Jar%2005.jpg>
+  a ns1:Item ;
+  ns1:exemplarOf <http://njh.me/> ;
+  dc:title "Manuscript Draft of The Bell Jar" ;
+  dc:format "Digital" .
+
