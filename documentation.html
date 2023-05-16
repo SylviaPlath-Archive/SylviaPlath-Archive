@@ -190,7 +190,7 @@ http://www.templatemo.com/preview/templatemo_427_timeline
                     <li>Item - a single copy or instance of a manifestation, such as a specific book from a library's collection.</li>
                 </ol>
                 <p>The standards we've refereed to have been declared through the following namespaces placed in the TEI element:</p>
-                <p><img style="width: 50%; align-self: center;" src="images/namespaces.png"></p>
+                <p><img style="width: 50%; padding:2%;" src="images/namespaces.png"></p>
                 
                 <p>We dedicated an RDF description tag to each of the FRBR group 1 entities (Work, Expression, Manifestation, Item), we started by describing the work inserting the URI referring to the Worldcat metadata information regarding the each of the works.</p>
                 <p>For the expression, we represeted it referring to the URI of the British Library page or Smith College page, containing the metadata regarding the specific expression we encoded.</p>
@@ -198,7 +198,7 @@ http://www.templatemo.com/preview/templatemo_427_timeline
                 <p>In the end, the item has been described referring to our own URI pointing to the specific item, as specific explar of the manifestation.</p>
                 <p>As explained above, the triples involving the description of our items have been organized in four <code>rdf:Description</code> tags for each item, each one describing one of the four FRBR Group 1 entities. Here follows an example for the Work entity, 
                     for describing which we referred mainly to Worldcat URIs:
-                <img style="width: 50%; align-self: center;" src="images/frbrWork.png"></p>
+                <img style="width: 60%; padding:2%;" src="images/frbrWork.png"></p>
                 <!--screen xenodata-->
                 <p>Finally, the information contained in each of the <code>xenoData</code> tag of our items has been collected into one single turtle file, thus creating a Knowledge Graph connecting all the triples describing the items. The file is available <a href="https://github.com/SylviaPlath-Archive/SylviaPlath-Archive/blob/main/ttl/kg_allitems.ttl">here</a>. </p>
                 <p>Then, the turtle file has been validated and an svg visualization of such graph has been producted and can be consulted <a href="https://github.com/SylviaPlath-Archive/SylviaPlath-Archive/tree/main/images/rdf-grapher.svg">here</a> as well as in the following image:</p>
@@ -218,7 +218,7 @@ http://www.templatemo.com/preview/templatemo_427_timeline
                     <li><code>l</code>: it contains a single line of verse of the poem.</li>
                 </ul>
 
-                <h2>IIF</h2>
+                <h2>IIIF</h2>
                 <p>Besides all the challenges in hand listed so far while building a digital scholarly edition, another possible issue under constant change is the way facsimiles and digitized works are displayed on the web, giving the possibility to the user to explore the item as much as possible.</p>
                 <p>Indeed, dealing with images in the digital world can be complex depending on the task, and here we’re talking about high quality images, because many times a certain manuscript could be built into layers, and that should somehow should be visible even on the image/digitized version of that work.</p>
                 <p>And since 2012, the <a href="http://iiif.io/">International Image Interoperability Framework (IIIF)</a> has been enabling scholars to view, annotate and remix digitized images. The Bodleian has been in the vanguard of these developments, first with <a href="http://digital.bodleian.ox.ac.uk/">Digital.Bodleian</a>, our IIIF-compatible digitized special collections website, and now with the <a href="http://dmt.bodleian.ox.ac.uk/">Digital Manuscripts Toolkit</a>, which will open up IIIF technology to humanities researchers with a set of easy-to-use tools.</p>
