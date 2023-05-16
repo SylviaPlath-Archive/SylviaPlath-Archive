@@ -126,7 +126,7 @@ http://www.templatemo.com/preview/templatemo_427_timeline
                                 <div class="gallery__item">
                                 <input type="radio" id="img-2" name="gallery" class="gallery__selector" />
                                 <img class="gallery__img" src="img/Plath+Hughes (2)/SleepIMD.jpg" alt="" height="400px"/>
-                                <label for="img-2" class="gallery__thumb"><img src="img/Plath+Hughes (2)/SleepIMD.jpg" height="100px" alt="" onclick="displayxml('XML/SleepMJ.xml')"/></label>
+                                <label for="img-2" class="gallery__thumb"><img src="img/Plath+Hughes (2)/SleepIMD.jpg" height="100px" alt="" /></label>
                                 </div>
                                 
                             </section>
@@ -150,7 +150,7 @@ http://www.templatemo.com/preview/templatemo_427_timeline
         function displayxml(xmlpath){
             console.log("load of xml file")
         var CETEIcean = new CETEI()
-                CETEIcean.getHTML5(xmlpath, function(data) {
+                CETEIcean.getHTML5("XML/SleepMJ.xml", function(data) {
                     document.getElementById("TEI").innerHTML = "";
                   document.getElementById("TEI").appendChild(data)
                 })
