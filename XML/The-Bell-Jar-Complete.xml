@@ -80,7 +80,6 @@
               <dcterms:title>Manuscript Draft of The Bell Jar</dcterms:title>
               <dbo:country rdf:resource="https://dbpedia.org/resource/England"/>
               <dcterms:format>Manuscript</dcterms:format>
-              <dcterms:medium>Memorandum Paper</dcterms:medium>
               <dcterms:creator>Sylvia Plath</dcterms:creator>
               <dcterms:source>British Library</dcterms:source>
               
