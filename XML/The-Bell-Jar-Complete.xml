@@ -8,7 +8,7 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:foaf="http://xmlns.com/foaf/0.1/"
    xmlns:dbo="http://dbpedia.org/ontology/"
-   xmlns:dc="http://purl.org/dc/terms/"
+   xmlns:dcterms="http://purl.org/dc/terms/"
    xmlns:frbr="http://purl.org/vocab/frbr/core#"   
    >
   <teiHeader>
@@ -64,15 +64,79 @@
         </settingDesc>
      </profileDesc>
      <xenoData>
-        <frbr:frbr>
-           <rdf:Description tei:ref="#thebelljaar" rdf:about="https://www.worldcat.org/it/title/1338682588">
-              <rdf:type rdf:resource="frbr:work"></rdf:type>
-              <dc:title xml:lang="en">The Bell Jar</dc:title>
-              <frbr:expression tei:ref="seconddraft" rdf:about="https://www.bl.uk/collection-items/typescript-second-draft-of-the-bell-jar-by-sylvia-plath"/>
-              <frbr:manifestation frbr:embodiment="https://schema.org/surface"/>
-              <frbr:item type=""></frbr:item>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+           <rdf:Description rdf:about="https://www.worldcat.org/it/title/1338682588"> 
+              <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Work"/>
+              <dcterms:title>The Bell Jar</dcterms:title>
+              <dcterms:creator>Sylvia Plath</dcterms:creator>
+              <dbo:country rdf:resource="http://dbpedia.org/resource/United_States"/>
+              <dbo:literaryGenre rdf:resource="https://dbpedia.org/page/Prose"/>
+              <dbo:publisher rdf:resource="https://dbpedia.org/page/Heinemann_(publisher)"/>
            </rdf:Description>
-        </frbr:frbr>
+           
+           <rdf:Description rdf:about="https://www.bl.uk/collection-items/typescript-second-draft-of-the-bell-jar-by-sylvia-plath">
+              <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Expression"/>
+              <frbr:realizationOf rdf:resource="https://www.worldcat.org/it/title/1338682588"/>
+              <dcterms:title>Manuscript Draft of The Bell Jar</dcterms:title>
+              <dbo:country rdf:resource="https://dbpedia.org/resource/England"/>
+              <dcterms:format>Manuscript</dcterms:format>
+              <dcterms:medium>Memorandum Paper</dcterms:medium>
+              <dcterms:creator>Sylvia Plath</dcterms:creator>
+              <dcterms:source>British Library</dcterms:source>
+              
+           </rdf:Description>
+           
+           <rdf:Description rdf:about="https://www.bl.uk/collection-items/typescript-second-draft-of-the-bell-jar-by-sylvia-plath#Manifestation">
+              <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Manifestation"/>
+              <frbr:embodimentOf rdf:resource="https://www.bl.uk/collection-items/typescript-second-draft-of-the-bell-jar-by-sylvia-plath"/>
+              <dcterms:title>Manuscript Draft of The Bell Jar</dcterms:title>
+              <dcterms:creator>Sylvia Plath</dcterms:creator>
+              <dcterms:format>Digital</dcterms:format>
+              <dcterms:source>British Library</dcterms:source>
+              
+           </rdf:Description>
+           
+           <rdf:Description rdf:about="https://github.com/SylviaPlath-Archive/SylviaPlath-Archive/blob/main/img/The%20Bell%20Jar%20(5)/The%20Bell%20Jar%2001.jpg">
+              <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Item"/>
+              <frbr:exemplarOf rdf:resource="https://www.bl.uk/collection-items/typescript-second-draft-of-the-bell-jar-by-sylvia-plath#Manifestation"/>
+              <dcterms:title>Manuscript Draft of The Bell Jar</dcterms:title>                 
+              <dcterms:format>Digital</dcterms:format>
+              
+           </rdf:Description>
+           
+           <rdf:Description rdf:about="https://github.com/SylviaPlath-Archive/SylviaPlath-Archive/blob/main/img/The%20Bell%20Jar%20(5)/The%20Bell%20Jar%2002.jpg">
+              <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Item"/>
+              <frbr:exemplarOf rdf:resource=""/>
+              <dcterms:title>Manuscript Draft of Stings</dcterms:title>                 
+              <dcterms:format>Digital</dcterms:format>
+              
+           </rdf:Description>  
+           <rdf:Description rdf:about="https://github.com/SylviaPlath-Archive/SylviaPlath-Archive/blob/main/img/The%20Bell%20Jar%20(5)/The%20Bell%20Jar%2003.jpg">
+                 <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Item"/>
+                 <frbr:exemplarOf rdf:resource=""/>
+                 <dcterms:title>Manuscript Draft of Stings</dcterms:title>                 
+                 <dcterms:format>Digital</dcterms:format>
+                 
+              </rdf:Description>
+           
+           <rdf:Description rdf:about="https://github.com/SylviaPlath-Archive/SylviaPlath-Archive/blob/main/img/The%20Bell%20Jar%20(5)/The%20Bell%20Jar%2004.jpg">
+              <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Item"/>
+              <frbr:exemplarOf rdf:resource=""/>
+              <dcterms:title>Manuscript Draft of Stings</dcterms:title>                 
+              <dcterms:format>Digital</dcterms:format>
+              
+           </rdf:Description>
+           
+           <rdf:Description rdf:about="https://github.com/SylviaPlath-Archive/SylviaPlath-Archive/blob/main/img/The%20Bell%20Jar%20(5)/The%20Bell%20Jar%2005.jpg">
+              <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Item"/>
+              <frbr:exemplarOf rdf:resource=""/>
+              <dcterms:title>Manuscript Draft of The Bell Jar</dcterms:title>                 
+              <dcterms:format>Digital</dcterms:format>
+              
+           </rdf:Description>
+              
+        </rdf:RDF>
+        
      </xenoData>
      
   </teiHeader>
