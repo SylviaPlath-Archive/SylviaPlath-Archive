@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:dbo="http://dbpedia.org/ontology/"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:frbr="http://purl.org/vocab/frbr/core#">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Sylvia Plath's Journal - 2 March 1958</title>
+            <author>Sylvia Plath</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>Series I. Writings. Journals. Autograph manuscript on lined paper, half-bound in red cloth with maroon paper over boards, blind-stamped on back cover: C. Cambridge Ltd. / Birmingham / C.B. 900, iv, 181, [3] numbered pages (pages 177-78 are lacking), 1957 Aug 28-1958 Oct 15.</edition>
+            <respStmt>
+               <resp>Encoding</resp>
+               <persName>Anita Liviabella</persName>
+               <orgName>Alma Mater Studiorum - University of Bologna</orgName>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <p>for exercise only</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>From the Mortimer Rare Book Room, Smith College Libraries (Massachusetts)</p>
+         </sourceDesc>
+      </fileDesc> 
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="TedHughes">
+                  <persName type="cited_author"
+                     sameAs="https://dbpedia.org/page/Ted_Hughes">Ted Hughes</persName>
+               </person>
+               <person xml:id="JamesBramwell">
+                  <persName type="cited_person"
+                     sameAs="https://dbpedia.org/page/Category:English_masculine_given_names">James Bramwell</persName>
+               </person>
+               <person xml:id="JohnWebster">
+                  <persName type="cited_author"
+                     sameAs="https://dbpedia.org/page/John_Webster">John Webster</persName>
+               </person>
+               <person xml:id="Shirley">
+                  <persName type="cited_person"
+                     sameAs="https://dbpedia.org/page/English_name">Shirley</persName>
+               </person>
+
+               <!--end people 1-1958-->
+
+                <person xml:id="VirginiaWoolf">
+                  <persName type="cited_author"
+                     sameAs="https://dbpedia.org/page/Virginia_Woolf">Wirginia Woolf</persName>
+               </person>
+               <person xml:id="DHLawrence">
+                  <persName type="cited_author"
+                     sameAs="https://dbpedia.org/page/D._H._Lawrence">D H Lawrence</persName>
+               </person>
+
+               <person xml:id="Joan">
+                  <persName type="cited_person"
+                     sameAs="https://dbpedia.org/page/English_name">Joan</persName>
+
+                <!--end people 2-1958-->
+
+               <person xml:id="FranciscoGoya">
+                  <persName type="cited_artist"
+                     sameAs="https://dbpedia.org/page/Francisco_Goya">Francisco Goya</persName>
+               </person>
+
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <place xml:id="France">
+                  <settlement type="country" sameAs="https://dbpedia.org/page/France">France</settlement>
+               </place>
+               <place xml:id="Australia">
+                  <settlement type="country" sameAs="https://dbpedia.org/page/Australia">Australia</settlement>
+               </place>
+
+            <!--end places 1-1958-->
+                <place xml:id="America">
+                     <settlement type="country" sameAs="https://dbpedia.org/page/United_States">America</settlement>
+                </place>
+            <!--end places 2-1958-->
+
+                <place xml:id="Stockolm">
+                  <settlement type="city" sameAs="https://dbpedia.org/page/Stockholm">Stockolm</settlement>
+               </place>
+               <place xml:id="Finland">
+                  <settlement type="country" sameAs="https://dbpedia.org/page/Finland">Finland</settlement>
+               </place>
+
+            </listPlace>
+         </settingDesc>
+
+      </profileDesc>
+      <xenoData>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+                  <rdf:Description rdf:about="https://www.worldcat.org/it/title/44133088"> 
+                  <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Work"/>
+                  <dcterms:title>The Unabridged Journals</dcterms:title>
+                  <dcterms:creator>Sylvia Plath</dcterms:creator>
+                  <dbo:country rdf:resource="https://dbpedia.org/page/United_States"/>
+                  <dbo:literaryGenre rdf:resource="http://dbpedia.org/resource/Prose"/>
+                  </rdf:Description>
+
+               <rdf:Description rdf:about="https://www.bl.uk/collection-items/sylvia-plaths-journal-2-march-1958">
+                  <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Expression"/>
+                  <frbr:realizationOf rdf:resource="https://www.worldcat.org/it/title/44133088"/>
+                  <dcterms:title>Sylvia Plath's journal, 2 March 1958</dcterms:title>
+                  <dbo:country rdf:resource="https://dbpedia.org/resource/England"/>
+      
+                  <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1958</dcterms:date>
+                  <dcterms:creator>Sylvia Plath</dcterms:creator>
+
+               </rdf:Description>
+
+               <!--manifestation-->
+
+               <rdf:Description rdf:about="https://www.bl.uk/collection-items/sylvia-plaths-journal-2-march-1958#Manifestation"> 
+                  <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Manifestation"/>
+                  <frbr:embodimentOf rdf:resource="https://www.bl.uk/collection-items/sylvia-plaths-journal-26-february-1956"/>
+                  <dcterms:title>Typewritten draft of Sylvia Plath journal, 2 March 1958</dcterms:title>
+                  <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1958</dcterms:date>
+                  <dcterms:creator>Sylvia Plath</dcterms:creator>
+                  <dcterms:format>Typewritten page</dcterms:format>
+                  <dcterms:medium>Digital</dcterms:medium>
+                  <dcterms:source>British Library</dcterms:source>
+                  </rdf:Description>
+
+                <!--items-->
+
+               <rdf:Description rdf:about="https://github.com/SylviaPlath-Archive/SylviaPlath-Archive/blob/main/img/Journal%20-%201958%20(3)/Plath%20Journal%2001.jpg"> <!--CURI ON GITHUB-->
+                  <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Item"/>
+                  <frbr:exemplarOf rdf:resource="https://www.bl.uk/britishlibrary/~/media/bl/global/dl%2020th%20century/20th%20century%20collection%20items/rs5182_smith_mrbr_45_b003_f020_001_p061.jpg"/>
+                  <dcterms:title>Sylvia Plath's journal, 2 March 1958</dcterms:title>                 
+                  <dcterms:format>Digital</dcterms:format>
+               </rdf:Description>
+
+               <!--2-->
+                 <rdf:Description rdf:about=https://github.com/SylviaPlath-Archive/SylviaPlath-Archive/blob/main/img/Journal%20-%201958%20(3)/Plath%20Journal%2002.jpg"">
+                  <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Item"/>
+                  <frbr:exemplarOf rdf:resource="https://www.bl.uk/britishlibrary/~/media/bl/global/dl%2020th%20century/20th%20century%20collection%20items/rs5183_smith_mrbr_45_b003_f020_001_p062.jpg"/>
+                  <dcterms:title>Sylvia Plath's journal, 2 March 1958</dcterms:title>                 
+                  <dcterms:format>Digital</dcterms:format>
+               </rdf:Description>
+
+               <!--3-->
+                <rdf:Description rdf:about="https://github.com/SylviaPlath-Archive/SylviaPlath-Archive/blob/main/img/Journal%20-%201958%20(3)/Plath%20Journal%2003.jpg"> <!--CURI ON GITHUB-->
+                  <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Item"/>
+                  <frbr:exemplarOf rdf:resource="https://www.bl.uk/britishlibrary/~/media/bl/global/dl%2020th%20century/20th%20century%20collection%20items/rs5181_smith_mrbr_45_b003_f020_001_p063.jpg"/>
+                  <dcterms:title>Sylvia Plath's journal, 2 March 1958</dcterms:title>                 
+                  <dcterms:format>Digital</dcterms:format>
+             
+               </rdf:RDF>
+      </xenoData> 
+   </teiHeader>
+  <text>
+      <body>
+         <pb n="01" facs="#page1"></pb>
+         <p rend="pos_right"><w rend="circled">61</w><add place="below">2</add><l/></p>
+            <lb></lb>
+            
+            <p><hi rend="underline">Sunday night: <date>March 2</date>:</hi> Again, late: It will betwelve before I<l/>
+            sleep. A strange, stopped day: <persName ref="#TedHughes">Ted</persName> + I having morning coffee-<l/>
+            black + bitter-edged, with the Bramwells in their uncomfortable<l/>
+            second-flor flat, chairs turned wrond-side-to, records scattered,<l/>
+            white marble free place angular + functionless. <persName ref="#JamesBramwell">James</persName> is<l/>
+            leaving for their home in <placeName ref="#France">France</placeName> tomorrow. <persName ref="#TedHughes">Ted</persName> met him in<l/>
+            the library yesterday, a few seconds before I came into the<l/>
+            periodical room from my last class of the week: I looked<l/>
+            into the room throught the glass door before I opened it, saw no<l/>
+            black coated <persName ref="#TedHughes">Ted</persName>, pushed the door open, saw <persName ref="#JamesBramwell">James</persName>' back in<l/>
+            brown, white tweed coat then <persName ref="#TedHughes">Ted</persName>, dark, disheveled + with<l/>
+            that  queer eletric invisible radiance he gives off as he<l/>
+            did that first day I saw him over two years ago: to think,<l/>
+            irony of <gap reason="illegible"></gap>, that two years ago I was  feverishly studying<l/>
+            <persName ref="#JohnWebster">Webster</persName><gap reason="illegible"></gap>for my supervisions (which very plays I<l/>
+            am this week examinging my students on and furiously,<l/>
+            desperately, taling myself into a crazy belief that I would<l/>
+            somehow mange to see <persName ref="#TedHughes">Ted</persName> + imprint my markineffacably<l/>
+            on him before he left for <placeName ref="#Australia">Australia</placeName> and murder his pale<l/>
+            freckled mistres named <persName ref="#Shirley">Shirley</persName>. let all rivals forever<l/>
+            be called <persName ref="#Shirley">Shirley</persName>. How, now sitting here in the calme clared<l/>
+            livingroom where we have own ordered teas, I feel I have<l/>
+            wrested chaos and despair - and all the mwasteful<l/>
+            accident of life - into a rich and meaninfgful pattern -
+            The light trhough this door, into the dark dum pink-walled<l/>
+            dining alcove, shires to our bedroom + bright from<l/>
+            his writing of poems in the swept spacious bedroom<l/>
+            the chink of light through the crack in <add place="above">between</add> the doorframe<l/>
+            + door betrays him to me: + suddenly all, is most, of<l/>
+            that long 35 page chapter which should be - the<l/>
+            evenets at leas - the core of my novel, seem cheap<l/>
+            easily come-by-all that sensational jabber about<l/>
+            winds + doors + walls balging away and back.<l/>
+            But that was the p<hi rend="underline">sychi</hi>c equivante of the whole<l/>
+         </p>
+
+         <pb n="02" facs="#page2"></pb>
+         <p><w rend="circled">62</w><add place="below">3</add><l/></p>
+         <lb></lb>
+         
+         <p>experience: how does <persName ref="#VirginiaWoolf">Woolf</persName> do it? How does <persName ref="#DHLawrence">Lawrence</persName> do<l/>
+            it? I come down to learn of those two: <persName ref="#DHLawrence">Lawrence</persName>,<l/> 
+            because of the rich physical passion,- fields of foces - <l/>
+            and the real pres<hi rend="underline">en</hi>ce of leaves and earth and beasts<l/>
+            and weathers, sap-rich, and <persName ref="#VirginiaWoolf">Woolf</persName> because of tha<l/>
+            almost sexless neurotic lu<hi rend="underline">minous</hi>ness - The cathing<l/>
+            of objects: chairs, tables + the figures on a street<l/>
+            corer, and the infusion of radiance: a shimmer<l/>
+            of the plasm that <hi rend="underline">is</hi> life. I can<add place="above">not</add> must not copy<l/>
+            either. God knows what tone I shall strike. Close to<l/>
+            a prose-poem of balanced, cadence words and <l/>
+            meanings, of street-corners and lights and people, <l/>
+            but not merely romantic; not marely <gap reason="illegible"></gap><l/>
+            not merely a diary: not, ostensibily, autobiographic:<l/>
+            in one year I must so <gap reason="illegible"></gap> this experience in<l/>
+            my mind, <gap reason="illegible"></gap> it with distance, <add place="above">create</add> cool shrewd<l/>
+            views of it, so that it becomes reshapen. All this - <l/>
+            digression: <persName ref="#JamesBramwell">James</persName>, the subject: yesterday, a broken man, <l/>
+            his craggy sallow face, with its look of genial <gap reason="illegible"></gap><l/>
+            black lines - hair, brows wrinkles + dark grain of<l/>
+            shawed beard, his bright <gap reason="illegible"></gap> balck eyes - all<l/>
+            seemed broken, askew, <persName ref="#TedHughes">Ted</persName>said his hand was weak<l/>
+            and cold as snails. when are you leaving <placeName ref="#America">America</placeName>?"<l/>
+            I felt impelled to ask first, meaning, of course, when <l/>
+            in summer. "Monday", e said. He cant work here, cant<l/>
+            write here. He taled loudly, in an audible whisper if I<l/>
+            wanted to quiet him, I get out of there, with the dilly<l/>
+            girls listening over their periodicals. A chink opened into<l/>
+            his heel: shat it must be to decide him to leave, +<l/>
+            how absurdly vindicated I felt, remembering <persName ref="#Joan">Joan</persName><l/>
+            mean-tuned "Why are you going? - Dont you <hi rend="underline">like</hi> it<l/>
+            here?" How can <persName ref="#JamesBramwell">James</persName> leave her? This always puzzles me,<l/>
+            I need <persName ref="#TedHughes">Ted</persName> to smell + kiss + sleep + read by as I<l/>
+            need bread + wine. I like <persName ref="#JamesBramwell">James</persName>; ine of the few men here                    
+         </p>
+
+         <pb n="03" facs="page3"></pb>
+         <p rend="pos_right"><w rend="circled">63</w><add place="below">4</add><l/></p>
+         <lb></lb>
+ 
+         <p>whose life' doesn't seem aavailable, processe in uniform,<l/>
+            callophane-wrapped blocks, like synthetic orange cheese:<l/>
+            <persName ref="#JamesBramwell">James</persName> has the authentic, cave-aged, mold-ripened smess of<l/>
+            The real thing. And yet, not a man, not completely. <persName ref="#Joan">Joan</persName><l/>
+            seems young + then for him. At coffee this morning he<l/>
+            seemed restored, jovial. We talked of bulls + bullfights,<l/>
+            after the two movies - on <persName ref="#rRanciscoGoya">Goya</persName> + bullighting - last night.<l/>
+            I borrowed <persName ref="#JamesBramwell">James</persName> autobiography + finished it tonight:<l/>
+            750 pages, "The Unfinished Man" - about his experiences as<l/>
+            a conscientious objector during the war: desultory<l/>
+            beginning, here, there, <placeName ref="#Stockolm">Stockolm</placeName>, <placeName ref="#Finland">Finland</placeName> + all told <hi rend="underline">about</hi>,<l/>
+            characters pos trayed, not actually moving + talling on<l/>
+            their own, but talked about, half-emerged, like a <gap reason="unclear"></gap> of<l/>
+            flushed marble. And women: he seem to <gap reason="illegible"></gap> from them -<l/>
+            his wife queerly in the background, diminuishing to<l/>
+            <placeName ref="#America">America</placeName>, to divorse; his child evaporating. "A told-about"<l/>
+            love affair' with' a queer Finnish girl, death-oriented, who<l/>
+            commits suicide (was he to blame, partly? did it really<l/>
+            happen?) and a rather illuminating statement that<l/>
+            he ("like most men") believes that loving a woman<l/>
+            eternally isn't incompatible with leaving her: loving, leaving-<l/>
+            a lovely consunance. I don't see it: and my man doesn't,<l/>
+            The quiet of midnight settlesover Route q. Already it is<l/>
+            tomorrow + the days I cross off with such vicious glee,-<l/>
+            just as I toss, with premature eagerness, empty bottles<l/>
+            of wine + honey' into the waste basket be near +<l/>
+            clear of clogging half-full jais-are those of my youngness<l/>
+            + my promise. I believe, whether in madness or in half-<l/>
+            truth that if  I live' for a year with the two years of my<l/>
+            life + learning . at Cambler age I can write + rewrite a<l/>
+            good novel. Ten times this 35 page chapter + rewriting +<l/>
+            rewriting'. Goal set: <date>June 1959</date>: a novel + book of<l/>
+            poems, I can not draw in <persName ref="#JamesBramwell">James'</persName> drama: war, <gap reason="illegible"></gap>,
+            parachute doprs, hospitals in trenhces - my womans<lb/>
+            <gap reason="illegible"></gap> is <gap reason="illegible"></gap> psychic + aesthetic: love+ <unclear reason="damaged">looki</unclear>
+                
+         </p>
+      </body>
+  </text>
+</TEI>

@@ -83,27 +83,25 @@
 
                </rdf:Description>
 
-               <rdf:Description rdf:about="https://www.bl.uk/collection-items/sylvia-plaths-journal-26-february-1956"> <!--lINK DA CREARE-->
+               <rdf:Description rdf:about="https://www.bl.uk/britishlibrary/~/media/bl/global/dl%2020th%20century/20th%20century%20collection%20items/rs5169_smith_mrbr_45_b003_f009_003.jpg"> <!--LINK IMG.BL-->>
                   <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Manifestation"/>
                   <frbr:embodimentOf rdf:resource="https://www.bl.uk/collection-items/sylvia-plaths-journal-26-february-1956"/>
                   <dcterms:title>Typewritten page of Sylvia Plath journal, 26 February 1956</dcterms:title>
                   <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1956</dcterms:date>
                   <dcterms:creator>Sylvia Plath</dcterms:creator>
                   <dcterms:format>Typewritten page</dcterms:format>
-                  <dcterms:medium>Paper</dcterms:medium>
+                  <dcterms:medium>Digital</dcterms:medium>
                   <dcterms:source>British Library</dcterms:source>
                   </rdf:Description>
 
-               <rdf:Description rdf:about="https://github.com/SylviaPlath-Archive/SylviaPlath-Archive/blob/main/img/Journal%20-%20Feb%201956%20(4)/Sylvia%20Plath's%20journal%2C%2026%20February%201956%20%5B3%5D.jpg"> <!--CURI ON GITHUB-->
+               <rdf:Description rdf:about="https://github.com/SylviaPlath-Archive/SylviaPlath-Archive/blob/main/img/Journal%20-%20Feb%201956%20(4)/Sylvia%20Plath's%20journal%2C%2026%20February%201956%20%5B3%5D.jpg"> <!--LINK ON GITHUB-->
                   <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Item"/>
-                  <frbr:exemplarOf rdf:resource=""/>
+                  <frbr:exemplarOf rdf:resource="https://www.bl.uk/britishlibrary/~/media/bl/global/dl%2020th%20century/20th%20century%20collection%20items/rs5169_smith_mrbr_45_b003_f009_003.jpg"/>
                   <dcterms:title>Sylvia Plath's journal, 26 February 1956</dcterms:title>                 
-                  <dcterms:format>Digital</dcterms:format>
-                  
-               </rdf:Description>
-
-                           
+                  <dcterms:format>Digital</dcterms:format>                 
+               </rdf:Description>              
                </rdf:RDF>
+
       </xenoData>
    </teiHeader>
   <text>

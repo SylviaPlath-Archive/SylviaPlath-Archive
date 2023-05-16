@@ -66,7 +66,7 @@
                   <dcterms:creator>Sylvia Plath</dcterms:creator>
 
                </rdf:Description>
-               <rdf:Description rdf:about="https://www.bl.uk/britishlibrary/~/media/bl/global/dl%2020th%20century/20th%20century%20collection%20items/drafts-of-mushrooms-and-add_ms_53784_f26v.jpg">
+               <rdf:Description rdf:about="https://www.bl.uk/collection-items/typescript-drafts-of-mushrooms-and-sleep-in-the-mojave-desert-by-sylvia-plath#Manifestation">
                   <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Manifestation"/>
                   <frbr:embodimentOf rdf:resource="https://www.bl.uk/collection-items/typescript-drafts-of-mushrooms-and-sleep-in-the-mojave-desert-by-sylvia-plath"/>
                   <dcterms:title>Typescript Draft of Sleep In The Mojave Desert</dcterms:title>
@@ -79,7 +79,7 @@
 
                <rdf:Description rdf:about="https://github.com/SylviaPlath-Archive/SylviaPlath-Archive/blob/main/img/Plath%2BHughes%20(2)/SleepIMD.jpg">
                   <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Item"/>
-                  <frbr:exemplarOf rdf:resource=""/>
+                  <frbr:exemplarOf rdf:resource="https://www.bl.uk/collection-items/typescript-drafts-of-mushrooms-and-sleep-in-the-mojave-desert-by-sylvia-plath#Manifestation">"/>
                   <dcterms:title>Typescript Draft of Sleep In The Mojave Desert</dcterms:title>                 
                   <dcterms:format>Digital</dcterms:format>
                   
