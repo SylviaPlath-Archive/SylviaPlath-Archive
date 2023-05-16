@@ -1296,4 +1296,5 @@ button.explore a{
 
   #mySidenav a:hover{color:#761d2c;}
   
-.download a:hover{color: gray; text-decoration: underline;}
+.download a:hover{color: gray !important;
+     text-decoration: underline;}
