@@ -1299,3 +1299,4 @@ button.explore a{
 .download a:hover{color: gray !important;
      text-decoration: underline;}
 #kg:hover{transform: scale(1.5);}
+.details a:hover{color: #ccc !important; text-decoration: none;}
