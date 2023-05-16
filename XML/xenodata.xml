@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   xmlns:tei="http://www.tei-c.org/ns/1.0"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:dbo="http://dbpedia.org/ontology/"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:frbr="http://purl.org/vocab/frbr/core#"   
+   >
+   <teiHeader>
+      
+      
+      
+      <xenoData>
+               <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+                  <rdf:Description rdf:about="https://www.worldcat.org/it/title/44133088"> 
+                  <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Work"/>
+                  <dcterms:title>The Unabridged Journals</dcterms:title>
+                  <dcterms:creator>Sylvia Plath</dcterms:creator> 
+                  <dbo:country rdf:resource="https://dbpedia.org/page/United_States"/>
+                  <dbo:literaryGenre rdf:resource="http://dbpedia.org/resource/Prose"/>
+                  </rdf:Description>
+
+               <rdf:Description rdf:about="https://www.bl.uk/collection-items/sylvia-plaths-journal-26-february-1956">
+                  <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Expression"/>
+                  <frbr:realizationOf rdf:resource="https://www.worldcat.org/it/title/44133088"/>
+                  <dcterms:title>Sylvia Plath's journal, 26 February 1956</dcterms:title>
+                  <dbo:country rdf:resource="https://dbpedia.org/resource/England"/>
+                  <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1956</dcterms:date>
+                  <dcterms:creator>Sylvia Plath</dcterms:creator>
+
+               </rdf:Description>
+
+               <rdf:Description rdf:about="https://www.bl.uk/britishlibrary/~/media/bl/global/dl%2020th%20century/20th%20century%20collection%20items/rs5167_smith_mrbr_45_b003_f009_001.jpg"> <!--lINK all'immagine della BL-->
+                  <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Manifestation"/>
+                  <frbr:embodimentOf rdf:resource="https://www.bl.uk/collection-items/sylvia-plaths-journal-26-february-1956"/> <!--LINK EXPRESSION-->
+                  <dcterms:title>Typewritten page of Sylvia Plath journal, 26 February 1956</dcterms:title>
+                  <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1956</dcterms:date>
+                  <dcterms:creator>Sylvia Plath</dcterms:creator>
+                  <dcterms:format>Typewritten page</dcterms:format>
+                  <dcterms:medium>Digital</dcterms:medium>
+                   <dcterms:source>British Library</dcterms:source>
+                  </rdf:Description>
+
+               <rdf:Description rdf:about="https://github.com/SylviaPlath-Archive/SylviaPlath-Archive/blob/main/img/Journal%20-%20Feb%201956%20(4)/Sylvia%20Plath's%20journal%2C%2026%20February%201956%20%5B1%5D.jpg"> <!-- link immagine di github-->
+                  <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Item"/>
+                  <frbr:exemplarOf rdf:resource="https://www.bl.uk/britishlibrary/~/media/bl/global/dl%2020th%20century/20th%20century%20collection%20items/rs5167_smith_mrbr_45_b003_f009_001.jpg"/> <!--immagine BL-->
+                  <dcterms:title>Sylvia Plath's journal, 26 February 1956</dcterms:title>                 
+                  <dcterms:format>Digital</dcterms:format>
+               </rdf:Description>  
+
+<rdf:Description rdf:about="https://www.worldcat.org/it/title/44133088"> 
+                  <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Work"/>
+                  <dcterms:title>The Unabridged Journals</dcterms:title>
+                  <dcterms:creator>Sylvia Plath</dcterms:creator>
+                  <dbo:country rdf:resource="https://dbpedia.org/page/United_States"/>
+                  <dbo:literaryGenre rdf:resource="http://dbpedia.org/resource/Prose"/>
+                  </rdf:Description>
+
+               <rdf:Description rdf:about="https://www.bl.uk/collection-items/sylvia-plaths-journal-2-march-1958">
+                  <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Expression"/>
+                  <frbr:realizationOf rdf:resource="https://www.worldcat.org/it/title/44133088"/>
+                  <dcterms:title>Sylvia Plath's journal, 2 March 1958</dcterms:title>
+                  <dbo:country rdf:resource="https://dbpedia.org/resource/England"/>
+      
+                  <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1958</dcterms:date>
+                  <dcterms:creator>Sylvia Plath</dcterms:creator>
+
+               </rdf:Description>
+
+               <!--manifestation-->
+
+               <rdf:Description rdf:about="https://www.bl.uk/collection-items/sylvia-plaths-journal-2-march-1958#Manifestation"> 
+                  <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Manifestation"/>
+                  <frbr:embodimentOf rdf:resource="https://www.bl.uk/collection-items/sylvia-plaths-journal-26-february-1956"/>
+                  <dcterms:title>Typewritten draft of Sylvia Plath journal, 2 March 1958</dcterms:title>
+                  <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1958</dcterms:date>
+                  <dcterms:creator>Sylvia Plath</dcterms:creator>
+                  <dcterms:format>Typewritten page</dcterms:format>
+                  <dcterms:medium>Digital</dcterms:medium>
+                  <dcterms:source>British Library</dcterms:source>
+                  </rdf:Description>
+
+                <!--items-->
+
+               <rdf:Description rdf:about="https://github.com/SylviaPlath-Archive/SylviaPlath-Archive/blob/main/img/Journal%20-%201958%20(3)/Plath%20Journal%2001.jpg"> <!--CURI ON GITHUB-->
+                  <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Item"/>
+                  <frbr:exemplarOf rdf:resource="https://www.bl.uk/britishlibrary/~/media/bl/global/dl%2020th%20century/20th%20century%20collection%20items/rs5182_smith_mrbr_45_b003_f020_001_p061.jpg"/>
+                  <dcterms:title>Sylvia Plath's journal, 2 March 1958</dcterms:title>                 
+                  <dcterms:format>Digital</dcterms:format>
+               </rdf:Description>
+
+               <!--2-->
+                 <rdf:Description rdf:about="https://github.com/SylviaPlath-Archive/SylviaPlath-Archive/blob/main/img/Journal%20-%201958%20(3)/Plath%20Journal%2002.jpg">
+                  <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Item"/>
+                  <frbr:exemplarOf rdf:resource="https://www.bl.uk/britishlibrary/~/media/bl/global/dl%2020th%20century/20th%20century%20collection%20items/rs5183_smith_mrbr_45_b003_f020_001_p062.jpg"/>
+                  <dcterms:title>Sylvia Plath's journal, 2 March 1958</dcterms:title>                 
+                  <dcterms:format>Digital</dcterms:format>
+               </rdf:Description>
+
+               <!--3-->
+                <rdf:Description rdf:about="https://github.com/SylviaPlath-Archive/SylviaPlath-Archive/blob/main/img/Journal%20-%201958%20(3)/Plath%20Journal%2003.jpg"> <!--CURI ON GITHUB-->
+                  <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Item"/>
+                  <frbr:exemplarOf rdf:resource="https://www.bl.uk/britishlibrary/~/media/bl/global/dl%2020th%20century/20th%20century%20collection%20items/rs5181_smith_mrbr_45_b003_f020_001_p063.jpg"/>
+                  <dcterms:title>Sylvia Plath's journal, 2 March 1958</dcterms:title>                 
+                  <dcterms:format>Digital</dcterms:format>
+             </rdf:Description>
+
+<rdf:Description rdf:about="https://www.worldcat.org/it/title/44133088"> 
+                  <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Work"/>
+                  <dcterms:title>The Unabridged Journals</dcterms:title>
+                  <dcterms:creator>Sylvia Plath</dcterms:creator>
+                  <dbo:country rdf:resource="https://dbpedia.org/page/United_States"/>
+                  <dbo:literaryGenre rdf:resource="http://dbpedia.org/resource/Prose"/>
+                  </rdf:Description>
+
+               <rdf:Description rdf:about="https://www.bl.uk/collection-items/sylvia-plaths-journal-23-april-1959">
+                  <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Expression"/>
+                  <frbr:realizationOf rdf:resource="https://www.worldcat.org/it/title/44133088"/>
+                  <dcterms:title>Sylvia Plath's journal, 23 April 1959</dcterms:title>
+                  <dbo:country rdf:resource="https://dbpedia.org/resource/England"/>
+      
+                  <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1959</dcterms:date>
+                  <dcterms:creator>Sylvia Plath</dcterms:creator>
+
+               </rdf:Description>
+
+               <rdf:Description rdf:about="https://www.bl.uk/britishlibrary/~/media/bl/global/dl%2020th%20century/20th%20century%20collection%20items/rs5171_smith_mrbr_45_b003_f024_001.jpg"> 
+                  <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Manifestation"/>
+                  <frbr:embodimentOf rdf:resource="https://www.bl.uk/collection-items/sylvia-plaths-journal-26-february-1956"/>
+                  <dcterms:title>Typewritten draft of Sylvia Plath journal, 23 April 1959</dcterms:title>
+                  <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1959</dcterms:date>
+                  <dcterms:creator>Sylvia Plath</dcterms:creator>
+                  <dcterms:format>Typewritten page</dcterms:format>
+                  <dcterms:medium>Digital</dcterms:medium>
+                  <dcterms:source>British Library</dcterms:source>
+                  </rdf:Description>
+
+               <rdf:Description rdf:about="https://github.com/SylviaPlath-Archive/SylviaPlath-Archive/blob/main/img/Journal-1959(1)/Journals-1959(1).jpg"> <!--CURI ON GITHUB-->
+                  <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Item"/>
+                  <frbr:exemplarOf rdf:resource="https://www.bl.uk/britishlibrary/~/media/bl/global/dl%2020th%20century/20th%20century%20collection%20items/rs5171_smith_mrbr_45_b003_f024_001.jpg"/>
+                  <dcterms:title>Sylvia Plath's journal, 23 April 1959</dcterms:title>                 
+                  <dcterms:format>Digital</dcterms:format>
+                  
+               </rdf:Description>
+
+               
+                  <rdf:Description rdf:about="https://www.worldcat.org/it/title/44133088"> 
+                  <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Work"/>
+                  <dcterms:title>The Unabridged Journals</dcterms:title>
+                  <dcterms:creator>Sylvia Plath</dcterms:creator>
+                  <dbo:country rdf:resource="https://dbpedia.org/page/United_States"/>
+                  <dbo:literaryGenre rdf:resource="http://dbpedia.org/resource/Prose"/>
+                  </rdf:Description>
+
+               <rdf:Description rdf:about="https://www.bl.uk/collection-items/rose-and-percy-key-by-sylvia-plath">
+                  <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Expression"/>
+                  <frbr:realizationOf rdf:resource="https://www.worldcat.org/it/title/44133088"/>
+                  <dcterms:title>Sylvia Plath's journal, 1962</dcterms:title>
+                  <dbo:country rdf:resource="https://dbpedia.org/resource/England"/>
+      
+                  <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1962</dcterms:date>
+                  <dcterms:creator>Sylvia Plath</dcterms:creator>
+
+               </rdf:Description>
+
+               <rdf:Description rdf:about="https://www.bl.uk/collection-items/rose-and-percy-key-by-sylvia-plath#Manifestation">
+                  <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Manifestation"/>
+                  <frbr:embodimentOf rdf:resource="https://www.bl.uk/collection-items/rose-and-percy-key-by-sylvia-plath"/>
+                  <dcterms:title>Typewritten draft of Sylvia Plath journal, 1962</dcterms:title>
+                  <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1962</dcterms:date>
+                  <dcterms:creator>Sylvia Plath</dcterms:creator>
+                  <dcterms:format>Typewritten page</dcterms:format>
+                  <dcterms:medium>Paper</dcterms:medium>
+                  <dcterms:source>British Library</dcterms:source>
+                  </rdf:Description>
+
+            
+            <!--item1-->
+
+               <rdf:Description rdf:about="https://github.com/SylviaPlath-Archive/SylviaPlath-Archive/blob/main/img/journal-1962%20(2)/journals-1962.jpg"> <!--CURI ON GITHUB-->
+                  <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Item"/>
+                  <frbr:exemplarOf rdf:resource="https://www.bl.uk/britishlibrary/~/media/bl/global/dl%2020th%20century/20th%20century%20collection%20items/rose-and-percy-key-add_88918_133_f1r.jpg"/>
+                  <dcterms:title>Sylvia Plath's journal, 1962</dcterms:title>                 
+                  <dcterms:format>Digital</dcterms:format>
+                  
+               </rdf:Description>
+
+            <!--item 2-->
+
+                <rdf:Description rdf:about="https://github.com/SylviaPlath-Archive/SylviaPlath-Archive/blob/main/img/journal-1962%20(2)/journals-1962-2.jpg"> 
+                  <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Item"/>
+                  <frbr:exemplarOf rdf:resource="https://www.bl.uk/britishlibrary/~/media/bl/global/dl%2020th%20century/20th%20century%20collection%20items/rose-and-percy-key-add_88918_133_f2r.jpg"/>
+                  <dcterms:title>Sylvia Plath's journal, 1962</dcterms:title>                 
+                  <dcterms:format>Digital</dcterms:format>
+               </rdf:Description>   
+
+               <rdf:Description rdf:about="https://dbpedia.org/page/Ariel_(poetry_collection)"> 
+                  <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Work"/>
+                  <dcterms:title>Ariel</dcterms:title>
+                  <dcterms:creator>Sylvia Plath</dcterms:creator>
+                  <dbo:country rdf:resource="http://dbpedia.org/resource/United_States"/>
+                  <dbo:literaryGenre rdf:resource="http://dbpedia.org/resource/Poetry"/>
+                  <dbo:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1965</dbo:publicationDate>
+                  <dbo:publisher rdf:resource="http://dbpedia.org/resource/Faber_and_Faber"/>
+               </rdf:Description>
+
+               <rdf:Description rdf:about="https://www.bl.uk/collection-items/sylvia-plaths-ariel-dedicated-to-al-alvarez">
+                  <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Expression"/>
+                  <frbr:realizationOf rdf:resource="https://dbpedia.org/page/Ariel_(poetry_collection)"/>
+                  <dcterms:title>Ariel: Dedicated to Al Alvarez</dcterms:title>
+                  <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">c. 1962</dcterms:date>
+                  <dcterms:creator>Sylvia Plath</dcterms:creator>
+                  <dcterms:source>British Library</dcterms:source>
+
+               </rdf:Description>
+
+               <rdf:Description rdf:about="https://www.bl.uk/collection-items/sylvia-plaths-ariel-dedicated-to-al-alvarez#Manifestation">
+                  <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Manifestation"/>
+                  <frbr:embodimentOf rdf:resource="https://www.bl.uk/collection-items/sylvia-plaths-ariel-dedicated-to-al-alvarez"/>
+                  <dcterms:title>Ariel: Dedicated to Al Alvarez</dcterms:title>
+                  <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">c. 1962</dcterms:date>
+                  <dcterms:creator>Sylvia Plath</dcterms:creator>
+                  <dcterms:format>Digital</dcterms:format>
+                  <dcterms:source>British Library</dcterms:source>
+                  </rdf:Description>
+
+               <rdf:Description rdf:about="https://github.com/SylviaPlath-Archive/SylviaPlath-Archive/blob/main/img/ariel.jpg">
+                  <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Item"/>
+                  <frbr:exemplarOf rdf:resource="https://www.bl.uk/collection-items/sylvia-plaths-ariel-dedicated-to-al-alvarez#Manifestation"/>
+                  <dcterms:title>Ariel: Dedicated to Al Alvarez</dcterms:title>                 
+                  <dcterms:format>Digital</dcterms:format>
+                  
+               </rdf:Description>
+
+                <rdf:Description rdf:about="https://www.worldcat.org/it/title/crossing-the-water-transitional-poems/oclc/197197"> 
+                  <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Work"/>
+                  <dcterms:title>Crossing The Water</dcterms:title>
+                  <dcterms:creator>Sylvia Plath</dcterms:creator>
+                  <dbo:literaryGenre rdf:resource="http://dbpedia.org/resource/Poetry"/>
+                  <dbo:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1971</dbo:publicationDate>
+                  </rdf:Description>
+
+               <rdf:Description rdf:about="https://www.bl.uk/collection-items/typescript-drafts-of-mushrooms-and-sleep-in-the-mojave-desert-by-sylvia-plath">
+                  <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Expression"/>
+                  <frbr:realizationOf rdf:resource="https://www.worldcat.org/it/title/crossing-the-water-transitional-poems/oclc/197197"/>
+                  <dcterms:title>Typescript Draft of Sleep In The Mojave Desert</dcterms:title>
+                  <dbo:country rdf:resource="https://dbpedia.org/resource/England"/>
+      
+                  <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">c. 1959-60</dcterms:date>
+                  <dcterms:creator>Sylvia Plath</dcterms:creator>
+
+               </rdf:Description>
+
+               <rdf:Description rdf:about="https://www.bl.uk/collection-items/typescript-drafts-of-mushrooms-and-sleep-in-the-mojave-desert-by-sylvia-plath#Manifestation">
+                  <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Manifestation"/>
+                  <frbr:embodimentOf rdf:resource="https://www.bl.uk/collection-items/typescript-drafts-of-mushrooms-and-sleep-in-the-mojave-desert-by-sylvia-plath"/>
+                  <dcterms:title>Typescript Draft of Sleep In The Mojave Desert</dcterms:title>
+                  <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">c. 1959-60</dcterms:date>
+                  <dcterms:creator>Sylvia Plath</dcterms:creator>
+                  <dcterms:format>Digital</dcterms:format>
+                  
+                  <dcterms:source>British Library</dcterms:source>
+                  </rdf:Description>
+
+               <rdf:Description rdf:about="https://github.com/SylviaPlath-Archive/SylviaPlath-Archive/blob/main/img/Plath%2BHughes%20(2)/SleepIMD.jpg">
+                  <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Item"/>
+                  <frbr:exemplarOf rdf:resource="https://www.bl.uk/collection-items/typescript-drafts-of-mushrooms-and-sleep-in-the-mojave-desert-by-sylvia-plath#Manifestation"/>
+                  <dcterms:title>Typescript Draft of Sleep In The Mojave Desert</dcterms:title>                 
+                  <dcterms:format>Digital</dcterms:format>              
+               </rdf:Description>
+
+               <rdf:Description rdf:about="https://dbpedia.org/page/Ariel_(poetry_collection)"> 
+                  <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Work"/>
+                  <dcterms:title>Ariel</dcterms:title>
+                  <dcterms:creator>Sylvia Plath</dcterms:creator>
+                  <dbo:country rdf:resource="http://dbpedia.org/resource/United_States"/>
+                  <dbo:literaryGenre rdf:resource="http://dbpedia.org/resource/Poetry"/>
+                  <dbo:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1965</dbo:publicationDate>
+                  <dbo:publisher rdf:resource="http://dbpedia.org/resource/Faber_and_Faber"/>
+                  </rdf:Description>
+
+               <rdf:Description rdf:about="http://maps-legacy.org/poets/m_r/plath/stingsdrafts.htm">
+                  <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Expression"/>
+                  <frbr:realizationOf rdf:resource="https://www.worldcat.org/it/title/crossing-the-water-transitional-poems/oclc/197197"/>
+                  <dcterms:title>Manuscript Draft of Stings</dcterms:title>
+                  <dbo:country rdf:resource="https://dbpedia.org/resource/England"/>
+                  <dcterms:format>Manuscript</dcterms:format>
+                  <dcterms:medium>Memorandum Paper</dcterms:medium>
+                  <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1962</dcterms:date>
+                  <dcterms:creator>Sylvia Plath</dcterms:creator>
+                    <dcterms:source>Smith College</dcterms:source>
+
+               </rdf:Description>
+
+               <rdf:Description rdf:about="http://maps-legacy.org/poets/m_r/plath/stingsdrafts.htm#Manifestation">
+                  <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Manifestation"/>
+                  <frbr:embodimentOf rdf:resource="http://maps-legacy.org/poets/m_r/plath/stingsdrafts.htm"/>
+                  <dcterms:title>Manuscript Draft of Stings</dcterms:title>
+                  <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1962</dcterms:date>
+                  <dcterms:creator>Sylvia Plath</dcterms:creator>
+                   <dcterms:format>Digital</dcterms:format>
+                   <dcterms:source>Smith College</dcterms:source>
+
+                  </rdf:Description>
+
+               <rdf:Description rdf:about="https://github.com/SylviaPlath-Archive/SylviaPlath-Archive/blob/main/img/Stings(3)/Stings_mem_0.jpg">
+                  <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Item"/>
+                  <frbr:exemplarOf rdf:resource="http://maps-legacy.org/poets/m_r/plath/stingsdrafts.htm#Manifestation"/>
+                  <dcterms:title>Manuscript Draft of Stings</dcterms:title>                 
+                  <dcterms:format>Digital</dcterms:format>
+                 
+               </rdf:Description>
+
+             <rdf:Description rdf:about="https://github.com/SylviaPlath-Archive/SylviaPlath-Archive/blob/main/img/Stings(3)/Stings_mem_1.jpg">
+                  <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Item"/>
+                  <frbr:exemplarOf rdf:resource=""/>
+                  <dcterms:title>Manuscript Draft of Stings</dcterms:title>                 
+                  <dcterms:format>Digital</dcterms:format>
+</rdf:Description>
+                 <rdf:Description rdf:about="https://github.com/SylviaPlath-Archive/SylviaPlath-Archive/blob/main/img/Stings(3)/Stings_mem_2.jpg">
+                  <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Item"/>
+                  <frbr:exemplarOf rdf:resource=""/>
+                  <dcterms:title>Manuscript Draft of Stings</dcterms:title>                 
+                  <dcterms:format>Digital</dcterms:format>
+                  
+               </rdf:Description>
+
+               <rdf:Description rdf:about="https://www.worldcat.org/it/title/1338682588"> 
+              <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Work"/>
+              <dcterms:title>The Bell Jar</dcterms:title>
+              <dcterms:creator>Sylvia Plath</dcterms:creator>
+              <dbo:country rdf:resource="http://dbpedia.org/resource/United_States"/>
+              <dbo:literaryGenre rdf:resource="https://dbpedia.org/page/Prose"/>
+              <dbo:publisher rdf:resource="https://dbpedia.org/page/Heinemann_(publisher)"/>
+           </rdf:Description>
+           
+           <rdf:Description rdf:about="https://www.bl.uk/collection-items/typescript-second-draft-of-the-bell-jar-by-sylvia-plath">
+              <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Expression"/>
+              <frbr:realizationOf rdf:resource="https://www.worldcat.org/it/title/1338682588"/>
+              <dcterms:title>Manuscript Draft of The Bell Jar</dcterms:title>
+              <dbo:country rdf:resource="https://dbpedia.org/resource/England"/>
+              <dcterms:format>Manuscript</dcterms:format>
+              <dcterms:creator>Sylvia Plath</dcterms:creator>
+              <dcterms:source>British Library</dcterms:source>
+              
+           </rdf:Description>
+           
+           <rdf:Description rdf:about="https://www.bl.uk/collection-items/typescript-second-draft-of-the-bell-jar-by-sylvia-plath#Manifestation">
+              <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Manifestation"/>
+              <frbr:embodimentOf rdf:resource="https://www.bl.uk/collection-items/typescript-second-draft-of-the-bell-jar-by-sylvia-plath"/>
+              <dcterms:title>Manuscript Draft of The Bell Jar</dcterms:title>
+              <dcterms:creator>Sylvia Plath</dcterms:creator>
+              <dcterms:format>Digital</dcterms:format>
+              <dcterms:source>British Library</dcterms:source>
+              
+           </rdf:Description>
+           
+           <rdf:Description rdf:about="https://github.com/SylviaPlath-Archive/SylviaPlath-Archive/blob/main/img/The%20Bell%20Jar%20(5)/The%20Bell%20Jar%2001.jpg">
+              <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Item"/>
+              <frbr:exemplarOf rdf:resource="https://www.bl.uk/collection-items/typescript-second-draft-of-the-bell-jar-by-sylvia-plath#Manifestation"/>
+              <dcterms:title>Manuscript Draft of The Bell Jar</dcterms:title>                 
+              <dcterms:format>Digital</dcterms:format>
+              
+           </rdf:Description>
+           
+           <rdf:Description rdf:about="https://github.com/SylviaPlath-Archive/SylviaPlath-Archive/blob/main/img/The%20Bell%20Jar%20(5)/The%20Bell%20Jar%2002.jpg">
+              <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Item"/>
+              <frbr:exemplarOf rdf:resource=""/>
+              <dcterms:title>Manuscript Draft of Stings</dcterms:title>                 
+              <dcterms:format>Digital</dcterms:format>
+              
+           </rdf:Description> 
+
+           <rdf:Description rdf:about="https://github.com/SylviaPlath-Archive/SylviaPlath-Archive/blob/main/img/The%20Bell%20Jar%20(5)/The%20Bell%20Jar%2003.jpg">
+                 <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Item"/>
+                 <frbr:exemplarOf rdf:resource=""/>
+                 <dcterms:title>Manuscript Draft of Stings</dcterms:title>                 
+                 <dcterms:format>Digital</dcterms:format>           
+              </rdf:Description>
+           
+           <rdf:Description rdf:about="https://github.com/SylviaPlath-Archive/SylviaPlath-Archive/blob/main/img/The%20Bell%20Jar%20(5)/The%20Bell%20Jar%2004.jpg">
+              <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Item"/>
+              <frbr:exemplarOf rdf:resource=""/>
+              <dcterms:title>Manuscript Draft of Stings</dcterms:title>                 
+              <dcterms:format>Digital</dcterms:format>         
+           </rdf:Description>
+           
+           <rdf:Description rdf:about="https://github.com/SylviaPlath-Archive/SylviaPlath-Archive/blob/main/img/The%20Bell%20Jar%20(5)/The%20Bell%20Jar%2005.jpg">
+              <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Item"/>
+              <frbr:exemplarOf rdf:resource=""/>
+              <dcterms:title>Manuscript Draft of The Bell Jar</dcterms:title>                 
+              <dcterms:format>Digital</dcterms:format>           
+           </rdf:Description>
+
+               </rdf:RDF>
+      </xenoData>
+      
+   </teiHeader>
+   
+  
+       
+</TEI>
