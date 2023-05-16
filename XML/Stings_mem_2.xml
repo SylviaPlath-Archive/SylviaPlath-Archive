@@ -57,7 +57,7 @@
 
                </rdf:Description>
 
-               <rdf:Description rdf:about="http://maps-legacy.org/poets/m_r/plath/stings/3-17-Plath4.jpg">
+               <rdf:Description rdf:about="http://maps-legacy.org/poets/m_r/plath/stingsdrafts.htm#Manifestation">
                   <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Manifestation"/>
                   <frbr:embodimentOf rdf:resource="http://maps-legacy.org/poets/m_r/plath/stingsdrafts.htm"/>
                   <dcterms:title>Manuscript Draft of Stings</dcterms:title>
@@ -70,7 +70,7 @@
 
                <rdf:Description rdf:about="https://github.com/SylviaPlath-Archive/SylviaPlath-Archive/blob/main/img/Stings(3)/Stings_mem_2.jpg">
                   <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Item"/>
-                  <frbr:exemplarOf rdf:resource=""/>
+                  <frbr:exemplarOf rdf:resource="http://maps-legacy.org/poets/m_r/plath/stingsdrafts.htm#Manifestation"/>
                   <dcterms:title>Manuscript Draft of Stings</dcterms:title>                 
                   <dcterms:format>Digital</dcterms:format>
                   
