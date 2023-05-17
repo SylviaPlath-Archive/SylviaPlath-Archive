@@ -42,7 +42,14 @@
               </person>
               <person xml:id="Sylvia Plath">
               <persName type="cited_author" sameAs="https://dbpedia.org/page/Sylvia_Plath">Sylvia Plath</persName>
-               </person>   
+               </person>  
+
+               <person xml:id="Godiva">
+              <persName type="cited_person" sameAs="https://dbpedia.org/page/Lady_Godiva">Lady Godiva</persName>
+               </person>  
+
+               
+
            </listPerson>
         </particDesc>
      </profileDesc>
@@ -126,7 +133,7 @@
          </lg>
          <lg rend="right-align">
             <l>White</l>
-            <l>Godiva, I unpeel—</l>
+            <l><persName ref="Godiva">Godiva</persName>, I unpeel—</l>
             <l>Dead hands, dead stringencies!</l>
          </lg>
          <lg rend="right-align">
