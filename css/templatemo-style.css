@@ -1300,3 +1300,4 @@ button.explore a{
      text-decoration: underline;}
 #kg:hover{transform: scale(1.5);}
 .details a:hover{color: #ccc !important; text-decoration: none;}
+.testo{border:2px solid brown;}
