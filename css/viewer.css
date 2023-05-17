@@ -1214,6 +1214,7 @@ tei-add[place=inline]:after {
 tei-add[place=below] {
   vertical-align: sub;
 }
+tei-add[place="margin"]{margin-left: -15px;}
 tei-add {
   /* Empty Rule Set */
 }
@@ -1961,7 +1962,7 @@ tei-lb::after {
 }
 
 tei-lb[rend="long_line"]::after {
-  content: '________________________________________________________________________     ';
+  content: '__________________________________________________                           ';
   white-space: pre;
 }
 tei-lbl {

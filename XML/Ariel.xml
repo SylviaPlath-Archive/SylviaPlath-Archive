@@ -42,23 +42,26 @@
               </person>
               <person xml:id="Sylvia Plath">
               <persName type="cited_author" sameAs="https://dbpedia.org/page/Sylvia_Plath">Sylvia Plath</persName>
-               </person>   
+               </person>  
+
+               <person xml:id="Godiva">
+              <persName type="cited_person" sameAs="https://dbpedia.org/page/Lady_Godiva">Lady Godiva</persName>
+               </person>  
+
+               
+
            </listPerson>
         </particDesc>
      </profileDesc>
-     <xenoData>
-        <!-- you can use http://www.easyrdf.org/converter -->
-       
+     <xenoData>     
                <rdf:RDF >
 
                <rdf:Description rdf:about="https://dbpedia.org/page/Ariel_(poetry_collection)"> 
                   <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Work"/>
                   <dcterms:title>Ariel</dcterms:title>
                   <dcterms:creator>Sylvia Plath</dcterms:creator>
-                  <dbo:country rdf:resource="http://dbpedia.org/resource/United_States"/>
                   <dbo:literaryGenre rdf:resource="http://dbpedia.org/resource/Poetry"/>
-                  <dbo:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1965</dbo:publicationDate>
-                  <dbo:publisher rdf:resource="http://dbpedia.org/resource/Faber_and_Faber"/>
+                  
                </rdf:Description>
 
                <rdf:Description rdf:about="https://www.bl.uk/collection-items/sylvia-plaths-ariel-dedicated-to-al-alvarez">
@@ -104,8 +107,8 @@
             <l>Pour of tor and distances.</l>
          </lg> 
          <lg rend="right-align">
-         <l>God’s Lioness,</l>   
-         <l>How one we grow,</l>
+         <l>God’s Lioness!</l>   
+         <l>How one we grow!</l>
          <l>Pivot of heels and knees! The furrow</l>
          </lg>
          <lg rend="right-align">
@@ -119,8 +122,8 @@
             <l>Hooks—</l>
          </lg>
          <lg rend="right-align">
-            <l>Black sweet blood mouthfuls,</l>   
-            <l>Shadows.</l>
+            <l>Black sweet blood mouthfuls!</l>   
+            <l>Shadows!</l>
             <l>Something else</l>
          </lg>
          <lg rend="right-align">
@@ -130,8 +133,8 @@
          </lg>
          <lg rend="right-align">
             <l>White</l>
-            <l>Godiva, I unpeel—</l>
-            <l>Dead hands, dead stringencies.</l>
+            <l><persName ref="Godiva">Godiva</persName>, I unpeel—</l>
+            <l>Dead hands, dead stringencies!</l>
          </lg>
          <lg rend="right-align">
          <l>And now I</l>
